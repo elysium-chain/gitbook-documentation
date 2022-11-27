@@ -1,12 +1,15 @@
 # Table of contents
 
-* [Intro](README.md)
+* [ℹ About](README.md)
 
-## Group 1
+## 🪙 Tokenomics
 
-* [Page 1](group-1/page-1.md)
+* [Page 1](tokenomics/page-1.md)
+
+## 🥇 Consensus Proof of Victory
+
+* [Page 3](consensus-proof-of-victory/page-3.md)
 
 ***
 
-* [Page 2](page-2.md)
 * [Main site](htt://elysium-chain.com)
