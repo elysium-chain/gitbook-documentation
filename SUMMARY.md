@@ -26,9 +26,9 @@
 
 ## 🍰 Participate
 
-* [Outbreak Initiative](participate/outbreak-initiative.md)
-* [Pioneers Program](participate/pioneers-program.md)
-* [Early validators](participate/early-validators.md)
+* [🌟 Outbreak Initiative](participate/outbreak-initiative.md)
+* [🔜 Pioneers Program](participate/pioneers-program.md)
+* [🔜 Early validators](participate/early-validators.md)
 
 ## 🔗 Links
 

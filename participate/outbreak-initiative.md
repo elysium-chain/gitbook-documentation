@@ -1,2 +1,2 @@
-# Outbreak Initiative
+# 🌟 Outbreak Initiative
 
