@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ℹ About](README.md)
+* [ℹ Intro](README.md)
 
 ## 🥇 Consensus Proof of Victory
 
