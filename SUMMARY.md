@@ -8,15 +8,11 @@
 * [💰 SKY Token](tokenomics/sky-token.md)
 * [⚙ Grinder](tokenomics/grinder.md)
 
-## 🎆 Node types
+## Architecture
 
-* [Routers](node-types/routers.md)
-* [Validators](node-types/validators.md)
-
-## 🥇 Proof of Victory
-
-* [Consensus](consensus-proof-of-victory/page-3.md)
-* [Scaling](proof-of-victory/scaling.md)
+* [🎆 Network layer](architecture/network-layer.md)
+* [🥇 Proof of Victory](architecture/proof-of-victory.md)
+* [⛓ Scaling](architecture/scaling.md)
 
 ## 📜 Smart contracts
 
