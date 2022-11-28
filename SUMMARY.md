@@ -15,12 +15,17 @@
 
 ## 🥇 Proof of Victory
 
-* [Consensus](proof-of-victory/consensus.md)
+* [Consensus](consensus-proof-of-victory/page-3.md)
 * [Scaling](proof-of-victory/scaling.md)
 
 ## 📜 Smart contracts
 
 * [Architecure](smart-contracts/architecure.md)
+
+## Participate
+
+* [Outbreak Initiative](participate/outbreak-initiative.md)
+* [Pioneers Program](participate/pioneers-program.md)
 
 ## 🔗 Links
 
