@@ -17,15 +17,15 @@
 ## Smart contracts
 
 * [💎 Assets](smart-contracts/assets.md)
-* [🪢 Assets interaction](smart-contracts/assets-interaction.md)
+* [🧩 Asset interaction](smart-contracts/asset-interaction.md)
 * [📔 DSL Eventure](smart-contracts/dsl-eventure.md)
 * [📐 Visual Builder](smart-contracts/visual-builder.md)
 
 ## Participate
 
-* [🌟 Outbreak Initiative](participate/outbreak-initiative.md)
-* [🔜 Pioneers Program](participate/pioneers-program.md)
-* [🔜 Early validators](participate/early-validators.md)
+* [🔑 Outbreak Initiative](participate/outbreak-initiative.md)
+* [🔒 Pioneers Program](participate/pioneers-program.md)
+* [🎁 Early validators](participate/early-validators.md)
 
 ## Links
 
