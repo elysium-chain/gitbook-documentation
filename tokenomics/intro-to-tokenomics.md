@@ -6,7 +6,7 @@
 
 Every economic system has its power which can converted into some kind of a value. We can see different types of this power during the human history. From alcohol and cows to coins and banknotes. And finally - **Crypto**. 
 
-Is there a significant difference between backing cryptocurrencies and fiat currencies like USA dollar? The real answer is `no`. All of them backed with theirs economical activity.
+Is there a significant difference between backing cryptocurrencies and fiat currencies like USA dollar? The real answer is **no**. All of them backed with theirs economical activity.
 
 > If someone asks: "What the systems tokens are backed by?"
 >
@@ -34,7 +34,7 @@ Tokenomics is a closed self-sustaining system. Unfortunately, this leads to the 
 
 Participants in tokenomics at a basic level are divided into two types: validators and users. Validators process transactions and receive fees for it. Users pay these commissions for their economic activity. What is the problem, you ask? 
 
-`The problem is how to keep the transactions low for the common users, but still attract validators to keep the blockchain?` 
+The problem is how to keep the transactions low for the common users, but still attract validators to keep the blockchain? 
 
 >We have the solution for it. It will not be tied to fiat currencies. We will talk more about it in the "Grinder" article
 
