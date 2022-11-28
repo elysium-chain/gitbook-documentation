@@ -21,6 +21,8 @@
 ## 📜 Smart contracts
 
 * [Architecure](smart-contracts/architecure.md)
+* [Domain Specific Language](smart-contracts/domain-specific-language.md)
+* [Visual Builder](smart-contracts/visual-builder.md)
 
 ## 🍰 Participate
 
