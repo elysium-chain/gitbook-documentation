@@ -1,2 +1,2 @@
-# RAY Token
+# 🪙 RAY Token
 
