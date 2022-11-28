@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ℹ Intro](README.md)
+* [💡 Intro](README.md)
 
 ## Tokenomics
 
@@ -11,14 +11,15 @@
 ## Architecture
 
 * [🎆 Network layer](architecture/network-layer.md)
-* [🥇 Proof of Victory](architecture/proof-of-victory.md)
+* [🥇 Proof of Victory](consensus-proof-of-victory/page-3.md)
 * [⛓ Scaling](architecture/scaling.md)
 
-## 📜 Smart contracts
+## Smart contracts
 
-* [Architecure](smart-contracts/architecure.md)
-* [Domain Specific Language](smart-contracts/domain-specific-language.md)
-* [Visual Builder](smart-contracts/visual-builder.md)
+* [💎 Assets](smart-contracts/assets.md)
+* [🪢 Assets interaction](smart-contracts/assets-interaction.md)
+* [📔 DSL Eventure](smart-contracts/dsl-eventure.md)
+* [📐 Visual Builder](smart-contracts/visual-builder.md)
 
 ## Participate
 
@@ -26,8 +27,8 @@
 * [🔜 Pioneers Program](participate/pioneers-program.md)
 * [🔜 Early validators](participate/early-validators.md)
 
-## 🔗 Links
+## Links
 
-* [Main site](htt://elysium-chain.com)
-* [Discord](https://discord.gg/elysiumchain)
-* [Twitter](https://twitter.com/Elysium\_Chain)
+* [🔗 Website](htt://elysium-chain.com)
+* [🔗 Discord](https://discord.gg/elysiumchain)
+* [🔗 Twitter](https://twitter.com/Elysium\_Chain)

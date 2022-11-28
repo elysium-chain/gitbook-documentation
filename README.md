@@ -1,4 +1,4 @@
-# ℹ Intro
+# 💡 Intro
 
 Elysium is&#x20;
 
