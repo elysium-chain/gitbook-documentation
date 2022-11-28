@@ -1,2 +1,2 @@
-# 🖨 Grinder
+# ⚙ Grinder
 

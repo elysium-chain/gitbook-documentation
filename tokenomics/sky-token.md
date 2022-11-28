@@ -1,2 +1,2 @@
-# 📈 SKY Token
+# 💰 SKY Token
 

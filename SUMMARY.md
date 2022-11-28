@@ -2,11 +2,11 @@
 
 * [ℹ Intro](README.md)
 
-## 💰 Tokenomics
+## Tokenomics
 
 * [🪙 RAY Token](tokenomics/ray-token.md)
-* [📈 SKY Token](tokenomics/sky-token.md)
-* [🖨 Grinder](tokenomics/grinder.md)
+* [💰 SKY Token](tokenomics/sky-token.md)
+* [⚙ Grinder](tokenomics/grinder.md)
 
 ## 🎆 Node types
 
