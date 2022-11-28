@@ -24,7 +24,7 @@
 * [Domain Specific Language](smart-contracts/domain-specific-language.md)
 * [Visual Builder](smart-contracts/visual-builder.md)
 
-## 🍰 Participate
+## Participate
 
 * [🌟 Outbreak Initiative](participate/outbreak-initiative.md)
 * [🔜 Pioneers Program](participate/pioneers-program.md)
