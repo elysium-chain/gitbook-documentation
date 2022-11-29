@@ -16,7 +16,9 @@ Vitalik Buterin, by combining blockchain and smart contracts, created a distribu
 
 The main criterion for the success of Bitcoin and Etherium was that they were the first to solve a particular problem, and not because they used blockchain technology. The problem simply would not be solved without it.
 
-But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is inimitable as an old reliable bank, while Etherium is a full-fledged computer. The subtlety is not to confuse their functions. Ethereum is a computer, not a bank!&#x20;
+But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is inimitable as an old reliable bank, while Etherium is a full-fledged computer. The subtlety is not to confuse their functions.
+
+> Ethereum is a computer, not a bank!&#x20;
 
 And since everyone can write programs for that computer, it's no wonder it's overflowing with malware. It happens because developers can leave backdoors, which even a professional would be difficult to find. Therefore, at the level of smart contracts, there is no trust that many blockchain evangelists declare. Nowadays, the fraud level in the blockchain space is almost the same as in the medieval market. Many pickpockets are trying to steal your money, while scammers want to swindle for their own good.
 
