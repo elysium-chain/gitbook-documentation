@@ -8,7 +8,7 @@ Elysium is a next-generation innovative blockchain. And this is not just a marke
 
 You can learn more about the unique [tokenomics](broken-reference), [architecture](broken-reference), [consensus](consensus-proof-of-victory/page-3.md), [smart contracts](broken-reference), and [approach to scaling](architecture/scaling.md) in the relevant sections. But more important than any technical solution is the problem the computer system solves.
 
-The success of Bitcoin has been so resounding, and the capital earned by the first enthusiasts is so mind-boggling that the crypto industry has spawned a new gold rush. Today if you add the word "blockchain" to the project description, its capitalization will immediately skyrocket by several orders of magnitude. But blockchain itself is not a silver bullet - more than 500 of Bitcoin clones appeared, but how often do you hear about them?
+The success of Bitcoin has been so resounding, and the capital earned by the first enthusiasts is so mind-boggling that the crypto industry has spawned a new gold rush. Today if you add the word "blockchain" to the project description, its capitalization will immediately skyrocket by several orders of magnitude. But blockchain itself is not a silver bullet - more than 500 Bitcoin clones appeared, but how often do you hear about them?
 
 Satoshi Nakomoto used blockchain technology to create a decentralized bank - the most reliable version of a bank. That's why Bitcoin clones don't have a chance: why put your money in a small, unknown bank when you can keep it in the biggest and most reliable one?
 
@@ -16,9 +16,7 @@ Vitalik Buterin, by combining blockchain and smart contracts, created a distribu
 
 The main criterion for the success of Bitcoin and Etherium was that they were the first to solve a particular problem, and not because they used blockchain technology. The problem simply would not be solved without it.
 
-But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is inimitable as an old reliable bank, while Etherium is a full-fledged computer. The subtlety is not to confuse their functions.
-
-> Ethereum is a computer, not a bank!&#x20;
+But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is inimitable as an old reliable bank, while Etherium is a full-fledged computer. The subtlety is not to confuse their functions. Ethereum is a computer, not a bank!
 
 And since everyone can write programs for that computer, it's no wonder it's overflowing with malware. It happens because developers can leave backdoors, which even a professional would be difficult to find. Therefore, at the level of smart contracts, there is no trust that many blockchain evangelists declare. Nowadays, the fraud level in the blockchain space is almost the same as in the medieval market. Many pickpockets are trying to steal your money, while scammers want to swindle for their own good.
 
