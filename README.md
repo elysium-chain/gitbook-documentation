@@ -1,8 +1,4 @@
----
-description: The positioning of the Elysium Blockchain
----
-
-# 💡 What is Elysium?
+# 💡 Intro
 
 Elysium is&#x20;
 

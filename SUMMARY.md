@@ -4,6 +4,7 @@
 
 * [💡 What is Elysium?](README.md)
 * [✨ Elysium philosophy](introduction/elysium-philosophy.md)
+* [📍 Roadmap](introduction/roadmap.md)
 
 ## Tokenomics
 
