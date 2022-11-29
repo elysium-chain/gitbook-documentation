@@ -2,8 +2,8 @@
 
 ## Introduction
 
-* [💡 What is Elysium?](README.md)
-* [✨ Elysium philosophy](introduction/elysium-philosophy.md)
+* [🌟 What is Elysium?](README.md)
+* [📗 Elysium philosophy](introduction/elysium-philosophy.md)
 * [📍 Roadmap](introduction/roadmap.md)
 
 ## Tokenomics
@@ -31,7 +31,7 @@
 
 * [🔑 Outbreak Initiative](participate/outbreak-initiative.md)
 * [🔒 Pioneers Program](participate/pioneers-program.md)
-* [🎁 Early validators](participate/early-validators.md)
+* [🎁 Initial validators](participate/early-validators.md)
 
 ## Links
 
