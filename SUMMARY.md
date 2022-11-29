@@ -25,7 +25,7 @@
 * [🧩 Asset interaction](smart-contracts/asset-interaction.md)
 * [📔 DSL "Eventure"](smart-contracts/dsl-eventure.md)
 * [📐 Visual Builder](smart-contracts/visual-builder.md)
-* [🛡 Scum prevention](smart-contracts/scum-prevention.md)
+* [🛡 Scam prevention](smart-contracts/scam-prevention.md)
 
 ## Participate
 
