@@ -9,6 +9,7 @@
 
 ## Tokenomics
 
+* [💡 Intro](tokenomics/intro.md)
 * [🪙 RAY Token](tokenomics/ray-token.md)
 * [💰 SKY Token](tokenomics/sky-token.md)
 * [⚙ Grinder](tokenomics/grinder.md)
