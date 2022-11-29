@@ -1,7 +1,3 @@
----
-description: Why Elysium is not yet another blockchain
----
-
 # 📗 Elysium philosophy
 
 In today's world, quite a few new blockchains are emerging. The community perceives them as an easy way to make money on investments. And the significant factors for investment decisions are: what funds take part in the project, what services will switch to this blockchain, how much marketing money is in the budget, and so on.&#x20;

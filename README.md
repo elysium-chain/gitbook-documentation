@@ -1,8 +1,4 @@
----
-description: The positioning of the Elysium Blockchain
----
-
-# 💡 What is Elysium?
+# 🌟 What is Elysium?
 
 Elysium is a next-generation innovative blockchain. And this is not just a marketing slogan! It's hard to tell what aspect of blockchain technology was left unchanged during the development of Elysium.
 
