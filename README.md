@@ -22,5 +22,5 @@ And since everyone can write programs for that computer, it's no wonder it's ove
 
 We see the task of Elysium not to be another decentralized bank or computer but to create a convenient and safe economic environment. Where the security of transactions is ensured not only by the open-source code of smart contracts but by the system itself. Where the user, not even a programmer, may implement quite complex logic of counterparty interactions. Where even the stolen seed phrase does not grant access to the user's funds.
 
-And if Bitcoin is a reliable bank and Etherium is a failsafe computer, then **Elysium is a secure market**.
+And if Bitcoin is a reliable bank and Etherium is a failsafe computer, then **Elysium is a safe market**.
 
