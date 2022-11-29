@@ -14,13 +14,13 @@ Satoshi Nakomoto used blockchain technology to create a decentralized bank - the
 
 Vitalik Buterin, by combining blockchain and smart contracts, created a distributed computer that is not afraid of a nuclear war (well, it will definitely survive a couple of strikes).
 
-The main criterion for the success of Bitcoin and Etherium was that they were the first to solve a particular problem, and not because they used blockchain to do it. The problem simply would not be solved without it.
+The main criterion for the success of Bitcoin and Etherium was that they were the first to solve a particular problem, and not because they used blockchain. The problem simply would not be solved without it.
 
-But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is inimitable as an old reliable bank, while Etherium is a full-fledged computer.
+But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is inimitable as an old reliable bank, while Etherium is a full-fledged computer. The subtlety is not to confuse their functions. Ethereum is a computer, not a bank!&#x20;
 
-The subtlety is not to confuse their functions. Ethereum is a computer, not a bank! And since everyone can write programs for that computer, it's no wonder it's overflowing with malware. It happens because developers can leave backdoors, which even a professional would be difficult to find. Therefore, at the level of smart contracts, there is no trust that many blockchain evangelists declare. Nowadays, the fraud level in the blockchain space is almost the same as in the medieval market. Many pickpockets are trying to steal your money, while scammers want to swindle for their own good.
+And since everyone can write programs for that computer, it's no wonder it's overflowing with malware. It happens because developers can leave backdoors, which even a professional would be difficult to find. Therefore, at the level of smart contracts, there is no trust that many blockchain evangelists declare. Nowadays, the fraud level in the blockchain space is almost the same as in the medieval market. Many pickpockets are trying to steal your money, while scammers want to swindle for their own good.
 
-We see the task of Elysium not being another decentralized bank or computer but in creating a convenient and safe economic environment. Where the security of transactions is ensured not only by the open-source code of smart contracts but by the system itself. Where the user, not even a programmer, may implement quite complex logic of counterparty interactions. Where even the stolen seed phrase does not grant access to the user's funds.
+We see the task of Elysium not to be another decentralized bank or computer but to create a convenient and safe economic environment. Where the security of transactions is ensured not only by the open-source code of smart contracts but by the system itself. Where the user, not even a programmer, may implement quite complex logic of counterparty interactions. Where even the stolen seed phrase does not grant access to the user's funds.
 
 And if Bitcoin is a reliable bank and Etherium is a failsafe computer, then **Elysium is a secure market**.
 
