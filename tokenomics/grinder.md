@@ -31,7 +31,3 @@ The more transactions are in the system, the more SKY tokens will be redeemed fr
 The amount of printed RAY is determined by the inflation of it, amount of the transactions, commissions of the transactions etc. That means that the Grinder will burn as much SKY (the cheapest SKY offered by validators) as possible to print needed amount of RAY.
 
 >This also means that the more RAY is burned in commissions, the more SKY will be "reprinted" in RAY in absolute terms.
-
----
-
-##  
