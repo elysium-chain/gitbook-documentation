@@ -1,6 +1,9 @@
 # Table of contents
 
-* [💡 Intro](README.md)
+## Introduction
+
+* [💡 What is Elysium?](README.md)
+* [✨ Elysium philosophy](introduction/elysium-philosophy.md)
 
 ## Tokenomics
 
@@ -13,13 +16,15 @@
 * [🎆 Network layer](architecture/network-layer.md)
 * [🥇 Proof of Victory](consensus-proof-of-victory/page-3.md)
 * [⛓ Scaling](architecture/scaling.md)
+* [💳 Wallet security](architecture/wallet-security.md)
 
 ## Smart contracts
 
 * [💎 Assets](smart-contracts/assets.md)
 * [🧩 Asset interaction](smart-contracts/asset-interaction.md)
-* [📔 DSL Eventure](smart-contracts/dsl-eventure.md)
+* [📔 DSL "Eventure"](smart-contracts/dsl-eventure.md)
 * [📐 Visual Builder](smart-contracts/visual-builder.md)
+* [🛡 Scum prevention](smart-contracts/scum-prevention.md)
 
 ## Participate
 
