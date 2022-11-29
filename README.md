@@ -14,7 +14,7 @@ Satoshi Nakomoto used blockchain technology to create a decentralized bank - the
 
 Vitalik Buterin, by combining blockchain and smart contracts, created a distributed computer that is not afraid of a nuclear war (well, it will definitely survive a couple of strikes).
 
-The main criterion for the success of Bitcoin and Etherium was that they were the first to solve a particular problem, and not because they used blockchain. The problem simply would not be solved without it.
+The main criterion for the success of Bitcoin and Etherium was that they were the first to solve a particular problem, and not because they used blockchain technology. The problem simply would not be solved without it.
 
 But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is inimitable as an old reliable bank, while Etherium is a full-fledged computer. The subtlety is not to confuse their functions. Ethereum is a computer, not a bank!&#x20;
 
