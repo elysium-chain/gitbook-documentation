@@ -24,9 +24,7 @@ So, because of the impossibility of having a negative account balance, the order
 
 "_What's the problem here?_" - The advanced computer user will exclaim - "_After all, every modern device has a built-in clock - you can just put a timestamp when the transaction appears!_"
 
-And he would be wrong. The time on computers synchronized via the NTP service is slightly different.
-
-There are interruptions and delays on the network. At the same time, anyone can connect to the public blockchain - including attackers who can set the clock on their computer as they want.
+And he would be wrong. The time on computers synchronized via the NTP service is slightly different. There are interruptions and delays on the network. At the same time, anyone can connect to the public blockchain - including attackers who can set the clock on their computers as they want.
 
 What to do if the node receives a 5-minute old transaction while it has processed 100 000 transactions since then? It could be fraud or a network problem.
 
