@@ -1,3 +1,7 @@
+---
+description: Problem overview
+---
+
 # 🤝 Consensus
 
 ## Canonical history
