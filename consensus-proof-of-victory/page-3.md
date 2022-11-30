@@ -10,7 +10,7 @@ The main difference is that operations in mathematics result in a single moment.
 
 In accounting, operations may occur once a day or even once a year, so between them passes some appreciable time. And it would not be a hindrance if not another condition - the accounts may not have negative balances. What does it mean to record that there are -5 pairs of shoes left in the warehouse? Or, in the case of blockchain, what would a balance of -5 ETH mean?
 
-Thus every transaction needs to be verified so that it does not result in a negative account balance. And while in record-keeping, there are many ways to deal with such incorrect transactions, blockchain rejects them.
+Thus every transaction needs to be verified so that it does not result in a negative account balance. And while in record-keeping, there are many ways to deal with such incorrect transactions, blockchain can only reject them.
 
 In math, we can rearrange the summands as we like, and the result won't change. When you mix transactions in accounting, it's easy to get an intermediate negative outcome. And, accordingly, some operations drop out of the calculation, and you get a completely different final result:&#x20;
 
