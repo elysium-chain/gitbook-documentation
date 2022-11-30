@@ -4,7 +4,9 @@
 
 To begin with, let's define what task exactly the consensus in blockchain solves. And we will start from afar - namely with the difference between accounting and ordinary mathematical actions.
 
-The main difference is that operations in mathematics result in a single moment. There is a list of actions: **5 + 2 + 3 - 9**, and then you get an immediate answer: 1.
+The main difference is that operations in mathematics result in a single moment. There is a list of actions, and then you get an immediate answer:
+
+> **5 + 2 + 3 - 9 = 1**
 
 In accounting, operations may occur once a day or even once a year, so between them passes some appreciable time. And it would not be a hindrance if not another condition - the accounts may not have negative balances. What does it mean to record that there are -5 pairs of shoes left in the warehouse? Or, in the case of blockchain, what would a balance of -5 ETH mean?
 
@@ -12,9 +14,9 @@ So every transaction needs to be verified so that it does not result in a negati
 
 In math, we can rearrange the summands as we like, and the result won't change. When you mix transactions in accounting, it's easy to get an intermediate negative outcome. And, accordingly, some operations drop out of the calculation, and you get a completely different final result:&#x20;
 
-```markup
-**5 + 2 - 9 (rejected) + 3 = 10**
-```
+> ```
+> 5 + 2 - 9 (rejected) + 3 = 10
+> ```
 
 So, because of the impossibility of having a negative account balance, the order of operations is crucial in the blockchain. Note that if the parameter counted by the decentralized system can take negative values, then the order of transactions does not matter.
 
