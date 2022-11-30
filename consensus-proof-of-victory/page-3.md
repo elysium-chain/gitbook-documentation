@@ -14,9 +14,7 @@ So every transaction needs to be verified so that it does not result in a negati
 
 In math, we can rearrange the summands as we like, and the result won't change. When you mix transactions in accounting, it's easy to get an intermediate negative outcome. And, accordingly, some operations drop out of the calculation, and you get a completely different final result:&#x20;
 
-> ```
-> 5 + 2 - 9 (rejected) + 3 = 10
-> ```
+> **5 + 2 - 9 (rejected) + 3 = 10**
 
 So, because of the impossibility of having a negative account balance, the order of operations is crucial in the blockchain. Note that if the parameter counted by the decentralized system can take negative values, then the order of transactions does not matter.
 
