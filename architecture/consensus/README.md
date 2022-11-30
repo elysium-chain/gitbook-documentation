@@ -1,4 +1,4 @@
-# 🥇 Proof of Victory
+# 🤝 Consensus
 
 ## Problem overview
 

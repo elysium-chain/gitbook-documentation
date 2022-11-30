@@ -1,8 +1,13 @@
+---
+cover: .gitbook/assets/1500x500.jpg
+coverY: 0
+---
+
 # 🌟 What is Elysium?
 
 Elysium is a next-generation innovative blockchain. And this is not just a marketing slogan! It's hard to tell what aspect of blockchain technology was left unchanged during the development of Elysium.
 
-You can learn more about the unique [tokenomics](broken-reference), [architecture](broken-reference), [consensus](architecture/page-3/), [smart contracts](broken-reference), and [approach to scaling](architecture/scaling.md) in the relevant sections. But more important than any technical solution is the problem the computer system solves.
+You can learn more about the unique [tokenomics](broken-reference), [architecture](broken-reference), [consensus](architecture/consensus/), [smart contracts](broken-reference), and [approach to scaling](architecture/scaling.md) in the relevant sections. But more important than any technical solution is the problem the computer system solves.
 
 The success of Bitcoin has been so resounding, and the capital earned by the first enthusiasts is so mind-boggling that the crypto industry has spawned a new gold rush. Today if you add the word "blockchain" to the project description, its capitalization will immediately skyrocket by several orders of magnitude. But blockchain itself is not a silver bullet - more than 500 Bitcoin clones appeared, but how often do you hear about them?
 

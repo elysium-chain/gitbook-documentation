@@ -16,12 +16,16 @@
 
 ## Architecture
 
-* [🎆 Network layer](architecture/network-layer.md)
-* [🥇 Proof of Victory](architecture/page-3/README.md)
-  * [Problem overview](architecture/page-3/problem-overview.md)
-  * [Proof of Victory](architecture/page-3/proof-of-victory.md)
+* [🎆 Network](architecture/network/README.md)
+  * [Problem overview](architecture/network/problem-overview.md)
+  * [Communication layer](architecture/network/communication-layer.md)
+  * [Routers](architecture/network/routers.md)
+* [🤝 Consensus](architecture/consensus/README.md)
+  * [Problem overview](architecture/consensus/problem-overview.md)
+  * [Proof of Victory](architecture/consensus/proof-of-victory.md)
+  * [Validators](architecture/consensus/validators.md)
 * [⛓ Scaling](architecture/scaling.md)
-* [💳 Wallet security](architecture/wallet-security.md)
+* [💳 Wallet](architecture/wallet.md)
 
 ## Smart contracts
 
