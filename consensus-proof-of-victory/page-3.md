@@ -4,13 +4,13 @@
 
 To begin with, let's define what task exactly the consensus in blockchain solves. And we will start from afar - namely with the difference between accounting and ordinary mathematical actions.
 
-The main difference is that operations in mathematics result in a single moment. There is a list of actions: 5 + 2 + 3 - 9, and then you get an immediate answer: 1.
+The main difference is that operations in mathematics result in a single moment. There is a list of actions: **5 + 2 + 3 - 9**, and then you get an immediate answer: 1.
 
 In accounting, operations may occur once a day or even once a year, so between them passes some appreciable time. And it would not be a hindrance if not another condition - the accounts may not have negative balances. What does it mean to record that there are -5 pairs of shoes left in the warehouse? Or, in the case of blockchain, what would a balance of -5 ETH mean?
 
 So every transaction needs to be verified so that it does not result in a negative account balance. And while in record-keeping, there are many ways to deal with such incorrect transactions, blockchain rejects them.
 
-In math, we can rearrange the summands as we like, and the result won't change. When you mix transactions in accounting, it's easy to get an intermediate negative outcome. And, accordingly, some operations drop out of the calculation, and you get a completely different final result: 5 + 2 - 9 (rejected) + 3 = 10.
+In math, we can rearrange the summands as we like, and the result won't change. When you mix transactions in accounting, it's easy to get an intermediate negative outcome. And, accordingly, some operations drop out of the calculation, and you get a completely different final result: **5 + 2 - 9 (**_**rejected**_**) + 3 = 10**.
 
 So, because of the impossibility of having a negative account balance, the order of operations is crucial in the blockchain. Note that if the parameter counted by the decentralized system can take negative values, then the order of transactions does not matter.
 
@@ -90,9 +90,11 @@ And have a disproportionate amount of rewards. We are talking about Sybil attack
 
 ## Some dummy consensuses
 
-In general, it is possible to think of many variants of consensus, knowing that the main problem is maintaining the same order of operations by many nodes. Each consensus type will have its characteristics, advantages, and disadvantages.
+In general, it is possible to think of many variants of consensus, knowing that the main problem is maintaining the same order of operations by many nodes. Each consensus type will have its characteristics, advantages, and disadvantages. Further, we provide a couple of examples to show that there are plenty of consensus options that can be thought of, and we don't have to rely on PoW or PoS alone.
 
-For example, we can pack each transaction that comes from a client into a separate block and then build these blocks based on the valuation of some virtual value of the blockchain.
+**Example 1**
+
+We can pack each transaction that comes from a client into a separate block and then build these blocks based on the valuation of some virtual value of the blockchain.
 
 We can assume that the chain with the higher number of different validators is the most valuable. In this case, each validator, having received a transaction from a customer, packs it into a block and sends it to all other validators.
 
@@ -102,6 +104,8 @@ But this consensus type has one global disadvantage - it creates enormous networ
 
 Each client's operation causes a lot of network messages, whose amount is equal to the square of the validators' count. After all, each has to forward their version of the block with the operation to everyone else.
 
+**Example 2**
+
 Or here's another idea for consensus. We can make the clients' wallets regularly send their votes to the validators.
 
 For example, such a vote could be a hash of the timestamp and address of the client. Those validators can take the vote whose addresses and the vote's hash calculates to some predetermined value. The first one who collects 1000 votes has the right to make a new block.
@@ -109,5 +113,3 @@ For example, such a vote could be a hash of the timestamp and address of the cli
 With this approach, there is another problem - each block must contain 1000 votes as proof that the validator had the right to make this block.
 
 This leads to an immense increase in block size and, consequently, a rapid increase in the size of the blockchain archive.
-
-We provide these examples to show that there are plenty of consensus options that can be thought of, and we don't have to rely on PoW or PoS alone.
