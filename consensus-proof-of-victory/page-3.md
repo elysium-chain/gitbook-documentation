@@ -60,7 +60,7 @@ But doesn't appointing someone as a leader create a threat as a malignant actor 
 
 He can't forge a user's transaction since he would need the wallet's private key. A leader can only operate with user-made transactions. With this in mind, we are now ready to learn exactly how he can use his unique status to harm the network.
 
-**Threat 1: Silence**
+### **Threat 1: Silence**
 
 A leader can remain silent and not set the order of transactions for everyone else. But since he will receive a reward for his work, it is not profitable.&#x20;
 
@@ -72,7 +72,7 @@ For example, in the Proof of Work consensus (Bitcoin consensus), all nodes solve
 
 In Proof of Stake algorithms (the new Ethereum consensus), the leader becomes known before he completes his task and can be DoS attacked. Then the next leader, and so on. As a result, leaders will fail one by one doing a job until the attack stops.
 
-**Threat 2: Creation of several correct blocks**
+### **Threat 2: Several correct blocks**
 
 A leader can take all the accumulated operations, for which he has to set the order, divide them, for example, in half (or in 3,4,5 parts) and send these different sets of operations to opposite ends of the network.
 
@@ -80,17 +80,17 @@ Then half of the nodes will assume that there was one set of operations in that 
 
 Thus, the same information will no longer be the same on all nodes, and the network will split into different subnets. The PoW consensus solves this problem by the rule that each new leader must choose the longest chain of blocks. But for the PoS consensus, this problem still does not have a guaranteed solution.
 
-**Threat 3: Censorship**
+### **Threat 3: Censorship**
 
 A leader may not include some transactions in the block, meaning they can be censored depending on a particular wallet or smart contract address. The easiest way to deal with this threat is to keep changing leaders.
 
 So if the current leader censors certain transactions, the next one will handle them. This solution was also found (rather intuitively) in politics, where in democracies, the leader must constantly change.
 
-**Threat 4: Front-running**
+### **Threat 4: Front-running**
 
 A leader can create new operations on his behalf. For example, if he sees that someone buys a large volume of a token, he can put his transaction before the large purchase. It is called front-running. And at this point, it's up to each network to decide how to deal with this problem. And whether to fight it at all.
 
-**Threat 5: Sybil attacks**
+### **Threat 5: Sybil attacks**
 
 While anyone can become a network node, and there is no cost to obtain proof of leadership, a malicious actor can create many nodes under his control, increasing his probability of becoming a leader in each round.
 
@@ -100,7 +100,7 @@ And have a disproportionate amount of rewards. We are talking about Sybil attack
 
 In general, it is possible to think of many variants of consensus, knowing that the main problem is maintaining the same order of operations by many nodes. Each consensus type will have its characteristics, advantages, and disadvantages. Further, we provide a couple of examples to show that there are plenty of consensus options that can be thought of, and we don't have to rely on PoW or PoS alone.
 
-**Example 1**
+### **Example 1**
 
 We can pack each transaction that comes from a client into a separate block and then build these blocks based on the valuation of some virtual value of the blockchain.
 
@@ -112,7 +112,7 @@ But this consensus type has one global disadvantage - it creates enormous networ
 
 Each client's operation causes a lot of network messages, whose amount is equal to the square of the validators' count. After all, each has to forward their version of the block with the operation to everyone else.
 
-**Example 2**
+### **Example 2**
 
 Or here's another idea for consensus. We can make the clients' wallets regularly send their votes to the validators.
 
