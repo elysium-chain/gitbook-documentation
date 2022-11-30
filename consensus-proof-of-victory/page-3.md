@@ -18,7 +18,7 @@ In math, we can rearrange the summands as we like, and the result won't change. 
 
 So, because of the impossibility of having a negative account balance, the order of operations is crucial in the blockchain. Note that if the parameter counted by the decentralized system can take negative values, then the order of transactions does not matter.
 
-"What's the problem here?" - The advanced computer user will exclaim - "After all, every modern device has a built-in clock - you can just put a timestamp when the transaction appears!"
+"_What's the problem here?_" - The advanced computer user will exclaim - "_After all, every modern device has a built-in clock - you can just put a timestamp when the transaction appears!_"
 
 And he would be wrong. The time on computers synchronized via the NTP service is slightly different.
 
@@ -42,7 +42,7 @@ Let's extend our mental experiment and assume that 5 out of 20 servers received 
 
 And let's assume every server formed its unique sequence of operations (this is quite realistic). Since all the nodes are equal, there is no such thing as the correct order. For every node, its order of operations will be the only correct one.
 
-The most impatient reader will exclaim: "Oh, this is complicated! Let's write down the operations somehow." And he will be right! To solve the problem of the single source of truth, we will need to abandon external causality.
+The most impatient reader will exclaim: "_Oh, this is complicated! Let's write down the operations somehow._" And he will be right! To solve the problem of the single source of truth, we will need to abandon external causality.
 
 In other words, we can account for operations in a completely different sequence than in the real world. More fundamental is that nodes agree on some order of operations. Such an agreement on the order of operations is called consensus.
 
