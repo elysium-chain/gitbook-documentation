@@ -17,7 +17,9 @@
 ## Architecture
 
 * [🎆 Network layer](architecture/network-layer.md)
-* [🥇 Proof of Victory](consensus-proof-of-victory/page-3.md)
+* [🥇 Proof of Victory](architecture/page-3/README.md)
+  * [Problem overview](architecture/page-3/problem-overview.md)
+  * [Proof of Victory](architecture/page-3/proof-of-victory.md)
 * [⛓ Scaling](architecture/scaling.md)
 * [💳 Wallet security](architecture/wallet-security.md)
 

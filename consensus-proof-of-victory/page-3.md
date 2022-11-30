@@ -1,2 +1,0 @@
-# 🥇 Proof of Victory
-
