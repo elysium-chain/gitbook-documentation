@@ -6,9 +6,9 @@ We have been developing complex applications together for a long time. And at th
 
 At some moment, such insights accumulated enough for one of us to exclaim: "if you want to do something well, do it yourself." At that moment, we fell silent and began to look at each other in surprise. Then we worked almost around the clock for six months to polish the logic. And when there were no internal contradictions left, we decided to make the Elysium project public.
 
-### FAQ
+## FAQ
 
-#### Are you qualified to develop a blockchain?
+### Are you qualified to develop a blockchain?
 
 Well, we certainly do not create a new blockchain every Tuesday. Frankly, this is the first blockchain we are developing.
 
@@ -18,7 +18,7 @@ The complexity lies in the interaction logic of various nodes but not in the cod
 
 But if we lack some competencies, we hope to attract developers from our community. In general, if you like our ideas and want to live in a world where Elysium exists, feel free to contact us, and we will figure out how you can help the project, even if you are not a developer.
 
-#### But wait: doesn\`t blockchain development require a big team and significant funding?
+### But wait: doesn\`t blockchain development require a big team and significant funding?
 
 The corporate world often obeys weird laws. Here is a real-life story for you. One bank needed to refine the logic of its accounting software. It was a task for a few days at most, so we billed them $1,000. After a couple of days, they refused. Later we discovered they had hired a big company for $300,000 to do the same thing.
 
@@ -28,7 +28,7 @@ And in a big company, there is a hierarchical chain of 8 bosses above one real p
 
 It is not difficult to code the core of a complex system in several months if you know what you are doing. And because we are doing an open-source project, many contributors will join us later.
 
-#### Why are you anonymous?
+### Why are you anonymous?
 
 Satoshi Nakamoto also decided not to reveal himself for some reason. Publicity causes misleading confidence and allows one to collect much more money. But, unfortunately, it does not guarantee anything - remember the story of the collapse of Terra.&#x20;
 
