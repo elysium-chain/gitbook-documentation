@@ -17,18 +17,15 @@
 ## Architecture
 
 * [🎆 Network](architecture/network-layer.md)
-  * [Problem overview](architecture/network/problem-overview.md)
   * [Single Address Space](architecture/network/single-address-space.md)
   * [Routers](architecture/network/routers.md)
 * [🤝 Consensus](consensus-proof-of-victory/page-3.md)
   * [Proof of Victory](architecture/consensus/proof-of-victory.md)
   * [Validators](architecture/consensus/validators.md)
 * [⛓ Scaling](architecture/scaling.md)
-  * [Problem overview](architecture/scaling/problem-overview.md)
   * [Asset blockchains](architecture/scaling/asset-blockchains.md)
   * [Blockchain interactions](architecture/scaling/blockchain-interactions.md)
 * [💳 Wallet](architecture/wallet-security.md)
-  * [Problem overview](architecture/wallet/problem-overview.md)
   * [Secured wallet](architecture/wallet/secured-wallet.md)
 
 ## Smart contracts
