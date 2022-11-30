@@ -1,5 +1,7 @@
 # 🤝 Consensus
 
+## Canonical history
+
 To begin with, let's define what task exactly the consensus in blockchain solves. And we will start from afar - namely with the difference between accounting and ordinary mathematical actions.
 
 The main difference is that operations in mathematics result in a single moment. There is a list of actions: 5 + 2 + 3 - 9, and then you get an immediate answer: 1.
@@ -28,6 +30,8 @@ The blockchain network is peer-to-peer, meaning all nodes are the same and must 
 
 This is how two operations performed almost simultaneously (with a time difference less than the communication speed) end up in the mirror order of two different nodes.
 
+![](../.gitbook/assets/image.png)
+
 But because of the limit on the propagation speed of information, the relativity principle from physics comes into play. Network nodes have different orders of transactions, yet each can be considered correct.
 
 Let's extend our mental experiment and assume that 5 out of 20 servers received one operation each in a second. There are 20 ways in which we can mix those five operations.
@@ -38,6 +42,8 @@ The most impatient reader will exclaim: "Oh, this is complicated! Let's write do
 
 In other words, we can account for operations in a completely different sequence than in the real world. More fundamental is that nodes agree on some order of operations. Such an agreement on the order of operations is called consensus.
 
+## Leader
+
 The easiest and most obvious way to achieve this is to choose one leader from the nodes so they can accept the leader's sequence of operations.
 
 It is necessary to choose a leader in a way that all other nodes are sure about it. To achieve that, the leader must provide evidence of his leadership that he could not fake.
@@ -46,7 +52,9 @@ But doesn't appointing someone as a leader create a threat as a malignant actor 
 
 He can't forge a user's transaction since he would need the wallet's private key. A leader can only operate with user-made transactions. With this in mind, we are now ready to learn exactly how he can use his unique status to harm the network.
 
-First, he can remain silent and not set the order of transactions for everyone else. But since he will receive a reward for his work, it is not profitable.
+**Threat 1: Silence**
+
+A leader can remain silent and not set the order of transactions for everyone else. But since he will receive a reward for his work, it is not profitable.&#x20;
 
 It may also happen if the leader's computer breaks down or is under a DoS attack. And if there isn't some mechanism for appointing a new leader, all other nodes will be waiting for the leader's actions, and the blockchain will hold still.
 
@@ -56,23 +64,31 @@ For example, in the Proof of Work consensus (Bitcoin consensus), all nodes solve
 
 In Proof of Stake algorithms (the new Ethereum consensus), the leader becomes known before he completes his task and can be DoS attacked. Then the next leader, and so on. As a result, leaders will fail one by one doing a job until the attack stops.
 
-Second, the leader can take all the accumulated operations, for which he has to set the order, divide them, for example, in half (or in 3,4,5 parts) and send these different sets of operations to opposite ends of the network.
+**Threat 2: Creation of several correct blocks**
+
+A leader can take all the accumulated operations, for which he has to set the order, divide them, for example, in half (or in 3,4,5 parts) and send these different sets of operations to opposite ends of the network.
 
 Then half of the nodes will assume that there was one set of operations in that period, and the other half will think that there was another set.
 
 Thus, the same information will no longer be the same on all nodes, and the network will split into different subnets. The PoW consensus solves this problem by the rule that each new leader must choose the longest chain of blocks. But for the PoS consensus, this problem still does not have a guaranteed solution.
 
-Third, the leader may not include some transactions in the block, meaning they can be censored depending on a particular wallet or smart contract address. The easiest way to deal with this threat is to keep changing leaders.
+**Threat 3: Censorship**
+
+A leader may not include some transactions in the block, meaning they can be censored depending on a particular wallet or smart contract address. The easiest way to deal with this threat is to keep changing leaders.
 
 So if the current leader censors certain transactions, the next one will handle them. This solution was also found (rather intuitively) in politics, where in democracies, the leader must constantly change.
 
-Fourth, the leader can create new operations on his behalf. For example, if he sees that someone buys a large volume of a token, he can put his transaction before the large purchase. It is called front-running. And at this point, it's up to each network to decide how to deal with this problem. And whether to fight it at all.
+**Threat 4: Front-running**
 
-Fifth, while anyone can become a network node, and there is no cost to obtain proof of leadership, a malicious actor can create many nodes under his control, increasing his probability of becoming a leader in each round.
+A leader can create new operations on his behalf. For example, if he sees that someone buys a large volume of a token, he can put his transaction before the large purchase. It is called front-running. And at this point, it's up to each network to decide how to deal with this problem. And whether to fight it at all.
+
+**Threat 5: Sybil attacks**
+
+While anyone can become a network node, and there is no cost to obtain proof of leadership, a malicious actor can create many nodes under his control, increasing his probability of becoming a leader in each round.
 
 And have a disproportionate amount of rewards. We are talking about Sybil attacks, the protection against which in the Elysium network we will describe closer to the launch of the network.
 
-Recently besides blockchains with assigned leaders, networks based on directed asynchronous graphs, where there are no leaders. Such networks can hardly be called a blockchain (a chain of blocks) - they are more like distributed graphs. This approach has its problems and pitfalls, and it is unclear whether they can be solved in principle, as the concept of such an architecture of distributed systems has not been tested by time yet.
+## Some dummy consensuses
 
 In general, it is possible to think of many variants of consensus, knowing that the main problem is maintaining the same order of operations by many nodes. Each consensus type will have its characteristics, advantages, and disadvantages.
 
