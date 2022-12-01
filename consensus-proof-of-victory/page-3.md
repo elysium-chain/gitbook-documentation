@@ -4,9 +4,15 @@ description: Problem overview
 
 # 🤝 Consensus
 
+Peer-to-peer decentralized systems consist of standard interchangeable nodes. In areas like swarm intelligence, nodes can store different information and, as a result, exhibit pretty complex behavior.&#x20;
+
+In the world of accounting and finance, however, the task of such systems is to store and process transactions, which entails the need for complete duplication of data between nodes for fault tolerance.&#x20;
+
+In other words, in blockchain, all nodes must store the same data about your account balance. And the concept of consensus helps a lot with this.
+
 ## Canonical history
 
-To begin with, let's define what task exactly the consensus in blockchain solves. And we will start from afar - namely with the difference between accounting and ordinary mathematical actions.
+We will start from afar - namely with the difference between accounting and ordinary mathematical actions.
 
 The main difference is that operations in mathematics result in a single moment. There is a list of actions, and then you get an immediate answer:
 
