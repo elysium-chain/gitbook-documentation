@@ -1,4 +1,4 @@
-# SKY Token
+# 🎟 SKY Token
 
 ## Main information
 

@@ -16,3 +16,5 @@ If money should constantly become cheaper to force economic growth, how can it b
 
 The paradox of money functions also appears in the cryptocurrency space. For example, when the price of Bitcoin or Ethereum increases, the commissions also go up. So, the better the cryptocurrency performs as a store of value, the worse it is as a means of payment.
 
+## Fees, rewards, and the real world.
+

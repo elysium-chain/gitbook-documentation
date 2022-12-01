@@ -1,4 +1,4 @@
-# RAY Token
+# 🪙 RAY Token
 
 ## Main information
 

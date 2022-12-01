@@ -1,4 +1,4 @@
-# Grinder
+# ⚙ Grinder
 
 ## The cherry on the cake
 
