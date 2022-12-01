@@ -1,4 +1,4 @@
-# 🪙 RAY Token
+# RAY Token
 
 ## Main information
 
@@ -8,7 +8,7 @@ What will back the RAY? Elysium blockchain is not going to be a decentralized ba
 
 > RAY is not going to be a stablecoin. It is really close to the IRL fiat currencies.
 
----
+***
 
 ## RAY token at the launch
 
@@ -16,28 +16,28 @@ First validatiors will be granted from 10 to 100 RAY coins each (we haven't deci
 
 And what about total supply of RAY token? During the first 1 000 days, 100 000 000 tokens will be printed.
 
----
+***
 
 ## Inflation of RAY token
 
 After first thousand days, the RAY token is going to be distrubuted by Grinder with the formula below.
 
-![Curve of the RAY supply](https://miro.medium.com/max/1400/1*BXEz1cKIVJ_wrAN-xxL5hA.webp)
+![Curve of the RAY supply](https://miro.medium.com/max/1400/1\*BXEz1cKIVJ\_wrAN-xxL5hA.webp)
 
->This means, that after 1000 days the inflation of RAY token is going to be **2-3%** per year.
+> This means, that after 1000 days the inflation of RAY token is going to be **2-3%** per year.
 
----
+***
 
 ## Commissions
 
-RAY will be used to pay commissions in Elysium blockchain. The size of commissions depends on the amount of transactions in the network. 
+RAY will be used to pay commissions in Elysium blockchain. The size of commissions depends on the amount of transactions in the network.
 
 Maximum transaction commission will be 1 RAY token. Here is the formula and a curve of a transaction fee.
 
 Due to the inflationary nature of the RAY token, the relative cost of fees won’t grow much over time — it will depend on the ratio of RAYs and real-world inflation.
 
-![Curve of the transaction fee](https://miro.medium.com/max/1400/1*JPoDxDBXtsrPxO5MFO5ZLA.webp)
+![Curve of the transaction fee](https://miro.medium.com/max/1400/1\*JPoDxDBXtsrPxO5MFO5ZLA.webp)
 
->RAY token burns in commissions. To prevent deflation of this token, the Grinder will print new RAY tokens.
+> RAY token burns in commissions. To prevent deflation of this token, the Grinder will print new RAY tokens.
 
----
+***

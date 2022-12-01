@@ -42,7 +42,7 @@ The blockchain network is peer-to-peer, meaning all nodes are the same and must 
 
 This is how two operations performed almost simultaneously (with a time difference less than the communication speed) end up in the mirror order of two different nodes.
 
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 But because of the limit on the propagation speed of information, the relativity principle from physics comes into play. Network nodes have different orders of transactions, yet each can be considered correct.
 

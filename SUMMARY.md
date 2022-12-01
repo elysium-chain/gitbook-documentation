@@ -7,34 +7,30 @@
 * [🥋 Elysium Team](introduction/elysium-team.md)
 * [📍 Roadmap](introduction/roadmap.md)
 
-## Tokenomics
+## Elysium
 
-* [💡 Intro](tokenomics/intro.md)
-* [🪙 RAY Token](tokenomics/ray-token.md)
-* [💰 SKY Token](tokenomics/sky-token.md)
-* [⚙ Grinder](tokenomics/grinder.md)
-
-## Architecture
-
-* [🎆 Network](architecture/network-layer.md)
-  * [Single Address Space](architecture/network/single-address-space.md)
-  * [Routers](architecture/network/routers.md)
-* [🤝 Consensus](consensus-proof-of-victory/page-3.md)
-  * [Proof of Victory](architecture/consensus/proof-of-victory.md)
-  * [Validators](architecture/consensus/validators.md)
-* [⛓ Scaling](architecture/scaling.md)
-  * [Asset blockchains](architecture/scaling/asset-blockchains.md)
-  * [Blockchain interactions](architecture/scaling/blockchain-interactions.md)
-* [💳 Wallet](architecture/wallet-security.md)
-  * [Secured wallet](architecture/wallet/secured-wallet.md)
-
-## Smart contracts
-
-* [💎 Assets](smart-contracts/assets.md)
-* [🧩 Asset interaction](smart-contracts/asset-interaction.md)
-* [📔 DSL "Eventure"](smart-contracts/dsl-eventure.md)
-* [📐 Visual Builder](smart-contracts/visual-builder.md)
-* [🛡 Scam prevention](smart-contracts/scam-prevention.md)
+* [📈 Tokenomics](elysium/tokenomics/README.md)
+  * [Intro](elysium/tokenomics/intro.md)
+  * [RAY Token](elysium/tokenomics/ray-token.md)
+  * [SKY Token](elysium/tokenomics/sky-token.md)
+  * [Grinder](elysium/tokenomics/grinder.md)
+* [🎆 Network](elysium/network/README.md)
+  * [Single Address Space](elysium/network/single-address-space.md)
+  * [Routers](elysium/network/routers.md)
+* [🤝 Consensus](elysium/consensus/README.md)
+  * [Proof of Victory](elysium/consensus/proof-of-victory.md)
+  * [Validators](elysium/consensus/validators.md)
+* [⛓ Scaling](elysium/scaling/README.md)
+  * [Asset blockchains](elysium/scaling/asset-blockchains.md)
+  * [Blockchain interactions](elysium/scaling/blockchain-interactions.md)
+* [💳 Wallet](elysium/wallet/README.md)
+  * [Secured wallet](elysium/wallet/secured-wallet.md)
+* [📔 Smart contracts](elysium/smart-contracts/README.md)
+  * [💎 Assets](elysium/smart-contracts/assets.md)
+  * [🧩 Asset interaction](elysium/smart-contracts/asset-interaction.md)
+  * [📔 DSL "Eventure"](elysium/smart-contracts/dsl-eventure.md)
+  * [📐 Visual Builder](elysium/smart-contracts/visual-builder.md)
+  * [🛡 Scam prevention](elysium/smart-contracts/scam-prevention.md)
 
 ## Participate
 
