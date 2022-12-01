@@ -16,7 +16,7 @@
   * [⚙ Grinder](tokenomics/grinder.md)
   * [⛽ Transaction fees](elysium/tokenomics/transaction-fees.md)
   * [🎁 Validators' rewards](elysium/tokenomics/validators-rewards.md)
-  * [❔ FAQ](elysium/tokenomics/faq.md)
+  * [❓ FAQ](elysium/tokenomics/faq.md)
 * [🎆 Network](architecture/network-layer.md)
   * [Single Address Space](architecture/network/single-address-space.md)
   * [Routers](architecture/network/routers.md)
