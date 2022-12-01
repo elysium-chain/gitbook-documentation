@@ -1,8 +1,8 @@
-# 🌟 What is Elysium?
+# 🎯 Positioning
 
 Elysium is a next-generation innovative blockchain. And this is not just a marketing slogan! It's hard to tell what aspect of blockchain technology was left unchanged during the development of Elysium.
 
-You can learn more about the unique [tokenomics](elysium/tokenomics/), [architecture](broken-reference), [consensus](elysium/consensus/), [smart contracts](broken-reference), and [approach to scaling](elysium/scaling/) in the relevant sections. But more important than any technical solution is the problem the computer system solves.
+You can learn more about the unique [tokenomics](elysium/tokenomics/), [network layer](architecture/network-layer.md), [consensus](consensus-proof-of-victory/page-3.md), [scaling](architecture/scaling.md), [wallet](architecture/wallet-security.md), and [smart contracts](elysium/smart-contracts/) in the relevant sections. But more important than any technical solution is the problem the computer system solves.
 
 <figure><img src=".gitbook/assets/1500x500.jpg" alt=""><figcaption></figcaption></figure>
 
