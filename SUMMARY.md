@@ -11,10 +11,12 @@
 
 * [📈 Tokenomics](elysium/tokenomics/README.md)
   * [Intro](tokenomics/intro.md)
-  * [RAY Token](tokenomics/ray-token.md)
-  * [SKY Token](tokenomics/sky-token.md)
-  * [Grinder](tokenomics/grinder.md)
-  * [FAQ](elysium/tokenomics/faq.md)
+  * [🪙 RAY Token](tokenomics/ray-token.md)
+  * [💰 SKY Token](tokenomics/sky-token.md)
+  * [⚙ Grinder](tokenomics/grinder.md)
+  * [⛽ Transaction fees](elysium/tokenomics/transaction-fees.md)
+  * [🎁 Validators' rewards](elysium/tokenomics/validators-rewards.md)
+  * [❔ FAQ](elysium/tokenomics/faq.md)
 * [🎆 Network](architecture/network-layer.md)
   * [Single Address Space](architecture/network/single-address-space.md)
   * [Routers](architecture/network/routers.md)
@@ -37,7 +39,7 @@
 
 * [📢 Outbreak Initiative](participate/outbreak-initiative.md)
 * [🎮 Pioneers Program](participate/pioneers-program.md)
-* [🎁 Initial validators](participate/early-validators.md)
+* [🔰 Initial validators](participate/early-validators.md)
 
 ## Links
 
