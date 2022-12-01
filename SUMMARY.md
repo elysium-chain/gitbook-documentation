@@ -3,8 +3,8 @@
 ## Introduction
 
 * [🎯 Positioning](README.md)
-* [📗 Philosophy](introduction/philosophy.md)
-* [🥋 Team](introduction/team.md)
+* [📗 Philosophy](introduction/elysium-philosophy.md)
+* [⚡ Team](introduction/elysium-team.md)
 * [📍 Roadmap](introduction/roadmap.md)
 
 ## Elysium
@@ -14,6 +14,7 @@
   * [RAY Token](tokenomics/ray-token.md)
   * [SKY Token](tokenomics/sky-token.md)
   * [Grinder](tokenomics/grinder.md)
+  * [FAQ](elysium/tokenomics/faq.md)
 * [🎆 Network](architecture/network-layer.md)
   * [Single Address Space](architecture/network/single-address-space.md)
   * [Routers](architecture/network/routers.md)

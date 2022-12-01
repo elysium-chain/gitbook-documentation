@@ -10,7 +10,7 @@ That is why Bitcoin became, first of all, an experiment to create a decentralize
 
 In turn, the slogan of the increasingly popular Proof of Stake (PoS) consensus states: "we do a cool business using blockchain technology, and you can invest too." The meaning rolled over! If it used to be "participate and get paid," it's now "pay to participate."
 
-The [Elysium Team](team.md) wants to bring back the bright days of cryptocurrencies' dawn and has adopted Bitcoin's approach as its basic creed. Elysium is a unique decentralized system that focuses on the interests of ordinary people, who in turn support it.
+The [Elysium Team](elysium-team.md) wants to bring back the bright days of cryptocurrencies' dawn and has adopted Bitcoin's approach as its basic creed. Elysium is a unique decentralized system that focuses on the interests of ordinary people, who in turn support it.
 
 That's why any person with a computer can become a validator in the Elysium network, and no financial investments are required. But this will be possible only sometime after the launch of Elysium. The first time after the start, the network will be secured by a pool of [initial validators](../participate/early-validators.md) - an analog of the first miners in the Bitcoin network.
 
