@@ -14,6 +14,6 @@ The [Elysium Team](elysium-team.md) wants to bring back the bright days of crypt
 
 That's why any person with a computer can become a validator in the Elysium network, and no financial investments are required. But this will be possible only sometime after the launch of Elysium. The first time after the start, the network will be secured by a pool of [initial validators](../participate/early-validators.md) - an analog of the first miners in the Bitcoin network.
 
-The conception of initial validators helps to avoid centralized funding from venture capital funds. This way, the team will be fully able to turn their ideas into reality, the initial validators will be decently rewarded, and the blockchain will be as decentralized as possible immediately after launch.
+The conception of initial validators helps to avoid centralized funding from venture capital funds. This way, the team will be fully able to turn their ideas into reality, the initial validators will be decently rewarded, and the blockchain will be decentralized as much as possible immediately after launch.
 
 Therefore, we are building a strong community of enthusiasts simultaneously with blockchain development. And if you want to be one of the initial validators, check out the "[participate](broken-reference)" section.
