@@ -3,14 +3,13 @@
 ## Introduction
 
 * [🎯 Positioning](README.md)
-* [📗 Philosophy](introduction/elysium-philosophy.md)
+* [📗 Attitude](introduction/attitude.md)
 * [⚡ Team](introduction/elysium-team.md)
 * [📍 Roadmap](introduction/roadmap.md)
 
 ## Elysium
 
 * [📈 Tokenomics](elysium/tokenomics/README.md)
-  * [🏦 Automated Money Supply](elysium/tokenomics/automated-money-supply.md)
   * [🪙 RAY Token](tokenomics/ray-token.md)
   * [🎟 SKY Token](tokenomics/sky-token.md)
   * [⚙ Grinder](tokenomics/grinder.md)

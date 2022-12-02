@@ -1,5 +1,7 @@
 # ⚙ Grinder
 
+<figure><img src="../.gitbook/assets/Elysium Tokenomics.jpg" alt=""><figcaption></figcaption></figure>
+
 ## The cherry on the cake
 
 What is the **Grinder**?
