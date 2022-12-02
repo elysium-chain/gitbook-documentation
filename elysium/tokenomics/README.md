@@ -36,4 +36,4 @@ Either the token price will rise too high, and, as a result, transaction fees in
 
 Many modern blockchains make paltry commissions, and validators are additionally rewarded by newly issued tokens. But this approach will not work in the long run. At some point, the issuance will become insufficient to retain validators since every blockchain has a limited supply of its token - and the only way not to exceed the limit is to reduce the issuance over time. Or the token will rise, and the fees will not be paltry anymore. So in the end commissions always pay for validators' work.
 
-<figure><img src="../../.gitbook/assets/Standart Tokenomics.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Standart Tokenomics.jpg" alt=""><figcaption><p>The most popular blockchain tokenomics</p></figcaption></figure>
