@@ -1,2 +1,0 @@
-# 🎁 Early validators
-

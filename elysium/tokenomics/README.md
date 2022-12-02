@@ -18,8 +18,6 @@ The paradox of money functions also appears in the cryptocurrency space. For exa
 
 ## Fees, rewards, and the real world.
 
-Initially, we thought of making a stablecoin, but after a more detailed study, it turned out that it would have more disadvantages than benefits.
-
 The problem with tying a token to fiat currencies is the disproportionate size of the real-world economy and a particular blockchain. In the real world, though, $2 billion is a lot of money - it is still less than the margin of estimation error relative to the entire economy. On the other hand, in the cryptocurrency world, that amount could break a large enough project (like LUNA).
 
 The main problem stablecoins face is the possible short-run withdrawals of large sums from the system. At that point, no matter how the token stabilization mechanism works - system participants will feel the pain.
