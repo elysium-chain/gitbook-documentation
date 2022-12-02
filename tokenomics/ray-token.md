@@ -1,3 +1,7 @@
+---
+description: Token for paying transaction fees
+---
+
 # 🪙 RAY Token
 
 ## Specifications
