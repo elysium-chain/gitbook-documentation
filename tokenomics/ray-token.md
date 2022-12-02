@@ -1,12 +1,11 @@
 # 🪙 RAY Token
 
-| Characteristics     |                                             |
-| ------------------- | ------------------------------------------- |
-| **Characteristics** | **Value**                                   |
-| Supply              | Limited by formula                          |
-| Supply dynamics     | Inflation \~2-3% after three years          |
-| Who can issue       | Anyone who burns SKY                        |
-| Utility             | Transaction fees in Elysium are paid in RAY |
+| Characteristics |                                             |
+| --------------- | ------------------------------------------- |
+| Supply          | Limited by formula                          |
+| Supply dynamics | Inflation \~2-3% after three years          |
+| Who can issue   | Anyone who burns SKY                        |
+| Utility         | Transaction fees in Elysium are paid in RAY |
 
 ## Main information
 
