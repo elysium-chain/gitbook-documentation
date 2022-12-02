@@ -17,9 +17,9 @@
   * [💰 Validators' rewards](elysium/tokenomics/validators-rewards.md)
   * [❓ FAQ](elysium/tokenomics/faq.md)
 * [Intro](elysium/intro.md)
-* [🎆 Network](architecture/network-layer.md)
-  * [Single Address Space](architecture/network/single-address-space.md)
-  * [Routers](architecture/network/routers.md)
+* [🎆 Network Layer](elysium/network-layer/README.md)
+  * [Single Address Space](elysium/network-layer/single-address-space.md)
+  * [Routers](elysium/network-layer/routers.md)
 * [🤝 Consensus](consensus-proof-of-victory/page-3.md)
   * [Proof of Victory](architecture/consensus/proof-of-victory.md)
   * [Validators](architecture/consensus/validators.md)
@@ -28,7 +28,7 @@
   * [Blockchain interactions](architecture/scaling/blockchain-interactions.md)
 * [💳 Wallet](architecture/wallet-security.md)
   * [Secured wallet](architecture/wallet/secured-wallet.md)
-* [📔 Smart contracts](elysium/smart-contracts/README.md)
+* [📔 Smart Contracts](elysium/smart-contracts/README.md)
   * [💎 Assets](smart-contracts/assets.md)
   * [🧩 Asset interaction](smart-contracts/asset-interaction.md)
   * [📔 DSL "Eventure"](smart-contracts/dsl-eventure.md)
@@ -39,7 +39,7 @@
 
 * [📢 Outbreak Initiative](participate/outbreak-initiative.md)
 * [🎮 Pioneers Program](participate/pioneers-program.md)
-* [🎁 Initial validators](participate/early-validators.md)
+* [🎁 Initial Validators](participate/initial-validators.md)
 
 ## Links
 
