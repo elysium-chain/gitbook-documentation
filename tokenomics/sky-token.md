@@ -28,6 +28,6 @@ If SKY is used to issue RAY, it will be burned. But if all the used SKY is burne
 The SKY token was designed primarily as an investment token. For that, it has everything it needs:
 
 * Its supply is limited and will be constantly diminished by burning.
-* There will be permanent system demand.&#x20;
+* There will be permanent system demand for it.&#x20;
 
 At the same time, it is designed so that if the SKY price drops relative to RAY, it will require significantly more SKY to print the same amount of RAY. And that will increase the burning SKY amount. Thus, in the long run, the SKY / RAY rate should rise steadily despite possible short-term drops.
