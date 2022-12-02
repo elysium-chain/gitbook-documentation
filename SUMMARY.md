@@ -10,6 +10,7 @@
 ## Elysium
 
 * [📈 Tokenomics](elysium/tokenomics/README.md)
+  * [🏦 Automated Money Supply](elysium/tokenomics/automated-money-supply.md)
   * [🪙 RAY Token](tokenomics/ray-token.md)
   * [🎟 SKY Token](tokenomics/sky-token.md)
   * [⚙ Grinder](tokenomics/grinder.md)

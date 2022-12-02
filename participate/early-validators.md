@@ -1,2 +1,2 @@
-# 🎁 Initial Validators
+# 🎁 Early validators
 

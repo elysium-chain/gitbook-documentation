@@ -2,5 +2,5 @@
 description: Problem overview
 ---
 
-# 🎆 Network Layer
+# 🎆 Network
 
