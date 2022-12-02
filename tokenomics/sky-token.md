@@ -17,7 +17,7 @@ description: The certificate for RAY minting
 
 #### **SKY issuance**
 
-SKY printing uses a constant product formula. This means that the SKY token issuance decrease will not happen in leaps and bounds, as in the case of Bitcoin halvings, but gradually.
+Validators' rewards will be calculated in RAY depending on the sum of burned commissions. SKY will be issued corresponding to that amount using a constant product formula. This means that the reduction of SKY token issuance will not occur in leaps and bounds, as in the case of Bitcoin halvings, but gradually.
 
 #### SKY burning
 

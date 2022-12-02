@@ -17,6 +17,14 @@ description: Token for paying transaction fees
 
 <figure><img src="../.gitbook/assets/RAY Supply.jpg" alt=""><figcaption><p>RAY supply curve</p></figcaption></figure>
 
+#### RAY issuance
+
+You can only get a newly created RAY token by burning SKY. But how many RAY tokens will be minted precisely is controlled by Grinder. It will print as many RAY tokens as needed to reach the target supply using the SKYs provided.
+
+#### RAY burning
+
+All transaction fees are paid in RAY tokens and are immediately burned. The base fee rate per transaction is 1 RAY. But since the volume of transactions can be large, too many RAYs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 10% of the total RAY supply can be burned daily.
+
 ## The idea behind RAY
 
 The RAY tokenomics should lead to an adequate commission size relative to the real world by inflation targeting. If token inflation matches real-world inflation, only the flow of money between Elysium and the outside world will affect the relative commission cost in the long run.
