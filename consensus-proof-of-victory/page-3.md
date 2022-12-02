@@ -118,10 +118,10 @@ Each client's operation causes a lot of network messages, whose amount is equal 
 
 ### **Example 2**
 
-Or here's another idea for consensus. We can make the clients' wallets regularly send their votes to the validators.
+Here is another idea for consensus. We can make the clients' wallets regularly send their votes to the validators.
 
 For example, such a vote could be a hash of the timestamp and address of the client. Those validators can take the vote whose addresses and the vote's hash calculates to some predetermined value. The first one who collects 1000 votes has the right to make a new block.
 
-With this approach, there is another problem - each block must contain 1000 votes as proof that the validator had the right to make this block.
+With this approach, there is another problem - each block must contain 1000 votes as proof that the validator had the right to make it.
 
-This leads to an immense increase in block size and, consequently, a rapid increase in the size of the blockchain archive.
+This leads to an immense increase in block size and, consequently, a rapid growth of the blockchain archive size.
