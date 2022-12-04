@@ -1,13 +1,32 @@
+---
+description: In some other blockchains, it is called "gas"
+---
+
 # ⛽ Transaction fees
 
-## Commissions
+RAY will be used to pay transaction fees in the Elysium blockchain. The fee cost will depend on the total number of transactions in the network: the more transactions - the cheaper each will be.
 
-RAY will be used to pay commissions in Elysium blockchain. The size of commissions depends on the amount of transactions in the network.
+The maximum commission in the absence of transactions will be 1 RAY, but with the growth of the activity in the network will fall to thousandths of a RAY.
 
-Maximum transaction commission will be 1 RAY token. Here is the formula and a curve of a transaction fee.
+<figure><img src="../../.gitbook/assets/Fees.jpg" alt=""><figcaption></figcaption></figure>
 
-Due to the inflationary nature of the RAY token, the relative cost of fees won’t grow much over time — it will depend on the ratio of RAYs and real-world inflation.
+#### First 1000 days
 
-![Curve of the transaction fee](https://miro.medium.com/max/1400/1\*JPoDxDBXtsrPxO5MFO5ZLA.webp)
+The fee will be calculated according to the formula:
 
-> RAY token burns in commissions. To prevent deflation of this token, the Grinder will print new RAY tokens.
+$$
+FEE=\frac{10\;000\;000}{TXNs+10\;000\;000}
+$$
+
+#### After the first 1000 days
+
+The fee will be calculated depending on the amount of RAY in circulation so that the limit of how much RAY can be burned in a day is 10% of its total supply:
+
+$$
+FEE=\frac{0.1\ast RAY_{supply}}{TXNs+0.1\ast RAY_{supply}}
+$$
+
+
+
+
+
