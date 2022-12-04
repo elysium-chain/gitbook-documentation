@@ -16,7 +16,6 @@
   * [⛽ Transaction fees](elysium/tokenomics/transaction-fees.md)
   * [💰 Validators' rewards](elysium/tokenomics/validators-rewards.md)
   * [❓ FAQ](elysium/tokenomics/faq.md)
-* [Intro](elysium/intro.md)
 * [🎆 Network Layer](architecture/network-layer.md)
   * [Single Address Space](architecture/network/single-address-space.md)
   * [Routers](architecture/network/routers.md)
