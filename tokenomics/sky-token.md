@@ -6,12 +6,12 @@ description: The certificate for RAY minting
 
 ## Specifications
 
-| Parameter  | Value                                      |
-| ---------- | ------------------------------------------ |
-| Max supply | 100 000 000 SKYs                           |
-| Issuance   | Can be minted only for validators' rewards |
-| Burning    | A part of SKY used to mint RAY is burned   |
-| Utility    | SKY is used to mint RAY                    |
+| Parameter  | Value                                     |
+| ---------- | ----------------------------------------- |
+| Max supply | 100 000 000 SKYs                          |
+| Issuance   | Can be minted only as validator's reward  |
+| Burning    | A part of SKY used to mint RAY is burned  |
+| Utility    | SKY is used to mint RAY                   |
 
 <figure><img src="../.gitbook/assets/SKY Supply.jpg" alt=""><figcaption><p>SKY issuance / Rewards paid</p></figcaption></figure>
 
@@ -21,11 +21,11 @@ Validators' rewards will be calculated in RAY depending on the sum of burned com
 
 #### SKY burning
 
-If SKY is used to issue RAY, it will be burned. But if all the used SKY is burned, then sooner or later, it will simply run out. Therefore, a portion proportional to the remaining SKY will be burned. For example, if only a third of SKY is left, then only a third of SKY used to mint RAY will be burned. And when only 1 000 000 SKYs remain, it will stop being burned.
+If SKY is used to issue RAY, it will be burned. But if all the used SKY is burned, then sooner or later, it will simply run out. Therefore, a portion proportional to the remaining SKY will be burned. For example, if only a third of SKY is left, then a third of SKY used to mint RAY will be burned. And when only 1 000 000 SKYs remain, it will stop being burned.
 
 ## The idea behind SKY
 
-The SKY token was designed primarily as an investment token. For that, it has everything it needs:
+The SKY token was designed primarily as an investment token. For that, it has everything needed:
 
 * Its supply is limited and will be constantly diminished by burning.
 * There will be permanent system demand for it.&#x20;

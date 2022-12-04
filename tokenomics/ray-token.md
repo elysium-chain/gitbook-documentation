@@ -10,7 +10,7 @@ description: Token for paying transaction fees
 | ---------------- | -------------------------------------------------- |
 | Max supply       | Limited by formula                                 |
 | Initial supply   | 100 000 000 RAYs during the first 1000 days        |
-| Inflation target | \~2-3% per year after 1000 days                    |
+| Inflation target | \~2-3% yearly after 1000 days                      |
 | Issuance         | Anyone can issue RAY by burning SKY in the Grinder |
 | Burning          | All RAYs used to pay commissions are burned        |
 | Utility          | Transaction fees in Elysium are paid in RAY        |
@@ -29,7 +29,7 @@ All transaction fees are paid in RAY tokens and are immediately burned. The base
 
 The RAY tokenomics should lead to an adequate commission size relative to the real world by inflation targeting. If token inflation matches real-world inflation, only the flow of money between Elysium and the outside world will affect the relative commission cost in the long run.
 
-In the future, the RAY supply control mechanism may adjust the issuance to increase or decrease RAY inflation through one of two mechanisms: DAO or algorithmic adjustment to a basket of leading fiat currencies.
+In the future, the RAY supply control mechanism may adjust the issuance to increase or decrease RAY inflation through one of two mechanisms: DAO or algorithmic linking to a basket of leading fiat currencies.
 
 The DAO - using the subjective estimates of its participants - will be able to adjust the value of RAY relative to the real world on long time intervals by changing the slope of the RAY emission curve. The Elysium community will decide whether to establish a DAO and how it should function. But with the DAO approach, there is an apparent conflict of interest between validators (who benefit from expensive RAY) and users (who benefit from minimal fees).&#x20;
 

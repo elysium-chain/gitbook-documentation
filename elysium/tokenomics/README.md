@@ -14,7 +14,7 @@ Therefore, one of the main drivers of economic growth is constant inflation or, 
 
 If money should constantly become cheaper to force economic growth, how can it be a store of value?
 
-The paradox of money functions also appears in the cryptocurrency space. For example, when the price of Bitcoin or Ethereum increases, the commissions also go up. So, the better the cryptocurrency performs as a store of value, the worse it is as a means of payment.
+The paradox of money functions also appears in the cryptocurrency space but is inverted. For example, when the price of Bitcoin or Ethereum increases, the commissions also go up. So, the better the cryptocurrency performs as a store of value, the worse it is as a means of payment.
 
 ## Fees, rewards, and the real world.
 
@@ -36,4 +36,4 @@ Either the token price will rise too high, and, as a result, transaction fees in
 
 Many modern blockchains make paltry commissions, and validators are additionally rewarded by newly issued tokens. But this approach will not work in the long run. At some point, the issuance will become insufficient to retain validators since every blockchain has a limited supply of its token - and the only way not to exceed the limit is to reduce the issuance over time. Or the token will rise, and the fees will not be paltry anymore. So in the end commissions always pay for validators' work.
 
-<figure><img src="../../.gitbook/assets/Standart Tokenomics.jpg" alt=""><figcaption><p>The most popular blockchain tokenomics</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Standart Tokenomics.jpg" alt=""><figcaption><p>The most popular blockchain tokenomics at the moment</p></figcaption></figure>
