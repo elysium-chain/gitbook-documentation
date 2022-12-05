@@ -6,6 +6,8 @@ description: Build community and get early investing via NFT sale
 
 The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the Pioneer Program. For that purpose, many NFTs will be gifted as marketing events to attract new members.&#x20;
 
+## Our NFTs
+
 <table data-card-size="large" data-view="cards"><thead><tr><th>Name</th><th>Supply</th><th>Description</th><th>Distribution</th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Access key NFT</strong></td><td><p><strong>3 000</strong> on Aptos </p><p><strong>2 500</strong> on Solana</p><p><strong>2 000</strong> on Polygon</p><p><strong>1 500</strong> on Ethereum</p></td><td>Grants access to the Pioneers Program.<br>Burns when used.<br>Could be staked before the launch of the Pioneers Program.<br>Several keys could be used on a single account giving additional boosts.<br>Special boost is given for applying 4 keys from different blockchains.</td><td><p>The sales will take place sequentially. With each next sale, the price will raise.</p><p>Free mints - 7% of the supply</p><p>Private sales - 20% of the supply</p><p>Public sales - 73% of the supply</p></td><td><a href="../.gitbook/assets/Elysium Access Key.png">Elysium Access Key.png</a></td></tr></tbody></table>
 
 ## FAQ
