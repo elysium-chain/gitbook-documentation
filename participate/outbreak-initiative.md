@@ -4,7 +4,7 @@ description: Building community and receiving early investing
 
 # 📢 Outbreak Initiative
 
-The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the Pioneer Program. For that purpose, many NFTs will be gifted as marketing events to attract new members. Those NFTs that will be sold will provide initial funding for the Elysium project.
+The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the [Pioneer Program](pioneers-program.md). For that purpose, many NFTs will be gifted as marketing events to attract new members. Those NFTs that will be sold will provide initial funding for the Elysium project.
 
 ## Our NFTs
 
@@ -35,7 +35,7 @@ It is a tough goal to sell the collection of 9000 NFTs during the bear market. B
 
 Of course, we need investment! We worked for half a year on Elysium before we made it public. Until the moment when the project can pay for itself, at least a year will pass, and all this time, we need to live somehow. Money will also allow, if necessary, to carry out advertising campaigns or hire third-party specialists.
 
-But we do not want to attract venture funds, and they are unlikely to want to invest in a truly decentralized blockchain. In addition, **we will not have any tokens in advance** in the Elysium blockchain, so we will have nothing to share. Therefore, we will raise money mainly through the sale of NFTs.
+But we do not want to attract venture funds, and they are unlikely to want to invest in a truly decentralized blockchain. In addition, we will not have any tokens in advance in the Elysium blockchain, so we will have nothing to share. Therefore, we will raise money mainly through the sale of NFTs.
 
 ### What can you say to the multi-accounters? <a href="#2567" id="2567"></a>
 
