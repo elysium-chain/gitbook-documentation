@@ -24,7 +24,12 @@ Some of the keys will be lost or forgotten. Some will burn for the Pioneer Progr
 
 ### Why do you distribute access key NFTs on four different networks? <a href="#75c1" id="75c1"></a>
 
-It is a tough goal to sell the collection of 9000 NFTs during the bear market. Each blockchain has marketplaces with its own audience. So splitting the collection over several different networks will allow us to attract the attention of different groups of people.&#x20;
+It is a tough goal to sell the collection of 9000 NFTs during the bear market. By spreading collections in different networks, we achieve multiple goals:
+
+* we diversify NFT holders as much as possible;
+* we limit the number of NFTs in one network, thereby creating a deficit;
+* we attract different networks apologists to our project;
+* we have a much wider choice of marketplaces and launchpads to attract the audience.
 
 ### Are you selling NFTs because you need investment? <a href="#c2f5" id="c2f5"></a>
 
