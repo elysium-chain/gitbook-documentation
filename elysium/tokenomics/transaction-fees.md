@@ -1,12 +1,12 @@
 ---
-description: In some other blockchains, it is called "gas"
+description: Transaction fees are paid by users in RAY
 ---
 
 # ⛽ Transaction fees
 
 RAY will be used to pay transaction fees in the Elysium blockchain. The fee cost will depend on the total number of transactions in the network: the more transactions - the cheaper each will be.
 
-The maximum commission in the absence of transactions will be 1 RAY, but with the growth of the activity in the network will could fall to thousandths of a RAY.
+The maximum commission in the absence of transactions will be 1 RAY, but with the growth of the activity in the network, it could fall to thousandths of a RAY.
 
 <figure><img src="../../.gitbook/assets/Fees.jpg" alt=""><figcaption></figcaption></figure>
 
