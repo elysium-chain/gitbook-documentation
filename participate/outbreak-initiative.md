@@ -4,7 +4,7 @@ description: Build community and get early investing via NFT sale
 
 # 📢 Outbreak Initiative
 
-The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the Pioneer Program. For that purpose, many NFTs will be gifted as marketing events to attract new members.&#x20;
+The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the Pioneer Program. For that purpose, many NFTs will be gifted as marketing events to attract new members. Those NFTs that will be sold will provide initial funding for the Elysium project.
 
 ## Our NFTs
 
