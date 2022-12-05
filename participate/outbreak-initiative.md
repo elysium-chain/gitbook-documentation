@@ -1,5 +1,5 @@
 ---
-description: Build community and get early investing via NFT sale
+description: Building community and receiving early investing
 ---
 
 # 📢 Outbreak Initiative
