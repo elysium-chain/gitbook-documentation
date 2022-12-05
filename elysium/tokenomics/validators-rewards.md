@@ -22,7 +22,9 @@ $$
 Rewards\;=\;\frac{10^{15}}{2\ast10^8+10^7}-\frac{10^{15}}{2.05\ast10^8+10^7}=4761905-4651163=110742\;SKY
 $$
 
-<figure><img src="../../.gitbook/assets/SKY issuance.jpg" alt=""><figcaption><p>How many SKY will be issued for 1000 burned RAY depending on the total amount of burned fees</p></figcaption></figure>
+{% embed url="https://www.desmos.com/calculator/inlkhxj9m0" %}
+SKY issuance for 1000 burned RAY depending on the total amount of burned fees
+{% endembed %}
 
 Rewards can be spread among specific validators according to flexible rules (e.g., depending on the percentage of time online).
 
