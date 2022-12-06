@@ -1,5 +1,5 @@
 ---
-description: Problem overview
+description: An overview of the problem
 ---
 
 # 📈 Tokenomics
