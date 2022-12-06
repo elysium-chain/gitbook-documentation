@@ -1,10 +1,10 @@
 ---
-description: Building community and initial funding
+description: Building community and receiving early investing
 ---
 
 # 📢 Outbreak Initiative
 
-The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the [Pioneer Program](pioneers-program.md). For that purpose, many NFTs will be gifted as marketing events to attract new members. Those NFTs that will be sold will provide initial funding for the Elysium project.
+The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the Pioneer Program. For that purpose, many NFTs will be gifted as marketing events to attract new members. Those NFTs that will be sold will provide initial funding for the Elysium project.
 
 ## Our NFTs
 
@@ -24,18 +24,13 @@ Some of the keys will be lost or forgotten. Some will burn for the Pioneer Progr
 
 ### Why do you distribute access key NFTs on four different networks? <a href="#75c1" id="75c1"></a>
 
-It is a tough goal to sell the collection of 9000 NFTs during the bear market. By spreading collections in different networks, we achieve multiple goals:
-
-* we diversify NFT holders as much as possible;
-* we limit the number of NFTs in one network, thereby creating a deficit;
-* we attract different networks apologists to our project;
-* we have a much wider choice of marketplaces and launchpads to attract the audience.
+It is a tough goal to sell the collection of 9000 NFTs during the bear market. Each blockchain has marketplaces with its own audience. So splitting the collection over several different networks will allow us to attract the attention of different groups of people.&#x20;
 
 ### Are you selling NFTs because you need investment? <a href="#c2f5" id="c2f5"></a>
 
 Of course, we need investment! We worked for half a year on Elysium before we made it public. Until the moment when the project can pay for itself, at least a year will pass, and all this time, we need to live somehow. Money will also allow, if necessary, to carry out advertising campaigns or hire third-party specialists.
 
-But we do not want to attract venture funds, and they are unlikely to want to invest in a truly decentralized blockchain. In addition, we will not have any tokens in advance in the Elysium blockchain, so we will have nothing to share. Therefore, we will raise money mainly through the sale of NFTs.
+But we do not want to attract venture funds, and they are unlikely to want to invest in a truly decentralized blockchain. In addition, **we will not have any tokens in advance** in the Elysium blockchain, so we will have nothing to share. Therefore, we will raise money mainly through the sale of NFTs.
 
 ### What can you say to the multi-accounters? <a href="#2567" id="2567"></a>
 

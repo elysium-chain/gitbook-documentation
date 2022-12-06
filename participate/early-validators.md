@@ -25,3 +25,7 @@ It's on you. But while your node is offline it won't be mining SKY.&#x20;
 ### Can I run the node program on the server?
 
 Yes. We will make a special server edition of the validator node that could be installed on a common Linux VPS.
+
+### Do I need to invest something as an initial validator?
+
+No. The only cost for you to be a validator could be renting a Linux VPS (\~$10 per month) if you don't want to use your home desktop computer. When you become a validator it's time to make money, not spend it. :smile:
