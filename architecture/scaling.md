@@ -1,6 +1,0 @@
----
-description: Problem overview
----
-
-# ⛓ Scaling
-
