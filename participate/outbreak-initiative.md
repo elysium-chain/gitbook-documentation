@@ -1,5 +1,5 @@
 ---
-description: Building community and receiving early investing
+description: Building community and initial funding
 ---
 
 # 📢 Outbreak Initiative
