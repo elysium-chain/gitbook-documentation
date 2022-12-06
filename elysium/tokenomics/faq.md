@@ -22,7 +22,7 @@ That won't happen. At least, the Elysium Team will put a single SKY in the Grind
 
 There will be DEX in Elysium, so it will be possible to trade SKY for RAY outside the Grinder.&#x20;
 
-If the price of SKY on DEX drops much relative to prices in the Grinder queue, it will open up the possibility for arbitrage. Anyone can buy a cheap SKY on the exchange and put it into the Grinder at a much higher price.&#x20;
+If the price of SKY on DEX drops much relative to prices in the Grinder queue, it will open up an arbitrage opportunity. Anyone can buy a cheap SKY on the exchange and put it into the Grinder at a much higher price.&#x20;
 
 If the price on the exchange exceeds the price in the Grinder, it would be more profitable to cancel the Grinder's order in the queue and sell the SKY on the market.&#x20;
 
@@ -44,4 +44,4 @@ The initial RAY tokens must appear somehow to launch the system. Otherwise, it w
 
 SKY will be distributed among validators as a reward. Since we plan to launch a network with about a thousand initial validators, and about 15% of the total SKY supply will be distributed among them in the first year, there should be no large SKY holders.&#x20;
 
-Well, except for the Elysium Team, which needs a lot of tokens to create bridges, interact with centralized exchanges, provide grants for developers, etc. The additional reward the Team will receive through initially operating the network layer.
+Well, except for the Elysium Team, which needs a lot of tokens to create bridges, provide liquidity for centralized exchanges, offer grants for developers, etc. The additional reward the Team will receive as Routers' rewards through initially operating the [network layer](../../architecture/network-layer.md).
