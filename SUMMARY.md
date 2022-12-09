@@ -10,7 +10,7 @@
 ## Tokenomics
 
 * [💸 Economy Contradictions](tokenomics/economy-contradiction.md)
-* [🪙 Elysium Dual-Token Model](tokenomics/elysium-tokenomics/README.md)
+* [🪙 Elysium's SKY and RAY](tokenomics/elysiums-sky-and-ray.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 
 ## Message routing
