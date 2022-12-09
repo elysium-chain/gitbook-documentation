@@ -10,7 +10,7 @@
 ## Tokenomics
 
 * [💸 What are economic limits?](tokenomics/what-are-economic-limits.md)
-* [🪙 Elysium Model](tokenomics/elysium-model.md)
+* [🪙 Elysium SKY -> RAY Model](tokenomics/elysium-sky-greater-than-ray-model.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 
 ## Message routing
