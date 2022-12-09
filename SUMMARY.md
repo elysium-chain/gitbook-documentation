@@ -9,7 +9,7 @@
 
 ## Tokenomics
 
-* [💸 What limits economic growth?](tokenomics/what-limits-economic-growth.md)
+* [💸 What are economic limits?](tokenomics/what-are-economic-limits.md)
 * [🪙 Elysium Model](tokenomics/elysium-model.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 
