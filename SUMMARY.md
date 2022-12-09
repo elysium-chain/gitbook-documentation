@@ -9,13 +9,13 @@
 
 ## Tokenomics
 
-* [💸 What are economic limits?](tokenomics/what-are-economic-limits.md)
+* [💸 What is a good economy?](tokenomics/what-is-a-good-economy.md)
 * [🪙 Elysium SKY -> RAY Model](tokenomics/elysium-sky-greater-than-ray-model.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 
 ## Message routing
 
-* [🗺 Broadcast or Unicast?](message-routing/broadcast-or-unicast.md)
+* [🗺 Why routing is hard?](message-routing/why-routing-is-hard.md)
 * [🔅 Elysium Network Layer](message-routing/elysium-network-layer.md)
 
 ## Scaling
