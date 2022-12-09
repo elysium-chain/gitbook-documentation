@@ -12,11 +12,11 @@ The virtual node consists of three component types: USB ports, CPUs, and HDDs. A
 
 The maximum count of similar components is 10. So there could not be more than 10 USB ports, CPUs, or HDDs. Each of the components can be upgraded to the 100th level.
 
-Flach Drives are connected to USB ports. The level of the port influences the speed at which the Bytes from Flash Drives proceed. The more ports are created the more Flash Drives could be connected simoultenionsly.
+Flash Drives connect to USB ports. The level of the port influences the speed at which the Bytes from Flash Drives proceed. The more ports are added the more Flash Drives could be connected simoultenionsly.
 
 CPUs convert Bytes received from the Flash Drives via USB ports to UPs at a certain ratio. The higher the level of the CPU the greater its ratio. Different CPUs result in multiplying their ratios.
 
-Obtained via CPUs UPs are stored on HDDs. The higher the level of the HDD the larger the space for storing UPs. The spaces from different HDDs are summarised. If the is no space left the process stops before the HDDs are emptied.
+Obtained via CPUs UPs are stored on HDDs. The higher the level of the HDD the larger the space for storing UPs. The spaces from different HDDs are summarised. If there is no space left the process stops before the HDDs are emptied.
 
 To get Flash Drives players will need to take part in daily tournaments at which a certain amount of Flash Drives will be raffled among all participants.&#x20;
 

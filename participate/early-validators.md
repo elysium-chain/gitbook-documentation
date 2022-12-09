@@ -10,7 +10,7 @@ The network layer will be operated by the Elysium Team until this part of the ne
 
 In the first year after the launch of Elysium, there will be a lot of infrastructure development. Before the first bridge to Ethereum goes live the network will be closed for everyone except initial validators and developers with grants from the Team.
 
-Those participants of the Pioneers Program who have achieved the 50th level will join the network one by one depending on their place on the leaderboard of the Pioneers Program. So the better the results - the sooner you will be able to start mining SKY tokens.
+Those participants of the Pioneers Program who have achieved the 50th level will join the network one by one depending on their place on the Pioneers Program's leaderboard. So the better your results in the Pioneers Program - the sooner you will be able to start mining SKY tokens.
 
 ## FAQ
 
