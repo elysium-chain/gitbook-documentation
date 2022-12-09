@@ -44,6 +44,13 @@
 * [🎮 Pioneers Program](participate/pioneers-program.md)
 * [🎁 Initial Validators](participate/early-validators.md)
 
+## Links
+
+* [🔗 Website](htt://elysium-chain.com)
+* [🔗 Discord](https://discord.gg/elysiumchain)
+* [🔗 Twitter](https://twitter.com/Elysium\_Chain)
+* [🔗 Crew3](https://crew3.xyz/)
+
 ***
 
 * [📒 Appendix](appendix/README.md)
@@ -55,10 +62,3 @@
   * [Routers' rewards](appendix/routers-rewards.md)
   * [Hash Ring](appendix/hash-ring.md)
   * [Asset](appendix/asset.md)
-
-## Links
-
-* [🔗 Website](htt://elysium-chain.com)
-* [🔗 Discord](https://discord.gg/elysiumchain)
-* [🔗 Twitter](https://twitter.com/Elysium\_Chain)
-* [🔗 Crew3](https://crew3.xyz/)
