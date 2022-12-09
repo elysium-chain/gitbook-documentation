@@ -1,2 +1,2 @@
-# 🖥 Validators
+# 🔷 Validators
 

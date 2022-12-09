@@ -1,2 +1,0 @@
-# ❄ Hierarchial Snowflake
-
