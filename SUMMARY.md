@@ -10,8 +10,8 @@
 ## Tokenomics
 
 * [💥 Economy contradiction](tokenomics/economy-contradiction.md)
-* [💸 Fees vs Rewards](tokenomics/fees-vs-rewards.md)
-* [🪙 Elysium dual-token model](tokenomics/elysium-dual-token-model/README.md)
+* [💸 Fees vs Rewards](tokenomics/fees-rewards-and-the-real-world.md)
+* [🪙 Elysium dual-token model](tokenomics/elysium-tokenomics/README.md)
   * [RAY Token](tokenomics/elysium-dual-token-model/ray-token.md)
   * [SKY Token](tokenomics/elysium-dual-token-model/sky-token.md)
   * [Grinder](tokenomics/elysium-dual-token-model/grinder.md)
@@ -58,3 +58,7 @@
 * [🔗 Discord](https://discord.gg/elysiumchain)
 * [🔗 Twitter](https://twitter.com/Elysium\_Chain)
 * [🔗 Crew3](https://crew3.xyz/)
+
+## Appendix
+
+* [RAY Token](appendix/ray-token.md)

@@ -1,4 +1,4 @@
-# 💸 Fees, rewards, and the real world
+# 💸 Fees vs Rewards
 
 The problem with tying a token to fiat currencies is the disproportionate size of the real-world economy and a particular blockchain. In the real world, though, $2 billion is a lot of money - it is still less than the margin of estimation error relative to the entire economy. On the other hand, in the cryptocurrency world, that amount could break a large enough project (like LUNA).
 
