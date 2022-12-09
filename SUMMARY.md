@@ -10,9 +10,15 @@
 ## Tokenomics
 
 * [💸 Economy contradictions](tokenomics/economy-contradiction.md)
-* [🪙 Elysium dual-token model](tokenomics/elysium-dual-token-model.md)
+* [🪙 Elysium dual-token model](tokenomics/elysium-tokenomics/README.md)
 * [❓ FAQ](elysium/tokenomics/faq.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
+
+## Network layer
+
+* [🗺 Effective routes](network-layer/effective-routes.md)
+* [🔅 Elysium routing network](network-layer/elysium-routing-network.md)
+* [❓ FAQ](network-layer/faq.md)
 
 ## Elysium
 
