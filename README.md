@@ -4,9 +4,9 @@ description: The world of light in times of darkness
 
 # 🎯 Positioning
 
-Elysium is a next-generation innovative blockchain. And this is not just a marketing slogan! It's hard to tell what aspect of blockchain technology was left unchanged during the development of Elysium.
+Elysium is a next-generation innovative blockchain. And this is not just a marketing slogan! It's hard to tell what aspect of blockchain technology was left unchanged during the Elysium development.
 
-You can learn more about the unique [tokenomics](broken-reference), [network layer](broken-reference), [consensus](broken-reference), [scaling](broken-reference), [wallet](broken-reference), and [smart contracts](broken-reference) in the relevant sections. But more important than any technical solution is the problem the computer system solves.
+You can learn more about the unique technological approaches in the relevant sections. But more important than any technical solution is the problem the computer system solves.
 
 <figure><img src=".gitbook/assets/1500x500.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,9 @@ Vitalik Buterin, by combining blockchain and smart contracts, created a distribu
 
 The main criterion for the success of Bitcoin and Etherium was that they were the first to solve a particular problem, and not because they used blockchain technology. The problem simply would not be solved without it.
 
-But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is inimitable as an old reliable bank, while Etherium is a full-fledged computer. The subtlety is not to confuse their functions. Ethereum is a computer, not a bank!
+But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is incomparable as an old reliable bank, while Etherium is a full-fledged computer. The nuance is not to confuse their functions.&#x20;
+
+Ethereum is a computer, not a bank!
 
 And since everyone can write programs for that computer, it's no wonder it's overflowing with malware. It happens because developers can leave backdoors, which even a professional would be difficult to find. Therefore, at the level of smart contracts, there is no trust that many blockchain evangelists declare. Nowadays, the fraud level in the blockchain space is almost the same as in the medieval market. Many pickpockets are trying to steal your money, while scammers want to swindle for their own good.
 

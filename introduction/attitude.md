@@ -1,4 +1,4 @@
-# 📗 Philosophy
+# 📗 Attitude
 
 In today's world, quite a few new blockchains are emerging. The community perceives them as an easy way to make money on investments. And the significant factors for investment decisions are: what funds take part in the project, what services will switch to this blockchain, how much marketing money is in the budget, and so on.&#x20;
 
@@ -8,7 +8,7 @@ Bitcoin originated as a decentralized system with incentives for participants. B
 
 That is why Bitcoin became, first of all, an experiment to create a decentralized system in which working nodes get rewards. By the way, this is why Bitcoin's consensus is called Proof of Work (PoW). Accordingly, there were no monetary barriers to entry for new participants - on the contrary, anyone with a computer was welcomed and could become a miner without any costs.
 
-In turn, the slogan of the increasingly popular Proof of Stake (PoS) consensus states: "we do a cool business using blockchain technology, and you can invest too." The meaning rolled over! If it used to be "participate and get paid," it's now "pay to participate."
+In turn, the slogan of the increasingly popular Proof of Stake (PoS) consensus could be: "we do a cool business using blockchain technology, and you can invest too." The meaning rolled over! If it used to be "participate and get paid," it's now "pay to participate."
 
 The [Elysium Team](elysium-team.md) wants to bring back the bright days of cryptocurrencies' dawn and has adopted Bitcoin's approach as its basic creed. Elysium is a unique decentralized system that focuses on the interests of ordinary people, who in turn support it.
 

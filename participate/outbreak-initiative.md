@@ -4,11 +4,11 @@ description: Building community and receiving initial funding
 
 # 📢 Outbreak Initiative
 
-The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the [Pioneer Program](pioneers-program.md). For that purpose, many NFTs will be gifted during marketing events to attract new members. Those NFTs that will be sold will provide initial funding for the Elysium project.
+The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the [Pioneer Program](pioneers-program.md). For that purpose, many NFTs will be gifted during marketing events to attract new members. Those NFTs that will be sold will provide initial funding for the Elysium Team.
 
 ## Our NFTs
 
-<table data-card-size="large" data-view="cards"><thead><tr><th>Name</th><th>Supply</th><th>Description</th><th>Distribution</th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Access key NFT</strong></td><td><p><strong>3 000</strong> on Aptos </p><p><strong>2 500</strong> on Solana</p><p><strong>2 000</strong> on Polygon</p><p><strong>1 500</strong> on Ethereum</p></td><td>Grants access to the Pioneers Program.<br>Burns when used.<br>Could be staked before the launch of the Pioneers Program.<br>Several keys could be used on a single account giving additional boosts.<br>Special boost is given for applying 4 keys from different blockchains.</td><td><p>The sales will take place sequentially. With each next sale, the price will raise.</p><p>Free mints - 7% of the supply</p><p>Private sales - 20% of the supply</p><p>Public sales - 73% of the supply</p></td><td><a href="../.gitbook/assets/Elysium Access Key.png">Elysium Access Key.png</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th>Name</th><th>Supply</th><th>Description</th><th>Distribution</th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Access key NFT</strong></td><td><p><strong>3 000</strong> on Aptos </p><p><strong>2 500</strong> on Solana</p><p><strong>2 000</strong> on Polygon</p><p><strong>1 500</strong> on Ethereum</p></td><td>Grants access to the Pioneers Program.<br>Burns when used.<br>Could be staked before the launch of the Pioneers Program.<br>Several keys could be used on a single account giving additional boosts.<br>A special boost is given for applying 4 keys from 4 different blockchains.</td><td><p>The sales will take place sequentially. With each next sale, the price will raise.</p><p>Free mints - 7% of the supply</p><p>Private sales - 20% of the supply</p><p>Public sales - 73% of the supply</p></td><td><a href="../.gitbook/assets/Elysium Access Key.png">Elysium Access Key.png</a></td></tr></tbody></table>
 
 ## FAQ
 
@@ -20,7 +20,7 @@ The closer the launch of Elysium - the fewer NFTs distributed during the Outbrea
 
 ### Why are there 9000 access keys? Isn't that too much? <a href="#2768" id="2768"></a>
 
-Some of the keys will be lost or forgotten. Some will burn for the Pioneer Program boosts. Some holders will use their keys to access the Pioneer Program but will never rich the 50th level. Thus, we expect only a minority of initial key owners to make it to the 50th level in the Pioneer Program before the Elysium launch. But all of the participants of the Pioneers Program will be generously rewarded.
+Some of the keys will be lost or forgotten. Some will burn for the Pioneer Program boosts. Some holders will use their keys to access the Pioneer Program but will never participate. Some will participate only at the start. Thus, we expect only a minority of initial key owners to be persistent enough to make it to the 50th level in the Pioneer Program before the Elysium launch.
 
 ### Why do you distribute access key NFTs on four different networks? <a href="#75c1" id="75c1"></a>
 
@@ -47,6 +47,6 @@ But seriously, multi-accounts are just a great example of Sybil’s attacks. So 
 
 There is only one way things can go according to plan. And there is an infinite number of ways to mess things up.
 
-As with any innovation at the stage of its creation, there are a lot of risks. But we count on the community to help us overcome difficulties.
+As with any innovation at the stage of its creation, there are a lot of risks. But we have a good plan and a strong community to help us overcome difficulties.
 
 As for wealth, we should say that this project is the project of our lives for the next several years, and we will do everything for its success, which will reward every participant.
