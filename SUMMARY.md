@@ -10,7 +10,7 @@
 ## Tokenomics
 
 * [💸 Economy contradictions](tokenomics/economy-contradiction.md)
-* [🪙 Elysium Tokenomics](tokenomics/elysium-tokenomics.md)
+* [🪙 Elysium dual-token model](tokenomics/elysium-dual-token-model.md)
 * [❓ FAQ](elysium/tokenomics/faq.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 
