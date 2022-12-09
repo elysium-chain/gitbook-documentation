@@ -9,8 +9,8 @@
 
 ## Tokenomics
 
-* [💸 Economy Contradictions](tokenomics/economy-contradiction.md)
-* [🪙 Elysium SKY and RAY](tokenomics/elysium-sky-and-ray.md)
+* [💸 What limits economic growth?](tokenomics/what-limits-economic-growth.md)
+* [🪙 Elysium Model](tokenomics/elysium-model.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 
 ## Message routing
@@ -26,7 +26,7 @@
 ## Consensus
 
 * [🤝 What is consensus?](consensus/what-is-consensus.md)
-* [🥇 Elysium Proof of Victory](consensus/elysium-proof-of-victory.md)
+* [🥇 Proof of Victory](consensus/proof-of-victory.md)
 
 ## Smart contracts
 
