@@ -15,7 +15,7 @@ description: Token for paying transaction fees
 | Burning          | All RAYs used to pay commissions are burned        |
 | Utility          | Transaction fees in Elysium are paid in RAY        |
 
-<figure><img src="../../.gitbook/assets/RAY Supply.jpg" alt=""><figcaption><p>RAY supply curve</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/RAY Supply.jpg" alt=""><figcaption><p>RAY supply curve</p></figcaption></figure>
 
 #### RAY issuance
 
@@ -35,6 +35,6 @@ The DAO - using the subjective estimates of its participants - will be able to a
 
 On the other hand, there are technical issues with algorithmic adjustment to the basket of leading fiat currencies. Reliable Oracles are needed to implement such an approach. But still, the system will always be at risk of an attack through external data manipulations.
 
-But none of these approaches may be needed at all. In Elysium, another factor affects the amount of commission - the daily number of transactions. And the more transactions, the cheaper will be each (for more details, read the section [Transaction fees](../../elysium/tokenomics/transaction-fees.md)). There is a chance that spreading the fee over many users will balance the cost of using the system and validators' rewards.
+But none of these approaches may be needed at all. In Elysium, another factor affects the amount of commission - the daily number of transactions. And the more transactions, the cheaper will be each (for more details, read the section [Transaction fees](../elysium/tokenomics/transaction-fees.md)). There is a chance that spreading the fee over many users will balance the cost of using the system and validators' rewards.
 
 But there is no rush - this problem will arise no sooner than 5 years after the launch of Elysium.

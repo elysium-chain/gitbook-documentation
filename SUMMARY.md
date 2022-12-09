@@ -9,10 +9,11 @@
 
 ## Tokenomics
 
-* [Problem overview](tokenomics/problem-overview.md)
+* [Economy contradiction](tokenomics/economy-contradiction.md)
+* [Fees, rewards, and the real world](tokenomics/fees-rewards-and-the-real-world.md)
 * [Elysium Tokenomics](tokenomics/elysium-tokenomics/README.md)
-  * [🪙 RAY Token](tokenomics/elysium-tokenomics/ray-token.md)
-  * [🎟 SKY Token](tokenomics/elysium-tokenomics/sky-token.md)
+  * [🪙 RAY Token](tokenomics/ray-token.md)
+  * [🎟 SKY Token](tokenomics/sky-token.md)
 * [Appendix](tokenomics/appendix.md)
 * [FAQ](tokenomics/faq.md)
 
@@ -25,7 +26,7 @@
   * [❓ FAQ](elysium/tokenomics/faq.md)
   * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 * [🎆 Network Layer](architecture/network-layer.md)
-  * [🔅 Hash Ring](elysium/network-layer/hash-ring.md)
+  * [🔅 Hash Ring](elysium/network-layer/hierarchial-snowflake.md)
   * [🕸 Integrity](elysium/network-layer/integrity.md)
   * [🗺 Logistics](elysium/network-layer/logistics.md)
   * [🟧 Routers](architecture/network/routers.md)
