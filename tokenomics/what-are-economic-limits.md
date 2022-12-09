@@ -1,4 +1,4 @@
-# 💸 What are economic limits?
+# 💸 What is a good economy?
 
 ## Store of value and economic growth
 

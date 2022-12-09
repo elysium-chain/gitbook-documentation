@@ -1,4 +1,4 @@
-# 🪙 Elysium Model
+# 🪙 Elysium SKY -> RAY Model
 
 ## FAQ
 
@@ -42,4 +42,4 @@ The initial RAY tokens must appear somehow to launch the system. Otherwise, it w
 
 SKY will be distributed among validators as a reward. Since we plan to launch a network with about a thousand initial validators, and about 15% of the total SKY supply will be distributed among them in the first year, there should be no large SKY holders.&#x20;
 
-Well, except for the Elysium Team, which needs a lot of tokens to create bridges, provide liquidity for centralized exchanges, offer grants for developers, etc. The additional reward the Team will receive as [Routers](../appendix/routers-rewards.md)' rewards through initially operating the [network layer](../message-routing/elysium-network-layer.md).
+Well, except for the Elysium Team, which needs a lot of tokens to create bridges, provide liquidity for centralized exchanges, offer grants for developers, etc. The additional reward the Team will receive as [Routers](../appendix/routers-rewards.md)' rewards through initially operating the [network layer](../message-routing/elysium-hash-ring-routing.md).
