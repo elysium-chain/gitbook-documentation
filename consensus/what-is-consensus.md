@@ -1,8 +1,4 @@
----
-description: An overview of the problem
----
-
-# 🤝 Consensus
+# 🤝 What is consensus?
 
 Peer-to-peer decentralized systems consist of standard interchangeable nodes. In areas like swarm intelligence, nodes can store different information and, as a result, exhibit pretty complex behavior.&#x20;
 

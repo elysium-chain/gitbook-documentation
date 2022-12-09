@@ -1,2 +1,2 @@
-# 🔅 Elysium network layer
+# 🔅 Elysium Network Layer
 
