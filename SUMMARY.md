@@ -15,7 +15,7 @@
 
 ## Message routing
 
-* [🗺 Broadcast vs Unicast](message-routing/broadcast-vs-unicast.md)
+* [🗺 Broadcast or Unicast?](message-routing/broadcast-or-unicast.md)
 * [🔅 Elysium Network Layer](message-routing/elysium-network-layer.md)
 
 ## Scaling
