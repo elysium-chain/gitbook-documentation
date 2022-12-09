@@ -1,30 +1,52 @@
 ---
-description: The world of light in times of darkness
+description: Building community and receiving initial funding
 ---
 
-# 🎯 Positioning
+# 📢 Outbreak Initiative
 
-Elysium is a next-generation innovative blockchain. And this is not just a marketing slogan! It's hard to tell what aspect of blockchain technology was left unchanged during the Elysium development.
+The main goal of the Outbreak Initiative is to build a community around the Elysium project, with further participation of its members in the Pioneer Program. For that purpose, many NFTs will be gifted during marketing events to attract new members. Those NFTs that will be sold will provide initial funding for the Elysium Team.
 
-You can learn more about the unique technological approaches in the relevant sections. But more important than any technical solution is the problem the computer system solves.
+## Our NFTs
 
-<figure><img src=".gitbook/assets/1500x500.jpg" alt=""><figcaption></figcaption></figure>
+<table data-card-size="large" data-view="cards"><thead><tr><th>Name</th><th>Supply</th><th>Description</th><th>Distribution</th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Access key NFT</strong></td><td><p><strong>3 000</strong> on Aptos </p><p><strong>2 500</strong> on Solana</p><p><strong>2 000</strong> on Polygon</p><p><strong>1 500</strong> on Ethereum</p></td><td>Grants access to the Pioneers Program.<br>Burns when used.<br>Could be staked before the launch of the Pioneers Program.<br>Several keys could be used on a single account giving additional boosts.<br>A special boost is given for applying 4 keys from 4 different blockchains.</td><td><p>The sales will take place sequentially. With each next sale, the price will raise.</p><p>Free mints - 7% of the supply</p><p>Private sales - 20% of the supply</p><p>Public sales - 73% of the supply</p></td><td><a href=".gitbook/assets/Elysium Access Key.png">Elysium Access Key.png</a></td></tr></tbody></table>
 
-The success of Bitcoin has been so resounding, and the capital earned by the first enthusiasts is so mind-boggling that the crypto industry has spawned a new gold rush. Today if you add the word "blockchain" to the project description, its capitalization will immediately skyrocket by several orders of magnitude. But blockchain itself is not a silver bullet - more than 500 Bitcoin clones appeared, but how often do you hear about them?
+## FAQ
 
-Satoshi Nakomoto used blockchain technology to create a decentralized bank - the most reliable version of a bank. That's why Bitcoin clones don't have a chance: why put your money in a small, unknown bank when you can keep it in the biggest and most reliable one?
+### Why should I buy you NFT?
 
-Vitalik Buterin, by combining blockchain and smart contracts, created a distributed computer that is not afraid of a nuclear war (well, it will definitely survive a couple of strikes).
+All our NFTs have utility and will be demanded during the Pioneer Program. So even if you don't want to go further with Elysium, you can always sell NFTs to Pioneer Program participants at a profit.
 
-The main criterion for the success of Bitcoin and Etherium was that they were the first to solve a particular problem, and not because they used blockchain technology. The problem simply would not be solved without it.
+The closer the launch of Elysium - the fewer NFTs distributed during the Outbreak Initiative will remain, and the more people will be eager to become one of the initial validators. In other words, over time (up to the launch of Elysium), the demand for NFTs will increase, and supply will decrease.
 
-But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is incomparable as an old reliable bank, while Etherium is a full-fledged computer. The nuance is not to confuse their functions.&#x20;
+### Why are there 9000 access keys? Isn't that too much? <a href="#2768" id="2768"></a>
 
-Ethereum is a computer, not a bank!
+Some of the keys will be lost or forgotten. Some will burn for the Pioneer Program boosts. Some holders will use their keys to access the Pioneer Program but will never participate. Some will participate only at the start. Thus, we expect only a minority of initial key owners to be persistent enough to make it to the 50th level in the Pioneer Program before the Elysium launch.
 
-And since everyone can write programs for that computer, it's no wonder it's overflowing with malware. It happens because developers can leave backdoors, which even a professional would be difficult to find. Therefore, at the level of smart contracts, there is no trust that many blockchain evangelists declare. Nowadays, the fraud level in the blockchain space is almost the same as in the medieval market. Many pickpockets are trying to steal your money, while scammers want to swindle for their own good.
+### Why do you distribute access key NFTs on four different networks? <a href="#75c1" id="75c1"></a>
 
-We see the task of Elysium not to be another decentralized bank or computer but to create a convenient and safe economic environment. Where the system will warn you if you try to send money to a smart contract that can be emptied by its owner. Where if you want to look into the logic of a smart contract, you don't have to be a developer to understand it. Where anyone, not even a programmer, may implement quite complex counterparty interactions. And where even the stolen seed phrase does not grant access to the user's funds.
+It is a tough goal to sell the collection of 9000 NFTs during the bear market. By spreading collections in different networks, we achieve multiple goals:
 
-And if Bitcoin is a solid bank and Etherium is a reliable computer, then **Elysium is a safe market**.
+* we diversify NFT holders as much as possible;
+* we limit the number of NFTs in one network, thereby creating a deficit;
+* we attract different networks apologists to our project;
+* we have a much wider choice of marketplaces and launchpads to attract the audience.
 
+### Are you selling NFTs because you need investment? <a href="#c2f5" id="c2f5"></a>
+
+Of course, we need investment! We worked for half a year on Elysium before we made it public. Until the moment when the project can pay for itself, at least a year will pass, and all this time, we need to live somehow. Money will also allow, if necessary, to carry out advertising campaigns or hire third-party specialists.
+
+But we do not want to attract venture funds, and they are unlikely to want to invest in a truly decentralized blockchain. In addition, we will not have any tokens in advance in the Elysium blockchain, so we will have nothing to share. Therefore, we will raise money mainly through the sale of NFTs.
+
+### What can you say to the multi-accounters? <a href="#2567" id="2567"></a>
+
+We accept the challenge and will try to fight them by all available methods. So, if suddenly we ask you to cook some pilaf and send us a picture of it — that’s only to make sure you are not a robot! :smile:
+
+But seriously, multi-accounts are just a great example of Sybil’s attacks. So we’ll make it impossible to automate anything for the bots in the Pioneer Program, and it will be impossible to progress manually using multiple accounts, either. Checkmate, multi-account gentlemen!
+
+### Will we become rich by participating in the Elysium project? <a href="#2f10" id="2f10"></a>
+
+There is only one way things can go according to plan. And there is an infinite number of ways to mess things up.
+
+As with any innovation at the stage of its creation, there are a lot of risks. But we have a good plan and a strong community to help us overcome difficulties.
+
+As for wealth, we should say that this project is the project of our lives for the next several years, and we will do everything for its success, which will reward every participant.
