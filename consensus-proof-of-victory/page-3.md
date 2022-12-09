@@ -80,7 +80,7 @@ In Proof of Stake algorithms (the new Ethereum consensus), the leader becomes kn
 
 A leader can take all the accumulated operations, for which he has to set the order, divide them, for example, in half (or in 3,4,5 parts) and send these different sets of operations to opposite ends of the network.
 
-Then half of the nodes will assume that there was one set of operations in that period, and the other half will think that there was another set.
+Then half of the nodes will assume that there was one set of operations in that period, and the other half will think that there was another.
 
 Thus, the same information will no longer be the same on all nodes, and the network will split into different subnets. The PoW consensus solves this problem by the rule that each new leader must choose the longest chain of blocks. But for the PoS consensus, this problem still does not have a guaranteed solution.
 
@@ -88,7 +88,7 @@ Thus, the same information will no longer be the same on all nodes, and the netw
 
 A leader may not include some transactions in the block, meaning they can be censored depending on a particular wallet or smart contract address. The easiest way to deal with this threat is to keep changing leaders.
 
-So if the current leader censors certain transactions, the next one will handle them. This solution was also found (rather intuitively) in politics, where in democracies, the leader must constantly change.
+So if the current leader censors certain transactions, the next one will handle them. This solution was also found (rather intuitively) in politics, where in democracies, leaders must constantly change.
 
 ### **Threat 4: Front-running**
 
@@ -96,9 +96,9 @@ A leader can create new operations on his behalf. For example, if he sees that s
 
 ### **Threat 5: Sybil attacks**
 
-While anyone can become a network node, and there is no cost to obtain proof of leadership, a malicious actor can create many nodes under his control, increasing his probability of becoming a leader in each round.
+While anyone can become a network node, and there is no cost to obtain proof of leadership, a malicious actor can create many nodes under his control, increasing his probability of becoming a leader in each round. And have a disproportionate amount of rewards.&#x20;
 
-And have a disproportionate amount of rewards. We are talking about Sybil attacks, the protection against which in the Elysium network we will describe closer to the launch of the network.
+The protection against Sybil attacks in the Elysium network will be described closer to the launch of the network.
 
 ## Some dummy consensuses
 

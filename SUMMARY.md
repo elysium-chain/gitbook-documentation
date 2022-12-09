@@ -17,7 +17,7 @@
   * [💰 Validators' rewards](elysium/tokenomics/validators-rewards.md)
   * [❓ FAQ](elysium/tokenomics/faq.md)
 * [🎆 Network Layer](architecture/network-layer.md)
-  * [⭕ Hash Ring](architecture/network/single-address-space.md)
+  * [❄ Hierarchial Snowflake](elysium/network-layer/hierarchial-snowflake.md)
   * [📬 Routers](architecture/network/routers.md)
   * [💻 Clients](elysium/network-layer/clients.md)
   * [❓ FAQ](elysium/network-layer/faq.md)
