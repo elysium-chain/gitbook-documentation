@@ -26,7 +26,7 @@
 ## Consensus
 
 * [🤝 What is consensus?](consensus/what-is-consensus.md)
-* [🥇 Proof of Victory](consensus/proof-of-victory.md)
+* [🥇 Elysium Proof of Victory](consensus/elysium-proof-of-victory.md)
 
 ## Smart contracts
 
