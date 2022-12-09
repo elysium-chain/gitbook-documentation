@@ -10,19 +10,19 @@
 ## Tokenomics
 
 * [💥 Economy contradiction](tokenomics/economy-contradiction.md)
-* [💸 Fees, rewards, and the real world](tokenomics/fees-rewards-and-the-real-world.md)
-* [💰 Elysium Dual-Token system](tokenomics/elysium-dual-token-system/README.md)
-  * [RAY Token](tokenomics/elysium-dual-token-system/ray-token.md)
-  * [SKY Token](tokenomics/elysium-dual-token-system/sky-token.md)
-  * [Grinder](tokenomics/elysium-dual-token-system/grinder.md)
-* [❓ FAQ](tokenomics/faq.md)
+* [💸 Fees vs Rewards](tokenomics/fees-vs-rewards.md)
+* [🪙 Elysium dual-token model](tokenomics/elysium-dual-token-model/README.md)
+  * [RAY Token](tokenomics/elysium-dual-token-model/ray-token.md)
+  * [SKY Token](tokenomics/elysium-dual-token-model/sky-token.md)
+  * [Grinder](tokenomics/elysium-dual-token-model/grinder.md)
+* [❓ FAQ](elysium/tokenomics/faq.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 
 ## Elysium
 
 * [📈 Tokenomics](elysium/tokenomics/README.md)
-  * [🪙 RAY Token](elysium/tokenomics/ray-token.md)
-  * [🎟 SKY Token](elysium/tokenomics/sky-token.md)
+  * [🪙 RAY Token](tokenomics/ray-token.md)
+  * [🎟 SKY Token](tokenomics/sky-token.md)
   * [⚙ Grinder](tokenomics/grinder.md)
   * [⛽ Transaction fees](elysium/tokenomics/transaction-fees.md)
   * [💰 Validators' rewards](elysium/tokenomics/validators-rewards.md)
