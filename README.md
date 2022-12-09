@@ -2,7 +2,7 @@
 
 Elysium is a next-generation innovative blockchain. And this is not just a marketing slogan! It's hard to tell what aspect of blockchain technology was left unchanged during the development of Elysium.
 
-You can learn more about the unique [tokenomics](tokenomics/sky-greater-than-ray-model.md), [network layer](message-routing/hash-ring-routing.md), [consensus](consensus/proof-of-victory.md), [scaling](scaling/scaling.md), [wallet](other/wallet-security.md), and [smart contracts](smart-contracts/dsl-eventure.md) in the relevant sections. But more important than any technical solution is the problem the computer system solves.
+You can learn more about the unique [tokenomics](broken-reference), [network layer](broken-reference), [consensus](broken-reference), [scaling](broken-reference), [wallet](broken-reference), and [smart contracts](broken-reference) in the relevant sections. But more important than any technical solution is the problem the computer system solves.
 
 <figure><img src=".gitbook/assets/1500x500.jpg" alt=""><figcaption></figcaption></figure>
 
