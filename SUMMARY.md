@@ -9,9 +9,8 @@
 
 ## Tokenomics
 
-* [💥 Economy contradiction](tokenomics/economy-contradiction.md)
-* [💸 Fees vs Rewards](tokenomics/fees-rewards-and-the-real-world.md)
-* [🪙 Elysium Grinder](tokenomics/elysium-grinder.md)
+* [💸 Economy contradictions](tokenomics/economy-contradictions.md)
+* [🪙 Elysium Grinder](tokenomics/elysium-tokenomics/README.md)
 * [❓ FAQ](elysium/tokenomics/faq.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 
