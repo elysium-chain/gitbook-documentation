@@ -13,7 +13,7 @@ description: The certificate for RAY minting
 | Burning    | A part of SKY used to mint RAY is burned  |
 | Utility    | SKY is used to mint RAY                   |
 
-<figure><img src="../.gitbook/assets/SKY Supply.jpg" alt=""><figcaption><p>SKY issuance / Rewards paid</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SKY Supply.jpg" alt=""><figcaption><p>SKY issuance / Rewards paid</p></figcaption></figure>
 
 #### **SKY issuance**
 

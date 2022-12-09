@@ -1,2 +1,0 @@
-# Elysium Tokenomics
-
