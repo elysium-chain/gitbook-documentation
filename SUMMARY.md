@@ -52,13 +52,19 @@
 * [🎮 Pioneers Program](participate/pioneers-program.md)
 * [🎁 Initial Validators](participate/early-validators.md)
 
+***
+
+* [📒 Appendix](appendix/README.md)
+  * [RAY Token](appendix/ray-token.md)
+  * [SKY Token](appendix/sky-token.md)
+  * [Grinder](appendix/grinder.md)
+  * [Transaction fees](appendix/transaction-fees.md)
+  * [Validators' rewards](appendix/validators-rewards.md)
+  * [Routers' rewards](appendix/routers-rewards.md)
+
 ## Links
 
 * [🔗 Website](htt://elysium-chain.com)
 * [🔗 Discord](https://discord.gg/elysiumchain)
 * [🔗 Twitter](https://twitter.com/Elysium\_Chain)
 * [🔗 Crew3](https://crew3.xyz/)
-
-## Appendix
-
-* [RAY Token](appendix/ray-token.md)
