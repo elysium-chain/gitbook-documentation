@@ -12,7 +12,7 @@ The main goal of the Outbreak Initiative is to build a community around the Elys
 
 ## FAQ
 
-### Why should I buy you NFT?
+### Why should I buy your NFT?
 
 All our NFTs have utility and will be demanded during the Pioneer Program. So even if you don't want to go further with Elysium, you can always sell NFTs to Pioneer Program participants at a profit.
 
@@ -20,11 +20,11 @@ The closer the launch of Elysium - the fewer NFTs distributed during the Outbrea
 
 ### Why are there 9000 access keys? Isn't that too much? <a href="#2768" id="2768"></a>
 
-Some of the keys will be lost or forgotten. Some will burn for the Pioneer Program boosts. Some holders will use their keys to access the Pioneer Program but will never participate. Some will participate only at the start. Thus, we expect only a minority of initial key owners to be persistent enough to make it to the 50th level in the Pioneer Program before the Elysium launch.
+Some of the keys will be lost or forgotten. Some will burn for the Pioneer Program boosts. Some holders will use their keys to access the Pioneer Program but will never participate. Some will participate only at the start. Thus, we expect only a minority of initial key owners to be persistent enough to finish the Pioneer Program before the Elysium launch.
 
 ### Why do you distribute access key NFTs on four different networks? <a href="#75c1" id="75c1"></a>
 
-It is a tough goal to sell the collection of 9000 NFTs during the bear market. By spreading collections in different networks, we achieve multiple goals:
+By spreading collections in different networks, we achieve multiple goals:
 
 * we diversify NFT holders as much as possible;
 * we limit the number of NFTs in one network, thereby creating a deficit;
