@@ -1,7 +1,5 @@
 ---
 description: The world of light in times of darkness
-cover: .gitbook/assets/1500x500.jpg
-coverY: 0
 ---
 
 # 🎯 Positioning
