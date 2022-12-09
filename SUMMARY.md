@@ -13,10 +13,10 @@
 * [🪙 Elysium dual-token model](tokenomics/elysium-tokenomics/README.md)
 * [🔗 Simulation](https://tokenomics.elysium-chain.com/)
 
-## Network layer
+## Message routing
 
-* [🗺 Effective routes](network-layer/effective-routes.md)
-* [🔅 Elysium routing network](network-layer/elysium-routing-network.md)
+* [🗺 Broadcast vs Unicast](message-routing/broadcast-vs-unicast.md)
+* [🔅 Elysium network layer](message-routing/elysium-network-layer.md)
 
 ## Elysium
 
