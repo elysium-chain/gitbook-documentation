@@ -1,8 +1,8 @@
 # Table of contents
 
-## Join
+## Introduction
 
-* [📢 Outbreak Initiative](README.md)
+* [🎯 Positioning](README.md)
 
 ## Links
 
