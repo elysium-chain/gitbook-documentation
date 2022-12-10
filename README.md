@@ -12,9 +12,9 @@ Satoshi Nakomoto used blockchain technology to create a decentralized bank - the
 
 Vitalik Buterin, by combining blockchain and smart contracts, created a distributed computer that is not afraid of a nuclear war (well, it will definitely survive a couple of strikes).
 
-The main criterion for the success of Bitcoin and Etherium was that they were the first to solve a particular problem, and not because they used blockchain technology. The problem simply would not be solved without it.
+The main criterion for the success of Bitcoin and Ethereum was that they were the first to solve a particular problem, and not because they used blockchain technology. The problem simply would not be solved without it.
 
-But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is incomparable as an old reliable bank, while Etherium is a full-fledged computer. The nuance is not to confuse their functions.&#x20;
+But because of the use of the same technology, there is quite a lot of confusion about positioning. Bitcoin is incomparable as an old reliable bank, while Ethereum is a full-fledged computer. The nuance is not to confuse their functions.&#x20;
 
 Ethereum is a computer, not a bank!
 
@@ -22,4 +22,4 @@ And since everyone can write programs for that computer, it's no wonder it's ove
 
 We see the task of Elysium not to be another decentralized bank or computer but to create a convenient and safe economic environment. Where the system will warn you if you try to send money to a smart contract that can be emptied by its owner. Where if you want to look into the logic of a smart contract, you don't have to be a developer to understand it. Where anyone, not even a programmer, may implement quite complex counterparty interactions. And where even the stolen seed phrase does not grant access to the user's funds.
 
-And if Bitcoin is a solid bank and Etherium is a reliable computer, then **Elysium is a safe market**.
+And if Bitcoin is a solid bank and Ethereum is a reliable computer, then **Elysium is a safe market**.
