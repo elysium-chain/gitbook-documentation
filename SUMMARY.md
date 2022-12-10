@@ -1,6 +1,6 @@
 # Table of contents
 
-## Participate
+## Join
 
 * [📢 Outbreak Initiative](README.md)
 
