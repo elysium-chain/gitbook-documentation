@@ -3,6 +3,7 @@
 ## Introduction
 
 * [🎯 Positioning](README.md)
+* [💸 Funding](introduction/funding.md)
 
 ## Links
 
