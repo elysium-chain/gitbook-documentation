@@ -5,6 +5,10 @@
 * [🎯 Positioning](README.md)
 * [💸 Funding](introduction/funding.md)
 
+***
+
+* [⏳ Changelog (13.12.2022)](changelog-13.12.2022.md)
+
 ## Links
 
 * [🔗 Website](htt://elysium-chain.com)
