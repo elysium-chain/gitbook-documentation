@@ -8,7 +8,7 @@
 
 ***
 
-* [⏳ Changelog (15.12.2022)](changelog-15.12.2022.md)
+* [⏳ Changelog (15 Dec 2022)](changelog-15-dec-2022.md)
 
 ## Links
 
