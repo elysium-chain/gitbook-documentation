@@ -4,6 +4,7 @@
 
 * [📌 Positioning](README.md)
 * [💸 Funding](introduction/funding.md)
+* [⚡ Team](introduction/team.md)
 
 ***
 
