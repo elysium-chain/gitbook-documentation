@@ -9,13 +9,13 @@ description: The journey to the Moon and beyond
 * [x] Birth of the [Elysium Discord Community](https://discord.gg/elysiumchain)
 * [x] Launch of the [Elysium website](https://elysium-chain.com/)
 
-#### November 2023
+#### November 2022
 
 * [x] Elaboration of the Tokenomics design details
 * [x] Elaboration of the Consensus design details
 * [x] Development of the [Tokenomics simulation](https://tokenomics.elysium-chain.com)
 
-#### December 2023
+#### December 2022
 
 * [x] Publication of the [Introduction ](broken-reference)section of the documentation
 * [x] Elaboration of the Message Routing design details
