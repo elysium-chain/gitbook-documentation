@@ -2,14 +2,15 @@
 
 ## Introduction
 
-* [📌 Positioning](README.md)
+* [🌟 Features](README.md)
+* [📌 Positioning](<README (1).md>)
 * [💸 Funding](introduction/funding.md)
 * [⚡ Team](introduction/team.md)
 * [📍 Roadmap](introduction/roadmap.md)
 
 ***
 
-* [⏳ Changelog (21 Dec 2022)](changelog-21-dec-2022.md)
+* [⏳ Changelog (26 Dec 2022)](changelog-26-dec-2022.md)
 
 ## Links
 
