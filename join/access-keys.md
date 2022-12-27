@@ -76,7 +76,7 @@ Thus, the number of keys will only decrease over time, and the demand for them w
 
 Moreover, the Team will buy back those NFTs that are sold on the secondary market below the private sale price and burn them.
 
-### Why are there 9000 access keys? Is not that too much? <a href="#2768" id="2768"></a>
+### Why are there 9000 access keys? Isn't that too much? <a href="#2768" id="2768"></a>
 
 Some of the keys will be lost or forgotten. Some will burn to improve spaceships. Some holders will use their keys to get access to the race but will never participate. Some will participate only at the start. Some keys will never be minted. Some will be bought back by the Team and burned.
 

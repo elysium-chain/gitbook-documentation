@@ -38,23 +38,19 @@ description: The journey to the Moon and beyond
   \- Consensus\
   \- Smart Contracts\
   \- Wallet
-* [ ] Distribution of 9000 Access Key NFTs \
+* [ ] Distribution of 9000 Access Key NFTs starts\
   \- 7500 via private sale\
   \- 1500 free as a reward from the Team
 
 #### Q3-Q4 2023
 
-* [ ] Distribution of 9000 Access Key NFTs \
-  \- 7500 via private sale\
-  \- 1500 free as a reward from the Team
+* [ ] Distribution of 9000 Access Key NFTs continues
 * [ ] Start of Pioneers Program
 * [ ] Development of the Elysium blockchain
 
 #### Q2 - Q3 2024
 
-* [ ] Distribution of 9000 Access Key NFTs \
-  \- 7500 via private sale\
-  \- 1500 free as a reward from the Team
+* [ ] Distribution of 9000 Access Key NFTs ends
 * [ ] Development of the Elysium blockchain
 * [ ] Launch of TestNet
 

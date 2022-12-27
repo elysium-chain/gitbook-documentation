@@ -21,7 +21,7 @@ The main task of the pilot is to determine the hourly consumption of Energons. Y
 
 The _**Engine Efficiency**_ parameter determines how productively the Energons are used. The higher the parameter, the fewer Energons are needed to maintain the same speed, or the faster the ship will fly with the same consumption of Energons.
 
-The _**Inertia Retention**_ parameter affects how fast your spaceship will lose its artificial inertia. The higher the parameter is, the slower your ship will slow down and, therefore, the longer it will fly without using Energons. If the parameter is "0", the spaceship still will not stop immediately and will continue to fly with the inertia for 25 hours until it completely loses it.
+The _**Inertia Retention**_ parameter affects how fast your spaceship will lose its artificial inertia. The higher the parameter is, the slower your ship will slow down and, therefore, the longer it will fly without using Energons. If the parameter is "0", the spaceship still won't stop immediately and will continue to fly with the inertia for 25 hours until it completely loses it.
 
 Both parameters of the ship can be improved temporarily with the in-game boosters or permanently with additional keys burning.
 
@@ -47,7 +47,7 @@ Therefore, the relationship of Astonite -> Cosmogrinder -> Energon fully corresp
 
 #### Astonite Mining
 
-A unique mineral called Astonite is needed to obtain Energons. You can receive it during daily minigame tournaments. Unfortunately, the further you fly away from Earth, the less Astonite you will find since its total quantity in the universe is limited - and the maximum local concentration of Astonite is in our corner of the galaxy.
+A unique mineral called Astonite is needed to obtain Energons. You can receive it during daily minigame tournaments. Unfortunately, the further you fly away from Earth, the less Astonite you'll find since its total quantity in the universe is limited - and the maximum local concentration of Astonite is in our corner of the galaxy.
 
 Astonite can be obtained in daily tournaments on the game "Astonite Mining." The event is held simultaneously for all participants. Astonite is distributed according to the tournament score. The tournament launch time will be shifted each day by one hour so that all pioneers will be in identical conditions.
 
