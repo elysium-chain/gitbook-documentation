@@ -8,15 +8,15 @@
 * [⚡ Team](introduction/team.md)
 * [📍 Roadmap](introduction/roadmap.md)
 
-***
-
-* [⏳ Changelog (28 Dec 2022)](changelog-28-dec-2022.md)
-
 ## Join
 
 * [🏁 Pioneers Program](join/pioneers-program.md)
 * [🔑 Access Keys](join/access-keys.md)
 * [🚀 Spaceship](join/spaceship.md)
+
+***
+
+* [⏳ Changelog (28 Dec 2022)](changelog-28-dec-2022.md)
 
 ## Links
 
