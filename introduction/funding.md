@@ -2,7 +2,7 @@
 
 In today's world, many new blockchains are emerging. The community perceives them as an easy way to make money on investments. The significant factors for investment decisions are: what VCs take part in the project, what services will switch to this blockchain, how much marketing money is in the budget, and so on.&#x20;
 
-All of these factors apply only to centralized projects, where the major investors fully control not only the development of the project but also the distribution of profits. And in the blockchain area, it wasn't always like that.
+All of these factors apply only to centralized projects, where the major investors fully control not only the development of the project but also the distribution of profits. And in the blockchain area, it was not always like that.
 
 The advantages of distributed systems have been evident to the public since the success of Napster in 1999. However, people were not eager to run node programs to support them because it required keeping a home computer turned on 24/7. That is why Bitcoin originated primarily as a decentralized system with incentives for participants.&#x20;
 
@@ -30,6 +30,9 @@ This approach makes it possible to:
 * launch Elysium decentralized as much as possible.
 
 Therefore, we are building a strong community of enthusiasts simultaneously with blockchain development. And if you want to be one of the initial validators - you are welcome!
+
+|   |
+| - |
 
 ## FAQ
 

@@ -37,7 +37,11 @@ Thus, the earlier you will burn the key, the farther from the Earth you will be 
 
 By burning additional keys, you can improve the ship's parameters at any moment - during the prelaunch stage and after the race has already started. The parameters of the keys are added to the ship's parameters.
 
+<figure><img src="../.gitbook/assets/Spaceship Upgrade.webp" alt=""><figcaption></figcaption></figure>
+
 There is a special bonus for burning 4 different types of keys (A, B, C, D) to improve one ship. When a spaceship is upgraded with all four types of keys, 20 points will be added to both parameters.
+
+<figure><img src="../.gitbook/assets/Prelaunch Special Offer.webp" alt=""><figcaption></figcaption></figure>
 
 ## The Economy of The Flight
 

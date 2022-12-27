@@ -1,10 +1,13 @@
 # ⚡ Team
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>HeapVoid</strong></td><td><em>Chief Developer</em></td><td>More than 30 years of coding experience. Loves to make mental models on any occasion. Needs constructive criticism to move forward. Likes fiction books.</td><td><a href="../.gitbook/assets/HeapVoid.jpg">HeapVoid.jpg</a></td></tr><tr><td><strong>0p0int</strong></td><td><em>Frontend Developer</em></td><td>Designer with front-end coding skills. More than 20 years of experience. Doesn't like to chat. Pays full attention to details. Listens to music while working.</td><td><a href="../.gitbook/assets/0p0int.png">0p0int.png</a></td></tr><tr><td>Futurum</td><td><em>Community Manager</em> </td><td>Manages communities since Discord was invented. Claims that he is a bot from the North Pole. Likes memes, and good jokes. The only unmarried team member.</td><td><a href="../.gitbook/assets/Futurum.png">Futurum.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>HeapVoid</strong></td><td><em>Chief Developer</em></td><td>More than 30 years of coding experience. Loves to make mental models on any occasion. Needs constructive criticism to move forward. Likes fiction books.</td><td><a href="../.gitbook/assets/HeapVoid.jpg">HeapVoid.jpg</a></td></tr><tr><td><strong>0p0int</strong></td><td><em>Frontend Developer</em></td><td>Designer with front-end coding skills. More than 20 years of experience. Does not like to chat. Pays full attention to details. Listens to music while working.</td><td><a href="../.gitbook/assets/0p0int.png">0p0int.png</a></td></tr><tr><td>Futurum</td><td><em>Community Manager</em> </td><td>Manages communities since Discord was invented. Claims that he is a bot from the North Pole. Likes memes, and good jokes. The only unmarried team member.</td><td><a href="../.gitbook/assets/Futurum.png">Futurum.png</a></td></tr></tbody></table>
 
 We have been developing complex applications together for a long time. At the same time, we have been interested in cryptocurrencies. From time to time we shared opinions about new projects and usually, it resulted in a statement like: "Why have they implemented this functionality so stupidly?". And usually, after that, we started to discuss how to do it the right way.
 
 At some moment, such insights accumulated enough for one of us to exclaim: "If you want to do something well - do it yourself." We fell silent and began to look at each other in surprise. Then we worked almost around the clock for six months to polish the logic. And when there were no internal contradictions left, we decided to make the Elysium project public.
+
+|   |
+| - |
 
 ## FAQ
 
@@ -12,7 +15,7 @@ At some moment, such insights accumulated enough for one of us to exclaim: "If y
 
 Well, we certainly do not create a new blockchain every Tuesday. Frankly, this is the first blockchain we are developing.
 
-But we have rich experience creating vastly different software, and we don't see anything super complicated in the blockchain node code. It's just an ordinary program. The complexity lies in the interaction logic of various nodes but not in the code itself. And we have already thought it through.
+But we have rich experience creating vastly different software, and we do not see anything super complicated in the blockchain node code. It is just an ordinary program. The complexity lies in the interaction logic of various nodes but not in the code itself. And we have already thought it through.
 
 But if we lack some competencies, we hope to attract developers from our community. In general, if you like our ideas and want to live in a world where Elysium exists, feel free to contact us, and we will figure out how you can help the project, even if you are not a developer.
 
