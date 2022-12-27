@@ -4,7 +4,7 @@ description: Elysium is made of innovations
 
 # 🌟 Features
 
-The logic of Elyzium grew from a single Big Idea, which is still early to unveil. It is amazing how the architecture of the blockchain self-assembled around it, as if the puzzle pieces fell into place. The result is a next-generation blockchain project that solves almost all existing problems and stands out among other networks with a set of unique features, any one of which would be sufficient for success on its own.
+The logic of Elysium grew from a single Big Idea, which is still early to unveil. It is amazing how the architecture of the blockchain self-assembled around it, as if the puzzle pieces fell into place. The result is a next-generation blockchain project that solves almost all existing problems and stands out among other networks with a set of unique features, any one of which would be sufficient for success on its own.
 
 ## Real Decentralization
 
@@ -12,7 +12,7 @@ The cryptocurrency industry is increasingly shifting towards centralization. But
 
 In one of his talks, Nassim Taleb gave an example that people can vary from each other in weight by 5, well by 10 times at max. But in the size of their fortunes, they can differ a billion times. How can a decentralized system be created where one vote weighs billions of times more than the overwhelming majority of others?
 
-The unique consensus of Elyzium - Proof of Victory - provides real, rather than declarative decentralization, as anyone can participate in it, and the weight of the vote does not depend on the size of the owned capital.
+The unique consensus of Elysium - Proof of Victory - provides real, rather than declarative decentralization, as anyone can participate in it, and the weight of the vote does not depend on the size of the owned capital.
 
 ## True Scalability <a href="#4dc9" id="4dc9"></a>
 
@@ -49,7 +49,7 @@ Elysium's duonomics solves these problems and also achieves other goals:
 
 Smart contracts were developed as full-fledged programs. But they are not. If you've ever touched the subject of writing smart contracts, you know that a smart contract doesn't run like an ordinary computer program - it doesn't execute entirely from start to finish. The smart contract code in current implementations is more like a library of functions that are called to handle different events.&#x20;
 
-The logic of working with smart contracts in Elyzium will be built around events handling, allowing writing such handlers in a language close to natural:
+The logic of working with smart contracts in Elysium will be built around events handling, allowing writing such handlers in a language close to natural:
 
 ```
 When contract state becomes "Fulfilled"
@@ -63,7 +63,7 @@ In the future, this approach will make it possible to build a visual editor to c
 
 ## Uncompromising Safety
 
-The security of the Elysium wallet will be ensured not only by trivial encryption of the seed phrase when it is stored, as it is currently done by most wallets like MetaMask. In addition to the seed phrase, the user in the Elyzium network will also have a seed password that will be optionally needed to confirm the use of a new wallet installation. Seed password will be required on a mandatory basis in two cases: when installing the wallet for the very first time and if you lose access to all your authorized devices.
+The security of the Elysium wallet will be ensured not only by trivial encryption of the seed phrase when it is stored, as it is currently done by most wallets like MetaMask. In addition to the seed phrase, the user in the Elysium network will also have a seed password that will be optionally needed to confirm the use of a new wallet installation. Seed password will be required on a mandatory basis in two cases: when installing the wallet for the very first time and if you lose access to all your authorized devices.
 
 When installing the wallet program on a new operating system or device, the blockchain at the system level will require confirmation that this installed program is allowed to dispose of funds. It can be confirmed either by the seed password or by using a wallet on an already authorized device. That way, if an attacker steals your seed phrase, he still can't transfer your funds without knowing your seed password or having access to your device.
 
