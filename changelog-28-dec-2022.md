@@ -1,4 +1,12 @@
-# ⏳ Changelog (26 Dec 2022)
+# ⏳ Changelog (28 Dec 2022)
+
+28.12.2022 - [Roadmap](introduction/roadmap.md) changed
+
+28.12.2022 - [Spaceship](join/spaceship.md) added
+
+28.12.2022 - [Access Keys](join/access-keys.md) added
+
+28.12.2022 - [Pioneers Program](join/pioneers-program.md) added
 
 26.12.2022 - [Features](./) added
 
@@ -8,7 +16,7 @@
 
 15.12.2022 - [Team ](introduction/team.md)added
 
-13.12.2022 - [Changelog](changelog-26-dec-2022.md) added
+13.12.2022 - [Changelog](changelog-28-dec-2022.md) added
 
 13.12.2022 - [Funding ](introduction/funding.md)added
 

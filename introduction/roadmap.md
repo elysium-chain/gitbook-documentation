@@ -19,13 +19,14 @@ description: The journey to the Moon and beyond
 
 * [x] Publication of the [Introduction ](broken-reference)section of the documentation
 * [x] Elaboration of the Message Routing design details
-* [ ] Elaboration of the Pioneers Program mechanics
+* [x] Elaboration of the Pioneers Program mechanics
+* [x] Publication of the [Pioneers Program](broken-reference) section of the documentation
 
 #### January 2023
 
-* [ ] Publication of the Pioneers Program section of the documentation
 * [ ] Launch of the Pioneers Program promo website
 * [ ] Network selection for the Pioneers Program
+* [ ] Development of the smart contracts for NFTs
 
 #### Q1 - Q2 2023
 
@@ -43,12 +44,17 @@ description: The journey to the Moon and beyond
 
 #### Q3-Q4 2023
 
-* [ ] Public sale of the Access Key NFTs that were not distributed previously
+* [ ] Distribution of 9000 Access Key NFTs \
+  \- 7500 via private sale\
+  \- 1500 free as a reward from the Team
 * [ ] Start of Pioneers Program
 * [ ] Development of the Elysium blockchain
 
 #### Q2 - Q3 2024
 
+* [ ] Distribution of 9000 Access Key NFTs \
+  \- 7500 via private sale\
+  \- 1500 free as a reward from the Team
 * [ ] Development of the Elysium blockchain
 * [ ] Launch of TestNet
 

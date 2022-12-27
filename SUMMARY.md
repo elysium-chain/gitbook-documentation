@@ -10,7 +10,13 @@
 
 ***
 
-* [⏳ Changelog (26 Dec 2022)](changelog-26-dec-2022.md)
+* [⏳ Changelog (28 Dec 2022)](changelog-28-dec-2022.md)
+
+## Join
+
+* [🏁 Pioneers Program](join/pioneers-program.md)
+* [🔑 Access Keys](join/access-keys.md)
+* [🚀 Spaceship](join/spaceship.md)
 
 ## Links
 
