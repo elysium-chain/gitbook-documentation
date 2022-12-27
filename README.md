@@ -26,7 +26,7 @@ Each token in Elysium will be accounted for in its own independent blockchain, a
 
 When people talk about blockchain speed, they often mean how quickly transactions go through, which depends primarily on finalization time. That is, how long to wait before you can be sure that the transaction will not be canceled. And there is only one condition for fast finalization - all validators need to know which of them should become the next leader and produce a new block.
 
-In Proof of Work, there is no finalization in principle - you can never be sure that a longer chain of Bitcoin blocks will not suddenly appear out of nowhere with a completely different transaction history. Of course, the probability that aliens will arrive with overwhelming superiority in computing power or that a genius somewhere in the basement is about to finish building a quantum supercomputer is not so great. But it's not zero!
+In Proof of Work, there is no finalization in principle - you can never be sure that a longer chain of Bitcoin blocks will not suddenly appear out of nowhere with a completely different transaction history. Of course, the probability that aliens will arrive with overwhelming superiority in computing power or that a genius somewhere in the basement is about to finish building a quantum supercomputer is not so great. But it is not zero!
 
 Proof of Stake consensus, on the other hand, is much better in this regard - it implies the leader's random selection in advance, depending on the size of the stakes provided by the validators. All validators immediately know who will make the next block, and the transaction speed in such networks seems almost instantaneous. But getting true randomness in fully deterministic computer systems is impossible. So a whole class of attacks on this consensus emerged, and some are impossible to defend.
 
@@ -47,7 +47,7 @@ Elysium's duonomics solves these problems and also achieves other goals:
 
 ## Natural language smart contracts
 
-Smart contracts were developed as full-fledged programs. But they are not. If you've ever touched the subject of writing smart contracts, you know that a smart contract doesn't run like an ordinary computer program - it doesn't execute entirely from start to finish. The smart contract code in current implementations is more like a library of functions that are called to handle different events.&#x20;
+Smart contracts were developed as full-fledged programs. But they are not. If you have ever touched the subject of writing smart contracts, you know that a smart contract does not run like an ordinary computer program - it does not execute entirely from start to finish. The smart contract code in current implementations is more like a library of functions that are called to handle different events.&#x20;
 
 The logic of working with smart contracts in Elysium will be built around events handling, allowing writing such handlers in a language close to natural:
 
@@ -65,7 +65,7 @@ In the future, this approach will make it possible to build a visual editor to c
 
 The security of the Elysium wallet will be ensured not only by trivial encryption of the seed phrase when it is stored, as it is currently done by most wallets like MetaMask. In addition to the seed phrase, the user in the Elysium network will also have a seed password that will be optionally needed to confirm the use of a new wallet installation. Seed password will be required on a mandatory basis in two cases: when installing the wallet for the very first time and if you lose access to all your authorized devices.
 
-When installing the wallet program on a new operating system or device, the blockchain at the system level will require confirmation that this installed program is allowed to dispose of funds. It can be confirmed either by the seed password or by using a wallet on an already authorized device. That way, if an attacker steals your seed phrase, he still can't transfer your funds without knowing your seed password or having access to your device.
+When installing the wallet program on a new operating system or device, the blockchain at the system level will require confirmation that this installed program is allowed to dispose of funds. It can be confirmed either by the seed password or by using a wallet on an already authorized device. That way, if an attacker steals your seed phrase, he still can not transfer your funds without knowing your seed password or having access to your device.
 
 Elysium smart contracts will be significantly simplified compared to full-fledged Turing-complete programming languages, so the most likely ways of fraud can be automatically detected at the system level. This way, you will always be able to see the security level icon of the smart contract and, in addition, read and understand its logic on your own, even if you are not a programmer.
 

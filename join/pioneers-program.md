@@ -12,9 +12,9 @@ Thus, for mining to remain profitable, it is necessary to limit the possibility 
 
 ### Initial Validators
 
-In Elysium, the issuance is more like PoW - you don't need anything besides a network node to earn. But there is a restriction on who is eligible. We call this barrier for new validators in Elysium "Sybil wall."
+In Elysium, the issuance is more like PoW - you do not need anything besides a network node to earn. But there is a restriction on who is eligible. We call this barrier for new validators in Elysium "Sybil wall."
 
-This wall is not built directly into the consensus - it bases upon data stored inside the blockchain, but it's not the number of staked tokens as in PoS. It's not about tokens at all, so we can't just send that data into our wallet as PoS blockchain developers do.
+This wall is not built directly into the consensus - it bases upon data stored inside the blockchain, but it is not the number of staked tokens as in PoS. It is not about tokens at all, so we cannot just send that data into our wallet as PoS blockchain developers do.
 
 There is a problem with the chicken and the egg because of the wall and consensus separation. The network requires validators that have gained access through the barrier to function. However, for validators to exist, there must be a functioning wall and a mechanism to overcome it.
 
@@ -26,7 +26,7 @@ The Pioneers Program is the original Sibyl wall replacement. Its concept is to c
 
 The output of the Program will be a single queue of initial Elysium validators. They will join the network gradually, one by one. Since the primary store of value - the SKY token - has a decreasing issue over time, the place in the Pioneer Program will significantly affect how many SKY tokens a participant can mine. The higher the position in the Pioneer Program - the earlier you become a validator - the more tokens you will obtain.
 
-At Elysium, at least 10% of all SKY tokens will be distributed among the initial validators during the first year alone. In other words, you can get a noticeable share of the unique blockchain's capitalization. It's worth noting that passing the wall in an already-running Elysium blockchain will be more complicated than becoming an initial validator through the Pioneer Program.&#x20;
+At Elysium, at least 10% of all SKY tokens will be distributed among the initial validators during the first year alone. In other words, you can get a noticeable share of the unique blockchain's capitalization. It is worth noting that passing the wall in an already-running Elysium blockchain will be more complicated than becoming an initial validator through the Pioneer Program.&#x20;
 
 Bring tangible value to the project and bypass the entire Program absolutely free!&#x20;
 
@@ -69,7 +69,7 @@ Until the race starts, there are many things you can do to improve your future s
 
 ### How many participants will there be in the race?
 
-We don't know exactly. There will be 9000 access keys, each allowing participation in the race. But because anyone can burn additional keys to improve the spaceship, there will be considerably fewer than 9000 pioneers to actually take part in the race.
+We do not know exactly. There will be 9000 access keys, each allowing participation in the race. But because anyone can burn additional keys to improve the spaceship, there will be considerably fewer than 9000 pioneers to actually take part in the race.
 
 ### Will all Pioneer Program participants become validators?
 
@@ -77,7 +77,7 @@ No. The main goal of the Pioneer Program is to fight multi-accounts, so to becom
 
 After the first pioneer finishes, a certain amount of time will be given to finish the race. Exactly how much time that will be is unknown at the moment - it could be a week or a couple of months.&#x20;
 
-So you'd better not fall too far behind!
+So you should better not fall too far behind!
 
 ### What mechanics will interfere with multi-accountants?
 
@@ -95,13 +95,13 @@ We could use help in many areas to speed things up: writing texts, 3D modeling, 
 
 ### Why will it be harder to become a validator at Elysium?
 
-It's all about competition. Currently, not many people know about the project, and Elysium has not yet been launched.&#x20;
+It is all about competition. Currently, not many people know about the project, and Elysium has not yet been launched.&#x20;
 
 However, as the blockchain becomes operational and the initial validators demonstrate success, more people will be interested in becoming validators.&#x20;
 
 While we cannot yet disclose the details of how to infiltrate the original barrier in Elysium and become a validator, it is worth noting that monetary investments, unlike the Pioneer Program, will not help it much.
 
-### If I don't want to be a validator, can I earn with the Pioneer Program?
+### If I do not want to be a validator, can I earn with the Pioneer Program?
 
 Yes. We are developing the profitability mechanics for participants with a short planning horizon in mind.&#x20;
 
@@ -123,7 +123,7 @@ We will find it during the Testnet phase. But our PoV consensus is light and doe
 
 ### Do I need to run my computer 24 hours a day?
 
-It's on you. But while your node is offline it won't be mining SKY.&#x20;
+It is on you. But while your node is offline it will not be mining SKY.&#x20;
 
 ### Can I run the node program on the server?
 
@@ -131,4 +131,4 @@ Yes. We will make a special server edition of the validator node that could be i
 
 ### Do I need to invest something as an initial validator?
 
-No. The only cost for you to be a validator could be renting a Linux VPS (\~$10 per month) if you don't want to use your home desktop computer. When you become a validator it's time to gain capital, not invest.
+No. The only cost for you to be a validator could be renting a Linux VPS (\~$10 per month) if you do not want to use your home desktop computer. When you become a validator it is time to gain capital, not invest.
