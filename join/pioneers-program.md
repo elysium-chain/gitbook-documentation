@@ -6,7 +6,7 @@ description: Elysium protection against multi-accounts
 
 What could be more pleasant and profitable than the price growth of the owned tokens? There can be only one answer - getting even more of those tokens for free! When the Bitcoin network first launched, this was the case. Back then, there was not much competition because most people did not know about cryptocurrencies, and those who were aware did not think Bitcoin would be so successful.
 
-However, now it is impossible to earn a lot by mining Bitcoin without significant investments in computational power. Too many people want to repeat the success of the first miners. As mining becomes more profitable, more people start doing it, which, in turn, reduces its profitability.
+However, now it is impossible to earn a lot by Bitcoin mining without significant investments in computational power. Too many people want to repeat the success of the first miners. As mining becomes more profitable, more people start doing it, which, in turn, reduces its profitability.
 
 Thus, for mining to remain profitable, it is necessary to limit the possibility to join for new participants. But who exactly can participate in the issuance, and who cannot? That is the goal of the Pioneers Program - to allocate a pool of future validators who can peacefully mine in the Elysium network for at least a year. This approach is not dictated by marketing or funding goals but by the technical architecture of Elysium itself.
 
@@ -22,7 +22,7 @@ The only way to solve this contradiction is to make sure that at the moment of t
 
 ### Pioneers Program
 
-The Pioneers Program is the original Sibyl wall replacement. Its concept is to create a single queue through which participants can progress with limited resources. This approach creates economic motivation to concentrate resources on advancing a single account to the top of the leaderboard in the Pioneers Program rather than dividing resources among multiple accounts, which would end up at the bottom of the list.
+The Pioneers Program is the original Sibyl wall replacement. Its concept is to create a single queue through which participants can progress with limited resources. This approach creates economic motivation to concentrate resources on advancing a single account to the top of the leaderboard rather than dividing resources among multiple accounts, which would end up at the bottom of the list.
 
 The output of the Program will be a single queue of initial Elysium validators. They will join the network gradually, one by one. Since the primary store of value - the SKY token - has a decreasing issue over time, the place in the Pioneer Program will significantly affect how many SKY tokens a participant can mine. The higher the position in the Pioneer Program - the earlier you become a validator - the more tokens you will obtain.
 
@@ -81,7 +81,7 @@ So you should better not fall too far behind!
 
 ### What mechanics will interfere with multi-accountants?
 
-The crucial part of the Pioneers Program will be daily tournaments (lasting for approximately 5 minutes) on the "Astonite Mining" mini-game, which pioneers will be playing simultaneously.
+The crucial part of the Pioneers Program will be daily tournaments (lasting for approximately 5 minutes) on the "Astonite Mining" minigame, which pioneers will be playing simultaneously.
 
 Astonite needed to get the fuel for Spaceships will be distributed through these tournaments.
 
@@ -103,9 +103,9 @@ While we cannot yet disclose the details of how to infiltrate the original barri
 
 ### If I do not want to be a validator, can I earn with the Pioneer Program?
 
-Yes. We are developing the profitability mechanics for participants with a short planning horizon in mind.&#x20;
+Yes. We are developing the profitability mechanics also with participants with a short planning horizon in mind.&#x20;
 
-During the pre-launch phase, you can do quests in Crew3 and reach certain levels to buy 4 different keys at a private sale. And then sell them to future participants - the Elysium Team will do their best not to hold a public sale. This means one can buy an access key without hassle only on the secondary market.
+During the pre-launch phase, you can do quests in Crew3 and reach certain levels to buy 4 different keys at a private sale. And then sell them to future participants - the Elysium Team will not hold a public sale. This means one can buy an access key without hassle only on the secondary market.
 
 After the race begins, the primary asset that can be profitably resold will be Astonite (ERC-20 token). Therefore, obtaining Astonite and selling it to those who want to catch up with other participants or reach the top of the race leaderboard can be a lucrative strategy.
 
@@ -115,7 +115,7 @@ There is only one way things can go according to plan. And there is an infinite 
 
 As with any innovation at the stage of its creation, there are a lot of risks. But we have a good plan and a cohesive community to help us overcome difficulties. But more important is that we have no backup plan - Elysium is the project of our lives for the next several years, and we will do everything for its success.
 
-If everything goes according to plan, the capitalization of Elysium can reach 40b in a few years. That was the capitalization of the second-echelon networks at the peak of the previous bull run. 10% of this capitalization, distributed among the initial validators, will be 4b.&#x20;
+If development goes according to plan, the capitalization of Elysium can reach 40b in a few years. That was the capitalization of the second-echelon networks at the peak of the previous bull run. 10% of this capitalization, distributed among the initial validators, will be 4b.&#x20;
 
 ### What type of computer do I need to be a validator?
 

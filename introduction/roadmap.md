@@ -50,11 +50,12 @@ description: The journey to the Moon and beyond
 
 #### Q2 - Q3 2024
 
-* [ ] Distribution of 9000 Access Key NFTs ends
+* [ ] Distribution of 9000 Access Key NFTs continues
 * [ ] Development of the Elysium blockchain
 * [ ] Launch of TestNet
 
 #### Q4 2024
 
+* [ ] Distribution of 9000 Access Key NFTs ends
 * [ ] Launch of MainNet
 * [ ] End of Pioneers Program

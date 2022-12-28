@@ -1,3 +1,7 @@
+---
+description: Pioneers Program is a closed event that needs a key to join
+---
+
 # 🔑 Access Keys
 
 ## NFTs Specification
@@ -14,7 +18,7 @@
 
 ## Extended Private Sale
 
-The extended private sale allows those who have WL of a particular type to mint an Access Key of the same type at a fixed price. The WL-based minting will continue till the first pioneer finishes the race.&#x20;
+The extended private sale allows those who have WL of a particular type to mint an Access Key of the same type at a fixed price. The WL-based minting will continue till the first pioneer finishes the race (just before the launch of the Elysium MainNet).&#x20;
 
 Participants must reach a certain level in Crew3 by completing quests to obtain a WL and to be able to mint the keys.&#x20;
 
@@ -62,7 +66,7 @@ Also, it allows the Team to keep the price above the private sale prices by buyi
 
 We will not hold a public sale.&#x20;
 
-The concept of the short-time public sales when NFTs are sold out in minutes is the concept of the bull run. On the weak bear market, we do not want to compete with those who have bought NFTs on private sale and want to earn some money by reselling them on the secondary market.
+The concept of the short-time public sales when NFTs are sold out in minutes is the concept of the bull run. On the weak bear market, we do not want to compete with those who have bought NFTs on private sale and are willing to earn some money by reselling them on the secondary market.
 
 All the keys that would not be minted just will stay unissued.
 

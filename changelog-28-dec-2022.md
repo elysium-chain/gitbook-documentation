@@ -8,7 +8,7 @@
 
 28.12.2022 - [Pioneers Program](join/pioneers-program.md) added
 
-26.12.2022 - [Features](./) added
+26.12.2022 - [Features](<README (1).md>) added
 
 21.12.2022 - [Funding ](introduction/funding.md)updated
 
@@ -20,6 +20,6 @@
 
 13.12.2022 - [Funding ](introduction/funding.md)added
 
-11.12.2022 - [Positioning ](<README (1).md>)added
+11.12.2022 - [Positioning ](./)added
 
 11.12.2022 - Documentation created

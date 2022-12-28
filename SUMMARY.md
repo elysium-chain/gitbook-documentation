@@ -2,8 +2,8 @@
 
 ## Introduction
 
-* [🌟 Features](README.md)
-* [📌 Positioning](<README (1).md>)
+* [📌 Positioning](README.md)
+* [🌟 Features](<README (1).md>)
 * [💸 Funding](introduction/funding.md)
 * [⚡ Team](introduction/team.md)
 * [📍 Roadmap](introduction/roadmap.md)

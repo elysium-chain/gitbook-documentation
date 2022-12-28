@@ -1,3 +1,7 @@
+---
+description: You will need a vehicle to participate in the race
+---
+
 # 🚀 Spaceship
 
 ## NFTs Specification
