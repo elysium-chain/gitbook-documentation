@@ -115,7 +115,7 @@ There is only one way things can go according to plan. And there is an infinite 
 
 As with any innovation at the stage of its creation, there are a lot of risks. But we have a good plan and a cohesive community to help us overcome difficulties. But more important is that we have no backup plan - Elysium is the project of our lives for the next several years, and we will do everything for its success.
 
-If development goes according to plan, the capitalization of Elysium can reach 40b in a few years. That was the capitalization of the second-echelon networks at the peak of the previous bull run. 10% of this capitalization, distributed among the initial validators, will be 4b.&#x20;
+If development goes according to plan, the capitalization of Elysium can reach 40b in a few years. That was the capitalization of the second-echelon networks at the peak of the previous bull run. If it is the case, then 10% of this capitalization, distributed among the initial validators, will be 4b.&#x20;
 
 ### What type of computer do I need to be a validator?
 

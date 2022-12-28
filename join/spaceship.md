@@ -4,7 +4,7 @@ description: A vehicle needed to participate in the race
 
 # 🚀 Spaceship
 
-<figure><img src="../.gitbook/assets/Spaceship NFT (1).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Spaceship NFT.webp" alt=""><figcaption></figcaption></figure>
 
 ## NFTs Specification
 
