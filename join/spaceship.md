@@ -1,8 +1,10 @@
 ---
-description: You will need a vehicle to participate in the race
+description: A vehicle needed to participate in the race
 ---
 
 # 🚀 Spaceship
+
+<figure><img src="../.gitbook/assets/Spaceship NFT (1).webp" alt=""><figcaption></figcaption></figure>
 
 ## NFTs Specification
 
@@ -14,18 +16,15 @@ description: You will need a vehicle to participate in the race
 | **Selling** | At any time after the start of the race on the secondary market (with the loss of the achieved race result). |
 | **Burning** | When finishing at Elysium.                                                                                   |
 
-| <img src="../.gitbook/assets/Spaceship NFT.webp" alt="" data-size="original"> | <p><strong>Engine Efficiency</strong><br><strong></strong>Depends on the key type. The parameter can only be improved by burning additional keys.<br><strong>Inertia Retention</strong><br><strong></strong>Depends on the time of possession of the ship during the prelunch phase. The parameter can be further increased by burning additional keys having Inertia Retention greater than 0.</p> |
-| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
 ## The Physics of The Flight
 
 Each spaceship produced in our shipyard is equipped with an engine that creates artificial inertia in a given direction. Units of energy called Energons are constantly expended to maintain it. If they are not spent on maintaining speed, the artificial inertia will begin to decrease until the ship loses it entirely and stops. The greater the speed of the spaceship, the more Energons will be spent per unit of time to maintain it.
 
 The main task of the pilot is to determine the hourly consumption of Energons. You can manually change this parameter at any time. The ship will begin to accelerate or decelerate accordingly until it reaches the speed that requires the specified amount of Energons per hour. Afterward, the spaceship will maintain this speed until the pilot changes the Energon consumption or runs entirely out of Energons.
 
-The _**Engine Efficiency**_ parameter determines how productively the Energons are used. The higher the parameter, the fewer Energons are needed to maintain the same speed, or the faster the ship will fly with the same consumption of Energons.
+The _**Engine Efficiency**_ parameter determines how productively the Energons are used. The higher the parameter, the fewer Energons are needed to maintain the same speed, or the faster the ship will fly with the same consumption of Energons. Depends on the key type. The parameter can only be improved by burning additional keys.
 
-The _**Inertia Retention**_ parameter affects how fast your spaceship will lose its artificial inertia. The higher the parameter is, the slower your ship will slow down and, therefore, the longer it will fly without using Energons. If the parameter is "0", the spaceship still will not stop immediately and will continue to fly with the inertia for 25 hours until it completely loses it.
+The _**Inertia Retention**_ parameter affects how fast your spaceship will lose its artificial inertia. Though all the ships will lose it in 25 hours, the speed of losing it differs depending on the Inertia Retention value. The higher the parameter is, the slower your ship will slow down. Depends on the time of possession of the spaceship during the prelunch phase. The parameter can be further increased by burning additional keys having Inertia Retention greater than 0.
 
 Both parameters of the ship can be improved temporarily with the in-game boosters or permanently with additional keys burning.
 
