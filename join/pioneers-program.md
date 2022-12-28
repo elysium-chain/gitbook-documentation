@@ -28,7 +28,7 @@ The output of the Program will be a single queue of initial Elysium validators. 
 
 At Elysium, at least 10% of all SKY tokens will be distributed among the initial validators during the first year alone. In other words, you can get a noticeable share of the unique blockchain's capitalization. It is worth noting that passing the wall in an already-running Elysium blockchain will be more complicated than becoming an initial validator through the Pioneer Program.&#x20;
 
-Bring tangible value to the project and bypass the entire Program absolutely free!&#x20;
+Bring tangible value to the project and pass the entire Program absolutely free!&#x20;
 
 |   |
 | - |
