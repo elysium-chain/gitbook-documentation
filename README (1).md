@@ -36,14 +36,16 @@ Thus, instant finalization, true scalability, and fast communication through a s
 
 ## Innovative Duonomics
 
-The most widespread tokenomics model, introduced with Bitcoin, has two generic problems. First, it is unclear what will happen when token issuance ends - will there be enough motivation to maintain a blockchain node only with commission income? And second, during the crypto market growth, the absolute amount of commission and its relative cost increase simultaneously.
+Elysium Duonomics is built on the use of two different coins. The RAY coin will be used to pay transaction fees, and the SKY coin will be used to issue RAY. This model allows to separate blockchain investment from blockchain fees, which solves many problems at once:
 
-Elysium's duonomics solves these problems and also achieves other goals:
+* the mechanics of burning an investment SKY coin allows its value to be directly backed by activity on the network - even if activity stays at the same level, the price of SKY will still continue to rise as its supply shrinks, and the demand from the system remains constant;
+* the growth of SKY will not raise the cost of transaction fees paid in RAY;
+* RAY's inflation will ensure the long-term stability of commission prices relative to fiat currencies;
+* increased activity within the blockchain will not only increase the amount of SKY burned but also reduce the amount of commission per transaction (unlike all other blockchains, where the commission increases with the number of transactions);
+* burning SKY will allow its supply to be reduced gradually rather than in a leap, as in the case of Bitcoin halving;
+* because of the separation of the commission paid in RAY and the rewards for validators accrued in SKY, the possibility opens of assessing the work of network nodes based on more factors besides the block production itself.
 
-* the total size of rewards for validators will be equal to the commission amount from the very launch of the blockchain;
-* as the number of transactions increases, the size of commissions will decline;
-* SKY token - the main store of value in the Elysium network - has a limited supply and will be actively burned;
-* RAY token - the means of payment - has an inflationary nature, which will boost economic activity and correlate with fiat currency dynamics.
+Separating tokenomics into inflationary and deflationary coins accomplishes a very important goal. The interests of investors, users, and validators align since they all benefit from network activity growth.
 
 ## Natural language smart contracts
 
