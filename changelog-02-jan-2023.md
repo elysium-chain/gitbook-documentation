@@ -1,4 +1,6 @@
-# ⏳ Changelog (28 Dec 2022)
+# ⏳ Changelog (02 Jan 2023)
+
+03.01.2023 - [Features](<README (1).md>) section [Innovative Duonomics](<README (1).md#innovative-duonomics>) changed
 
 28.12.2022 - [Roadmap](introduction/roadmap.md) changed
 
@@ -16,7 +18,7 @@
 
 15.12.2022 - [Team ](introduction/team.md)added
 
-13.12.2022 - [Changelog](changelog-28-dec-2022.md) added
+13.12.2022 - [Changelog](changelog-02-jan-2023.md) added
 
 13.12.2022 - [Funding ](introduction/funding.md)added
 
