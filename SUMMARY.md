@@ -23,4 +23,4 @@
 
 ***
 
-* [⏳ Changelog (02 Jan 2023)](changelog-02-jan-2023.md)
+* [⏳ Changelog (02 Jan 2023)](changelog-28-dec-2022.md)

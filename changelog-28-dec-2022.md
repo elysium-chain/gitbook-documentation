@@ -18,7 +18,7 @@
 
 15.12.2022 - [Team ](introduction/team.md)added
 
-13.12.2022 - [Changelog](changelog-02-jan-2023.md) added
+13.12.2022 - [Changelog](changelog-28-dec-2022.md) added
 
 13.12.2022 - [Funding ](introduction/funding.md)added
 

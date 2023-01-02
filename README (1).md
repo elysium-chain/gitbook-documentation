@@ -36,16 +36,16 @@ Thus, instant finalization, true scalability, and fast communication through a s
 
 ## Innovative Duonomics
 
-Elysium Duonomics is built on the use of two different coins. The RAY coin will be used to pay transaction fees, and the SKY coin will be used to issue RAY. This model allows to separate blockchain investment from blockchain fees, which solves many problems at once:
+Elysium Duonomics is built on the use of two different coins. The purpose of the RAY coin is to be a transaction fee payment, and the SKY coin will be needed to issue RAY. This model separates blockchain investments and transaction fees, which solves many problems at once:
 
-* the mechanics of burning an investment SKY coin allows its value to be directly backed by activity on the network - even if activity stays at the same level, the price of SKY will still continue to rise as its supply shrinks, and the demand from the system remains constant;
-* the growth of SKY will not raise the cost of transaction fees paid in RAY;
-* RAY's inflation will ensure the long-term stability of commission prices relative to fiat currencies;
-* increased activity within the blockchain will not only increase the amount of SKY burned but also reduce the amount of commission per transaction (unlike all other blockchains, where the commission increases with the number of transactions);
-* burning SKY will allow its supply to be reduced gradually rather than in a leap, as in the case of Bitcoin halving;
-* because of the separation of the commission paid in RAY and the rewards for validators accrued in SKY, the possibility opens of assessing the work of network nodes based on more factors besides the block production itself.
+* The burn mechanics of an investment SKY coin directly secures its value by the network activity - even if the number of daily transactions stays at the same level, the SKY price will continue to rise since its supply shrinks and the demand from the system remains constant.
+* The growth of the SKY price will not raise the cost of transaction fees paid in RAY.
+* RAY's inflation will ensure the long-term stability of commission prices relative to fiat currencies.
+* Increased Elysium activity, unlike other blockchains, will reduce transaction fees.
+* Burning SKY will allow its supply to be lowered gradually rather than in a leap, as in the case of Bitcoin halving.
+* Because of the separation of the commission paid in RAY and the rewards for validators accrued in SKY, the possibility appears of assessing the work of network nodes based on more factors besides the block production itself.
 
-Separating tokenomics into inflationary and deflationary coins accomplishes a very important goal. The interests of investors, users, and validators align since they all benefit from network activity growth.
+Separating tokenomics into inflationary and deflationary coins accomplishes a crucial goal. The interests of investors, users, and validators align since they all benefit from network activity growth.
 
 ## Natural language smart contracts
 
