@@ -1,8 +1,8 @@
 # ⏳ Changelog (02 Jan 2023)
 
-03.01.2023 - [Innovative Duonomics](<README (1).md#innovative-duonomics>) section of [Features](<README (1).md>) page changed
+03.01.2023 - [Innovative Duonomics](<README (1).md#innovative-duonomics>) section of [Features](<README (1).md>) page updated
 
-28.12.2022 - [Roadmap](introduction/roadmap.md) page changed
+28.12.2022 - [Roadmap](introduction/roadmap.md) page updated
 
 28.12.2022 - [Spaceship](join/spaceship.md) page added
 

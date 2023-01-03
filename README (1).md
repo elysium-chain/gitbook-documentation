@@ -43,7 +43,7 @@ Elysium Duonomics is built on the use of two different coins. The purpose of the
 * RAY's inflation will ensure the long-term stability of commission prices relative to fiat currencies.
 * Increased Elysium activity, unlike other blockchains, will reduce transaction fees.
 * Burning SKY will allow its supply to be lowered gradually rather than in a leap, as in the case of Bitcoin halving.
-* Because of the separation of the commission paid in RAY and the rewards for validators accrued in SKY, the possibility appears of assessing the work of network nodes based on more factors besides the block production itself.
+* The separation of the commission paid in RAY and the rewards for validators accrued in SKY prevents frontrunning and makes it possible to assess the work of network nodes based on more factors besides the block production itself.
 
 Separating tokenomics into inflationary and deflationary coins accomplishes a crucial goal. The interests of investors, users, and validators align since they all benefit from network activity growth.
 

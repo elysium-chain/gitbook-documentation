@@ -25,7 +25,7 @@ description: The journey to the Moon and beyond
 #### January 2023
 
 * [ ] Launch of the Pioneers Program promo website
-* [ ] Network selection for the Pioneers Program
+* [ ] Blockchain selection for the Pioneers Program
 * [ ] Development of the smart contracts for NFTs
 
 #### Q1 - Q2 2023
