@@ -72,3 +72,4 @@ When installing the wallet program on a new operating system or device, the bloc
 Elysium smart contracts will be significantly simplified compared to full-fledged Turing-complete programming languages, so the most likely ways of fraud can be automatically detected at the system level. This way, you will always be able to see the security level icon of the smart contract and, in addition, read and understand its logic on your own, even if you are not a programmer.
 
 The ultimate effect in terms of security will be achieved by the combined work of the wallet program and the system's assessment of smart contracts. For example, if a smart contract allows the withdrawal of assets to the owner's wallet, the user will be warned when signing the transaction.
+

@@ -53,3 +53,4 @@ To join it, you will need an access key NFT. Selling these NFTs will help us fun
 ### How much money do you need to build Elysium?
 
 We are aiming for $1 000 000 to develop a blockchain.
+

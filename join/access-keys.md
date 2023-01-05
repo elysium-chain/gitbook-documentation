@@ -97,3 +97,4 @@ This will happen not long before the launch of Elysium's MainNet, which is estim
 In addition to supply, the market price is also affected by demand. We keep 16.6% of keys as a reward for marketing events aimed to attract new users. We will distribute them carefully to avoid a sharp increase in supply on the secondary market. It is in our best interests since we will need to buy back these keys if their price falls below the floor.
 
 According to our estimation, we will not use all our marketing keys - those that will leave undistributed when the first pioneer finishes the race will be burned by the Team.
+

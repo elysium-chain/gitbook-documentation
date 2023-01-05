@@ -132,3 +132,4 @@ Yes. We will make a special server edition of the validator node that could be i
 ### Do I need to invest something as an initial validator?
 
 No. The only cost for you to be a validator could be renting a Linux VPS (\~$10 per month) if you do not want to use your home desktop computer. When you become a validator - it is time to gain capital, not invest.
+

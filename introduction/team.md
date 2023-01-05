@@ -46,3 +46,4 @@ First of all, we will be among the initial validators. We believe that SKY token
 Besides that, we will operate the network layer. It will also bring us SKY tokens as Routers' rewards. But we will use these tokens as liquidity for the bridges, DEX, and CEXs, as grants for developers, and for other tasks that will help Elysium grow.
 
 But more important than money is that we want to do something meaningful. Society and technologies are developing at an increasing pace, so it is impossible to state that Elysium will be shining after decades (don't forget that Bitcoin is still only 13 years old). But at least it will be a milestone to reference. A milestone in the right direction away from centralization.
+

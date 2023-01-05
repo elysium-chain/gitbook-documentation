@@ -4,8 +4,6 @@ description: Elysium is not yet another blockchain
 
 # 📌 Positioning
 
-<figure><img src=".gitbook/assets/Elysium Cover.webp" alt=""><figcaption></figcaption></figure>
-
 Elysium is a next-generation innovative blockchain. And this is not just a marketing slogan! It is hard to tell what aspect of blockchain technology was left unchanged during the Elysium development.
 
 You can learn more about the unique technological approaches in the related sections. But more important than any technical solution is the problem the computer system solves.
@@ -18,7 +16,7 @@ Vitalik Buterin, by combining blockchain and smart contracts, created a distribu
 
 The main criterion for the success of Bitcoin and Ethereum was that they were the first to solve a particular problem, and not because they used blockchain technology. The problem simply would not be solved without it.
 
-Although they are using the same technology, there is quite a lot of confusion about their positioning. Bitcoin is incomparable as an old reliable bank, while Ethereum is a full-fledged computer. The nuance is not to confuse their functions.&#x20;
+Although they are using the same technology, there is quite a lot of confusion about their positioning. Bitcoin is incomparable as an old reliable bank, while Ethereum is a full-fledged computer. The nuance is not to confuse their functions.
 
 Ethereum is a computer, not a bank!
 
