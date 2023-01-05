@@ -2,8 +2,8 @@
 
 ## Introduction
 
-* [📌 Positioning](README.md)
-* [🌟 Features](<README (1).md>)
+* [📌 Positioning](introduction/positioning.md)
+* [🌟 Features](<introduction/features.md>)
 * [💸 Funding](introduction/funding.md)
 * [⚡ Team](introduction/team.md)
 * [📍 Roadmap](introduction/roadmap.md)
@@ -23,4 +23,4 @@
 
 ***
 
-* [⏳ Changelog (02 Jan 2023)](changelog-28-dec-2022.md)
+* [⏳ Changelog (02 Jan 2023)](changelog.md)
