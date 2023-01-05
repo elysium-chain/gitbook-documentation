@@ -1,5 +1,7 @@
 # Table of contents
 
+* [💜 Welcome](README.md)
+
 ## Introduction
 
 * [📌 Positioning](introduction/positioning.md)
@@ -23,4 +25,4 @@
 
 ***
 
-* [⏳ Changelog (03 Jan 2023)](changelog.md)
+* [⏳ Changelog (03 Jan 2023)](changelog-03-jan-2023.md)
