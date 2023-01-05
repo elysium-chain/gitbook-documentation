@@ -2,17 +2,17 @@
 
 ## Introduction
 
-* [📌 Positioning](README.md)
-* [🌟 Features](introduction/features.md)
-* [💸 Funding](introduction/funding.md)
-* [⚡ Team](introduction/team.md)
-* [📍 Roadmap](introduction/roadmap.md)
+* [📌 Positioning](en/introduction/positioning.md)
+* [🌟 Features](en/introduction/features.md)
+* [💸 Funding](en/introduction/funding.md)
+* [⚡ Team](en/introduction/team.md)
+* [📍 Roadmap](en/introduction/roadmap.md)
 
 ## Join
 
-* [🏁 Pioneers Program](join/pioneers-program.md)
-* [🔑 Access Keys](join/access-keys.md)
-* [🚀 Spaceship](join/spaceship.md)
+* [🏁 Pioneers Program](en/join/pioneers-program.md)
+* [🔑 Access Keys](en/join/access-keys.md)
+* [🚀 Spaceship](en/join/spaceship.md)
 
 ## Links
 
@@ -23,4 +23,4 @@
 
 ***
 
-* [⏳ Changelog (03 Jan 2023)](changelog.md)
+* [⏳ Changelog (03 Jan 2023)](en/changelog.md)
