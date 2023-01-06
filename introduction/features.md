@@ -1,28 +1,30 @@
 ---
-description: Elysium is made of innovations
+介绍: Elysium的一些创新
 ---
 
-# 🌟 Features
+# 🌟 特性
 
-The logic of Elysium grew from a single Big Idea, which is still early to unveil. It is amazing how the architecture of the blockchain self-assembled around it, as if the puzzle pieces fell into place. The result is a next-generation blockchain project that solves almost all existing problems and stands out among other networks with a set of unique features, any one of which would be sufficient for success on its own.
+Elysium是从一个单一的宏伟想法发展而来的，但现在公布还为时过早。Elysium的架构就像拼图碎片落在了合适的位置一样令人惊喜。同时，它作为下一代区块链项目解决了目前区块链面临的棘手的问题，并凭借一系列独特的功能在整个区块链领域中脱颖而出，其中任何一个功能都足以获得成功。
 
-## Real Decentralization
+## 真正的去中心化
 
-The cryptocurrency industry is increasingly shifting towards centralization. But centralized projects, in our understanding, lose the very idea that made cryptocurrencies so attractive in the first place. Proof of Stake is particularly destructive to decentralization, as it declares decentralization through the capital.
+加密货币行业正日益接近中心化。在我们看来，中心化项目失去了加密货币去中心化的最初目标。权益证明（POS）对去中心化更加其具有破坏性，它导致区块链越来越趋近大资本，趋近于中心化。
 
-In one of his talks, Nassim Taleb gave an example that people can vary from each other in weight by 5, well by 10 times at max. But in the size of their fortunes, they can differ a billion times. How can a decentralized system be created where one vote weighs billions of times more than the overwhelming majority of others?
+在 Nassim Taleb 的一次演讲中，它举了一个例子，人们的体重可以相差5-10倍。但对于拥有的财富而言，它们可能相差10亿倍。在这样的环境中，建立一个去中心化的系统是不可能的。因为在这个系统中，一张选票的权重是绝大多数选票的数十亿倍。
 
-The unique consensus of Elysium - Proof of Victory - provides real, rather than declarative decentralization, as anyone can participate in it, and the weight of the vote does not depend on the size of the owned capital.
+Elysium的独特共识系统 - Proof of Victory - 提供了真正的，非声明式的去中心化，使得任何人都可以参与其中，如此投票的权重不取决于拥有的资本的规模。
 
-## True Scalability <a href="#4dc9" id="4dc9"></a>
+## 无与伦比的拓展性 <a href="#4dc9" id="4dc9"></a>
 
 Current approaches to blockchain scalability often rely on the concept of sharding, where the single data of the blockchain is split into several parts. In our opinion, this is a dead-end direction, as the very idea of storing data on multiple different tokens in one blockchain is quite absurd.
+
+目前区块链可拓展性解决方案通常是建立分片网络，这种网络把区块链的单个数据分割成几个部分来认证。在我们看来，这是一个死胡同，因为把各式各样的Token数据存储在一条单一的区块链上的想法是非常荒谬的。
 
 The concept of a blockchain is to store a canonical history of transactions that is important only within the context of one asset! If you have dollars and euros in your wallet, operations with dollars do not affect euros. The only time these two currencies intersect within one transaction - is when they are exchanged for each other.
 
 Each token in Elysium will be accounted for its own independent blockchain, and each validator will be able to create blocks in many of them simultaneously. This approach allows for transactions on different tokens to be processed independently of each other. This means that high activity and load on one asset will not affect the transaction speed on others. Moreover, each new validator will increase the overall throughput of the network.
 
-## Lightning Speed
+## 闪电般的速度
 
 When people talk about blockchain speed, they often mean how quickly transactions go through, which depends primarily on finalization time. That is, how long to wait before you can be sure that the transaction will not be canceled. And there is only one condition for fast finalization - all validators need to know which of them should become the next leader and produce a new block.
 
@@ -34,7 +36,7 @@ In Elysium, we use the concept of occupying a future block for finalization. Whe
 
 Thus, instant finalization, true scalability, and fast communication through a separate network layer allow Elysium to achieve unprecedented transaction processing speeds.
 
-## Innovative Duonomics
+## 创新性的双币种经济学
 
 Elysium Duonomics is built on the use of two different coins. The purpose of the RAY coin is to be a transaction fee payment, and the SKY coin will be needed to issue RAY. This model separates blockchain investments and transaction fees, which solves many problems at once:
 
@@ -47,7 +49,7 @@ Elysium Duonomics is built on the use of two different coins. The purpose of the
 
 Separating tokenomics into inflationary and deflationary coins accomplishes a crucial goal. The interests of investors, users, and validators align since they all benefit from network activity growth.
 
-## Natural language smart contracts
+## 更加易读的智能合约
 
 Smart contracts were developed as full-fledged programs. But they are not. If you have ever touched the subject of writing smart contracts, you know that a smart contract does not run like an ordinary computer program - it does not execute entirely from start to finish. The smart contract code in current implementations is more like a library of functions that are called to handle different events.&#x20;
 
@@ -63,7 +65,7 @@ Do send 120 Tokens
 
 In the future, this approach will make it possible to build a visual editor for creating smart contracts without writing any code.
 
-## Uncompromising Safety
+## 极致的安全性
 
 The security of the Elysium wallet will be ensured not only by trivial encryption of the seed phrase when it is stored, as it is currently done by most wallets like MetaMask. In addition to the seed phrase, the user in the Elysium network will also have a seed password that will be optionally needed to confirm the use of a new wallet installation. Seed password will be required on a mandatory basis in two cases: when installing the wallet for the very first time and if you lose access to all your authorized devices.
 
