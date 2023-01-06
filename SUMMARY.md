@@ -1,28 +1,28 @@
-# Table of contents
+# 目录
 
 * [💜 Welcome](README.md)
 
-## Introduction
+## 介绍
 
-* [📌 Positioning](introduction/positioning.md)
-* [🌟 Features](introduction/features.md)
-* [💸 Funding](introduction/funding.md)
-* [⚡ Team](introduction/team.md)
-* [📍 Roadmap](introduction/roadmap.md)
+* [📌 什么是Elysium](introduction/positioning.md)
+* [🌟 特性](introduction/features.md)
+* [💸 我们对于投资的看法](introduction/funding.md)
+* [⚡ 队伍](introduction/team.md)
+* [📍 路线图](introduction/roadmap.md)
 
-## Join
+## 参加
 
-* [🏁 Pioneers Program](join/pioneers-program.md)
-* [🔑 Access Keys](join/access-keys.md)
-* [🚀 Spaceship](join/spaceship.md)
+* [🏁 先锋计划](join/pioneers-program.md)
+* [🔑 准入密钥](join/access-keys.md)
+* [🚀 太空计划](join/spaceship.md)
 
-## Links
+## 链接
 
-* [🔗 Website](https://elysium-chain.com/)
+* [🔗 官网](https://elysium-chain.com/)
 * [🔗 Discord](https://discord.gg/elysiumchain)
 * [🔗 Twitter](https://twitter.com/Elysium\_Chain)
 * [🔗 Crew3](https://crew3.xyz/)
 
 ***
 
-* [⏳ Changelog (05 Jan 2023)](changelog.md)
+* [⏳ 变更日志 (03 Jan 2023)](changelog.md)
