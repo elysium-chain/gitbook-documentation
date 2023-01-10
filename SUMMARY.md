@@ -4,13 +4,13 @@
 
 ## 介绍
 
-* [📌 什么是Elysium](introduction/positioning.md)
+* [📌 我们的定位](introduction/positioning.md)
 * [🌟 特性](introduction/features.md)
-* [💸 我们对于投资的看法](introduction/funding.md)
-* [⚡ 队伍](introduction/team.md)
+* [💸 我们对于融资的看法](introduction/funding.md)
+* [⚡  我们的团队](introduction/team.md)
 * [📍 路线图](introduction/roadmap.md)
 
-## 参加
+## 参与
 
 * [🏁 先锋计划](join/pioneers-program.md)
 * [🔑 准入密钥](join/access-keys.md)
