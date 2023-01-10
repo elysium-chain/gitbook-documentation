@@ -1,27 +1,28 @@
 ---
-description: Elysium is not yet another blockchain
+描述: Elysium 不仅仅是另一个区块链
 ---
 
-# 📌 Positioning
+# 📌 定位
 
-Elysium is a next-generation innovative blockchain. And this is not just a marketing slogan! It is hard to tell what aspect of blockchain technology was left unchanged during the Elysium development.
+Elysium是下一代创新区块链。这不仅仅是一个营销口号!但是同时我们也无法保证在Elysium开发过程中区块链的技术会发生什么升级。
 
-You can learn more about the unique technological approaches in the related sections. But more important than any technical solution is the problem the computer system solves.
+您可以在很多地方了解到加密行业里这些技术的更详细信息。但比任何技术解决方案更重要的是如何编写这样一个计算机系统。
 
-The success of Bitcoin has been so resounding, and the capital earned by the first enthusiasts is so mind-boggling that the crypto industry has spawned a new gold rush. Today if you add the word "blockchain" to the project description, its capitalization will immediately skyrocket by several orders of magnitude. But blockchain itself is not a silver bullet - more than 500 Bitcoin clones appeared, but how often do you hear about them?
+比特币的成功让第一批参与者收获了巨大的利润，以至于带动了整个加密行业的增长。现如今如果您在项目描述中添加“区块链”这个词，它的关注量会立即飙升几个数量级。但区块链本身并不是什么很稀有的技术——到目前为止出现了500多个比特币克隆，但你经常听说它们吗?
 
-Satoshi Nakamoto used blockchain technology to create a decentralized bank - the most reliable version of a bank. That is why Bitcoin clones do not have a chance: why put your money in a small, unknown bank when you can keep it in the biggest and most reliable one?
+中本聪使用区块链技术创建了一个去中心化的银行——最可靠的银行版本。这就是比特币克隆没有机会的原因:当你可以把钱存在最大、最可靠的银行时，为什么要把钱存在一个不知名的小银行?
 
-Vitalik Buterin, by combining blockchain and smart contracts, created a distributed computer that is not afraid of a nuclear war (well, it will definitely survive a couple of strikes).
+Vitalik Buterin将区块链和智能合约结合起来，创造了一种不怕核战争的分布式计算机(好吧，它肯定能挺过几次打击)。
 
-The main criterion for the success of Bitcoin and Ethereum was that they were the first to solve a particular problem, and not because they used blockchain technology. The problem simply would not be solved without it.
+比特币和以太坊成功的主要标准是他们第一个解决了一个特定的问题，而不是因为他们使用了区块链技术。没有它，问题根本无法解决。
 
-Although they are using the same technology, there is quite a lot of confusion about their positioning. Bitcoin is incomparable as an old reliable bank, while Ethereum is a full-fledged computer. The nuance is not to confuse their functions.
+虽然他们使用相同的技术，但关于他们的定位有很多困惑。比特币作为一个可靠的老银行是无可比拟的，而以太坊是一个成熟的计算机。差别在于不要混淆它们的功能。
 
-Ethereum is a computer, not a bank!
+以太坊是一台计算机，不是银行!
 
-And since everyone can write programs for that computer - no wonder it is overflowing with malware. It happens because developers can leave backdoors, which will be difficult to find even for a professional. Therefore, at the level of smart contracts, there is no trust that many blockchain evangelists declare. Nowadays, the fraud level in the blockchain space is almost the same as in the medieval market. Many pickpockets are trying to steal your money, while scammers want to swindle for their own good.
+既然每个人都可以为这台计算机编写程序，所以它充满了恶意软件。这是因为开发人员可以留下后门，即使是专业人员也很难找到。因此，在智能合约的层面上，不存在许多区块链建设者宣称的足够的信任。如今，区块链领域的许多黑客都想偷你的钱。
 
-We see the task of Elysium not to be another decentralized bank or computer but to create a convenient and safe economic environment. Where the system will warn you if you try to send money to a smart contract that can be emptied by its owner. Where if you want to look into the logic of a smart contract, you do not have to be a developer to understand it. Where anyone, not even a programmer, may implement quite complex counterparty interactions. And where even the stolen seed phrase does not grant access to the user's funds.
+我们认为Elysium的任务不是成为另一个去中心化的银行或计算机，而是创造一个方便和安全的经济环境。如果你试图将钱发送到智能合约，系统会警告你--智能合约的所有者可以将其清空。如果你想研究智能合约的逻辑，你不必是一个开发人员来理解它。任何人，甚至程序员，都可以实现相当复杂的合约交互。甚至即使是助记词被盗也不允许访问用户的资金。
 
-And if Bitcoin is a solid bank and Ethereum is a reliable computer, then **Elysium is a safe market**.
+如果比特币是一个可靠的银行，以太坊是一个可靠的计算机，那么**Elysium将会是一个安全的市场**。
+
