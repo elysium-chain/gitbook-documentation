@@ -26,12 +26,9 @@ The Pioneers Program is the original Sibyl wall replacement. Its concept is to c
 
 The output of the Program will be a single queue of initial Elysium validators. They will join the network gradually, one by one. Since the primary store of value - the SKY token - has a decreasing issue over time, the place in the Pioneer Program will significantly affect how many SKY tokens a participant can mine. The higher the position in the Pioneer Program - the earlier you become a validator - the more tokens you will obtain.
 
-At Elysium, at least 10% of all SKY tokens will be distributed among the initial validators during the first year alone. In other words, you can get a noticeable share of the unique blockchain's capitalization. It is worth noting that passing the wall in an already-running Elysium blockchain will be more complicated than becoming an initial validator through the Pioneer Program.&#x20;
+At Elysium, at least 10% of all SKY tokens will be distributed among the initial validators during the first year alone. In other words, you can get a noticeable share of the unique blockchain's capitalization. It is worth noting that passing the wall in an already-running Elysium blockchain will be more complicated than becoming an initial validator through the Pioneer Program.
 
-Bring tangible value to the project and pass the entire Program absolutely free!&#x20;
-
-|   |
-| - |
+Bring tangible value to the project and pass the entire Program absolutely free!
 
 ## FAQ
 
@@ -43,11 +40,11 @@ The Pioneer Program is made as a space race game. Participants can increase the 
 * obtaining resources in daily game events;
 * receiving rewards from the team for helping with the project;
 * improving the ship by additional access key burning;
-* purchasing temporary in-game boosts.&#x20;
+* purchasing temporary in-game boosts.
 
 The time of joining the race is also a crucial factor. Those who start the race earlier will have a significant advantage over those who join later, as it will be more challenging for the latter to catch up.
 
-We decided to implement the Program playfully for two reasons. First, it will promote the constant involvement of the pioneers, and second, it will make it impossible for one person to take several high places in the Pioneers Program leaderboard.&#x20;
+We decided to implement the Program playfully for two reasons. First, it will promote the constant involvement of the pioneers, and second, it will make it impossible for one person to take several high places in the Pioneers Program leaderboard.
 
 In other words, this approach is much better at preventing Sybil attacks than KYC.
 
@@ -57,13 +54,13 @@ Since Elysium is still under construction, we will have to use a different block
 
 ### What do I need to enter the race?
 
-You will need one of the 9,000 Access Key NFTs to participate. Each key can be exchanged for a spaceship that automatically enrolls you in the race.&#x20;
+You will need one of the 9,000 Access Key NFTs to participate. Each key can be exchanged for a spaceship that automatically enrolls you in the race.
 
 Each ship has two characteristics that are important for the flight. The access keys also have these characteristics and transfer them to the spaceship. You can burn additional keys to enhance the ship's parameters at any time.
 
 ### When will the race start?
 
-We plan to start the space competition in Q3-Q4 2023 - read more in our [Roadmap ](../introduction/roadmap.md)and stay tuned for announcements.&#x20;
+We plan to start the space competition in Q3-Q4 2023 - read more in our [Roadmap ](../introduction/roadmap.md)and stay tuned for announcements.
 
 Until the race starts, there are many things you can do to improve your future spaceship. Read more about ship enhancement in the [Spaceship](spaceship.md) section.
 
@@ -73,13 +70,13 @@ We do not know exactly. There will be 9000 access keys, each allowing participat
 
 ### Will all Pioneer Program participants become validators?
 
-No. The main goal of the Pioneer Program is to fight multi-accounts, so to become a validator, you must get to the finish line.&#x20;
+No. The main goal of the Pioneer Program is to fight multi-accounts, so to become a validator, you must get to the finish line.
 
-After the first pioneer finishes, a certain amount of time will be given to finish the race. Exactly how much time that will be is unknown at the moment - it could be a week or a couple of months.&#x20;
+After the first pioneer finishes, a certain amount of time will be given to finish the race. Exactly how much time that will be is unknown at the moment - it could be a week or a couple of months.
 
 So you should better not fall too far behind!
 
-### What mechanics will interfere with multi-accountants?
+### What mechanics will interfere with multi-accounts?
 
 The crucial part of the Pioneers Program will be daily tournaments (lasting for approximately 5 minutes) on the "Astonite Mining" minigame, which pioneers will be playing simultaneously.
 
@@ -87,23 +84,23 @@ Astonite needed to get the fuel for Spaceships will be distributed through these
 
 The tournament's start time will be shifted by one hour each day to keep everyone equal.
 
-### Is it possible to finish the race and become a validator for free?&#x20;
+### Is it possible to finish the race and become a validator for free?
 
-Yes. To do this, you need to start participating in the life of the project as early as possible. You can get everything you need from the Elysium Team to successfully complete the race for free if you constantly and actively help with the project.&#x20;
+Yes. To do this, you need to start participating in the life of the project as early as possible. You can get everything you need from the Elysium Team to successfully complete the race for free if you constantly and actively help with the project.
 
 We could use help in many areas to speed things up: writing texts, 3D modeling, creating videos, programming, and advertising. If you have experience in these areas and are willing to help us - feel free to contact any member of the Elysium Team in Discord.
 
 ### Why will it be harder to become a validator at Elysium?
 
-It is all about competition. Currently, not many people know about the project, and Elysium has not yet been launched.&#x20;
+It is all about competition. Currently, not many people know about the project, and Elysium has not yet been launched.
 
-However, as the blockchain becomes operational and the initial validators demonstrate success, more people will be interested in becoming validators.&#x20;
+However, as the blockchain becomes operational and the initial validators demonstrate success, more people will be interested in becoming validators.
 
 While we cannot yet disclose the details of how to infiltrate the original barrier in Elysium and become a validator, it is worth noting that monetary investments, unlike the Pioneer Program, will not help it much.
 
 ### If I do not want to be a validator, can I earn with the Pioneer Program?
 
-Yes. We are developing the profitability mechanics also with participants with a short planning horizon in mind.&#x20;
+Yes. We are developing the profitability mechanics also with participants with a short planning horizon in mind.
 
 During the pre-launch phase, you can do quests in Crew3 and reach certain levels to buy 4 different keys at a private sale. And then sell them to future participants - the Elysium Team will not hold a public sale. This means one can buy an access key without hassle only on the secondary market.
 
@@ -115,7 +112,7 @@ There is only one way things can go according to plan. And there is an infinite 
 
 As with any innovation at the stage of its creation, there are a lot of risks. But we have a good plan and a cohesive community to help us overcome difficulties. But more important is that we have no backup plan - Elysium is the project of our lives for the next several years, and we will do everything for its success.
 
-If development goes according to plan, the capitalization of Elysium can reach 40b in a few years. That was the capitalization of the second-echelon networks at the peak of the previous bull run. If it is the case, then 10% of this capitalization, distributed among the initial validators, will be 4b.&#x20;
+If development goes according to plan, the capitalization of Elysium can reach 40b in a few years. That was the capitalization of the second-echelon networks at the peak of the previous bull run. If it is the case, then 10% of this capitalization, distributed among the initial validators, will be 4b.
 
 ### What type of computer do I need to be a validator?
 
@@ -123,7 +120,7 @@ We will find it during the Testnet phase. But our PoV consensus is light and doe
 
 ### Do I need to run my computer 24 hours a day?
 
-It is on you. But while your node is offline, it will not be mining SKY.&#x20;
+It is on you. But while your node is offline, it will not be mining SKY.
 
 ### Can I run the node program on the server?
 
@@ -132,4 +129,3 @@ Yes. We will make a special server edition of the validator node that could be i
 ### Do I need to invest something as an initial validator?
 
 No. The only cost for you to be a validator could be renting a Linux VPS (\~$10 per month) if you do not want to use your home desktop computer. When you become a validator - it is time to gain capital, not invest.
-
