@@ -25,4 +25,4 @@
 
 ***
 
-* [⏳ Changelog (05 Jan 2023)](changelog.md)
+* [⏳ Changelog (15 Jan 2023)](changelog.md)

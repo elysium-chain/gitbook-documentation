@@ -2,7 +2,9 @@
 description: Updates of this documentation
 ---
 
-# ⏳ Changelog (05 Jan 2023)
+# ⏳ Changelog (15 Jan 2023)
+
+15.01.2023 - [Welcome](./) page updated
 
 05.01.2023 - [Welcome](./) page added
 
