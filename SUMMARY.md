@@ -10,6 +10,11 @@
 * [⚡ Team](introduction/team.md)
 * [📍 Roadmap](introduction/roadmap.md)
 
+## Tokenomics
+
+* [💵 Money problems?](tokenomics/money-problems.md)
+* [🪙 Elysium Duonomics](tokenomics/elysium-duonomics.md)
+
 ## Join
 
 * [🏁 Pioneers Program](join/pioneers-program.md)
