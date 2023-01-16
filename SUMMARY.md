@@ -21,7 +21,7 @@
 * [🔗 官网](https://elysium-chain.com/)
 * [🔗 Discord](https://discord.gg/elysiumchain)
 * [🔗 Twitter](https://twitter.com/Elysium\_Chain)
-* [🔗 Crew3](https://crew3.xyz/)
+* [🔗 Crew3](https://elysium.crew3.xyz/)
 
 ***
 
