@@ -17,13 +17,14 @@ description: The journey to the Moon and beyond
 
 #### December 2022
 
-* [x] Publication of the [Introduction ](broken-reference)section of the documentation
+* [x] Publication of the [Introduction ](broken-reference/)section of the documentation
 * [x] Elaboration of the Message Routing design details
 * [x] Elaboration of the Pioneers Program mechanics
-* [x] Publication of the [Pioneers Program](broken-reference) section of the documentation
+* [x] Publication of the [Pioneers Program](broken-reference/) section of the documentation
 
 #### January 2023
 
+* [x] Publication of the [Tokenomics](broken-reference)[ ](broken-reference/)section of the documentation
 * [ ] Launch of the Pioneers Program promo website
 * [ ] Blockchain selection for the Pioneers Program
 * [ ] Development of the smart contracts for NFTs
@@ -32,7 +33,6 @@ description: The journey to the Moon and beyond
 
 * [ ] Development of the Pioneers Program: smart contracts, portal, mini-game
 * [ ] Publication of the blockchain documentation sections:\
-  \- Tokenomics\
   \- Message Routing\
   \- Scaling\
   \- Consensus\
@@ -59,4 +59,3 @@ description: The journey to the Moon and beyond
 * [ ] Distribution of 9000 Access Key NFTs ends
 * [ ] Launch of MainNet
 * [ ] End of Pioneers Program
-
