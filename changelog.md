@@ -1,4 +1,10 @@
-# ⏳ Changelog (03 Jan 2023)
+---
+description: Updates of this documentation
+---
+
+# ⏳ Changelog (05 Jan 2023)
+
+05.01.2023 - [Welcome](./) page added
 
 03.01.2023 - [Innovative Duonomics](introduction/features.md#innovative-duonomics) section of [Features](introduction/features.md) page updated
 
