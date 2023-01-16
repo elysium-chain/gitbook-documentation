@@ -14,7 +14,7 @@ description: Updates of this documentation
 
 05.01.2023 - [Welcome](./) page **added**
 
-03.01.2023 - [Innovative Duonomics](introduction/features.md#innovative-duonomics) section of [Features](introduction/features.md) page updated
+03.01.2023 - [Innovative Duonomics](introduction/features.md#innovative-duonomics) block on [Features](introduction/features.md) page updated
 
 28.12.2022 - [Roadmap](introduction/roadmap.md) page updated
 
