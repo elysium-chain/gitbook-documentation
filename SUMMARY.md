@@ -1,6 +1,6 @@
-# 目錄
+# Table of contents
 
-* [💜 歡迎加入Elysium](README.md)
+* [歡迎加入Elysium](README.md)
 
 ## 介紹
 
