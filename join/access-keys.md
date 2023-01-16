@@ -1,18 +1,18 @@
 ---
-description: Pioneers Program is a closed event that needs a key to join
+先锋计划是一个不对外公开的活动，需要燃烧你的NFT才可以进入
 ---
 
-# 🔑 Access Keys
+# 🔑 准入资格
 
-## NFTs Specification
+## NFTs的规格
 
-| **Utility** | <p>Obtaining a ship for the space race of future Elysium validators.<br>Additional improvements to the spaceship.</p> |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Supply**  | 9000 NFTs of 4 different types: A (600), B (1200), C (2400), D (4800).                                                |
-| **Minting** | With WL till the first pioneer finishes the race.                                                                     |
-| **Buying**  | On the secondary market from those who have minted with WL.                                                           |
-| **Selling** | At any time on the secondary market.                                                                                  |
-| **Burning** | <p>When getting or upgrading a spaceship.<br>Via the Team buyback and burn initiative.</p>                            |
+| **介绍**      | <p>为未来Elysium赢取验证者席位的太空竞赛获得一艘飞船。飞船可以进行升级。</p>                        |
+|-------------|----------------------------------------------------------------------|
+| **总量**      | 4种规格的NFT总计9000个: A (600), B (1200), C (2400), D (4800)。              |
+| **Minting** | 和WL一起，直到第一个用户完成比赛截止。                                                 |
+| **购买**      | 在二级市场上购买来自那些已经成为WL并mint的人。                                           |
+| **售卖**      | 随时在二级市场上销售。                                                          |
+| **燃烧**      | <p>当需要获得或升级你的飞船时需要进行燃烧。<br>或者通过团队回购和销毁计划。</p>                        |
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th>Parameters</th><th>Distribution</th><th>Private sale</th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Access Key Type A</strong> <br><strong></strong>only <strong>600</strong> pcs</td><td>Engine Efficiency: <strong>27</strong><br><strong></strong>Inertia Retention: <strong>0</strong></td><td>500 keys will be minted via private sale<br>100 keys the Team will keep for marketing</td><td>~<strong>$400</strong> with <strong>WL Type A</strong></td><td><a href="../.gitbook/assets/Access Key NFT Type A.webp">Access Key NFT Type A.webp</a></td></tr><tr><td><strong>Access Key Type B</strong><br><strong></strong>only <strong>1200</strong> pcs</td><td>Engine Efficiency: <strong>9</strong><br><strong></strong>Inertia Retention: <strong>0</strong></td><td>1000 keys will be minted via private sale<br>200 keys the Team will keep for marketing</td><td>~<strong>$200</strong> with <strong>WL Type B</strong></td><td><a href="../.gitbook/assets/Access Key NFT Type B.webp">Access Key NFT Type B.webp</a></td></tr><tr><td><strong>Access Key Type C</strong><br><strong></strong>only <strong>2400</strong> pcs</td><td>Engine Efficiency: <strong>3</strong><br><strong></strong>Inertia Retention: <strong>0</strong></td><td>2000 keys will be minted via private sale<br>400 keys the Team will keep for marketing</td><td>~<strong>$100</strong> with <strong>WL Type C</strong></td><td><a href="../.gitbook/assets/Access Key NFT Type C.webp">Access Key NFT Type C.webp</a></td></tr><tr><td><strong>Access Key Type D</strong><br><strong></strong>only <strong>4800</strong> pcs</td><td>Engine Efficiency: <strong>1</strong><br><strong></strong>Inertia Retention: <strong>0</strong></td><td>4000 keys will be minted via private sale<br>800 keys the Team will keep for marketing</td><td>~<strong>$50</strong> with <strong>WL Type D</strong></td><td><a href="../.gitbook/assets/Access Key NFT Type D.webp">Access Key NFT Type D.webp</a></td></tr></tbody></table>
 

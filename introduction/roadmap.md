@@ -1,62 +1,62 @@
 ---
-description: The journey to the Moon and beyond
+我们对项目的展望
 ---
 
-# 📍 Roadmap
+# 📍 路线图
 
-#### October 2022
+#### 2022 10月
 
-* [x] Birth of the [Elysium Discord Community](https://discord.gg/elysiumchain)
-* [x] Launch of the [Elysium website](https://elysium-chain.com/)
+* [x] [Elysium Discord 社群](https://discord.gg/elysiumchain) 诞生
+* [x] 完成[Elysium 网站](https://elysium-chain.com/)
 
-#### November 2022
+#### 2022 11月
 
-* [x] Elaboration of the Tokenomics design details
-* [x] Elaboration of the Consensus design details
-* [x] Development of the [Tokenomics simulation](https://tokenomics.elysium-chain.com)
+* [x] 详细阐述了经济模型
+* [x] 共识设计细化
+* [x] 开发了[经济模型模拟器](https://tokenomics.elysium-chain.com)
 
-#### December 2022
+#### 2022 12月
 
-* [x] Publication of the [Introduction ](broken-reference)section of the documentation
-* [x] Elaboration of the Message Routing design details
-* [x] Elaboration of the Pioneers Program mechanics
-* [x] Publication of the [Pioneers Program](broken-reference) section of the documentation
+* [x] 发布了我们文档的[引言](broken-reference)部分
+* [x] 细化了信息传递的设计细节
+* [x] 先驱者计划机制的细化
+* [x] 发布了文档 [先驱者计划](broken-reference)
 
-#### January 2023
+#### 2023 1月
 
-* [ ] Launch of the Pioneers Program promo website
-* [ ] Blockchain selection for the Pioneers Program
-* [ ] Development of the smart contracts for NFTs
+* [ ] 推出先锋计划推广网站
+* [ ] 选择先锋计划的开发区块链
+* [ ] 开发NFT智能合约
 
-#### Q1 - Q2 2023
+#### 2023 Q1-Q2
 
-* [ ] Development of the Pioneers Program: smart contracts, portal, mini-game
-* [ ] Publication of the blockchain documentation sections:\
-  \- Tokenomics\
-  \- Message Routing\
-  \- Scaling\
-  \- Consensus\
-  \- Smart Contracts\
-  \- Wallet
-* [ ] Distribution of 9000 Access Key NFTs starts\
-  \- 7500 via private sale\
-  \- 1500 free as a reward from the Team
+* [ ] 开发先锋计划: 智能合约, 网站, mini小游戏
+* [ ] 发布区块链的详细文档:\
+  \- 经济模型\
+  \- 信息传递\
+  \- 可拓展性\
+  \- 共识协议\
+  \- 智能合约\
+  \- 钱包
+* [ ] 开始分发9000个NFT\
+  \- 7500公开销售\
+  \- 1500作为团队对用户的奖励
 
-#### Q3-Q4 2023
+#### 2023 Q3-Q4
 
-* [ ] Distribution of 9000 Access Key NFTs continues
-* [ ] Start of Pioneers Program
-* [ ] Development of the Elysium blockchain
+* [ ] 继续分发9000个NFT
+* [ ] 先锋计划启动
+* [ ] 开发Elysium区块链
 
-#### Q2 - Q3 2024
+#### 2024 Q2-Q3
 
-* [ ] Distribution of 9000 Access Key NFTs continues
-* [ ] Development of the Elysium blockchain
-* [ ] Launch of TestNet
+* [ ] 继续分发9000个NFT
+* [ ] 继续开发Elysium区块链
+* [ ] 推出测试网
 
-#### Q4 2024
+#### 2024 Q4
 
-* [ ] Distribution of 9000 Access Key NFTs ends
-* [ ] Launch of MainNet
-* [ ] End of Pioneers Program
+* [ ] 9000个NFT分发结束
+* [ ] 主网启动
+* [ ] 先锋计划结束
 

@@ -7,7 +7,7 @@
 * [📌 我們的定位](introduction/positioning.md)
 * [🌟 特色](introduction/features.md)
 * [💸 資金](introduction/funding.md)
-* [⚡  團隊](introduction/team.md)
+* [⚡ 團隊](introduction/team.md)
 * [📍 路線圖](introduction/roadmap.md)
 
 ## 加入方法
@@ -18,7 +18,7 @@
 
 ## 官方連結
 
-* [🔗 Website](https://elysium-chain.com/)
+* [🔗 官网](https://elysium-chain.com/)
 * [🔗 Discord](https://discord.gg/elysiumchain)
 * [🔗 Twitter](https://twitter.com/Elysium\_Chain)
 * [🔗 Crew3](https://crew3.xyz/)

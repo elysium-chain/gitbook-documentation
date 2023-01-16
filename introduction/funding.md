@@ -1,56 +1,55 @@
 ---
-description: Decentralization through crowdfunding
+通过众筹实现的去中心化
 ---
 
-# 💸 Funding
+# 💸 我们对于融资的看法
 
-In today's world, many new blockchains are emerging. The community perceives them as an easy way to make money on investments. The significant factors for investment decisions are: what VCs take part in the project, what services will switch to this blockchain, how much marketing money is in the budget, and so on.&#x20;
+在当今世界，许多新区块链正如雨后春笋一般出现。社区把他们看作是一种简单的投资赚钱工具。投资决策的重要因素是:哪些风投会参与这个项目，这个区块链上会有多大的生态存在，预算中有多少营销资金，等等。
 
-All of these factors apply only to centralized projects, where the major investors fully control not only the development of the project but also the distribution of profits. And in the blockchain area, it was not always like that.
+但所有这些因素只适用于中心化项目，主要投资者不仅完全控制项目的发展，而且还控制项目利润的分配。
 
-The advantages of distributed systems have been evident to the public since the success of Napster in 1999. However, people were not eager to run node programs to support them because it required keeping a home computer turned on 24/7. That is why Bitcoin originated primarily as a system with incentives for participants.&#x20;
+自1999年Napster项目成功以来，分布式系统的优势已经显而易见。然而，人们并倾向于运行节点程序来支持它们，因为这需要保持家用计算机全天候开机。这就是为什么比特币最初主要是作为一个用来激励参与者的系统。
 
-Initially, it was an experiment to create a decentralized system in which working nodes get rewards. By the way, this is why Bitcoin's consensus is called Proof of Work (PoW). Accordingly, there were no monetary barriers for new participants - on the contrary, anyone with a computer was welcomed and could become a miner without any costs.
+最初，这是一个创建去中心化系统的实验，在这个系统中工作的节点可以获得奖励。顺便说一下，这就是为什么比特币的共识被称为工作量证明(PoW)。因此，新参与者没有金钱障碍——相反，任何拥有电脑的人都受到欢迎，可以成为一名矿工，无需任何成本。
 
-In turn, the slogan of the increasingly popular today Proof of Stake (PoS) consensus is like this: "We do business on blockchain technology, and you can also invest." The meaning turned upside down! If it used to be "participate and get paid," now it is "pay if you want to participate."
+反过来，如今越来越流行的权益证明(PoS)共识的口号是这样的:“我们在区块链技术上提供服务，你也可以投资我们。”意思完全颠倒了! 如果过去是“参与并获得报酬”，那么现在是“想参与就付费”。
 
-The Elysium Team wants to bring back the spirit of cryptocurrencies' dawn! We have adopted Bitcoin's approach as our basic creed: Elysium is a unique decentralized system that solves real-world problems and needs as many support nodes as possible. The difference is that Elysium is a scalable blockchain, so each additional validator, besides providing more security to the system, will also add throughput.&#x20;
+Elysium团队想要找回加密货币的曙光!我们采用比特币的方法作为我们的基本信条: Elysium 将会是一个独特的去中心化系统，解决现实世界的问题，需要尽可能多的支持节点。不同的是，Elysium是一个可扩展的区块链，所以每个额外的验证器，除了为系统提供更多的安全性之外，也会增加整个网络的吞吐量。
 
-That is why any person with a computer will be able to become a validator in the Elysium network, and no financial investments will be required for that. But this will be possible only a while after the launch of Elysium.
+这就是为什么任何拥有电脑的人都可以成为极乐网络的验证者，而且不需要任何的财务投资。但这只有在 Elysium 启动后一段时间才能实现。
 
-A successful project nowadays needs funding for developers' salaries, advertisements, bug bounties, hardware, and so on. Many modern blockchains use VC funding, but this approach has significant drawbacks.
+如今，一个成功的项目需要为开发者的工资、广告推广、漏洞奖励、硬件等提供资金。许多现代区块链使用风投资金，但这种方法有明显的缺点。
 
-VCs often seek to maximize their financial returns, which can lead to conflicts of interest with other stakeholders in the project. The chief investor may insist on making decisions in his personal interests, which may interfere with the project's development. But the main problem with VC funding is that it makes projects centralized, which is opposed to the initial idea behind cryptocurrencies.
+风投机构经常寻求最大化他们的财务回报，这可能会导致与项目中其他利益相关者的利益冲突。首席投资者可能坚持根据个人利益做出决定，这可能会干扰项目的发展。但风险投资的主要问题是它使项目中心化，这与加密货币背后的最初想法是相反的。
 
-The most decentralized method to receive investments is crowdfunding. And we take it to another level. We introduce a concept of initial validators which will secure the Elysium network for at least the first year. These initial validators will be like the first Bitcoin miners getting a minimum of 10% of the future Elysium capitalization.
+最分散的接受投资的方法是众筹。我们把它提升到另一个层次。我们引入了初始验证人的概念，它将确保 Elysium 网络至少在第一年的安全。这些最初的验证者将像第一批比特币矿工一样，获得未来 Elysium 资本的至少10%。
 
-The main idea is that the closer the launch - the fewer risks investors have, so there will be more and more people willing to jump on the leaving train. These laggards will need to pay to catch up with those who have supported the project since the beginning.
+其主要观点是，越接近主网的发行，投资者的风险就越小，因此会有越来越多的人不断地离开。这些落后者需要付出代价才能赶上那些从一开始就支持该项目的人。
 
-This approach makes it possible to:
+因此，我们决定众筹实现该项目可以有以下优点:
 
-* avoid centralized investments from VCs;
-* turn founders' vision into reality;
-* reward people who supported the project the most;
-* launch Elysium decentralized as much as possible.
+* 避免风投机构控制项目;
+* 将创始人的愿景变成现实；
+* 奖励那些从一开始就支持我们项目的人;
+* 确保Elysium尽可能的去中心化。
 
-Therefore, we are building a strong community of enthusiasts simultaneously with blockchain development. And if you want to be one of the initial validators - you are welcome!
+除此之外，在区块链发展的同时，我们正在建立一个强大的爱好者社区。如果你想成为最初的验证者之一，Welcome!
 
 |   |
 | - |
 
 ## FAQ
 
-### Don't you have tokens of the future blockchain for sale?
+### 你有没有出售代币的计划?
 
-No. Elysium is not a PoS blockchain that could be decentralized only through token distribution. All Elysium tokens will be distributed among validators when the blockchain is up and running.
+不，我们没有这个计划。Elysium不是一个只能通过代币分发去中心化的PoS区块链。当区块链启动并运行时，所有Elysium代币将在验证者之间分发。
 
-### How exactly will you raise funds?
+### 你们将如何筹集资金?
 
-We need the Elysium blockchain decentralized as much as possible from the very beginning. To achieve that, we have launched the Pioneers Program.&#x20;
+我们需要极乐空间从一开始就尽可能地去中心化。为了实现这一目标，我们启动了先驱者计划(pioneer Program)。
 
-To join it, you will need an access key NFT. Selling these NFTs will help us fund the blockchain development.
+您将需要燃烧我们的NFT来加入它。同时，出售这些NFT将帮助我们为区块链的开发提供资金。
 
-### How much money do you need to build Elysium?
+### 你需要多少钱来构建Elysium?
 
-We are aiming for $1 000 000 to develop a blockchain.
-
+我们的目标是筹集100万美元

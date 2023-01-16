@@ -1,57 +1,61 @@
 ---
-description: Elysium is made of innovations
+Elysium的创新
 ---
 
-# 🌟 Features
+# 🌟 特性
 
-The logic of Elysium grew from a single Big Idea, which is still early to unveil. It is amazing how the architecture of the blockchain self-assembled around it, as if the puzzle pieces fell into place. The result is a next-generation blockchain project that solves almost all existing problems and stands out among other networks with a set of unique features, any one of which would be sufficient for success on its own.
+Elysium是从一个单一的宏伟想法发展而来的，但现在公布还为时过早。Elysium的架构就像拼图碎片落在了合适的位置一样令人惊喜。同时，它作为下一代区块链项目解决了目前区块链面临的棘手的问题，并凭借一系列独特的功能在整个区块链领域中脱颖而出，其中任何一个功能都足以获得成功。
 
-## Real Decentralization
+## 真正的去中心化
 
-The cryptocurrency industry is increasingly shifting towards centralization. But centralized projects, in our understanding, lose the very idea that made cryptocurrencies so attractive in the first place. Proof of Stake is particularly destructive to decentralization, as it declares decentralization through the capital.
+加密货币行业正日益接近中心化。在我们看来，中心化项目失去了加密货币去中心化的最初目标。权益证明（POS）对去中心化更加其具有破坏性，它导致区块链越来越趋近大资本，趋近于中心化。
 
-In one of his talks, Nassim Taleb gave an example that people can vary from each other in weight by 5, well by 10 times at max. But in the size of their fortunes, they can differ a billion times. How can a decentralized system be created where one vote weighs billions of times more than the overwhelming majority of others?
+在 Nassim Taleb 的一次演讲中，它举了一个例子，人们的体重可以相差5-10倍。但对于拥有的财富而言，它们可能相差10亿倍。在这样的环境中，建立一个去中心化的系统是不可能的。因为在这个系统中，一张选票的权重是绝大多数选票的数十亿倍。
 
-The unique consensus of Elysium - Proof of Victory - provides real, rather than declarative decentralization, as anyone can participate in it, and the weight of the vote does not depend on the size of the owned capital.
+Elysium的独特共识系统 - Proof of Victory - 提供了真正的，非声明式的去中心化，使得任何人都可以参与其中，如此投票的权重不取决于拥有的资本的规模。
 
-## True Scalability <a href="#4dc9" id="4dc9"></a>
+## 无与伦比的拓展性 <a href="#4dc9" id="4dc9"></a>
 
-Current approaches to blockchain scalability often rely on the concept of sharding, where the single data of the blockchain is split into several parts. In our opinion, this is a dead-end direction, as the very idea of storing data on multiple different tokens in one blockchain is quite absurd.
+目前区块链可拓展性解决方案通常是建立分片网络，这种网络把区块链的单个数据分割成几个部分来认证并提交到主链上。我们认为这是不可取的，因为把各式各样的Token数据存储在一条单一的区块链上的想法是非常荒谬的。
 
-The concept of a blockchain is to store a canonical history of transactions that is important only within the context of one asset! If you have dollars and euros in your wallet, operations with dollars do not affect euros. The only time these two currencies intersect within one transaction - is when they are exchanged for each other.
+区块链的概念是储存一个资产中重要合约的历史数据! 如果您的钱包中同时拥有美元和欧元，操作美元的网络不应当影响到欧元的网络。这两种货币在一次交易中唯一会产生的交集将会是在它们互相交换的时候。
 
-Each token in Elysium will be accounted for its own independent blockchain, and each validator will be able to create blocks in many of them simultaneously. This approach allows for transactions on different tokens to be processed independently of each other. This means that high activity and load on one asset will not affect the transaction speed on others. Moreover, each new validator will increase the overall throughput of the network.
+因此Elysium中的每个Token都有自己独立的链上执行区域，每个验证器都可以同时在其中创建多个区块。这种方法允许不同Token上的事务彼此独立地处理。这意味着一个资产上的高活动和负载不会影响其他资产。此外，每个新增加的验证器都将增加网络的总体吞吐量。
+## 闪电般的速度
 
-## Lightning Speed
+当谈论区块链速度时，通常指的是合约或交易地上链速度，这主要取决于一个事务从提交到上链的时间。也就是说，要等多久才能确定交易这笔不会被取消。快速解决这个问题的方法只有一个——所有验证器都需要知道它们中的哪一个应该成为下一个领导者来产生一个新的区块。
 
-When people talk about blockchain speed, they often mean how quickly transactions go through, which depends primarily on finalization time. That is, how long to wait before you can be sure that the transaction will not be canceled. And there is only one condition for fast finalization - all validators need to know which of them should become the next leader and produce a new block.
+在工作量证明（POW）中，你永远无法确定就不会有一个更长的比特币区块链突然出现，而且交易历史完全不同，因此很多CEX的BTC验证周期都在6个区块左右，这个验证周期非常之久。当然，可能外星人在计算能力上拥有压倒性的优势，或者某个天才即将在地下室的某个地方完成量子超级计算机的建造，来掌控破解BTC的出块规律，这种可能性并不大。但它不是零!
 
-In Proof of Work, there is no finalization in principle - you can never be sure that a longer chain of Bitcoin blocks will not suddenly appear out of nowhere with a completely different transaction history. Of course, the probability that aliens will arrive with overwhelming superiority in computing power or that a genius somewhere in the basement is about to finish building a quantum supercomputer is not so great. But it is not zero!
+另一方面，权益证明共识（POS）在这方面要好得多——它意味着整个系统将提前知晓下一个验证人，当然，是否成为验证人取决于提供的质押的数量。所有验证人都立即知道谁将生成下一个区块，因此这样的网络的交易速度几乎是瞬时的。但是在完全确定的计算机系统中获得真正的随机性是不可能的。因此，针对这一共识的攻击实际上变简单了，你只需要掌握一定数量的Token就能操纵区块的验证。
 
-Proof of Stake consensus, on the other hand, is much better in this regard - it implies the leader's random selection in advance, depending on the size of the stakes provided by the validators. All validators immediately know who will make the next block, and the transaction speed in such networks seems almost instantaneous. But getting true randomness in fully deterministic computer systems is impossible. So a whole class of attacks on this consensus emerged, and some are impossible to defend.
+在 Elysium 中，我们使用了抢占未来区块的概念。当创建一个新的区块时，验证者会在他再次成为领导者时写下未来的区块号。它类似于一个循环队列，当leader在块创建后回到行。这一胜利证明共识的增加几乎可以立即完成。
 
-In Elysium, we use the concept of occupying a future block for finalization. When creating a new block, the validator writes the future block number when he will become the leader again. It is similar to a circular queue when the leader gets back to the line after block creation. This addition to the Proof of Victory consensus allows almost instant finalization.
+因此，高TPS、强可扩展性以及通过单独网络层的快速通信能力可以使Elysium实现前所未有的合约处理速度。
 
-Thus, instant finalization, true scalability, and fast communication through a separate network layer allow Elysium to achieve unprecedented transaction processing speeds.
+## 创新性的双币种经济学
 
-## Innovative Duonomics
+Elysium Duonomics 使用了两种不同的硬币。其中RAY币的目的是作为交易费用的支付，SKY代币用来发行RAY。该模型将区块链投资和交易费用分离，如此解决了很多问题:
 
-Elysium Duonomics is built on the use of two different coins. The purpose of the RAY coin is to be a transaction fee payment, and the SKY coin will be needed to issue RAY. This model separates blockchain investments and transaction fees, which solves many problems at once:
+* SKY代币将通过一系列的活动来燃烧进而保持其价值——即使每日交易数量保持在同一水平，SKY价格也会继续上涨，因为它的供应减少，而系统的需求保持不变。
 
-* The burn mechanics of an investment SKY coin directly secures its value by the network activity - even if the number of daily transactions stays at the same level, the SKY price will continue to rise since its supply shrinks and the demand from the system remains constant.
-* The growth of the SKY price will not raise the cost of transaction fees paid in RAY.
-* RAY's inflation will ensure the long-term stability of commission prices relative to fiat currencies.
-* Increased Elysium activity, unlike other blockchains, will reduce transaction fees.
-* Burning SKY will allow its supply to be lowered gradually rather than in a leap, as in the case of Bitcoin halving.
-* The separation of the commission paid in RAY and the rewards for validators accrued in SKY prevents frontrunning and makes it possible to assess the work of network nodes based on more factors besides the block production itself.
+* SKY价格的增长不会影响到RAY支付GAS的成本。
 
-Separating tokenomics into inflationary and deflationary coins accomplishes a crucial goal. The interests of investors, users, and validators align since they all benefit from network activity growth.
+* RAY的通货膨胀将确保其价格相对于法定货币的长期稳定。
 
-## Natural language smart contracts
+* 与其他区块链不同的是，Elysium活动的增加将降低交易费用。
 
-Smart contracts were developed as full-fledged programs. But they are not. If you have ever touched the subject of writing smart contracts, you know that a smart contract does not run like an ordinary computer program - it does not execute entirely from start to finish. The smart contract code in current implementations is more like a library of functions that are called to handle different events.&#x20;
+* 燃烧SKY将允许其供应量逐渐降低，而不是像比特币减半那样急剧下降。
 
-The logic of working with smart contracts in Elysium will be built around events handling, allowing writing such handlers in a language close to natural:
+* 使用RAY支付GAS和使用SKY分发验证人奖励的分离设计机制防止了资本的复利来集中大量的代币，并且可以根据区块生产本身之外的更多因素评估网络节点的工作。
+
+将货币经济学分为通货膨胀代币和通货紧缩代币实现了一个关键目标。让投资者、用户和验证者的利益保持一致，因为他们都将受益于网络活动的增长。
+
+## 更加易读的智能合约
+
+我们通常认为智能合约是一个成熟的语言。但事实并非如此。如果你曾经接触过编写智能合约，你就会知道智能合约不像普通的计算机程序那样运行——它不会从头到尾完全执行。目前的智能合约代码更像是一个函数库，被调用来处理不同的事件。
+
+在Elysium中，我们使用智能合约的逻辑将围绕处理事件来构建，并使用类自然语言编程,如下所示:
 
 ```
 When contract state becomes "Fulfilled"
@@ -61,15 +65,14 @@ And which state is Active
 Do send 120 Tokens
 ```
 
-In the future, this approach will make it possible to build a visual editor for creating smart contracts without writing any code.
+在未来，这种方法将使得构建一个可视化编辑器来创建智能合约成为可能，从而无需编写任何代码。
 
-## Uncompromising Safety
+## 极致的安全性
 
-The security of the Elysium wallet will be ensured not only by trivial encryption of the seed phrase when it is stored, as it is currently done by most wallets like MetaMask. In addition to the seed phrase, the user in the Elysium network will also have a seed password that will be optionally needed to confirm the use of a new wallet installation. Seed password will be required on a mandatory basis in two cases: when installing the wallet for the very first time and if you lose access to all your authorized devices.
+Elysium钱包的安全性将不仅仅是通过存储秘钥来确保安全，就像目前大多数钱包(如MetaMask)所做的那样。除了秘钥外，Elysium网络中的用户还将拥有一个秘钥密码，用来确认秘钥被安全的使用，可以选择使用该密码来确认新钱包的安装。在两种情况下，种子密码将被强制要求:第一次安装钱包时，以及如果你无法访问所授权设备时。
 
-When installing the wallet program on a new operating system or device, the blockchain at the system level will require confirmation that this installed program is allowed to dispose of funds. It can be confirmed either by the seed password or by using a wallet on an already authorized device. That way, if an attacker steals your seed phrase, he still cannot transfer your funds without knowing your seed password or having access to your device.
+当在新的操作系统或设备上安装钱包程序时，区块链将在系统级别确认是否允许该安装程序并处理资金。它可以通过秘钥密码或在已经授权的设备上使用钱包来确认。这样，如果攻击者窃取了你的秘钥短语，他仍然无法在不知道你的秘钥密码的情况下转移你的资金。
 
-Elysium smart contracts will be significantly simplified compared to full-fledged Turing-complete programming languages, so the most likely ways of fraud can be automatically detected at the system level. This way, you will always be able to see the security level icon of the smart contract and, in addition, read and understand its logic on your own, even if you are not a programmer.
+与成熟的图灵完备编程语言相比，Elysium智能合约将大大简化，一些低级的欺诈方式可以在系统级自动检测到并被标记。通过这种方式，您将始终能够看到智能合约的安全级别图标，此外，即使您不是程序员，也可以自己阅读和理解其逻辑。
 
-The ultimate effect in terms of security will be achieved by the combined work of the wallet program and the system's assessment of smart contracts. For example, if a smart contract allows the withdrawal of assets to the owner's wallet, the user will be warned when signing the transaction.
-
+在安全方面的最终效果将通过钱包程序和系统对智能合约的评估相结合来实现。例如，如果智能合约允许将资产提取到合约所有者的钱包中，用户在签署交易时会收到警告。
