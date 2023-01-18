@@ -1,56 +1,45 @@
 ---
-泰坦尼克号是由专家建造的，而方舟是却是由业余爱好者建造的
+description: The Titanic was built by experts, and the Ark was built by amateurs
 ---
 
-# ⚡ 我们的团队
+# ⚡ Team
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>HeapVoid</strong></td><td><em>首席技术专家</em></td>
-<td>超过30年的编码经验。喜欢在任何场合做逻辑模型。喜欢建设性的批评。喜欢科幻小说.</td>
-<td><a href="../.gitbook/assets/HeapVoid.jpg">HeapVoid.jpg</a></td></tr><tr><td><strong>0p0int</strong></td><td><em>前端开发者</em></td>
-<td>设计师，前端开发者。有着超过20年的经验。性格内向，不爱交流。充分注意细节。工作时听音乐.</td>
-<td><a href="../.gitbook/assets/0p0int.png">0p0int.png</a></td></tr>
-<tr><td>Futurum</td>
-<td><em>社区管理员</em> </td>
-<td>自Discord发明以来就开始管理社区。自称是来自北极的机器人。喜欢表情包和开玩笑。唯一的未婚队员.</td>
-<td><a href="../.gitbook/assets/Futurum.png">Futurum.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>HeapVoid</strong></td><td><em>Chief Developer</em></td><td>More than 30 years of coding experience. Loves to make mental models on any occasion. Needs constructive criticism to move forward. Likes science fiction books.</td><td><a href="../.gitbook/assets/HeapVoid.jpg">HeapVoid.jpg</a></td></tr><tr><td><strong>0p0int</strong></td><td><em>Frontend Developer</em></td><td>Designer with front-end coding skills. More than 20 years of experience. Introvert and does not like to chat. Pays full attention to details. Listens to music while working.</td><td><a href="../.gitbook/assets/0p0int.png">0p0int.png</a></td></tr><tr><td>Futurum</td><td><em>Community Manager</em></td><td>Manages communities since Discord was invented. Can provide technical support in any language. Likes memes, good jokes, and playing ping-pong.</td><td><a href="../.gitbook/assets/Futurum.png">Futurum.png</a></td></tr></tbody></table>
 
-长期以来，我们一直在一起开发复杂的应用程序。与此同时，我们一直对加密货币感兴趣。我们时常会分享对新项目的看法，通常会得出这样的结论:“为什么他们要这么愚蠢地实现这个功能?”通常，在那之后，我们开始讨论如何正确地做这件事。
+We have been developing complex applications together for a long time. At the same time, we have been interested in cryptocurrencies. From time to time we shared opinions about new projects and usually, it resulted in a statement like: "Why have they implemented this functionality so stupidly?". And usually, after that, we started to discuss how to do it the right way.
 
-在某个时刻，这样的无数个想法聚集起来，最后我们中的一个人说到:“如果你想到了怎样才能做得更好，那就亲自去做。”我们陷入沉默，开始惊讶地面面相觑。然后我们几乎夜以继日地工作了6个月来完善逻辑。当内部矛盾不再存在时，我们决定将Elysium项目公之于众。
-
-|   |
-| - |
+At some moment, such insights accumulated enough for one of us to exclaim: "If you want to do something well - do it yourself." We fell silent and began to look at each other in surprise. Then we worked almost around the clock for six months to polish the logic. And when no internal contradictions were left, we decided to make the Elysium project public.
 
 ## FAQ
 
-### 你觉得你们有资格资格开发区块链吗?
+### Are you qualified to develop a blockchain?
 
-我们当然不会在每周二创建一个新的区块链。这将会是我们开发的第一款区块链。
+We certainly do not create a new blockchain every Tuesday. This is the first blockchain we are developing.
 
-但是我们有着其他领域丰富的经验，在区块链的代码中我们没有看到任何超级复杂的东西。这只是一个普通的程序。复杂性在于各个节点的交互逻辑，而不在于代码本身。我们已经验证过了。
+But we have rich experience creating vastly different software, and we do not see anything super complicated in the blockchain node code. It is just an ordinary program. The complexity lies in the interaction logic of various nodes but not in the code itself. And we have already thought it through.
 
-但如果我们缺乏一些能力，我们希望从我们的社区吸引开发人员。总的来说，如果你喜欢我们的想法，想要生活在一个有Elysium存在的世界里，请随时联系我们，我们会想出你可以如何帮助这个项目，即使你不是开发人员。
+But if we lack some competencies, we hope to attract developers from our community. In general, if you like our ideas and want to live in a world where Elysium exists, feel free to contact us, and we will figure out how you can help the project, even if you are not a developer.
 
-### 但是等等:区块链的开发难道不需要一个大型团队和大量资金吗?
+### But wait: doesn't blockchain development require a big team and significant funding?
 
-企业界经常会存在一些奇怪的现象。这是一个真实的故事。一家银行需要完善其会计软件的逻辑。这是一项最多几天的任务，所以我们向他们报价1000美元。几天后，他们拒绝了。后来我们发现他们花了30万美元雇了一家大公司来解决同样的问题。
+The corporate world often obeys weird laws. Here is a real-life story for you. One bank needed to refine the logic of its accounting software. It was a task for a few days at most, so we billed them $1,000. After a couple of days, they refused. Later we discovered they had hired a big company for $300,000 to solve the same problem.
 
-这并不是因为我们低估了必要工作的规模——我们以前做过很多类似的工作!一个管理者通过雇佣一个大公司，这样可以减轻自己的责任，这是企业心理学。如果出了问题，他也会声称他做得很好——因为他花了很多钱雇了一个市场领导者。
+It happened not because we underestimated the size of the necessary work - we have done a lot of similar tasks before! It is corporate psychology when a manager relieves himself of responsibility by hiring a big company. If something goes wrong, he will claim that he did everything right - he hired a market leader for a lot of money.
 
-在大公司里，一个真正的程序员上面可能有8个老板，而每个老板都有着相当高的薪水。
+And in a big company, there is a hierarchical chain of 8 bosses above one real programmer, each with a good salary.
 
-如果你知道在这个系统中你需要做的是什么，那么在几个月内编写一个复杂系统的核心代码并不难。而且因为我们正在构建一个开源项目，许多贡献者稍后将加入我们。
+It is not difficult to code the core of a complex system in several months if you know what you are doing. And because we are building an open-source project, many contributors will join us later.
 
-### 你为什么要匿名?
+### Why are you anonymous?
 
-出于某种原因，中本聪也决定不公开自己的身份。过度宣传会引起误导性的信任。但是不幸的是，它并不能保证任何东西，还记得Terra崩塌的故事吗?
+Satoshi Nakamoto also decided not to reveal himself for some reason. Publicity causes misleading confidence and allows one to collect much more money. But, unfortunately, it does not guarantee anything, remember the story of the Terra collapse?
 
-我们不会需要很多钱来完成这个项目。但是如果公开，我们会面临很大的风险。例如，美国证券交易委员会的关注。或者被限制在我们居住的国家发展区块链。或者一些其他的别有用心的人。维塔利克·布特林有保镖吗?如果不是，他会不敢在街上走吗?
+We do not need a lot of money to complete the project. And the risks of being public are enormous. For example, the attention of the SEC. Or a restriction to developing blockchains in the country where we live. Or simple bandits in case of resounding success. Does Vitalik Buterin have bodyguards? And if not, is he afraid to walk down the street?
 
-### 你们如何从这个项目中获得收益
+### What is your interest?
 
-首先，我们将是最初的验证者之一。我们相信，在Elysium发布后的第一年，我们所积累的SKY代币将在几年内成为改变生活的财富。
+First of all, we will be among the initial validators. We believe that SKY tokens mined during the first year after the Elysium launch will become a life-changing wealth in several years.
 
-除此之外，我们还将运营网络通信层。它还将为我们带来SKY代币作为通信层的奖励。但我们将使用这些代币作为Bridge、DEX和CEX的流动性，作为开发者的补助金，以及其他有助于Elysium增长的情况。
+Besides that, we will operate the network layer. It will also bring us SKY tokens as Routers' rewards. But we will use these tokens as liquidity for the bridges, DEX, and CEXs, as grants for developers, and for other tasks that will help Elysium grow.
 
-但比钱更重要的是我们想做一些有意义的事情。社会和技术正在以越来越快的速度发展，所以不能说Elysium在几十年后一定会发光(别忘了比特币还只有13年的历史)。但至少这将是一个值得参考的里程碑。这是远离中心化的正确方向上的里程碑。
+But more important than money is that we want to do something meaningful. Society and technologies are developing at an increasing pace, so it is impossible to state that Elysium will be shining after decades (don't forget that Bitcoin is still only 13 years old). But at least it will be a milestone to reference. A milestone in the right direction away from centralization.
