@@ -4,14 +4,11 @@ description: The Titanic was built by experts, and the Ark was built by amateurs
 
 # ⚡ Team
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>HeapVoid</strong></td><td><em>Chief Developer</em></td><td>More than 30 years of coding experience. Loves to make mental models on any occasion. Needs constructive criticism to move forward. Likes science fiction books.</td><td><a href="../.gitbook/assets/HeapVoid.jpg">HeapVoid.jpg</a></td></tr><tr><td><strong>0p0int</strong></td><td><em>Frontend Developer</em></td><td>Designer with front-end coding skills. More than 20 years of experience. Introvert and does not like to chat. Pays full attention to details. Listens to music while working.</td><td><a href="../.gitbook/assets/0p0int.png">0p0int.png</a></td></tr><tr><td>Futurum</td><td><em>Community Manager</em> </td><td>Manages communities since Discord was invented. Claims that he is a bot from the North Pole. Likes memes, and good jokes. The only unmarried team member.</td><td><a href="../.gitbook/assets/Futurum.png">Futurum.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>HeapVoid</strong></td><td><em>Chief Developer</em></td><td>More than 30 years of coding experience. Loves to make mental models on any occasion. Needs constructive criticism to move forward. Likes science fiction books.</td><td><a href="../.gitbook/assets/HeapVoid.jpg">HeapVoid.jpg</a></td></tr><tr><td><strong>0p0int</strong></td><td><em>Frontend Developer</em></td><td>Designer with front-end coding skills. More than 20 years of experience. Introvert and does not like to chat. Pays full attention to details. Listens to music while working.</td><td><a href="../.gitbook/assets/0p0int.png">0p0int.png</a></td></tr><tr><td>Futurum</td><td><em>Community Manager</em></td><td>Manages communities since Discord was invented. Can provide technical support in any language. Likes memes, good jokes, and playing ping-pong.</td><td><a href="../.gitbook/assets/Futurum.png">Futurum.png</a></td></tr></tbody></table>
 
 We have been developing complex applications together for a long time. At the same time, we have been interested in cryptocurrencies. From time to time we shared opinions about new projects and usually, it resulted in a statement like: "Why have they implemented this functionality so stupidly?". And usually, after that, we started to discuss how to do it the right way.
 
-At some moment, such insights accumulated enough for one of us to exclaim: "If you want to do something well - do it yourself." We fell silent and began to look at each other in surprise. Then we worked almost around the clock for six months to polish the logic. And when there were no internal contradictions left, we decided to make the Elysium project public.
-
-|   |
-| - |
+At some moment, such insights accumulated enough for one of us to exclaim: "If you want to do something well - do it yourself." We fell silent and began to look at each other in surprise. Then we worked almost around the clock for six months to polish the logic. And when no internal contradictions were left, we decided to make the Elysium project public.
 
 ## FAQ
 
@@ -46,4 +43,3 @@ First of all, we will be among the initial validators. We believe that SKY token
 Besides that, we will operate the network layer. It will also bring us SKY tokens as Routers' rewards. But we will use these tokens as liquidity for the bridges, DEX, and CEXs, as grants for developers, and for other tasks that will help Elysium grow.
 
 But more important than money is that we want to do something meaningful. Society and technologies are developing at an increasing pace, so it is impossible to state that Elysium will be shining after decades (don't forget that Bitcoin is still only 13 years old). But at least it will be a milestone to reference. A milestone in the right direction away from centralization.
-
