@@ -75,7 +75,7 @@ RAY can only be released into circulation by burning SKY in the Elysium Grinder.
 The mathematical formula defines the RAY issuance depending on the day after the launch. For the first 1000 days, the formula is:
 
 $$
-RAY_{issuance}=52209083\cdot\frac{e^{-0.00591626\cdot x}}{\left(1+e^{-0.00591626\cdot x}\right)^{9.6}}
+RAY_{issuance}=52209083\cdot\frac{e^{-0.00591626\cdot day}}{\left(1+e^{-0.00591626\cdot day}\right)^{9.6}}
 $$
 
 After 1000 days the formula changes to keep the constant inflation rate:
