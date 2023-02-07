@@ -30,7 +30,7 @@ Both parameters of the ship can be improved temporarily with the in-game booster
 
 ## Prelaunch Catapult
 
-When you get a ship at the prelaunch stage, an electromagnetic catapult is used to launch it - you immediately start moving towards Elysium by inertia. The spaceship cannot lose this real, not artificial, inertia. So when the ship is launched using an electromagnetic catapult, it does not fully stop when it loses its artificial inertia but continues to move with speed acquired by the primary acceleration.&#x20;
+When you get a ship at the prelaunch stage, an electromagnetic catapult is used to launch it - you immediately start moving towards Elysium by inertia. The spaceship cannot lose this real, not artificial, inertia. So when the ship is launched using an electromagnetic catapult, it does not fully stop when it loses its artificial inertia but continues to move with speed acquired by the primary acceleration.
 
 After each launch, the electromagnetic catapult loses its power, and each subsequent launch will accelerate the ships less. After the start of the space race, all participants will start on their own, and their initial real inertia will be zero. This means that when they lose artificial inertia, they will stop completely.
 
@@ -64,14 +64,11 @@ These tournaments are the crucial mechanism to protect against multi-accounts. S
 
 Energons are obtained by recycling Astonite in a unique device called a "cosmogrinder." The higher the conversion rate - the harder it is for the cosmogrinder to proceed. That is why cosmogrinder will work faster if you offer less Energon for one Astonite.
 
-|   |
-| - |
-
 ## Appendix
 
 ### Energon Consumption
 
-The hourly consumption of Energons depending on the speed and the _**Engine Efficiency**_ (EE) parameter is calculated by the formula:
+The hourly consumption of Energons depends on the speed and the _**Engine Efficiency**_ (EE) parameter, and is calculated by the formula:
 
 $$
 Energons=\frac{Speed^{4}}{EE\cdot10^{17}}
@@ -95,7 +92,7 @@ You can play with it here: [interactive chart](https://www.desmos.com/calculator
 
 ### Acceleration and deceleration
 
-When a pilot sets a new Energon Consumption rate the spaceship changes its speed.&#x20;
+When a pilot sets a new Energon Consumption rate the spaceship changes its speed.
 
 If the new value is higher, the ship starts to accelerate linearly so that it will achieve a new speed in one hour.
 
