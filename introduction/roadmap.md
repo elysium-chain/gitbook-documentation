@@ -25,19 +25,21 @@ description: The journey to the Moon and beyond
 #### January 2023
 
 * [x] Publication of the [Tokenomics](broken-reference)[ ](broken-reference/)section of the documentation
+* [x] Blockchain selection for the Pioneers Program (Polygon)
+* [x] Detailing of the Elysium blockchain architecture
+* [x] Development of the Pioneers Portal architecture
+* [x] Development of the Discord <-> Polygon interactions
+
+#### February 2023
+
 * [ ] Launch of the Pioneers Program promo website
-* [ ] Blockchain selection for the Pioneers Program
-* [ ] Development of the smart contracts for NFTs
+* [ ] Development of the Pioneers Portal interface
+* [ ] Writing Elysium documentation
 
 #### Q1 - Q2 2023
 
 * [ ] Development of the Pioneers Program: smart contracts, portal, mini-game
-* [ ] Publication of the blockchain documentation sections:\
-  \- Message Routing\
-  \- Scaling\
-  \- Consensus\
-  \- Smart Contracts\
-  \- Wallet
+* [ ] Publication of the blockchain documentation
 * [ ] Distribution of 9000 Access Key NFTs starts\
   \- 7500 via private sale\
   \- 1500 free as a reward from the Team

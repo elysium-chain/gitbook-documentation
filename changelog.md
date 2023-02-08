@@ -2,7 +2,11 @@
 description: Updates of this documentation
 ---
 
-# ⏳ Changelog (17 Jan 2023)
+# ⏳ Changelog (08 Feb 2023)
+
+08.02.2023 - [Roadmap](introduction/roadmap.md) page updated
+
+08.02.2023 - [Spaceship](join/spaceship.md) page updated
 
 17.01.2023 - [Roadmap](introduction/roadmap.md) page updated
 
@@ -22,7 +26,7 @@ description: Updates of this documentation
 
 28.12.2022 - [Access Keys](join/access-keys.md) page **added**
 
-28.12.2022 - [Pioneers Program](join/pioneers-program.md) page **added**
+28.12.2022 - [Pioneers Program](join/pioneer-program.md) page **added**
 
 26.12.2022 - [Features](introduction/features.md) page **added**
 
