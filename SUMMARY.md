@@ -17,7 +17,7 @@
 
 ## Join
 
-* [🏁 Pioneers Program](join/pioneers-program.md)
+* [🏁 Pioneer Program](join/pioneer-program.md)
 * [🔑 Access Keys](join/access-keys.md)
 * [🚀 Spaceship](join/spaceship.md)
 
@@ -30,4 +30,4 @@
 
 ***
 
-* [⏳ Changelog (17 Jan 2023)](changelog.md)
+* [⏳ Changelog (08 Feb 2023)](changelog.md)
