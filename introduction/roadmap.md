@@ -8,7 +8,7 @@ description: The journey to the Moon and beyond
 
 <summary>Work in progress</summary>
 
-* [x] Publishing the documentation section: [Public Cluster](../tokenomics/public-cluster.md)
+* [x] Publishing the documentation section: [Public Cluster](../elysium/public-cluster.md)
 * [ ] Publishing the documentation section: Managed Hash Ring
 * [ ] Publishing the documentation section: Proof of Victory
 * [ ] Publishing the documentation section: Statechain

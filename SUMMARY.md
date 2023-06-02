@@ -10,10 +10,10 @@
 * [⚡ Team](introduction/team.md)
 * [📍 Roadmap](introduction/roadmap.md)
 
-## Tokenomics
+## Elysium
 
-* [🪙 Duonomics](tokenomics/elysium-duonomics.md)
-* [💠 Public Cluster](tokenomics/public-cluster.md)
+* [🪙 Duonomics](elysium/duonomics.md)
+* [💠 Public Cluster](elysium/public-cluster.md)
 
 ## Join
 
