@@ -20,7 +20,7 @@ The most common tokenomics model today is the one applied 13 years ago for Bitco
 
 It appears that users still pay nodes of the system in fiat currency but through an intermediate medium in the form of a blockchain coin. This payment arrangement has one indisputable advantage - because the number of coins is limited - when the system's popularity grows, its price skyrockets. But this same property also entails internal contradictions.
 
-## Investments vs Coin Backing
+### Investments vs Coin Backing
 
 As we already wrote in the [Positioning ](../introduction/positioning.md)section, Bitcoin is primarily a bank, and therefore, its main task is to safeguard the Bitcoins in users' accounts. So transactions can be thought of as depositing or withdrawing funds. With this approach, there is nothing wrong with a transaction taking an hour to process because the Bitcoin blockchain is not primarily a payment system.
 
@@ -38,7 +38,7 @@ Imagine Netflix released its token with a limited supply, which is needed to pay
 That is why in the real world, paying for a service and investing in it are separated into two different types of assets: fiat currencies and stocks.
 {% endhint %}
 
-## Users vs Node Owners
+### Users vs Node Owners
 
 Exchanging money for services or goods is such a simple and old concept that we don't even realize it hides a problem. It is faced mainly by people in developing countries suffering rapid currency depreciation. The local currency decline makes the population poorer since most goods in any country are imported in today's globalized world. But exporters in such countries, on the contrary, make excess profits because their income remains stable, and local costs relative to these revenues are reduced.
 
