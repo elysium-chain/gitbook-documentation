@@ -12,7 +12,7 @@
 
 ## Tokenomics
 
-* [🪙 Duonomics](tokenomics/duonomics.md)
+* [🪙 Duonomics](tokenomics/elysium-duonomics.md)
 * [💠 Public Cluster](tokenomics/public-cluster.md)
 
 ## Join
