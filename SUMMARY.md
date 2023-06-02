@@ -12,8 +12,8 @@
 
 ## Tokenomics
 
-* [💵 Money problems?](tokenomics/money-problems.md)
-* [🪙 Elysium Duonomics](tokenomics/elysium-duonomics.md)
+* [🪙 Duonomics](tokenomics/duonomics.md)
+* [💠 Public Cluster](tokenomics/public-cluster.md)
 
 ## Join
 
@@ -26,8 +26,8 @@
 * [🔗 Website](https://elysium-chain.com/)
 * [🔗 Discord](https://discord.gg/elysiumchain)
 * [🔗 Twitter](https://twitter.com/Elysium\_Chain)
-* [🔗 Crew3](https://elysium.crew3.xyz/)
+* [🔗 Zealy](https://zealy.io/c/elysium/questboard)
 
 ***
 
-* [⏳ Changelog (08 Feb 2023)](changelog.md)
+* [⏳ Changelog (02 Jun 2023)](changelog.md)

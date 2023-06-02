@@ -4,6 +4,52 @@ description: The journey to the Moon and beyond
 
 # 📍 Roadmap
 
+<details>
+
+<summary>Work in progress</summary>
+
+* [x] Publishing the documentation section: [Public Cluster](../tokenomics/public-cluster.md)
+* [ ] Publishing the documentation section: Managed Hash Ring
+* [ ] Publishing the documentation section: Proof of Victory
+* [ ] Publishing the documentation section: Statechain
+* [ ] Writing the article: Crypto cash and offers
+
+</details>
+
+<details>
+
+<summary>Roadmap</summary>
+
+### Prelaunch (work in progress)
+
+* [ ] Development of the Pioneers Program: smart contracts, portal, mini-game
+* [ ] Designing the system and publishing the final documentation
+* [ ] Distribution of 9000 Access Key NFTs
+
+### Pioneers Program launch (Q3-Q4 2023)
+
+* [ ] Distribution of the Access Key NFTs left after prelaunch
+* [ ] Development of the Elysium core
+
+### Elysium launch for pioneers (Q3 2024)
+
+* [ ] Pioneers launch their Workers, Routers and Keepers
+* [ ] Pioneers test the blockchain core while earning real SKY
+* [ ] Development of the bridge for entering Elysium from other chains
+* [ ] Development of DEX for swaping tokens
+
+### Opening Elysium for everyone (Q2 2025)
+
+* [ ] Development and testing of crypto cash and offers mechanincs
+
+### Launch of crypto cash and offers (Q2 2026)
+
+</details>
+
+<details>
+
+<summary>History</summary>
+
 #### October 2022
 
 * [x] Birth of the [Elysium Discord Community](https://discord.gg/elysiumchain)
@@ -32,32 +78,20 @@ description: The journey to the Moon and beyond
 
 #### February 2023
 
-* [ ] Launch of the Pioneers Program promo website
-* [ ] Development of the Pioneers Portal interface
-* [ ] Writing Elysium documentation
+* [x] Launch of the Pioneers Program promo website
+* [x] Development of the Pioneers Portal interface
+* [x] Writing the article: Public Cluster&#x20;
 
-#### Q1 - Q2 2023
+#### March 2023
 
-* [ ] Development of the Pioneers Program: smart contracts, portal, mini-game
-* [ ] Publication of the blockchain documentation
-* [ ] Distribution of 9000 Access Key NFTs starts\
-  \- 7500 via private sale\
-  \- 1500 free as a reward from the Team
+* [x] Writing the article: Managed Hash Ring
 
-#### Q3-Q4 2023
+#### April 2023
 
-* [ ] Distribution of 9000 Access Key NFTs continues
-* [ ] Start of Pioneers Program
-* [ ] Development of the Elysium blockchain
+* [x] Writing the article: Proof of Victory
 
-#### Q2 - Q3 2024
+#### May 2023
 
-* [ ] Distribution of 9000 Access Key NFTs continues
-* [ ] Development of the Elysium blockchain
-* [ ] Launch of TestNet
+* [x] Writing the article: Statechain
 
-#### Q4 2024
-
-* [ ] Distribution of 9000 Access Key NFTs ends
-* [ ] Launch of MainNet
-* [ ] End of Pioneers Program
+</details>

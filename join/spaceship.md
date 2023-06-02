@@ -8,13 +8,7 @@ description: A vehicle needed to participate in the race
 
 ## NFTs Specification
 
-| **Utility** | Participating in the race to become one of the first validators in the Elysium.                              |
-| ----------- | ------------------------------------------------------------------------------------------------------------ |
-| **Supply**  | Not greater than 9000                                                                                        |
-| **Minting** | Free mint with any Access Key NFT after the start of the race.                                               |
-| **Buying**  | On the secondary market only, after the start of the race.                                                   |
-| **Selling** | At any time after the start of the race on the secondary market (with the loss of the achieved race result). |
-| **Burning** | When finishing at Elysium.                                                                                   |
+<table data-header-hidden><thead><tr><th width="110"></th><th></th></tr></thead><tbody><tr><td><strong>Utility</strong></td><td>Participating in the race to become one of the first validators in the Elysium.</td></tr><tr><td><strong>Supply</strong></td><td>Not greater than 9000</td></tr><tr><td><strong>Minting</strong></td><td>Free mint with any Access Key NFT after the start of the race.</td></tr><tr><td><strong>Buying</strong></td><td>On the secondary market only, after the start of the race.</td></tr><tr><td><strong>Selling</strong></td><td>At any time after the start of the race on the secondary market (with the loss of the achieved race result).</td></tr><tr><td><strong>Burning</strong></td><td>When finishing at Elysium.</td></tr></tbody></table>
 
 ## Flight Physics
 
@@ -83,12 +77,7 @@ $$
 DAYs=\frac{30}{KEYs}\cdot0.85^{KEYs}
 $$
 
-| Keys burned                     | Days till the new IR point |
-| ------------------------------- | -------------------------- |
-| 1 (applied for every spaceship) | 25.5                       |
-| 2                               | 10.838                     |
-| 3                               | 6.141                      |
-| 4                               | 3.915                      |
+<table><thead><tr><th width="305.5">Keys burned</th><th>Days till the new IR point</th></tr></thead><tbody><tr><td>1 (applied for every spaceship)</td><td>25.5</td></tr><tr><td>2</td><td>10.838</td></tr><tr><td>3</td><td>6.141</td></tr><tr><td>4</td><td>3.915</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 {% endhint %}
