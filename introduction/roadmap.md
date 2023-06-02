@@ -18,7 +18,7 @@ description: The journey to the Moon and beyond
 
 <details>
 
-<summary>Roadmap</summary>
+<summary>Milestones</summary>
 
 ### Prelaunch (work in progress)
 
@@ -81,17 +81,21 @@ description: The journey to the Moon and beyond
 * [x] Launch of the Pioneers Program promo website
 * [x] Development of the Pioneers Portal interface
 * [x] Writing the article: Public Cluster&#x20;
+* [x] Designing the system
 
 #### March 2023
 
 * [x] Writing the article: Managed Hash Ring
+* [x] Designing the system
 
 #### April 2023
 
 * [x] Writing the article: Proof of Victory
+* [x] Designing the system
 
 #### May 2023
 
 * [x] Writing the article: Statechain
+* [x] Designing the system
 
 </details>
