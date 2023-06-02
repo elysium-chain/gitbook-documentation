@@ -2,7 +2,13 @@
 description: Updates of this documentation
 ---
 
-# ⏳ Changelog (08 Feb 2023)
+# ⏳ Changelog (02 Jun 2023)
+
+02.06.2023 - [Roadmap](introduction/roadmap.md) page updated
+
+02.06.2023 - [Public cluster](tokenomics/public-cluster.md) page **added**
+
+02.06.2023 - "Elysium Duonomic" and "Money problems?" are merged into [Duonomics](tokenomics/duonomics.md) page
 
 08.02.2023 - [Roadmap](introduction/roadmap.md) page updated
 
@@ -10,9 +16,9 @@ description: Updates of this documentation
 
 17.01.2023 - [Roadmap](introduction/roadmap.md) page updated
 
-17.01.2023 - [Elysium Duonomics](tokenomics/elysium-duonomics.md) page **added**
+17.01.2023 - Elysium Duonomics page **added**
 
-17.01.2023 - [Money problems?](tokenomics/money-problems.md) page **added**
+17.01.2023 - Money problems? page **added**
 
 15.01.2023 - [Welcome](./) page updated
 
