@@ -196,10 +196,10 @@ A relatively close analogy for describing the architecture of Elysium can be a b
 
 To be able to connect to each of Elysium's hierarchical layers, one of the unique non-tradable on-chain assets will be required: Bronze (Workers), Silver (Routers), and Gold (Keepers).
 
-The blockchain system of distributing these assets to all participants involved in Elysium will be launched sometime after the system's launch. Initially, the public cluster will be formed by participants who have successfully passed the Pioneer Program. Pioneers will be able to launch their nodes on one of the hierarchical layers, depending on the results they achieve in the Program.
+The blockchain system of distributing these assets to all participants involved in Elysium will be launched sometime after the system's launch. Initially, the public cluster will be formed by participants who have successfully passed the [Pioneer Program](../join/pioneer-program.md). Pioneers will be able to launch their nodes on one of the hierarchical layers, depending on the results they achieve in the Program.
 
 {% hint style="info" %}
-There will be selected 70 participants for the assertion layer, 500 for the address layer, and over 1000 for the assembly layer. External users will not be able to join any layer before launching a Bronze, Silver, and Gold distribution. From the initial launch of the system until the start of the distribution system, the public cluster will operate in a test mode with a reward for pioneers in the form of a real SKY.
+There will be selected 70 participants as Keepers, 500 as Routers, and over 1000 as Workers. External users will not be able to join any layer before launching a Bronze, Silver, and Gold distribution. From the initial launch of the system until the start of the distribution system, the public cluster will operate in a test mode with real SKY rewards for pioneers.
 {% endhint %}
 
 The details of how the Bronze, Silver, and Gold distribution system will work once it is launched will be covered in a separate section, as this topic is broad. For now, it is essential to note that Silver will, on average, be ten times more scarce than Bronze and ten times more affordable than Gold.
