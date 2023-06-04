@@ -81,7 +81,7 @@ Thus, we expect only a minority of initial key owners to be persistent enough to
 
 Keys will have utility until the first pioneer finishes the race. After this point, the minting and staking will be closed and the Team will stop keeping the price floor.
 
-This will happen not long before the launch of Elysium's MainNet, which is estimated to be in Q4 2024 - see [Roadmap ](../introduction/roadmap.md)for more details.
+This will happen not long before the launch of Elysium's MainNet, which is estimated to be in Q3 2024 - see [Roadmap ](../introduction/roadmap.md)for more details.
 
 ### Why does the Team need so many keys?
 
