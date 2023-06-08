@@ -90,23 +90,23 @@ The owner, for example, can determine which server provides the current time, ke
 
 Theoretically, a majority consent of the nodes about the system's state could serve as the source of truth. The participants' individual interests are contradictory, and, as a result, the optimum to which the system will aim is the balance of the interests of the majority of its participants.
 
-<figure><img src="../.gitbook/assets/One node is one vote.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/One node – one vote.webp" alt=""><figcaption></figcaption></figure>
 
 But in practice, an attacker can get many of the nodes in a system under his control simply by creating them, thus obtaining the majority and biasing the consent in his favor. This type of threat of privatization of an ownerless system by one of its participants has been named Sybil attacks.
 
-<figure><img src="../.gitbook/assets/Sybil attack.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Sybil attack.webp" alt=""><figcaption></figcaption></figure>
 
 The primary method of defending against this kind of attack is competition among participants for limited resources. And this approach was first used in the Bitcoin network, where voting for the canonical chain of blocks is not about the number of nodes under a participant's control but about computing resources, which require not only the initial investment but also a constant expenditure of electricity.
 
 Thus, the Proof of Work consensus is based mainly on a protection mechanism against Sybil attacks. And so is Proof of Stake, which uses tokens stored in the blockchain instead of calculations.
 
-<figure><img src="../.gitbook/assets/Preventing Sybil attacks.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Preventing Sybil attacks.webp" alt=""><figcaption></figcaption></figure>
 
 In fact, starting with Bitcoin, all subsequent truly decentralized blockchains use consensus with built-in protection against Sybil attacks, as only this approach allows using a peer-to-peer architecture.
 
 But the protection against Sybil attacks can be separated from the consensus by taking the security dome outside the system. An attacker can only hack the formula "one node - one vote" if there is no barrier for new nodes. If, however, participants must compete with each other to join the system, the threat of Sybil attacks is eliminated long before the consensus process itself.
 
-<figure><img src="../.gitbook/assets/Preventing Sybil attacks before....png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Preventing Sybil attacks before....webp" alt=""><figcaption></figcaption></figure>
 
 Moreover, protecting the network from fake nodes allows us to move away from the peer-to-peer architecture while maintaining the ownerless concept. After all, the motivation of nodes through the issuance of blockchain assets significantly impacts the network's size and configuration.
 
@@ -120,7 +120,7 @@ We call this type of architecture a Public Cluster.
 
 > **A Public Cluster is an architecture of an ownerless system formed by vertically linked hierarchical layers that require limited blockchain resources to participate in. Every layer, which consists of equal and interchangeable nodes, can be a distinct peer-to-peer network.**
 
-<figure><img src="../.gitbook/assets/Public cluster is formed by....png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Public cluster is formed by....webp" alt=""><figcaption></figcaption></figure>
 
 While in classic Proof of Work, real computing power protects the virtual blockchain from tampering, in a public cluster architecture, virtual blockchain resources shield the physical network from the fake nodes.
 
@@ -154,7 +154,7 @@ The assertion and address layers are formed as peer-to-peer networks. While the 
 
 The entire cluster acts as a server, providing service to clients connecting to the address layer.
 
-<figure><img src="../.gitbook/assets/Elysium pubilc cluster.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Elysium Public Cluster.webp" alt=""><figcaption></figcaption></figure>
 
 #### Assertion layer
 
