@@ -2,7 +2,11 @@
 description: Updates of this documentation
 ---
 
-# ⏳ Changelog (02 Jun 2023)
+# ⏳ Changelog (08 Jun 2023)
+
+08.06.2023 - [Hash Ring](elysium/hash-ring.md) page **added**
+
+08.06.2023 - [Roadmap](introduction/roadmap.md) page updated
 
 02.06.2023 - [Roadmap](introduction/roadmap.md) page updated
 

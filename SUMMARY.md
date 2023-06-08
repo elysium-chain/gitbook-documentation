@@ -14,6 +14,7 @@
 
 * [🪙 Duonomics](elysium/duonomics.md)
 * [💠 Public Cluster](elysium/public-cluster.md)
+* [📫 Hash Ring](elysium/hash-ring.md)
 
 ## Join
 
@@ -30,4 +31,4 @@
 
 ***
 
-* [⏳ Changelog (02 Jun 2023)](changelog.md)
+* [⏳ Changelog (08 Jun 2023)](changelog.md)
