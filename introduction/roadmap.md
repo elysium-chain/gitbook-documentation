@@ -1,5 +1,5 @@
 ---
-description: The journey to the Moon and beyond
+description: The chronicle of the Elysium journey
 ---
 
 # 📍 Roadmap
@@ -9,10 +9,10 @@ description: The journey to the Moon and beyond
 <summary>Work in progress</summary>
 
 * [x] Publishing the documentation section: [Public Cluster](../elysium/public-cluster.md)
-* [ ] Publishing the documentation section: Managed Hash Ring
+* [x] Publishing the documentation section: [Hash Ring](../elysium/hash-ring.md)
 * [ ] Publishing the documentation section: Proof of Victory
 * [ ] Publishing the documentation section: Statechain
-* [ ] Writing the article: Crypto cash and offers
+* [ ] Writing the article: Crypto Cash and Offers
 
 </details>
 
