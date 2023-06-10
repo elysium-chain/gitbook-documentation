@@ -15,7 +15,7 @@
 * [🪙 Duonomics](elysium/duonomics.md)
 * [💠 Public Cluster](elysium/public-cluster.md)
 * [📫 Hash Ring](elysium/hash-ring.md)
-* [⚔ Proof of Vicrory](elysium/proof-of-vicrory.md)
+* [⚔ Proof of Victory](elysium/proof-of-victory.md)
 
 ## Join
 
@@ -32,4 +32,4 @@
 
 ***
 
-* [⏳ Changelog (08 Jun 2023)](changelog.md)
+* [⏳ Changelog (10 Jun 2023)](changelog.md)

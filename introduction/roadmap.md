@@ -10,7 +10,7 @@ description: The chronicle of the Elysium journey
 
 * [x] Publishing the documentation section: [Public Cluster](../elysium/public-cluster.md)
 * [x] Publishing the documentation section: [Hash Ring](../elysium/hash-ring.md)
-* [ ] Publishing the documentation section: Proof of Victory
+* [x] Publishing the documentation section: [Proof of Victory](../elysium/proof-of-victory.md)
 * [ ] Publishing the documentation section: Statechain
 * [ ] Writing the article: Crypto Cash and Offers
 
