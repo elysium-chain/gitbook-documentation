@@ -2,25 +2,19 @@
 description: Updates of this documentation
 ---
 
-# ⏳ Changelog (08 Jun 2023)
+# ⏳ Changelog (10 Jun 2023)
 
-08.06.2023 - [Hash Ring](elysium/hash-ring.md) page **added**
+08.06.2023 - [Proof of Victory](elysium/proof-of-victory.md) page **added /** [Roadmap ](introduction/roadmap.md)page updated
 
-08.06.2023 - [Roadmap](introduction/roadmap.md) page updated
+08.06.2023 - [Hash Ring](elysium/hash-ring.md) page **added /** [Roadmap ](introduction/roadmap.md)page updated
 
-02.06.2023 - [Roadmap](introduction/roadmap.md) page updated
-
-02.06.2023 - [Public cluster](elysium/public-cluster.md) page **added**
+02.06.2023 - [Public cluster](elysium/public-cluster.md) page **added /** [Roadmap ](introduction/roadmap.md)page updated
 
 02.06.2023 - "Elysium Duonomic" and "Money problems?" are merged into [Duonomics](elysium/duonomics.md) page
 
-08.02.2023 - [Roadmap](introduction/roadmap.md) page updated
+08.02.2023 - [Spaceship](join/spaceship.md) page updated **/** [Roadmap ](introduction/roadmap.md)page updated
 
-08.02.2023 - [Spaceship](join/spaceship.md) page updated
-
-17.01.2023 - [Roadmap](introduction/roadmap.md) page updated
-
-17.01.2023 - Elysium Duonomics page **added**
+17.01.2023 - Elysium Duonomics page **added /** [Roadmap ](introduction/roadmap.md)page updated
 
 17.01.2023 - Money problems? page **added**
 
@@ -30,9 +24,7 @@ description: Updates of this documentation
 
 03.01.2023 - [Innovative Duonomics](introduction/features.md#innovative-duonomics) block on [Features](introduction/features.md) page updated
 
-28.12.2022 - [Roadmap](introduction/roadmap.md) page updated
-
-28.12.2022 - [Spaceship](join/spaceship.md) page **added**
+28.12.2022 - [Spaceship](join/spaceship.md) page **added /** [Roadmap ](introduction/roadmap.md)page updated
 
 28.12.2022 - [Access Keys](join/access-keys.md) page **added**
 
