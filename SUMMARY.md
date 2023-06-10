@@ -15,6 +15,7 @@
 * [🪙 Duonomics](elysium/duonomics.md)
 * [💠 Public Cluster](elysium/public-cluster.md)
 * [📫 Hash Ring](elysium/hash-ring.md)
+* [⚔ Proof of Vicrory](elysium/proof-of-vicrory.md)
 
 ## Join
 
