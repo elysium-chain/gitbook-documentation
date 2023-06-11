@@ -2,7 +2,7 @@
 description: The new type of consensus available in a public cluster
 ---
 
-# ⚔ Proof of Vicrory
+# ⚔ Proof of Victory
 
 ## What is consensus?
 
@@ -105,9 +105,9 @@ Each Keeper must memorize one block with the most power. When Keeper receives an
 
 <figure><img src="../.gitbook/assets/Powerful block.gif" alt=""><figcaption></figcaption></figure>
 
-#### 3. When a memorized block is changed, Keeper sends the notification of the change instantly, while the block is sent with a delay
+#### 3. When a memorized block is replaced, Keeper sends the notification of the change instantly, while the block is sent with a delay
 
-When a memorized block changes, Keeper instantly sends a notification to its neighbors. Then Keeper sends the block itself with a slight pause, depending on the block power - the more power, the shorter the delay.
+When Keeper replaces a memorized block, it instantly sends a notification to its neighbors. Then Keeper sends the block itself with a slight pause, depending on the block power - the more power, the shorter the delay.
 
 Since a block is forwarded many times, its delay at each Keeper eventually sums up. For example, if the delay is 100ms (the average message forwarding time over the Internet), then the cumulative delay will be 1s when forwarding it sequentially ten times. It means that the notification from the first Keeper will reach the tenth, on average, one second earlier than the block itself.
 
