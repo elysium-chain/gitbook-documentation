@@ -218,7 +218,7 @@ The motivation for increasing the number of nodes will be a reward in SKY coins.
 
 Limiting the growth of the number of nodes when reaching the optimal value will be achieved by constantly charging resources from all nodes of this type. And the higher the optimal number is exceeded, the greater the corresponding resource will be charged off. Resources will not be charged when the number of nodes is less than optimal.
 
-In other words, if there are 1000 Routers, they will not be charged Silver. If there are 1001, they will be credited 1x Silver. And when they reach the total of 2002, 2x Silver will be credited.
+In other words, if there are 1000 Routers, they will not be charged Silver. If there are 1001, they will be charged 1x Silver. And when they reach the total of 2002, 2x Silver will be charged.
 
 Since the amount of Silver held by each Router will be different, at a certain point, some of them will run out of Silver, and those nodes will no longer be able to perform the role of a Router. Therefore, the more Routers there are, the faster their quantity will aim to optimal.
 
