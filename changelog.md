@@ -2,9 +2,11 @@
 description: Updates of this documentation
 ---
 
-# ⏳ Changelog (10 Jun 2023)
+# ⏳ Changelog (14 Jun 2023)
 
-08.06.2023 - [Proof of Victory](elysium/proof-of-victory.md) page **added /** [Roadmap ](introduction/roadmap.md)page updated
+14.06.2023 - [Statechain](elysium/statechain.md) page **added /** [Roadmap ](introduction/roadmap.md)page updated
+
+10.06.2023 - [Proof of Victory](elysium/proof-of-victory.md) page **added /** [Roadmap ](introduction/roadmap.md)page updated
 
 08.06.2023 - [Hash Ring](elysium/hash-ring.md) page **added /** [Roadmap ](introduction/roadmap.md)page updated
 

@@ -16,6 +16,7 @@
 * [💠 Public Cluster](elysium/public-cluster.md)
 * [📫 Hash Ring](elysium/hash-ring.md)
 * [⚔ Proof of Victory](elysium/proof-of-victory.md)
+* [⛓ Statechain](elysium/statechain.md)
 
 ## Join
 
@@ -32,4 +33,4 @@
 
 ***
 
-* [⏳ Changelog (10 Jun 2023)](changelog.md)
+* [⏳ Changelog (14 Jun 2023)](changelog.md)
