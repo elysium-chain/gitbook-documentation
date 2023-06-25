@@ -162,7 +162,7 @@ The assertion layer is an unstructured peer-to-peer network formed by Keepers. M
 
 The Proof of Victory consensus works on the assertion layer, as it is at the very top of the hierarchy and, as such, is the most secure and decentralized layer. The logic of Proof of Victory is designed to guarantee that the consensus will be reached as long as 51% of Keepers are correctly working.
 
-The only thing an evil Keeper can do to harm the system is not to work. More precisely, any malicious actions will produce the same results as if the Keeper did nothing.
+The only thing an evil Keeper can do to harm the system is to not work. More precisely, any malicious actions will produce the same results as if the Keeper did nothing.
 
 #### Address layer
 
@@ -204,7 +204,7 @@ There will be selected 70 participants as Keepers, 500 as Routers, and over 1000
 
 The details of how the Bronze, Silver, and Gold distribution system will work once it is launched will be covered in a separate section, as this topic is broad. For now, it is essential to note that Silver will, on average, be ten times more scarce than Bronze and ten times more affordable than Gold.
 
-Since the total reward per block is limited, increasing the number of nodes will lead to a proportional decrease in participants' profits. In addition, some critical aspects of the system, such as consensus, will run slower with more nodes. That is why the number of nodes of different types should aim for an optimal value to better balance the system's reliability and decentralization with the performance and profitability.
+Since the total reward per block is limited, increasing the number of nodes will lead to a proportional decrease in participants' profits. In addition, some critical aspects of the system, such as consensus, will run slower with more nodes. That is why the number of nodes of different types should aim for an optimal value to better balance the system's reliability and decentralization with performance and profitability.
 
 {% hint style="info" %}
 The final sizes of the different groups of nodes will be obtained from the network testing data, but for now, we can be guided by the following rough numbers:
