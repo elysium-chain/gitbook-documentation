@@ -33,4 +33,4 @@
 
 ***
 
-* [⏳ Changelog (14 Jun 2023)](changelog.md)
+* [⏳ Changelog (03 Jul 2023)](changelog.md)

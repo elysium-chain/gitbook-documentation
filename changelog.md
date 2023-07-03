@@ -2,7 +2,9 @@
 description: Updates of this documentation
 ---
 
-# ⏳ Changelog (14 Jun 2023)
+# ⏳ Changelog (03 Jul 2023)
+
+03.07.2023 - [Roadmap](introduction/roadmap.md) page updated
 
 14.06.2023 - [Statechain](elysium/statechain.md) page **added /** [Roadmap ](introduction/roadmap.md)page updated
 

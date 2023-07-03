@@ -8,11 +8,10 @@ description: The chronicle of the Elysium journey
 
 <summary>Work in progress</summary>
 
-* [x] Publishing the documentation section: [Public Cluster](../elysium/public-cluster.md)
-* [x] Publishing the documentation section: [Hash Ring](../elysium/hash-ring.md)
-* [x] Publishing the documentation section: [Proof of Victory](../elysium/proof-of-victory.md)
-* [x] Publishing the documentation section: [Statechain](../elysium/statechain.md)
 * [ ] Writing the article: Crypto Cash and Offers
+* [ ] Writing the article: How to achieve high throughput
+* [ ] Coding the minting of Access Key NFTs
+* [ ] Remastering Pioneers Program
 
 </details>
 
@@ -97,5 +96,12 @@ description: The chronicle of the Elysium journey
 
 * [x] Writing the article: Statechain
 * [x] Designing the system
+
+#### June 2023
+
+* [x] Published the documentation section: [Public Cluster](../elysium/public-cluster.md)
+* [x] Publishing the documentation section: [Hash Ring](../elysium/hash-ring.md)
+* [x] Publishing the documentation section: [Proof of Victory](../elysium/proof-of-victory.md)
+* [x] Publishing the documentation section: [Statechain](../elysium/statechain.md)
 
 </details>
