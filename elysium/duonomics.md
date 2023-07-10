@@ -1,296 +1,200 @@
----
-description: Uniting the interests of system participants
----
+# 🪙 双币种经济学
 
-# 🪙 Duonomics
+## 一种代币是远远不够的
 
-## One currency is not enough
+<figure><img src="../.gitbook/assets/Real world Economicsx2.png" alt=""><figcaption><p>现实世界的经济</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Real world Economicsx2.png" alt=""><figcaption><p>Real-world economics</p></figcaption></figure>
-
-Blockchain can be seen as a system that provides a service for its customers to store data in a decentralized manner. The commission for user transactions acts as payment for the work of nodes. Unlike the real world, where prices are set in fiat currencies, fees for the blockchain service are paid in coins stored within the system. But what kind of changes does this entail?
+区块链可以被视为一个为其客户提供分散存储数据服务的系统。用户交易的手续费作为节点工作的报酬。与现实世界不同，在现实世界中价格以法定货币设定，而在区块链服务中，手续费是以系统内的代币支付的。但这样的改变会带来哪些影响呢？
 
 {% hint style="info" %}
-If a cryptocurrency has its own blockchain, it is called a coin, unlike tokens, whose operations are processed by third-party blockchains. Thus, the description of the mechanics of how the blockchain economic model works should be called "coinomics."
+如果加密货币有自己的区块链，它被称为货币（coin），而操作是通过第三方区块链处理的代币被称为token。因此，描述区块链经济模型运作机制的术语应该叫做“货币经济学”（coinomics）。
+（ps:中文对此没有严格的限制，这里不做详细的辨别）
 {% endhint %}
 
-The most common tokenomics model today is the one applied 13 years ago for Bitcoin. It implies that the number of coins is limited, and their issuance, which decreases over time to zero, comes as a reward to network nodes for making the system work. Therefore, users must buy them from node owners, often with fiat currency, to interact with the system.
+如今最常见的代币经济模型是13年前比特币采用的模型。该模型意味着代币数量是有限的，并且随着时间的推移逐渐减少，作为网络节点使系统正常工作的奖励。因此，用户必须用法定货币从节点所有者那里购买代币，通常来与系统进行交互。
 
-<figure><img src="../.gitbook/assets/Standart Tokenomics.png" alt=""><figcaption><p>The most popular blockchain tokenomics</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Standart Tokenomics.png" alt=""><figcaption><p>最常见的区块链代币经济模型</p></figcaption></figure>
 
-It appears that users still pay nodes of the system in fiat currency but through an intermediate medium in the form of a blockchain coin. This payment arrangement has one indisputable advantage - because the number of coins is limited - when the system's popularity grows, its price skyrockets. But this same property also entails internal contradictions.
+用户仍然以法定货币支付系统的节点，但通过中间媒介即区块链代币。这种支付方式有一个不可否认的优点——由于代币数量有限，当受众增长时，其价格会飙升。因此这一特性也带来了内部矛盾。
 
-### Investments vs Coin Backing
+### 投资需求 VS 网络使用需求
 
-As we already wrote in the [Positioning ](../introduction/positioning.md)section, Bitcoin is primarily a bank, and therefore, its main task is to safeguard the Bitcoins in users' accounts. So transactions can be thought of as depositing or withdrawing funds. With this approach, there is nothing wrong with a transaction taking an hour to process because the Bitcoin blockchain is not primarily a payment system.
+正如我们在 [Positioning](../introduction/positioning.md) 部分中已经写到的那样，比特币首先是一家银行，因此其主要任务是保护用户账户中的比特币。因此，交易可以被视为存款或提款。在这种方法中，交易需要花费一个小时来处理没有问题，因为比特币区块链并不主要是支付系统。
 
-In this model, the main concern is that funds are withdrawn at the expense of new users who want to invest in the system. Meaning that Bitcoin is rising in value because people buy it expecting it to become even more expensive.
+在这个模型中，主要问题是通过新用户的投资来提取资金，这会导致现有用户的资金减少。也就是说，比特币升值是因为人们购买它，期望它会变得更贵。
 
 {% hint style="info" %}
-This is why short-sighted financial experts sometimes call Bitcoin a Ponzi scheme. But they are wrong - in addition to its function as a store of value, Bitcoin now also acts as a measure of value (e.g., WBTC on Ethereum) and a means of payment (Lightning Network).
+这就是为什么短视的金融专家有时称比特币为庞氏骗局。但他们是错误的——除了作为价值储存的功能之外，比特币现在还充当价值衡量的标准（例如，以太坊上的 WBTC）和支付手段（闪电网络）。
 {% endhint %}
 
-But because of Bitcoin-like tokenomics, a conflict between network users and long-term holders has become apparent. Investors withdraw tokens from circulation, causing the price to rise, which raises costs for using the blockchain functionality that backs the coin. Thus, at the peak of the bull run, the commission on the use of smart contract functionality in Ethereum is prohibitive, reaching hundreds of dollars per transaction.
+但由于类似比特币的代币经济学，网络用户和长期持有者之间出现了冲突。投资者将代币从流通中提取，导致价格上涨，从而增加了作为币支持的区块链功能的使用成本。因此，在牛市高峰期，以太坊智能合约功能的使用费用变得非常高昂，每笔交易达到数百美元。
 
-Imagine Netflix released its token with a limited supply, which is needed to pay for movies. Many people will want to buy it as an investment asset, causing its price to rise. Users wishing to watch movies will have to pay a lot more. This will lead to a decrease in the number of actual clients, while they are the key to the service's success and, consequently, the value of the issued token.
+想象一下，Netflix发布了自己的代币，供观看电影时使用，而代币供应量有限。许多人都希望将其作为投资资产购买，导致价格上涨。希望观看电影的用户将不得不支付更高的费用。这将导致实际客户数量的减少，而实际客户是服务成功的关键，因此也影响了发行代币的价值。
 
 {% hint style="info" %}
-That is why in the real world, paying for a service and investing in it are separated into two different types of assets: fiat currencies and stocks.
+这就是为什么在现实世界中，支付服务和投资被分为两种不同类型的资产：法定货币和股票。
 {% endhint %}
 
-### Users vs Node Owners
+### 用户 VS 节点所有者
 
-Exchanging money for services or goods is such a simple and old concept that we don't even realize it hides a problem. It is faced mainly by people in developing countries suffering rapid currency depreciation. The local currency decline makes the population poorer since most goods in any country are imported in today's globalized world. But exporters in such countries, on the contrary, make excess profits because their income remains stable, and local costs relative to these revenues are reduced.
+货币交换是一个简单且古老的概念，我们甚至没有意识到它隐藏了一个问题。这个问题主要困扰着发展中国家人民，因为他们的货币快速贬值。在今天的全球化世界中，大多数国家的商品都是进口的，因此当地货币贬值使人民变得更穷。但是，这样的国家的出口商相反地获得了超额利润，因为他们的收入保持稳定，而相对于这些收入的本地成本却降低了。
 
-In the blockchain world, this problem is more pronounced as cryptocurrency users continue to live in the real world and use fiat money for living. As cryptocurrency rises, network node owners play the role of exporters in countries with weakening currencies. Their income increases while their living costs remain the same. But those who use the network for something other than investing or trading act as people getting poorer.&#x20;
+在区块链世界中，这个问题更加明显，因为加密货币用户仍然生活在现实世界中，使用法定货币生活。当加密货币升值时，节点所有者扮演了货币贬值国家中的出口商的角色。他们的收入增加，而生活成本保持不变。但那些使用区块链的人，除了投资或交易之外，是变得越来越穷的人。
 
 {% hint style="info" %}
-For example, the transaction cost has a dramatic profitability impact on online business that involves cross-border cryptocurrency payments, especially if numerous transactions are assumed.
+例如，交易费用对涉及跨境加密货币支付的在线业务的盈利能力影响巨大，特别是在涉及
+
+大量交易的情况下。
 {% endhint %}
 
-Thus, the users' and the node owners' interests directly contradict each other. For users, commissions are costs, and it is beneficial to reduce them. For node owners, fees are income, and it is profitable to increase them. But in an ideal world, the interests of users and node owners should coincide - both groups should be interested in the growth of network popularity and its further development.
+因此，用户和节点所有者的利益直接相互矛盾。对于用户来说，手续费是成本，减少手续费对他们有利。对于节点所有者来说，手续费是收入，增加手续费对他们有利。但在理想的情况下，用户和节点所有者的利益应该一致——两个群体都应该对网络的受欢迎程度和进一步发展感兴趣。
 
-Modern blockchains solve this problem through issuance, which provides the nodes with their profitability in the first place by the very high number of newly created coins at the start of the network and the numerous initial blockchain investors. So users pay a small fee, and nodes get the bulk of the reward with minted coins. But because issuance decreases over time, at some point, one of two things will happen anyway - either the income from the emission will not be enough to motivate node owners, or the fees will drastically increase.
+现代区块链通过发行来解决这个问题，首先通过在网络启动时大量创建新代币，并向初始的区块链投资者分发这些代币来为节点提供盈利能力。因此，用户支付较小的费用，而节点通过铸造的代币获得大部分奖励。但由于发行随时间的推移而减少，最终会发生以下两种情况之一——要么发行的收入不足以激励节点所有者，要么手续费急剧增加。
 
-Even Bitcoin, having most of its coins already created and its issuance significantly reduced relative to the initial stage of blockchain development, has this problem. There is still debate in the community about what will happen when its emission drops even further or stops entirely - whether the pure fees will be sufficient to motivate node owners.
+即使是比特币，由于大部分比特币已经被创建，其发行量相对于区块链发展的初期阶段已经大幅减少，也存在这个问题。关于在其发行进一步降低或完全停止时会发生什么仍然存在争议——纯手续费是否足以激励节点所有者。
 
 {% hint style="info" %}
-At some point, the following chain of events may occur. Bitcoin issuance during the halving will drop so much that it will become unprofitable to mine in the face of such competition. The number of miners will begin to decrease, and Bitcoin's hashrate will start dropping. This will make users nervous about blockchain security, and they will begin withdrawing money from Bitcoin. The price of Bitcoin will drop, making mining even more unprofitable.
+在某些时候，可能会发生以下事件链。比特币的减半将导致发行量下降到无法在激烈竞争中获利的程度。矿工数量将开始减少，比特币的哈希率将开始下降。这将使用户对区块链的安全性感到不安，并开始从比特币中提取资金。比特币的价格将下跌，使挖矿更加无利可图。
 {% endhint %}
 
-Within standard single-coin tokenomics, it is impossible to balance the user costs with the node owners' revenues because of the real-world coin price volatility. But this balance is crucial for customer availability if blockchain provides unique functionality.
+在标准的单一代币代币经济学中，由于现实世界的代币价格波动，无法平衡用户成本和节点所有者的收入。但是，如果区块链提供独特功能，这种平衡对于用户的可用性至关重要。
 
-## Elysium Tokenomics
+## Elysium代币经济学
 
-It seems that it is almost impossible to make a consistent model of tokenomics on a single-coin basis - while using two coins makes it possible to resolve virtually all internal contradictions.
+似乎几乎不可能在单一代币基础上建立一个一致的代币经济模型，而使用两个代币则可以解决几乎所有内部矛盾。
 
-In general, an ideal tokenomics should facilitate the coincidence of the interests of three groups of participants:&#x20;
+总体上，理想的代币经济学应该促进三个参与者群体的利益的一致性：
 
-* Long-term holders who, having invested once, may not return to the blockchain for years.
-* Regular users of the system who constantly use it for a variety of tasks.
-* Validators who spend computing resources and time to keep the system running.
+- 长期持有者，一次投资后可能多年不返回区块链。
+- 系统的常规用户，不断使用区块链进行各种任务。
+- 验证者，投入计算资源和时间来保持系统运行。
 
-The coincidence of interests is not just a theoretical concept. When applied to tokenomics, it means that the growth of some functional parameter of the system must benefit all participants. Since Elysium is a truly scalable blockchain, we chose network activity, in other words, the number of transactions per unit of time, as such a parameter.&#x20;
+利益的一致性不仅仅是一个理论概念。在代币经济学中，这意味着系统某个功能参数的增长必须使所有参与者受益。由于Elysium是一个真正可扩展的区块链，我们选择了网络活动，也就是单位时间内的交易数量，作为这样一个参数。
 
-Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Elysium tokenomics uses two coins: RAY and SKY. Their supply is managed by Elysium Grinder, which is essentially an automated central bank.
+此外，我们非常确定在单一代币的代币经济模型中，无法实现交易增长对所有参与者都有益的目标，因此Elysium代币经济学采用了两个代币：RAY和SKY。它们的供应由Elysium Grinder进行管理，该机构实际上是一个自动化中央银行。
 
-<figure><img src="../.gitbook/assets/Elysium Tokenomics.png" alt=""><figcaption><p>Elysium Tokenomics</p></figcaption></figure>
+### RAY代币
 
-### RAY Coin
+<table><thead><tr><th width="194">参数</th><th>数值</th></tr></thead><tbody><tr><td>最大供应量</td><td>无限</td></tr><tr><td>流通供应量</td><td>通过公式限制</td></tr><tr><td>初始供应量</td><td>头1000天内发行10亿RAY</td></tr><tr><td>通胀率</td><td>头1000天后每年5%</td></tr><tr><td>实用性</td><td>以RAY支付Elysium中的交易费用</td></tr><tr><td>发行</td><td>任何人都可以通过
 
-<table><thead><tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>Unlimited</td></tr><tr><td>Circulating Supply</td><td>Limited by formula</td></tr><tr><td>Initial Supply</td><td>1 000 000 000 RAYs during the first 1000 days</td></tr><tr><td>Inflation</td><td>5% yearly after 1000 days</td></tr><tr><td>Utility</td><td>Transaction fees in Elysium are paid in RAY</td></tr><tr><td>Issuance</td><td>Anyone can issue RAY by burning SKY in the Grinder</td></tr><tr><td>Burning</td><td>All RAYs used to pay commissions are burned</td></tr></tbody></table>
+销毁SKY来发行RAY</td></tr><tr><td>销毁</td><td>用于支付手续费的所有RAY都会被销毁</td></tr></tbody></table>
 
-What matters most to blockchain users is that transaction fees do not become very expensive. In modern blockchains, the commission amount is determined on an auction basis - the more commission users pay, the faster their transaction will be processed. This leads to two problems: frontrunning and higher fees during activity spikes.&#x20;
+对于区块链用户来说，最重要的是交易费用不会变得非常昂贵。在现代区块链中，手续费的金额是通过拍卖确定的——用户支付的手续费越多，他们的交易就越快被处理。这会导致两个问题：抢先交易和高峰期手续费上涨。
 
 {% hint style="info" %}
-Frontrunning is the ability to outrun someone else's massive transaction by increasing the commission paid and earning from the resulting price increase.
+抢先交易是指通过增加支付的手续费来超过他人的大额交易，从而从结果的价格上涨中获利的能力。
 {% endhint %}
 
-In Elysium, the RAY coin will be used to pay commissions. The maximum commission cost will be a fixed amount of 1 RAY, but with the growth of the network activity, the transaction cost will decrease - down to thousandths of a RAY. Moreover, because RAY is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
+在Elysium中，RAY代币将用于支付手续费。最大手续费成本将固定为1 RAY，但随着网络活动的增长，交易成本将下降——降低到RAY的千分之一。此外，由于RAY是一种通胀性代币，每年供应量增长5%，其价格将与长期实际通胀率相关。
 
-An activity expansion is usually accompanied by coin price growth. Thus, with the increase in network activity, the relative price of RAY will grow, but the absolute value of the transaction cost expressed in RAY will decrease. This will allow the fees to remain at an acceptable level relative to the real world even at the peak of the bull run.
+随着网络活动的扩大，代币价格通常会上涨。因此，随着网络活动的增加，RAY的相对价格将增长，但以RAY计量的交易成本的绝对值将下降。这将使手续费在牛市高峰期相对于现实世界保持在可接受的水平。
 
-#### RAY Utility
+#### RAY实用性
 
-All transaction fees paid in RAY are immediately burned. The base fee rate per transaction is 1 RAY. But since the volume of transactions can be large, too many RAYs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 1% of the total RAY supply is burned daily.
+以RAY支付的所有交易费用都会立即被销毁。每笔交易的基本费率是1 RAY。但由于交易量可能很大，短时间内可能会销毁过多的RAY。因此，随着交易数量的增加，手续费会减少，以便每天销毁的RAY总供应不超过总RAY供应的1%。
 
 {% tabs %}
-{% tab title="Chart" %}
+{% tab title="图表" %}
 <figure><img src="../.gitbook/assets/Transaction fee.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Details" %}
-The formula defines the target fee cost in RAY depending on the total number of transactions. For the first 1000 days, the formula is:
+{% tab title="详情" %}
+该公式根据每日交易总数定义了RAY的目标费用。在前1000天，公式为：
 
 $$
-Fee=\frac{10^7}{10^7+TXN_{daily}}
+费用=\frac{10^7}{10^7+每日交易总数}
 $$
 
-After 1000 days the formula changes to account for the RAY inflation:
+1000天后，公式会更改以考虑RAY的通胀：
 
 $$
-Fee=\frac{0.01\ast RAY_{supply}}{0.01\ast RAY_{supply}+TXN_{daily}}
+费用=\frac{0.01\ast RAY供应}{0.01\ast RAY供应+每日交易总数}
 $$
 {% endtab %}
 {% endtabs %}
 
-#### RAY Issuance
+#### RAY发行
 
-RAY can only be released into circulation by burning SKY in the Elysium Grinder. There is a queue of orders arranged by the SKY / RAY rate for this purpose. The more SKYs are offered in exchange for a single RAY, the sooner the Grinder will process that order. The closest analogy to such a queue is exchange limit sell orders, executed by persistent demand from the Grinder.
+只有通过销毁SKY在Elysium Grinder中铸造RAY代币才能使其进入流通。这里有一个按照SKY / RAY比率排列的订单队列，用于此目的。提供的SKY数量与RAY的单个SKY兑换比率越高，Grinder处理该订单的速度就越快。这种队列的最接近类比是交易所的限价卖单，通过Grinder的持续需求执行。
 
 {% tabs %}
-{% tab title="Chart" %}
+{% tab title="图表" %}
 <figure><img src="../.gitbook/assets/RAY Issuance.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Details" %}
-The mathematical formula defines the RAY issuance depending on the day after the launch. For the first 1000 days, the formula is:
+{% tab title="详情" %}
+数学公式根据启动后的天数定义了RAY的发行量。在前1000天，公式为：
 
 $$
-RAY_{issuance}=52209083\cdot\frac{e^{-0.00591626\cdot day}}{\left(1+e^{-0.00591626\cdot day}\right)^{9.6}}
+RAY发行量=52209083\cdot\frac{e^{-0.00591626\cdot 天数}}{\left(1+e^{-0.00591626\cdot 天数}\right)^{9.6}}
 $$
 
-After 1000 days the formula changes to keep the constant inflation rate:
+1000天后，公式会更改以保持恒定的通胀率：
 
 $$
-RAY_{issuance}=\frac{10^7}{73}\\
+RAY发行量=\frac{10^7}{73}\\
 $$
 
-These calculations apply only to newly created RAYs. Simultaneously with the issuance, RAYs will be minted through Grinder to replace the burned commission.
+这些计算仅适用于新创建的RAY。与发行同时，通过Grinder铸造的RAY将用于替换已销毁的手续费。
 {% endtab %}
 {% endtabs %}
 
-#### RAY Circulating Supply
+#### RAY流通供应
 
-The Elysium Grinder controls the issuance of the RAY coin to reach the target circulating supply determined by a mathematical formula. Since the RAY coin is inflationary and the commissions paid in RAY are burned, there is a constant need to create new RAYs. Elysium Grinder will print RAYs providing the necessary issuance and replacing burned RAY coins to reach the target RAY circulating supply.
+Elysium Grinder控制RAY代币的发行量，以达到由数学公式确定的目标流通供应量。由于RAY代币具有通胀性，而以RAY支付的手续费会被销毁，因此需要不断创建新的RAY代币。Elysium Grinder将打印RAY代币以提供必要的发行量，并替换已销毁的RAY代币，以达到目标的RAY流通供应量。
 
 {% tabs %}
-{% tab title="Chart" %}
+{% tab title="图表" %}
 <figure><img src="../.gitbook/assets/RAY Supply.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Details" %}
-The mathematical formula defines the target supply depending on the day after the launch. For the first 1000 days, the formula is:
+{% tab title="详情" %}
+数学公式根据启动后的天数定义了目标供应量。在前1000天，公式为：
 
 $$
-RAY_{supply}=10^{9.0112}\cdot\left(1+e^{-0.0059162\cdot day}\right)^{-8.6}\;-\frac{10^{9.0112}}{2^{8.6}}
+RAY供应量=10^{9.0112}\cdot\left(1+e^{-0.0059162\cdot 天数}\right)^{-8.6}\;-\frac{10^{9.0112}}{2^{8.6}}
 $$
 
-After 1000 days the formula changes to keep the constant inflation rate:
+1000天后，公式会更改以保持恒定的通胀率：
 
 $$
-RAY_{supply}=\frac{10^7}{73}\cdot\left(day+6300\right)
+RAY供应量=\frac{10^7}{73}\cdot\left(天数+6300\right)
 $$
 {% endtab %}
 {% endtabs %}
 
-### SKY Coin
+### SKY代币
 
-<table><thead><tr><th width="177">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>100 000 000 SKYs</td></tr><tr><td>Utility</td><td>SKY is used to issue RAY</td></tr><tr><td>Issuance</td><td>Can be minted only as validator's reward</td></tr><tr><td>Burning</td><td>A part of SKY while minting RAY is burned </td></tr></tbody></table>
+<table><thead><tr><th width="177">参数</th><th>数值</th></tr></thead><tbody><tr><td>最大供应量</td><td>100 000 000 SKYs</td></tr><tr><td>实用性</td><td>SKY用于发行RAY</td></tr><tr><td>发行</td><td>只能作为验证者的奖励被铸造</td></tr><tr><td>销毁</td><td>在铸造RAY时一部分SKY
 
-It is vital for investors and validators that there are explicit mechanics for the growth of the asset in the long run. But in most modern networks, it is not entirely obvious what a coin is secured with, so the main criteria for long-term investments remain the limited supply of the token and the possible popularity of the decentralized system in the future.
+被销毁</td></tr></tbody></table>
 
-In Elysium, SKY is designed for investment purposes and is directly secured by user activity. SKY is a RAY coin printing certificate. Its main properties are a constant demand from the system and persistent burning. Thus, the more RAY coins are burned as transaction fees, the more must be printed, and the more SKYs will be used for this purpose, part of which will be burned.
+SKY代币在Elysium中起到两个关键角色：作为发行RAY的媒介和验证者的奖励。
 
-Thus, even a constant amount of daily transactions will reduce the overall supply of SKY. Therefore, both investors and validators benefit from the network activity since it directly reduces the SKY coin supply.
+#### SKY发行
 
-#### SKY Utility
+在Elysium中，SKY代币只能通过验证者的工作获得。验证者通过投入计算资源和时间来验证交易和创建新的区块。作为奖励，每当一个新区块被验证者创建时，一定数量的SKY代币将被铸造并分配给验证者。
 
-SKY is used by Grinder for RAY issuance. Anyone can put SKY coins in the Grinder specifying SKY / RAY rate. The Grinder continuously uses the SKYs offers with the highest bids to issue RAYs. During the order processing, one part of the SKY burns irretrievably, and the other part becomes available for reissue into circulation. It will stop being burned when only 1 000 000 SKYs remain.
+#### SKY销毁
 
-{% tabs %}
-{% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/SKY burning.png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
+在RAY的发行过程中，通过销毁一部分SKY来铸造RAY。这是为了确保RAY代币的发行量与网络活动的需求保持平衡。销毁的SKY数量与铸造的RAY数量成比例。
 
-{% tab title="Details" %}
-The percantage of SKY burned depends on the amount of SKYs put in Grinder for RAY issuance. The formula is:
+#### SKY实用性
 
-$$
-SKY_{\%burned}\;=\;100\cdot\frac{SKY_{grindered}}{SKY_{grindered}+10^7}
-$$
+SKY代币在Elysium中没有直接的实用性。它们的唯一用途是作为发行RAY代币的媒介和验证者的奖励。这使得SKY成为一种稀缺的资产，其价值主要由市场决定。
 
-When the number of SKYs used for RAY issuance exeeds 990 000 000 there will remain only 1 000 000 of SKY coins and they will stop burning.
-{% endtab %}
-{% endtabs %}
+### 用户和节点所有者的利益
 
-#### **SKY Issuance**
+Elysium代币经济学的目标是通过两个代币的使用，实现用户和节点所有者的利益的一致性。
 
-Validators' rewards will be calculated in RAY as the sum of burned commissions and inflationary RAY issuance. SKY will be issued corresponding to that amount using a constant product formula as validators' rewards. This means that the reduction of SKY token issuance will not occur in leaps and bounds, as in the case of Bitcoin halvings, but gradually.
+用户在Elysium中使用区块链进行交易和其他任务时，必须支付RAY作为交易费用。随着网络活动的增加，交易费用的绝对值可能会增加，但相对于RAY的供应量和通胀率来说，它们将保持在可接受的范围内。此外，随着网络活动的增长，RAY代币的价格也可能上涨，使持有RAY的用户受益。
 
-Since validator rewards are not directly dependent on the specific transactions they process, the distribution of SKY among validators can be adjusted based on many factors. In addition, this approach prevents front-running.
+节点所有者通过投入计算资源和时间来验证交易并创建新的区块，以获得SKY代币作为奖励。随着网络活动的增加，验证者的奖励将增加，从而增加了节点所有者的收入。
 
-{% tabs %}
-{% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/SKY Issuance.png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
+因此，随着Elysium网络活动的增加，用户和节点所有者都能从中受益。这种利益的一致性可以促进Elysium的可持续发展，并鼓励更多的用户和验证者加入网络。
 
-{% tab title="Details" %}
-The SKY supply depends on the number of RAYs minted by the Grinder. That includes all newly minted RAYs (issuance and replacement for burned coins). The number of SKYs to mint is defined by the formula:
+## 结论
 
-$$
-SKY_{issued}=\frac{10^{16}}{RAY_{minted}+10^8}
-$$
+Elysium代币经济学采用了双代币模型，即RAY和SKY。RAY代币用于支付交易费用，并且具有通胀性，以适应网络活动的增长。SKY代币作为验证者的奖励，并用于发行RAY代币。
 
-The Grinder uses a virtual SKY system pool to issue SKY. The Grinder can only take SKY from there to the extent of the burned commissions and inflation issuance. SKY used but not burned during RAY minting returns to this virtual pool. Thus, over time, fewer and fewer SKY will be issued as a reward.
-
-You can imagine - that there is a virtual AMM in Grinder with a pool of **RAY totally minted** / **SKY for issuance**. But the calculation of the SKY issue is done without having a real AMM - just by the constant product formula.
-{% endtab %}
-{% endtabs %}
-
-#### SKY Circulating Supply
-
-The amount of SKY circulating supply depends on the ratio of the SKY burning speed to the issuance volume. The SKY burning pace is determined primarily by the SKY market price. The SKY issuance depends on the number of RAYs burned as commissions. Thus, the exact amount of SKY in circulation can only be approximated.
-
-Our simulation shows that though the total supply of SKY is 100 000 000, it is unlikely that there will be more than 20 000 000 SKYs in circulation at any given moment.
-
-{% tabs %}
-{% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/SKY Circulating Supply.png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Details" %}
-The circulating supply of SKY is calculated based on a computer model.&#x20;
-
-It assumes that the number of transactions grows from 0 to a given number within about half a year, and the rate at which Grinder uses SKY is directly proportional to the ratio of RAY and SKY coins in circulation.
-{% endtab %}
-{% endtabs %}
-
-#### RAY / SKY Rate
-
-The RAY / SKY rate depends very much on the initial distribution of coins - therefore, it can even fall during the first few years if the number of transactions is not very high. But in the long term, the amount of RAY in circulation will grow, and the amount of SKY will fall after the peak is passed. So, in the long run, depending on the number of transactions in the blockchain, the amount of RAY given per SKY will steadily grow.
-
-{% tabs %}
-{% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/RAY SKY rate.png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Details" %}
-The RAY / SKY rate is calculated based on a computer model as a ratio of the RAY circulating supply and the SKY circulating supply.&#x20;
-
-The model assumes that the number of transactions grows from 0 to a given number within about half a year, and the rate at which Grinder uses SKY is directly proportional to the ratio of RAY and SKY coins in circulation.
-{% endtab %}
-{% endtabs %}
-
-|   |
-| - |
-
-## FAQ
-
-### Do you have two tokens? But LUNA also did, and it collapsed!
-
-If some single-token system goes bankrupt, it doesn't mean all single-token mechanics are doomed. We have fundamentally different mechanics from LUNA, self-sufficient and not directly tied to the real world. Thus, it cannot be broken by external manipulation, as it happened with LUNA.
-
-### How will I be able to deposit or withdraw money from Elysium?
-
-In the beginning, a bridge with Ethereum will be set up to interact with the outside world, allowing users to use wrapped ETH in Elysium. It will also be possible to withdraw capital from the Elysium network using this bridge.&#x20;
-
-Bridges to other popular blockchains will be created in the future. If necessary, it will be possible to make a bridge with reverse logic, where RAY or SKY is withdrawn from Elysium, and in another blockchain, the user receives wrapped RAY or SKY tokens.
-
-### What happens if no one puts SKY in the Grinder?
-
-That won't happen. At least, the Elysium Team will put a single SKY in the Grinder queue at a price sufficient to issue a billion RAYs. And we have no doubt that there will be many such overpriced orders.
-
-### SKY will not be burned when trading on the exchanges. Will it break the system?
-
-There will be DEX in Elysium, so it will be possible to trade SKY for RAY outside the Grinder.&#x20;
-
-If the price of SKY on DEX drops much relative to prices in the Grinder queue, it will open up an arbitrage opportunity. Anyone can buy a cheap SKY on the exchange and put it into the Grinder at a much higher price.&#x20;
-
-If the price on the exchange exceeds the price in the Grinder, it would be more profitable to cancel the Grinder's order in the queue and sell the SKY on the market.&#x20;
-
-Thus, the price on the exchange and in the Grinder queue will strongly correlate. But the burn price in the Grinder will likely be slightly higher than the exchange rate since it will take some time to process the order via the Grinder. In other words, if there is a possibility to swap SKY on the DEX immediately or through Grinder, say, within a week, then, obviously, the long wait must be somehow compensated.
-
-### What happens if SKY collapses?
-
-As has already been said, the prices in the Grinder queue and on the exchange correlate. If the price of SKY falls (relative to RAY), then the Grinder will start to consume (and burn) significantly more SKY. Therefore, at moments of deep SKY drawdowns, it will be burned at an accelerated pace.
-
-### Where will the first RAY tokens come from?
-
-The initial RAY tokens must appear somehow to launch the system. Otherwise, it will be impossible to make any transactions. For that, Elysium will have a rule (both initially and in the future) that each new validator will receive 100 RAY as a gift.
-
-### Will SKY be distributed evenly?
-
-SKY will be distributed among validators as a reward. Since we plan to launch a network with about a thousand initial validators, and about 10% of the total SKY supply will be distributed among them in the first year, there should be no large SKY holders.&#x20;
-
-Well, except for the Elysium Team, which needs a lot of tokens to create bridges, provide liquidity for centralized exchanges, offer grants for developers, etc. The additional reward the Team will receive as Routers' rewards by operating the network layer.
+通过这种模型，Elysium代币经济学旨在实现用户和节点所有者的利益的一致性，促进网络的可持续发展和增长。这种平衡对于提供可扩展性和高效性的区块链解决方案至关重要。
