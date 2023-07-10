@@ -34,7 +34,7 @@
 
 > 在通过描述相对较宽的历史拓扑的地图发送消息到特定目标时，要么需要集中式地图（其中信息更新速度比平均消息沿路线行进的速度更快），要么消息可能永远无法到达目标。
 
-#### 覆盖路由
+#### 覆盖网络路由
 
 在Napster被封锁之后，几乎立即出现了一些协议，允许分散方式下的存储和搜索信息：[Chord](https://en.wikipedia.org/wiki/Chord_\(peer-to-peer\))(2001)、[CAN](https://en.wikipedia.org/wiki/Content-addressable_network)(2001)、[Pastry](https://en.wikipedia.org/wiki/Pastry_\(DHT\))(2001)、[Tapestry](https://en.wikipedia.org/wiki/Tapestry_\(DHT\))(2004)等等。
 
