@@ -1,239 +1,131 @@
----
-description: New architecture for decentralized systems.
----
+# 💠 公共集群
 
-# 💠 Public Cluster
+## 对等架构的兴衰
 
-## **The rise and fall of peer-to-peer architecture.**
-
-The concept of decentralization is quite broad and includes many aspects from various domains: politics, sociology, game theory, engineering, programming, and economics. So when we describe a computer system as decentralized, we must accent particular aspects we discuss. And usually, decentralization refers to a peer-to-peer architecture that is a network of equal and interchangeable nodes.
+去中心化的概念相当广泛，涉及多个领域的各个方面，包括政治、社会学、博弈论、工程学、编程和经济学。因此，当我们描述一个计算机系统为去中心化时，我们必须强调我们所讨论的特定方面。通常，去中心化指的是一个由相等且可互换的节点组成的对等架构网络。
 
 {% hint style="info" %}
-The pure peer-to-peer approach assumes that nodes that form a network provide a service to each other. A computer program allows a user to get resources from different nodes, and at the same time, it acts as a server that processes requests from other participants. A good analogy is a barbershop society, where members can ask others for a free haircut.
+纯粹的对等架构假设构成网络的节点为彼此提供服务。计算机程序允许用户从不同的节点获取资源，同时它还充当处理其他参与者请求的服务器。一个很好的类比是理发店协会，成员可以向其他人请求免费理发。
 {% endhint %}
 
-However, only some peer-to-peer networks are genuinely decentralized systems since there are often centralized services running on top of a peer-to-peer network to help nodes communicate with each other. Therefore, distributed systems such as BitTorrent, SETI@home, or Skype are, in fact, something in between.
+然而，并非所有的对等网络都是真正去中心化的系统，因为通常在对等网络之上还有运行着中心化的服务，以帮助节点彼此通信。因此，类似于BitTorrent、SETI@home或Skype的分布式系统实际上处于中心化和对等之间。
 
-But every existing decentralized system is based on a peer-to-peer architecture since this is the only available alternative. The problem is that all such systems inherit the intrinsic weaknesses of peer-to-peer.
+但是，所有现有的去中心化系统都是基于对等架构的，因为这是唯一可用的选择。问题在于，所有这些系统都继承了对等架构固有的弱点。
 
-#### The birth of the peer-to-peer concept
+#### 对等概念的诞生
 
-The idea of a network made of equal nodes appeared due to the rapid growth in the popularity of personal computers, which gave unlimited freedom to individual users. It seemed then that ordinary users could collaborate without a central authority, such as large corporations or states, by uniting and sharing resources with each other.
+构建一个由相等节点组成的网络的想法源于个人电脑的迅速普及，这为个体用户带来了无限的自由。当时似乎普通用户可以通过联合和共享资源在没有大公司或国家这样的中央机构的情况下进行协作。
 
-But the actual implementation of the peer-to-peer concept (1984) became possible 20 years after its inception. Only in the early 2000s, most users switched to multitasking operating systems on which peer-to-peer node software did not block the rest of the functionality, and a dedicated Internet connection actively began to displace dial-up.
+但是，对等概念的实际实现（1984年）直到其提出的20年后才成为可能。直到2000年代初，大多数用户才开始使用支持多任务处理的操作系统，而对等节点软件不会阻塞其余的功能，而且专用的互联网连接开始积极取代拨号连接。
 
-#### Failed attempts to create decentralized peer-to-peer file storage
+#### 构建去中心化对等文件存储的失败尝试
 
-The main task, which the first peer-to-peer systems tried to solve, was the implementation of distributed file storage based on home computers. And in practice, the fundamental limitation of such systems immediately became apparent.&#x20;
+第一个对等系统试图解决的主要任务是基于家庭计算机的分布式文件存储的实现。实际上，这种系统的基本限制立即变得明显。
 
-It turned out that in a pure peer-to-peer network, achieving an effective search over the files stored on the nodes is impossible. It is because only the files that can be downloaded right away should be searched. In other words, the request should be made only for those nodes that are working at the time of the search. But within a decentralized peer-to-peer public network, getting an up-to-date list of working nodes is unrealistic.
+事实证明，在纯粹的对等网络中，无法实现对存储在节点上的文件进行有效搜索。这是因为只有可以立即下载的文件才应该进行搜索。换句话说，在搜索时只应该查询那些在搜索时正在工作的节点。但是在一个去中心化的对等公共网络中，获取一个实时的工作节点列表是不现实的。
 
-Therefore, the only way to search is to transfer the request from one node to another. But since nodes constantly connect and disconnect from the network, search requests will never be completed as the list of available files in the system is continuously changing. And limiting the lifetime of the request lowers its probability of reaching the node where the desired file is stored.
+因此，唯一的搜索方式是将请求从一个节点传输到另一个节点。但是由于节点不断连接和断开网络，搜索请求将永远无法完成，因为系统中可用文件的列表正在不断变化。而且，请求寿命的限制降低了它达到所需文件存储的节点的概率。
 
 {% hint style="info" %}
-Searching for a file in an unstructured peer-to-peer network can be compared to exiting a constantly changing maze. The only way to find a way out (if there is one) is to get lucky during a random walk. It is one of the facets of a routing problem in a decentralized network.
+在非结构化对等网络中搜索文件可以类比为离开一个不断变化的迷宫。找到出口（如果有的话）的唯一方法是在随机漫步过程中有幸找到。这是分散网络中路由问题的一个方面。
 {% endhint %}
 
-#### Blockchain - a new twist in the evolution of peer-to-peer systems
+#### 区块链——对等系统演进的新变化
 
-Apart from building file storage, there have also been attempts to create peer-to-peer systems for distributed computing. But all such projects (e.g., SETI@home) had some degree of centralization in their architecture.
+除了构建文件存储外，还尝试创建用于分布式计算的对等系统。但是所有这样的项目（例如SETI@home）在其架构中都存在某种程度的中心化。
 
-Bitcoin was the first genuinely decentralized peer-to-peer system that used distributed computing to protect the canonical transaction history. And at first, this approach worked well - the bottlenecks caused by the peer-to-peer architecture appeared later.
+比特币是第一个真正去中心化的对等系统，它使用分布式计算来保护交易的权威历史。起初，这种方法运行良好，对等架构引起的瓶颈出现得相对较晚。
 
-The first problem encountered was [IP address exhaustion](https://en.wikipedia.org/wiki/IPv4\_address\_exhaustion). The protocol IPv4 (1981), still taking up most of the Internet traffic, assumes just over 4.2 billion addresses - less than all devices connected to the Internet nowadays.
+遇到的第一个问题是[IP地址耗尽](https://en.wikipedia.org/wiki/IPv4_address_exhaustion)。IPv4协议（1981年）仍占据大部分互联网流量，其地址数仅超过42亿个，远不及当前连接到互联网上的所有设备。
 
 {% hint style="info" %}
-Most technologies result from coincidence and chance - [according to Vint Cerf](https://www.youtube.com/watch?v=mZo69JQoLb8\&t=816s), the Internet is an experiment escaped from a laboratory.
+大多数技术都是偶然和机遇的结果——根据文特·瑟夫的说法，互联网是从实验室中逃逸出来的实验。
 {% endhint %}
 
-Ordinary users do not notice the lack of IP addresses. But it is a severe limitation for peer-to-peer expansion since nodes must interconnect to form a network. Due to the lack of IP addresses, most home computers are connected to the Internet through [NAT](https://en.wikipedia.org/wiki/Network\_address\_translation), which does not allow them to [interconnect directly](https://pdos.csail.mit.edu/papers/p2pnat.pdf) without the help of a third-party server with a public IP address.
+普通用户并没有注意到IP地址的不足。但对于对等扩展来说，这是一个严重的限制，因为节点必须相互连接以形成网络。由于IP地址不足，大多数家用计算机通过[网络地址转换（NAT）](https://en.wikipedia.org/wiki/Network_address_translation)连接到互联网，这样就无法在没有具有公共IP地址的第三方服务器的帮助下直接互连。
 
-The second problem is the constant growth of the number of transactions and, consequently, the size of the blockchain. Today, the Bitcoin blockchain exceeds 430GB, so it would take days to download all the blocks and verify the chain for the initial launch of the node.
+第二个问题是交易数量的不断增长，因此区块链的大小也在不断增加。如今，比特币的区块链超过了430GB，因此要
 
-The massive blockchain size creates a high entry barrier for newcomers since the peer-to-peer approach implies that any interaction with the system, even making an own transaction, requires a personal node.
+下载所有的区块并验证链的完整性需要数天时间，这对于初始启动节点来说是不可行的。
 
-And the third problem is the exponential growth of the Bitcoin price, which contributes to intense competition for participation in its issuance. The competition among miners became so high that the probability of creating a new block using an ordinary computer and, hence, receiving a reward for it dropped to almost zero.
+庞大的区块链大小对于新用户来说构成了高门槛，因为对等架构意味着与系统的任何交互，甚至是发起自己的交易，都需要拥有个人节点。
+
+第三个问题是比特币价格的指数增长，导致参与发行的竞争变得非常激烈。矿工之间的竞争变得如此激烈，以至于使用普通计算机创建新块并因此获得奖励的概率几乎为零。
 
 {% hint style="info" %}
-Big farms built from specially designed devices (ASICs) create most of the new blocks nowadays. The largest of such farms belong to the manufacturers of ASICs themselves. So the big players have taken over Bitcoin issuance, taking it far from the original peer-to-peer idea of equality.
+如今，大部分新块都是由专门设计的设备（ASIC）构建的大型矿场生成的。其中最大的矿场属于ASIC制造商自己。因此，大型参与者已经掌握了比特币发行权，使其远离最初的对等想法。
 {% endhint %}
 
-Thus, using the functionality embedded in Bitcoin nodes on home computers has become virtually impossible.
+因此，几乎不可能在家用计算机上运行比特币节点的功能。
 
-Nodes were divided into different types depending on their tasks to solve these problems. A _miner_ is a particular client for farms designed for block generation. A _light node_ acts as a wallet for ordinary users. A _full node_ is the analog of the server and plays the role of a verifier, a database storage, and network gateway.
+为了解决这些问题，节点被分为不同类型，以解决这些问题。_矿工_是专门为块生成而设计的矿场的特殊客户端。_轻节点_充当普通用户的钱包。_全节点_是服务器的类比，扮演验证者、数据库存储和网络网关的角色。
 
-Dividing nodes into different types solved most of the problems accumulated in Bitcoin. But it also broke the original logic - full nodes contribute to the network the most, although they do not receive a reward.
+根据任务将节点分成不同类型可以解决比特币中累积的大部分问题。但它也打破了最初的逻辑——全节点在网络中的贡献最大，尽管它们没有获得奖励。
 
-#### The decline of peer-to-peer
+#### 对等的衰落
 
-Splitting nodes into different types is not exclusive to Bitcoin - the developers of almost all modern blockchains build multiple types of nodes into their architecture, which takes blockchain technology further and further away from the equality and interchangeability of nodes.
+将节点分成不同类型不仅适用于比特币——几乎所有现代区块链的开发人员都在其架构中构建了多种类型的节点，这使得区块链技术越来越远离节点的平等和可互换性。
 
-So, we can now confidently declare the failure of the pure peer-to-peer approach. Moreover, many centralized solutions seem so natural that we don't even notice them. For example, when you send transactions to the blockchain via MetaMask, analyze transactions in a blockchain explorer, or upload a file to IPFS - you are using the client-server approach - the antagonist of peer-to-peer.
+因此，我们现在可以自信地宣布纯粹的对等方法的失败。此外，许多中心化的解决方案似乎如此自然，以至于我们甚至没有注意到它们的存在。例如，当您通过MetaMask将交易发送到区块链、在区块链浏览器中分析交易或将文件上传到IPFS时，您正在使用客户端-服务器方法——对等的对立面。
 
-And this is not a bad thing because what really matters is not the technical principles of interaction between computers but the idea of independence from regulators setting their own rules, which the peer-to-peer concept symbolizes.
+这并不是一件坏事，因为真正重要的不是计算机之间的技术交互原则，而是独立于设定自己规则的监管机构的想法，这正是对等概念所象征的。
 
-The bad thing is that on the bright side of fairness, there is no alternative to the ancient peer-to-peer architecture, which has not defeated its inherent limitations in 40 years of development.
+坏的是，在公平的一面，没有其他可以替代古老的对等架构，它在40年的发展中并未克服其固有的限制。
 
-It's time to invent something new, especially since blockchain technology has opened up new horizons.
+是时候发明一些新的东西了，特别是区块链技术已经开启了新的视野。
 
-## Public cluster
+## 公共集群
 
-Although the concept of decentralized computer systems appeared as a synonym for peer-to-peer architecture, they are not the same. While peer-to-peer is the principle on which the system is built, decentralization is a set of properties it possesses. We consider the absence of an owner who controls the system's critical infrastructure as the most important of these properties. In other words, a truly decentralized system has no master.
-
-Cryptocurrencies' phenomenal success is primarily because the lack of an owner removes many political risks from the system. After all, when there is no managing center, no one can change the rules to their benefit, users do not need to be authorized to participate, and third parties, such as competitors or government agencies, cannot influence the system through pressure on a particular person or company.
-
-But when there is no owner, there is also no single source of truth to which all participants can refer.&#x20;
+尽管去中心化计算机系统的概念被视为对等架构的同义词，但它们并不完全相同。虽然对等是系统构建的原则，但去中心化是它所拥有的一组属性。我们认为没有控制系统关键基础设施的所有者是这些属性中最重要的。
 
 {% hint style="info" %}
-The owner, for example, can determine which server provides the current time, keeps a list of all working nodes, or stores the file paths. But such a server becomes known to everyone, and if a third party blocks it, the system will stop working. And this has happened more than once.
+所有者可以决定哪个服务器提供当前时间、保持所有工作节点列表或存储文件路径。但这样的服务器会为所有人所知，如果第三方阻止它，系统将停止工作。这种情况已经发生了多次。
 {% endhint %}
 
-Theoretically, a majority consent of the nodes about the system's state could serve as the source of truth. The participants' individual interests are contradictory, and, as a result, the optimum to which the system will aim is the balance of the interests of the majority of its participants.
+理论上，节点关于系统状态的大多数共识可以作为事实来源。参与者的个体利益是相互矛盾的，结果是系统将追求大多数参与者利益的平衡。
 
-<figure><img src="../.gitbook/assets/One node – one vote.webp" alt=""><figcaption></figcaption></figure>
+在实践中，攻击者可以通过创建节点来控制系统中的多个节点，从而获得多
 
-But in practice, an attacker can get many of the nodes in a system under his control simply by creating them, thus obtaining the majority and biasing the consent in his favor. This type of threat of privatization of an ownerless system by one of its participants has been named Sybil attacks.
+节点的优势，并将共识偏向自己的利益。这种私有化攻击系统中没有所有者的威胁被称为Sybil攻击。
 
-<figure><img src="../.gitbook/assets/Sybil attack.webp" alt=""><figcaption></figcaption></figure>
+防御这种攻击的主要方法是参与者之间对有限资源的竞争。这种方法首次在比特币网络中使用，其中对块链的规范交易历史进行投票与参与者控制的节点数量无关，而是涉及计算资源，这不仅需要初始投资，还需要持续消耗电力。
 
-The primary method of defending against this kind of attack is competition among participants for limited resources. And this approach was first used in the Bitcoin network, where voting for the canonical chain of blocks is not about the number of nodes under a participant's control but about computing resources, which require not only the initial investment but also a constant expenditure of electricity.
-
-Thus, the Proof of Work consensus is based mainly on a protection mechanism against Sybil attacks. And so is Proof of Stake, which uses tokens stored in the blockchain instead of calculations.
-
-<figure><img src="../.gitbook/assets/Preventing Sybil attacks.webp" alt=""><figcaption></figcaption></figure>
-
-In fact, starting with Bitcoin, all subsequent truly decentralized blockchains use consensus with built-in protection against Sybil attacks, as only this approach allows using a peer-to-peer architecture.
-
-But the protection against Sybil attacks can be separated from the consensus by taking the security dome outside the system. An attacker can only hack the formula "one node - one vote" if there is no barrier for new nodes. If, however, participants must compete with each other to join the system, the threat of Sybil attacks is eliminated long before the consensus process itself.
-
-<figure><img src="../.gitbook/assets/Preventing Sybil attacks before....webp" alt=""><figcaption></figcaption></figure>
-
-Moreover, protecting the network from fake nodes allows us to move away from the peer-to-peer architecture while maintaining the ownerless concept. After all, the motivation of nodes through the issuance of blockchain assets significantly impacts the network's size and configuration.
-
-And if, until now, this property has been applied only as a motivation to expand a flat peer-to-peer network in _**breadth**_, we propose to use the limited blockchain resources to form a hierarchy of nodes in _**depth**_.
-
-In other words, the limited virtual assets that became available with the advent of the blockchain concept can be used not only to create cryptocurrencies but also as a means to build a hierarchy.
-
-This approach adds a new dimension of complexity to the architecture of a decentralized system, allowing it to dramatically increase its efficiency through a division of labor not achievable with a pure peer-to-peer architecture.
-
-We call this type of architecture a Public Cluster.
-
-> **A Public Cluster is an architecture of an ownerless system formed by vertically linked hierarchical layers that require limited blockchain resources to participate in. Every layer, which consists of equal and interchangeable nodes, can be a distinct peer-to-peer network.**
-
-<figure><img src="../.gitbook/assets/Public cluster is formed by....webp" alt=""><figcaption></figcaption></figure>
-
-While in classic Proof of Work, real computing power protects the virtual blockchain from tampering, in a public cluster architecture, virtual blockchain resources shield the physical network from the fake nodes.
+因此，工作量证明共识主要是基于防范Sybil攻击的保护机制。而权益证明也是如此，它使用存储在区块链中的代币而不是计算来进行共识。
 
 {% hint style="info" %}
-Imagining a chain of blocks as a rope, when woven with Proof of Work consensus, the nodes weave a gold thread into it. And in a public cluster, virtual gold is demanded from the nodes to be part of the device, producing a rope with unique coloring.
+从比特币开始，所有后来真正去中心化的区块链都使用内置的防范Sybil攻击的共识，因为只有这种方法才允许使用对等架构。
 {% endhint %}
 
-The public cluster architecture has a whole set of unique advantages:
+但是，保护系统免受Sybil攻击的机制可以与共识机制分开，通过将安全圈外移到系统之外。只有在参与者之间必须相互竞争才能加入系统时，攻击者才能破解“一个节点-一个投票”的公式。如果参与者必须与彼此竞争才能加入系统，那么Sybil攻击的威胁将在共识过程之前被消除。
 
-* Ownerless design. There are no political risks, meaning that no participant can change the system's rules in his interest, so there is no single point of failure in the form of a person or company that a third party can push.
-* Decentralized source of truth. The information on higher hierarchical layers that nodes agree on can be a single source of truth for lower layers, preventing an attacker from misleading other participants. In other words, a single owner is replaced by a decentralized hierarchical layer consisting of multiple nodes. It opens up a way to solve BFT problems in entirely new areas. For example, for the first time, it is possible to make unicast forwarding of messages between nodes in a decentralized system by building a structured topology on one of the hierarchical layers.
-* Permissionless system. Any (but not every) user can run his node at one of the hierarchy levels without any approvals from the authorizing center, which does not exist. At the same time, the lowest level may not require resources to participate, thus allowing anyone to support the system.
-* Consensus simplification. When there is no need to build Sybil attack protection into the consensus mechanism, multiple independent parameters can be used to select the next block. In addition, block agreement by a limited number of nodes at the top - the safest - hierarchical level ensures decentralized, secure, and fast consensus.
-* High efficiency. The hierarchy of the public cluster allows sequential information processing, i.e., according to the conveyor principle. For example, if preprocessing on one of the hierarchical layers generates blocks from transactions as a blockchain-state patch and zk-SNARK, the other layer will update the data almost instantaneously. Theoretically, it allows a decentralized system to surpass the limits of information processing by a single server, which until now has been an unsolvable task.
+此外，保护网络免受虚假节点的影响还可以使我们摆脱对等架构，同时保持无所有者的概念。毕竟，通过发行区块链资产来激励节点对网络的参与极大地影响了网络的规模和配置。
 
-But there is always a price to pay for improvements.
+迄今为止，此属性仅被应用于在广度上扩展平坦对等网络的动机。我们建议利用有限的区块链资源来构建节点的深度层次结构。
 
-First, starting a public cluster is a challenge because it must already consist of many independent participants when it first launches. Therefore, a separate system of pre-selection of participants is needed to start a cluster in a decentralized state, preventing the centralization of nodes in a single hand from the very beginning.
+换句话说，区块链概念带来的有限虚拟资产不仅可以用于创建加密货币，还可以用作构建层次结构的手段。
 
-Second, when the public cluster is already running, there should be a system for allocating the resources needed to participate in the hierarchical layers. Competition for these resources is the key to long-term decentralization, so the principles of their distribution play a crucial role in the system's overall reliability. After all, centralizing these resources allows a malicious actor to establish control over most layer nodes and potentially disrupt the entire cluster.
+这种方法通过添加新的复杂性维度到去中心化系统的架构中，使其能够通过分工的方式大幅提高效率，这是纯对等架构所无法实现的。
 
-Third, the system's stability to malicious behavior of the participants is a rather complex logical problem, solved in each case individually. Every rule should have an algorithm protecting it from evil actors. Therefore a straightforward principle applies: the more rules exist in the system, the more difficult it is to ensure their guaranteed implementation. And some types of such rules cannot be protected at all.
+我们将这种类型的架构称为公共集群。
 
-Fourth, limited access to hierarchical layers means dynamic node rotation, which requires a relatively quick and easy inclusion in blockchain support without downloading hundreds of gigabytes.
+> **公共集群是一种无所有者系统的架构，由垂直链接的分层组成，参与其中需要使用有限的区块链资源。每个层次都由相等和可互换的节点组成，可以看作是一个独立的对等网络。**
 
-### Elysium public cluster
-
-The Elysium public cluster consists of three hierarchical layers connected vertically: an assertion layer, an address layer, and an assembly layer.
-
-The assertion and address layers are formed as peer-to-peer networks. While the assertion layer has an unstructured topology, the address layer has a structured topology.
-
-The entire cluster acts as a server, providing service to clients connecting to the address layer.
-
-<figure><img src="../.gitbook/assets/Elysium Public Cluster.webp" alt=""><figcaption></figcaption></figure>
-
-#### Assertion layer
-
-The assertion layer is an unstructured peer-to-peer network formed by Keepers. Meaning, Keepers do not create any structured topology and interconnect randomly.
-
-The Proof of Victory consensus works on the assertion layer, as it is at the very top of the hierarchy and, as such, is the most secure and decentralized layer. The logic of Proof of Victory is designed to guarantee that the consensus will be reached as long as 51% of Keepers are correctly working.
-
-The only thing an evil Keeper can do to harm the system is to not work. More precisely, any malicious actions will produce the same results as if the Keeper did nothing.
-
-#### Address layer
-
-Most of the tasks on the Elysium network are performed on the address layer by Routers. They maintain the blockchain, verify transactions and blocks, function as network gateways, and act as the core mail service for sending tokens between users.
-
-Forming a structured address ring is one of the most important architectural features of the address layer. Routers, acting as gateways, connect Workers and Wallets to the address ring, effectively creating a consistent network for clients with a single address space based on the blockchain addresses.
-
-A single address space effectively solves many problems decentralized systems face, from user-friendly client-server interaction to the addressable forwarding of crypto assets and information.
+在经典工作量证明中，真实的计算能力保护着虚拟区块链免受篡改。而在公共集群架构中，虚拟区块链资源保护着物理网络免受虚假节点的伤害。
 
 {% hint style="info" %}
-In other words, the user's wallet program will not connect to proprietary servers, as with virtually all current solutions, but to one of the Routers. In addition, sending requests to a specific wallet and receiving a response from it will be possible in the Elysium network.
+将区块链视为一根绳子，当织入工作量证明共识时，节点将其中一根金色线纳入其中。而在公共集群中，节点需付出虚拟黄金作为参与设备的代价，从而产生一根具有独特颜色的绳子。
 {% endhint %}
 
-In addition to their primary tasks at the address level, Routers also act as a liaison to tie the entire cluster together. This is achieved through vertical layer integration, as Workers and Wallets connect to Routers, which in turn must be connected to Keepers.
+公共集群架构具有一整套独特的优势：
 
-Every new block passes from Worker through Router to Keeper, and each of these node types is rewarded. It promotes the match of interests of node owners on different hierarchies, which leads to motivation for vertical integration of the layers.
+* 无所有者设计。没有政治风险，这意味着没有参与者可以为了自己的利益更改系统规则，因此不存在单点故障，比如某个特定的个人或公司可以被第三方推动。
+* 去中心化的真实来源。节点达成共识的更高层次上的信息可以成为更低层次上的单一事实来源，防止攻击者误导其他参与者。换句话说，单一所有者被由多个节点组成的去中心化层次结构所取代。它为解决BFT问题提供了全新的可能性。例如，首次可以通过在分层结构的一层上构建结构化拓扑来实现去中心化系统中节点之间的单播转发消息。
+* 无需许可的系统。任何（但不是每个）用户都可以在层次结构的一个层次上运行自己的节点，无需经过授权中心（实际上不存在）。同时，最低层可能不需要资源来参与，从而使任何人都可以支持该系统。
+* 共识简化。当不需要将防范Sybil攻击内置到共识机制中时，可以使用多个独立参数来选择下一个块。此外，在最高层-最安全的层次上由有限数量的节点达成块一致性，可以确保去中心化、安全和快速的共识。
+* 高效性。公共集群的层次结构允许顺序信息处理，即按照传送带原则。例如，如果预处理在一个层次结构中生成来自交易的块作为区块链状态的补丁和zk-SNARK，那么另一个层次结构将几乎即时更新数据。从理论上讲，这使得去中心化系统能够超越单个服务器的信息处理
 
-#### Assembly layer
+能力，并提供更高的吞吐量和更低的延迟。
 
-In contrast to Routers and Keepers, which must run on a server with a public IP address, a Worker is a regular program for a home computer (Windows, MacOS, or Linux). Its logic is simple - the program packs unprocessed user transactions into a block and gets a reward if it is selected as the next block in the blockchain.
+公共集群是对等架构的演进，它通过层次结构和有限资源的使用提供了更高的效率、更好的安全性和更大的灵活性。这种架构可以应用于各种去中心化系统，包括区块链、文件存储和分布式计算。它为无所有者系统提供了一种全新的设计方式，使参与者能够以相等和可互换的方式参与，并在共享资源的基础上达成共识。
 
-It is worth noting that the Worker's task is only to create a new block, not to reach a consensus. In other words, block creation does not require unnecessary computation, as in Proof of Work.
-
-Separating the new block creation (which requires checking the correctness of the previous chain) into a distinct role brings much greater decentralization of the nodes that support and check the system's work. At the same time, this approach reduces as much as possible the technical entry barrier for node owners - only a program running on a home computer or laptop that does not consume many resources is required.
-
-{% hint style="info" %}
-A relatively close analogy for describing the architecture of Elysium can be a bank. Thus, the Keepers correspond to the bank's board of directors, which decides critical issues and is the only source of truth. Routers can be compared to a network of branches, which regular customers can visit to make transfers, as well as Workers, who perform specific tasks for a reward.
-{% endhint %}
-
-#### The launch and the size of the Elysium public cluster
-
-To be able to connect to each of Elysium's hierarchical layers, one of the unique non-tradable on-chain assets will be required: Bronze (Workers), Silver (Routers), and Gold (Keepers).
-
-The blockchain system of distributing these assets to all participants involved in Elysium will be launched sometime after the system's launch. Initially, the public cluster will be formed by participants who have successfully passed the [Pioneer Program](../join/pioneer-program.md). Pioneers will be able to launch their nodes on one of the hierarchical layers, depending on the results they achieve in the Program.
-
-{% hint style="info" %}
-There will be selected 70 participants as Keepers, 500 as Routers, and 1000 as Workers (maybe more). External users will not be able to join any layer before launching a Bronze, Silver, and Gold distribution. From the initial launch of the system until the start of the distribution system, the public cluster will operate in a test mode with real SKY rewards for pioneers.
-{% endhint %}
-
-The details of how the Bronze, Silver, and Gold distribution system will work once it is launched will be covered in a separate section, as this topic is broad. For now, it is essential to note that Silver will, on average, be ten times more scarce than Bronze and ten times more affordable than Gold.
-
-Since the total reward per block is limited, increasing the number of nodes will lead to a proportional decrease in participants' profits. In addition, some critical aspects of the system, such as consensus, will run slower with more nodes. That is why the number of nodes of different types should aim for an optimal value to better balance the system's reliability and decentralization with performance and profitability.
-
-{% hint style="info" %}
-The final sizes of the different groups of nodes will be obtained from the network testing data, but for now, we can be guided by the following rough numbers:
-
-* Keepers: 101
-* Routers: 1001
-* Workers: 10001
-{% endhint %}
-
-The motivation for increasing the number of nodes will be a reward in SKY coins. The SKY for each block is distributed between a Worker, a Router, and a Keeper evenly. Thus, simply because there are ten times fewer Keepers than Routers, their income will be, on average, the same ten times higher. In other words, increased profitability on higher hierarchy levels will be due to reduced competition.
-
-Limiting the growth of the number of nodes when reaching the optimal value will be achieved by constantly charging resources from all nodes of this type. And the higher the optimal number is exceeded, the greater the corresponding resource will be charged off. Resources will not be charged when the number of nodes is less than optimal.
-
-In other words, if there are 1000 Routers, they will not be charged Silver. If there are 1001, they will be charged 1x Silver. And when they reach the total of 2002, 2x Silver will be charged.
-
-Since the amount of Silver held by each Router will be different, at a certain point, some of them will run out of Silver, and those nodes will no longer be able to perform the role of a Router. Therefore, the more Routers there are, the faster their quantity will aim to optimal.
-
-{% hint style="info" %}
-Whereas Bitcoin can be obtained as a reward for expending computational resources, SKY can be obtained by spending on-chain non-tradable resources - Bronze, Silver, and Gold, backed by the engagement of participants.
-{% endhint %}
-
-## Summary
-
-The Elysium public cluster's hierarchy and logic allow it to achieve several contradictory goals.
-
-First, an opportunity arises to bring back the spirit of the early days of the crypto-industry, when to enter the world of cryptocurrencies, you didn't even have to buy them - you just had to run a program on your home computer and after a while the cryptocurrency appeared in your wallet all by itself. In Elysium, we will bring that utopia back.
-
-Second, since there are relatively few Keepers participating in the consensus, the time of agreeing on a new block will be minimal because the most significant influence on the speed of the agreement is the time of information distribution over the network, which is higher as more nodes form the network. The consensus is achieved on the most protected hierarchical layer, which excludes many types of attacks (including Sybil and DDoS attacks). However, a new attack vector opens up, which we will discuss separately in the consensus section.
-
-Third, addressable messaging allows many problems (e.g., interaction with the outside world) to be approached from a new and unexpected perspective.
-
-Fourth, the hierarchical layers make it possible to build information processing sequentially, achieving record-breaking throughput.
+然而，需要注意的是，公共集群架构仍然处于研究和发展阶段，目前尚未广泛应用于实际系统。将来，随着技术的进一步发展和实践的验证，公共集群架构可能会成为构建可扩展、安全和高效的去中心化系统的重要工具之一。

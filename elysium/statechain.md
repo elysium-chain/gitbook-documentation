@@ -1,135 +1,107 @@
----
-description: Expanding the blockchain concept
----
-
 # ⛓ Statechain
 
-## **What makes popular blockchains so huge?**
+## 为什么流行的区块链如此庞大？
 
-The size of information stored in blockchains such as Bitcoin and Ethereum currently exceeds 430GB and 580GB, respectively, and continues to grow at an accelerating rate.
+比特币和以太坊等区块链中存储的信息大小目前分别超过430GB和580GB，并且以加速的速度持续增长。
 
-<figure><img src="../.gitbook/assets/Blockchain size.webp" alt=""><figcaption></figcaption></figure>
+问题在于，即使我们抛开安全问题，区块链也无法分割。毕竟，仅仅基于不包含所有交易的部分区块无法获得完整且一致的账务视图。
 
-The problem is that blockchain cannot be split, even if we set aside security issues. After all, getting a complete and consistent view of accounting is impossible based on just part of the blocks not containing all transactions.
+因此，每个连接到比特币或以太坊网络作为节点的新参与者都必须下载并处理所有区块和存储的交易，从创世区块开始。目前需要几天的时间，而随着时间的推移，情况将会恶化。
 
-Because of this, every new participant connecting as a node to Bitcoin or Ethereum network must download and process all blocks and stored transactions, starting with the Genesis block. At the moment, it takes a few days, and the situation will worsen over the years.
-
-Therefore, the more information accumulates in the blockchain over time, the higher the entry barrier for new node owners becomes, potentially creating a serious threat to the decentralization of a network.
+因此，随着时间推移，区块链中积累的信息越多，对新节点所有者的进入门槛就越高，可能对网络的去中心化构成严重威胁。
 
 {% hint style="info" %}
-Information in popular blockchains is accumulating at a rate that outpaces technological progress, which means that it will not fit the largest hard drive available on the market in the foreseeable future. So sooner or later, only large data centers with multiple servers will be able to serve as nodes.
+流行的区块链中的信息正在以超过技术进展的速度积累，这意味着在可预见的未来，它将无法适应市场上最大的硬盘。因此，早晚只有拥有多台服务器的大型数据中心才能作为节点。
 {% endhint %}
 
-That is why it is crucial to build blockchain accounting in a way that will not, over time, exponentially increase the amount of information stored. And the choice is between only two basic models of accounting.
+因此，至关重要的是以一种不会随着时间指数增加存储信息量的方式构建区块链账务。选择只有两种基本的账务模型之间。
 
-#### Bitcoin: UTXO Model
+#### 比特币：UTXO模型
 
-The Proof of Work consensus in Bitcoin creates a protected blockchain that contains a log of all transactions. And because the blockchain must record all transactions, the number of which depends only on user activity, the amount of data stored by the network's nodes not only increases over time but has no limit to its growth.
+比特币中的工作量证明共识创建了一个受保护的区块链，其中包含所有交易的日志。由于区块链必须记录所有交易，而交易的数量仅取决于用户活动，因此网络节点存储的数据量不仅随时间增长，而且没有增长的限制。
 
-<figure><img src="../.gitbook/assets/Blockchain acts.webp" alt=""><figcaption></figcaption></figure>
+比特币账务是基于UTXO（未花费的交易输出）原则构建的，这意味着将一个尚未使用的交易结果作为另一个交易的输入。
 
-Bitcoin accounting is built on the principle of UTXO (Unspent Transaction Output), which implies using the result of one transaction, not yet spent, as an input to another.
+换句话说，系统追踪的不是用户账户中的硬币数量，而是签署交易的人是否有权花费前一笔交易中剩余的比特币余额。
 
-<figure><img src="../.gitbook/assets/UTXO.webp" alt=""><figcaption></figcaption></figure>
+因此，用户可能有多个来自不同交易的硬币余额可供使用，并且每次都必须选择在给定交易中要使用的硬币。因此，每个比特币的流动可以追溯到发行时的时间。
 
-In other words, the system tracks not how many coins are in the user's account but whether or not the person who signed the transaction has the right to spend the specific balance of bitcoins left over from one of the previous transactions.
+在比特币中，UTXO与链接的区块和工作量证明共识相结合，因为UTXO跟踪的是交易而不是用户。但是，这种方法不允许对区块链的一部分进行归档，因为任何旧区块可能包含未使用的交易输出。
 
-As a result, the user may have several coin balances from different transactions available to him and must choose each time which coins will be spent in a given transaction. As a result, the movement of each bitcoin can be traced back in time until it is issued.
+鉴于区块链的完整性，Satoshi Nakamoto在他的[白皮书](https://bitcoin.org/bitcoin.pdf)中提供了另一种方法来减少区块链中存储的信息量。他建议删除区块中旧交易的所有详细信息。
 
-<figure><img src="../.gitbook/assets/UTXO tree.webp" alt=""><figcaption></figcaption></figure>
+这种方法可以将区块链数据减少99%，但完全删除了所有历史记录。它只留下经过清理的区块链链条，可以进行正确性的交叉检查，但无法用于重建比特币的转账记录。
 
-In Bitcoin, UTXO is smoothly coupled with chained blocks and the Proof of Work consensus, as UTXO keeps track of transactions rather than users. But this approach does not allow archiving part of the blockchain, as any old block may contain unused transaction outputs.
+现在，这种经过清理的比特币UTXO数据只有5GB，轻量级节点用于数据验证。但即使只有一个币的5GB会计数据 - 没有智能合约或用户代币 - 也是非常庞大的。
 
-<figure><img src="../.gitbook/assets/UTXO colud be stored....webp" alt=""><figcaption></figcaption></figure>
+此外，即使通过清除交易详细信息来减小UTXO数据的大小，由于硬币继续碎片化，清理的区块仍然占用空间，并且其数量只会增加。
 
-Given the integrity of the blockchain, Satoshi Nakamoto, in his [whitepaper](https://bitcoin.org/bitcoin.pdf), provided another approach to reduce the size of information stored in the blockchain. He suggested deleting all details on old transactions in blocks.
+#### 以太坊：账户模型
 
-<figure><img src="../.gitbook/assets/Satoshi WP.webp" alt=""><figcaption></figcaption></figure>
+交易日志是维护总账的基本信息。但由于日志庞大且潜在无限，专业人员（会计师和税务检查员）通常在工作中使用不同类型的余额（资产负债表、试算表）。
 
-This approach reduces blockchain data by 99% but entirely removes all the history. It leaves only the chain of purged blocks, which can be cross-checked for correctness but cannot be used to reconstruct bitcoins forwarding records.
+这种方法允许将许多交易在账户的上下文中聚合，从而将数据大小限制在账户数量上，大大减少了数据量。
 
-<figure><img src="../.gitbook/assets/UTXO tree after pruning.webp" alt=""><figcaption></figcaption></figure>
-
-Right now, such purged, i.e., minimal possible, Bitcoin UTXO data is 5GB and is used by lightweight nodes for data verification. But even 5GB of accounting data for just one coin - without smart contracts or user tokens - is exceptionally much.
-
-In addition, the size of UTXO data, even with purged transaction details, can infinitely increase as coins continue to fragment, and purged blocks still take up space, and their count can only grow.
-
-#### Ethereum: Account Model
-
-The transaction journal is the basic information for maintaining a general ledger. Still, because of a journal's large and potentially unlimited size, professionals (accountants and tax inspectors) often use different types of balances (balance sheet, trial balance) in their work.
-
-This approach allows aggregating many transactions in the context of accounts, which limits the data size to the accounts number, significantly reducing it.
-
-In the context of blockchain, the balance resulting from the processing of all transactions is a list of users' wallets with balances of coins they own.
+在区块链的上下文中，处理所有交易的结果余额是用户钱包列表，其中包含他们所拥有的硬币余额。
 
 {% hint style="info" %}
-Such a user account balance may be seen as a way to collect all UTXOs from different blocks and transactions in one place. In the future, we will refer to such an account balance as a state of accounts or just a state.
+可以将此类用户账户余额视为在不同区块和交易中收集所有UTXO的方式。我们将来将把这样的账户余额称为账户状态或状态。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Transactions result....webp" alt=""><figcaption></figcaption></figure>
+而比特币主要是基于工作量证明共识，基于交易日志构建的，以太坊网络必须放弃UTXO概念以实现智能合约并使用账户状态（以太坊术语中的“世界状态”）。
 
-And while Bitcoin, primarily due to the Proof of Work consensus, is based on transaction logs, the Ethereum network had to abandon the UTXO concept to implement smart contracts and use state of accounts ("state of the world" in Ethereum terminology).
+然而，由于工作量证明共识的遗留问题，以太坊的账户状态是次要的，因为账本仍然基于区块链的链条，通过处理该链条中的每个区块，每个节点必须达到相同的最终世界状态。
 
-Yet because of the consensus legacy of Proof of Work, the state of accounts in Ethereum is secondary since the accounting is still based on the chain of blocks, by processing which each node must come to the same final state of the world.
+实际上，在以太坊切换到具有
 
-<figure><img src="../.gitbook/assets/Primacy of the chain of blocks.webp" alt=""><figcaption></figcaption></figure>
+最终化能力的权益证明共识后，可以将区块链分割并将旧部分存档以供未来验证。这将会将存储的数据量减小到状态的大小。
 
-In fact, in Ethereum, after switching to a Proof of Stake consensus with finalization capability, it became possible to split the blockchain and archive the older part for future validation by anyone willing to do so. It would reduce the stored data's size to the state's size.
-
-<figure><img src="../.gitbook/assets/Ability to split....webp" alt=""><figcaption></figcaption></figure>
-
-The problem is that in Ethereum, the state of the world includes not only wallet balances but also data on all smart contracts. Because of this, its volume is currently more than 130GB. And that is not the limit since smart contracts, which have become very popular, land with all their data and code in the blockchain forever.
+然而，由于以太坊的世界状态包括不仅仅是钱包余额，还包括所有智能合约的数据，所以其体积目前已经超过130GB。而且这还不是极限，因为智能合约变得非常流行，它们的所有数据和代码都永久存储在区块链中。
 
 {% hint style="info" %}
-Of course, many [proposals](https://github.com/tvanepps/EthereumDiscordGuidebook/blob/main/state-expiry/README.md) exist to solve this problem, but they all entirely change the concept of smart contracts as we know it.
+当然，存在许多解决这个问题的[提案](https://github.com/tvanepps/EthereumDiscordGuidebook/blob/main/state-expiry/README.md)，但它们都完全改变了我们所熟悉的智能合约的概念。
 {% endhint %}
 
-## **Statechain**
+## Statechain
 
-The formation of transaction history as the only source of truth, in the form of a blockchain, is primarily the legacy of the Proof of Work consensus and the UTXO accounting model.
+将交易历史作为真相的唯一来源形成区块链，主要是工作量证明共识和UTXO账务模型的遗留。
 
-However, if the accounting is based on the accounts model, then the specific states are permanently fixed along with the finalized blocks. After all, the chain of finalized blocks results in only one particular state.
+然而，如果账务基于账户模型，那么特定状态将与最终化的区块永久固定。毕竟，最终化的区块链形成了唯一的特定状态。
 
-Checking such a finalized state is equal to verifying the entire blockchain. If the transaction is in the finalized block, most nodes have verified it BEFORE. If there was an error in the nodes program and they allowed the invalid transaction to pass, block re-processing by standard methods will not detect it since the same faulty algorithms will be used. In other words, detecting an error AFTER most nodes have accepted the transaction means a soft fork.
+使用最终化的状态进行检查等于验证整个区块链。如果交易在最终化的区块中，大多数节点在此之前已经验证过。如果节点的程序出现错误，允许无效交易通过，使用标准方法重新处理区块将无法检测到错误。换句话说，大多数节点接受交易后检测到错误意味着软分叉。
 
 {% hint style="info" %}
-For example, Bitcoin's programming error enabled someone to [create 184 billion ](https://en.bitcoin.it/wiki/Value\_overflow\_incident)Bitcoins. Since the error was in the program algorithm, it was missed by all nodes and could only be discovered after the fact by manually analyzing the history of transactions. They had to update the program and roll back the state of the blockchain to fix the issue.
+例如，比特币的编程错误导致某人创建了1840亿比特币。由于错误在程序算法中，所有节点都错过了这个错误，只能在事后通过手动分析交易历史才能发现。他们必须更新程序并回滚区块链的状态来修复问题。
 {% endhint %}
 
-So processing the entire transaction history when a new node joins the network can be replaced by a finalized state of accounts. It would require downloading significantly less data and also make checking all previous transactions in a lengthy chain of blocks unnecessary.
+因此，当新节点加入网络时，不再需要处理整个交易历史，而是需要一个最终化的账户状态。这将需要下载的数据大大减少，同时也不需要检查以前的所有交易在冗长的区块链中的情况。
 
-Blocks will refer to the states of accounts (not to each other) to implement this approach in Elysium. It will allow the building of two corresponding sequences: a chain of blocks (blockchain) and a chain of states (statechain).
-
-<figure><img src="../.gitbook/assets/Blockchain &#x26; Statechain.webp" alt=""><figcaption></figcaption></figure>
+区块将引用账户状态（而不是彼此）来在Elysium中实现这种方法。这将允许构建两个相应的序列：区块链和状态链。
 
 {% hint style="info" %}
-Statechain is an extension of the blockchain concept, so if we use the word "blockchain" regarding Elysium, there's no mistake.
+Statechain是区块链概念的扩展，因此在涉及Elysium时使用“区块链”一词是正确的。
 {% endhint %}
 
-Although it is theoretically easier to fake a state of accounts than a lengthy chain of blocks, it does not affect overall system security when instant finalization is in place.
+尽管理论上伪造账户状态要比伪造冗长的区块链容易，但在具有即时最终化功能的情况下，这不会影响整个系统的安全性。
 
-First, brute force using a regular computer would still take several billion years to fake a state. Second, even if an incredibly lucky attacker generates a fake state with the same hash as the original one and manages to pass it to a newcomer, the fraud will be evident on the next block. After processing the transactions, the state will change, and the updated fake state's hash will not match the new canonical state maintained by most nodes.
+首先，使用普通计算机进行暴力破解仍然需要数十亿年来伪造一个状态。其次，即使一个极其幸运的攻击者生成了与原始状态相同的伪造状态，并设法将其传递给新加入的节点，欺诈行为将在下一个区块上显现出来。在处理交易后，状态将发生变化，并且大多数节点维护的更新的伪造状态的哈希值将与新的规范状态不匹配。
 
-This way, in Elysium, a newly joined node only needs to get a pair of blocks agreed upon by Keepers to ensure that one of its neighbors has sent the correct state of the accounts.
+因此，在Elysium中，新加入的节点只需要获取由保管者一致同意的一对区块，以确保其中一个邻居发送了正确的账户状态。
 
-<figure><img src="../.gitbook/assets/Block validates the prev....webp" alt=""><figcaption></figcaption></figure>
-
-And unlike Ethereum, Elysium will not store the data and logic of user tokens, which will reduce its size by several orders of magnitude.
+与以太坊不同，Elysium不会存储用户代币的数据和逻辑，这将使其大小减小数个数量级。
 
 {% hint style="info" %}
-The exact size of the state will become apparent during development, but we will do our best to make it megabytes in size when there are a million users.
+在开发过程中，确切的状态大小将会变得明确，但我们将尽力使其在拥有一百万用户时只有几兆字节的大小。
 {% endhint %}
 
-The small amount of data required for a new member to connect to the blockchain will make dynamic node rotation in the public cluster possible and allow Workers to run the blockchain node on home computers, even when there are millions of active users.
+新成员连接到区块链所需的少量数据将使公共集群中的动态节点轮换成为可能，并且允许工作节点在家用计算机上运行区块链节点，即使有数百万活跃用户。
 
-At the same time, adding the statechain concept does not break the original idea of forming a single transaction log using blocks. It will still be possible to check the historical data from the start of Elysium up to the last state of accounts based on a separately stored chain of blocks linked to each other via states.
+同时，添加状态链的概念不会破坏使用区块形成单个交易日志的初始思想。仍然可以从外部存储的链条上检查Elysium从开始到最后一个账户状态的整个历史。
 
-<figure><img src="../.gitbook/assets/State is the resul....webp" alt=""><figcaption></figcaption></figure>
+## 总结
 
-## Summary
+在Elysium中，由于动态轮换节点和需要在普通家用计算机上维护区块链的需要，新参与者的进入门槛比在那些可以连续运行数年并处理传入区块的服务器网络中更为关键。
 
-In Elysium, because of dynamically rotating nodes and the need to maintain blockchain on ordinary home computers, the problem of the entry barrier for new participants is much more critical than in networks, where the server can run for years, processing incoming blocks.
+通过使用状态链来扩展区块链概念，节点可以存储维护当前账务所需的最少信息，并且可以正确和可验证地进行维护。
 
-Extending the blockchain concept with a statechain allows nodes to store the minimum information needed to correctly and verifiably maintain current accounting.
-
-At the same time, it is still possible to store the entire blockchain archive externally, for example, on IPFS, so that anyone can double-check the whole history of transactions, reconstructing it from the beginning.
+同时，仍然可以在外部存储整个区块链存档，例如在IPFS上，以便任何人都可以通过从头开始重构来双重检查所有交易的完整历史记录。
