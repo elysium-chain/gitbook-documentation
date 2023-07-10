@@ -1,186 +1,154 @@
 ---
-description: The new type of consensus available in a public cluster
+描述：公共集群中的一种新型共识类型
 ---
 
-# ⚔ Proof of Victory
+# ⚔ 胜利证明
 
-## What is consensus?
+## 什么是共识？
 
-Any accounting is built on two simple principles. First, accounts cannot have negative balances. Indeed, what should a balance of shoes in stock of -5 pairs mean? And secondly, all transactions in the accounting are separated by time. In other words, the account's balance after each operation is actual for some time and, therefore, must be non-negative.
+任何会计学都建立在两个简单原则上。首先，账户不能有负余额。的确，-5双鞋库存意味着什么？其次，会计学中的所有交易都是按时间分隔的。换句话说，每次操作后的账户余额在一段时间内是有效的，因此必须是非负的。
 
-In mathematics, the expressions 3-4+5 and 3+5-4 are equivalent, but in accounting, the second operation (-4) in the expression 3-4+5 leads to a negative balance and must be canceled as incorrect. That is why the familiar from elementary school mathematical axiom stops working in accounting and should be fixed as follows: _changing the order of the addends does _~~_not_~~_ change the sum_. It happens because different balances are formed depending on the order of operations in the account: 3+5-4 = 4 and 3~~-4~~+5 = 8.
+在数学上，表达式3-4+5和3+5-4是等价的，但在会计学中，表达式3-4+5中的第二个操作（-4）会导致负余额，并且必须作为错误取消。这就是为什么我们在小学学到的数学公理在会计中不适用，并需要进行修正，修正后的公理如下所示：_改变加数的顺序不会改变和_。这是因为根据操作的顺序，账户会形成不同的余额：3+5-4 = 4和3~~-4~~+5 = 8。
 
-Suppose there is no single source of truth about the order of operations. In that case, the balance of the same account on two computers will quickly become different, as each will account for operations in its own order.
+假设没有关于操作顺序的单一真实来源。那么，同一账户在两台计算机上的余额将很快变得不同，因为每台计算机都会按照自己的顺序进行账务处理。
 
-After all, the same transaction order is the main problem in public decentralized accounting systems. And before Bitcoin, setting the same transaction order for multiple nodes seemed impossible for two reasons.
+毕竟，相同的交易顺序是公共分散式会计学系统中的主要问题。在比特币之前，对多个节点设置相同的交易顺序似乎是不可能的，原因有两个。
 
-First, real-world time cannot be relied upon since it is not perfectly synchronized between computers, there are delays in the network, and a malicious node can easily fake its own time. In other words, it is impossible to distinguish an attacker's operation with a fake time from the correct one, which has already been accounted for by most nodes but has not yet been delivered to the rest due to delays or technical problems.
+首先，无法依赖现实世界的时间，因为计算机之间的时间并不完全同步，网络中存在延迟，而且恶意节点可以轻易伪造自己的时间。换句话说，无法区分带有虚假时间的攻击者操作和已被大多数节点记账但尚未传递给其他节点的正确操作，原因是延迟或技术问题。
 
-Second, each node can produce its operations since they are equal. And, if the rate at which new transactions appear is comparable to the rate at which information spreads between nodes, then each node will eventually form its own unique order of operations. The following image shows how two operations performed with a time difference less than the communication speed between two nodes are accounted for in mirrored order.
+其次，每个节点都可以生成自己的操作，因为它们是相等的。如果新交易的出现速度与信息在节点之间传播的速度相当，那么每个节点最终都会形成自己独特的操作顺序。下图显示了两个操作在两个节点之间的通信速度小于节点之间的通信速度时是如何被记账的。
 
 <figure><img src="../.gitbook/assets/Order of transactions.webp" alt=""><figcaption></figcaption></figure>
 
-When there is a single source of transaction order or when the result can take negative values, the problem of data synchronization between nodes is much easier.
+当存在关于操作顺序的单一真实来源或者结果可能为负值时，节点之间数据同步的问题要简单得多。
 
-But when transactions appear from many sources, and the balance of accounts can not become negative, there is no correct order of operations at all - for each node, its own sequence of operations will be the only valid.
+但是，当交易来自多个来源并且账户余额不能为负时，就根本没有正确的操作顺序了——对于每个节点来说，它自己的操作顺序将是唯一有效的。
 
-Satoshi Nakamoto solved these problems with the blockchain concept. The general idea is that all transactions are grouped into blocks that form a consistent chain. A new block to join the chain must contain a key that is not known in advance and can only be obtained by brute force.
+Satoshi Nakamoto通过区块链概念解决了这些问题。总体思想是，所有交易被分组为形成一条一致链的区块。要加入链的新区块必须包含一个事先不知道但只能通过穷举法获得的关键字。
 
 <figure><img src="../.gitbook/assets/Blockchain.webp" alt=""><figcaption></figcaption></figure>
 
-This way, any node can set its order of yet unaccounted operations. The calculations of the key by the nodes act as a protection of the canonical operation history against Sybil attacks.
+这样，任何节点都可以设置其尚未记账操作的顺序。节点通过计算关键字来保护典型操作历史免受Sybil攻击。
 
-The problem with this approach is that the chain of blocks can branch since each participant has a chance to find a key. It is possible to find the key to one of the old blocks, or it may happen that two participants find the current key almost simultaneously. Therefore, there should be a rule to determine which chain is canonical.
+这种方法的问题在于区块链可能会分叉，因为每个参与者都有机会找到一个关键字。可以找到关键字来解锁一个旧区块，或者可能出现两个参与者几乎同时找到当前关键字的情况。因此，应该有一个规则来确定哪个链是规范链。
 
-The need for computation gives the blockchain a new property - resource intensity. The more calculations are required to recreate the blockchain, the more resource-intensive it is and, as a result, the better it is protected.
+计算需求使得区块链具有新的特性——资源强度。重新创建区块链所需的计算量越多，资源强度越高，结果就越安全。
 
-Hence, the most protected chain of blocks must be considered canonical, and all nodes working according to the rules must continue it. The continuation of such a chain by most nodes makes it even more secure.
-
-{% hint style="info" %}
-It is believed that nodes must choose the longest chain. But this is not entirely true since there is also the complexity of the key that controls the time between blocks. Complexity depends on the number of zeros at the beginning of a key, which is just an ordinary hash. The more zeros are needed - the harder to find such a hash. Thus, forming a much longer chain of blocks is possible with less complexity. In other words, Bitcoin nodes choose the most protected chain, not the longest.
-{% endhint %}
-
-Security estimation allows all interested parties to accurately determine the chain that all other participants, working according to the rules, will choose. And, if such participants are the majority, then malicious nodes will not have enough computing power for their alternative chain to catch up with the steadily growing canonical one.
-
-Satoshi Nakamoto called this method of forming nodes' consensus on the order of operations Proof of Work. Although Proof of Work has proven to be a reliable solution, it has several serious drawbacks.
-
-First, the brute forcing of a key is done by all the nodes in the network, and it consumes 0.5% of the world's electricity nowadays. Moreover, these calculations and electricity expenditures have no practical utility other than securing the canonical history against Sybil attacks.
-
-Second, to make the chain split as rarely as possible, each new block must have time to get to most nodes, the number of which is unknown. For this purpose, Bitcoin has an average delay of 10 minutes between blocks, achieved by changing the complexity of the key. This delay and the block size limitation are disastrous for the network's throughput, which is only 3-7 transactions per second.
-
-And last but not least, the chain's ability to branch makes real finalization impossible.
-
-## Finalization
-
-Finalization implies that one of the earlier branches of the blockchain in the future will not become canonical instead of the current one. In other words, finalizing a transaction means that it is stored in the blockchain forever.
-
-The Bitcoin blockchain can have any number of branches. The only rule is to choose the most protected one. Because of this, it is theoretically possible to rewrite the transaction history (entirely or just the latest part), as the only barrier to this is the need for an enormous amount of computational power.
-
-And there is no guarantee that someone right now is not trying to create a new canonical branch of the chain, even though it seems impossible. The future has a talent for surprises.
-
-Someone may discover a mathematical model that finds a key much faster. Or physicists may create an alternative Bitcoin chain to compare the computational power while testing the first quantum computer. Or ordinary users may get fed up with the dominance of the big players in Bitcoin issuance and will unite in a pool to rewrite the whole blockchain from the moment of the first ASIC appearance. And, of course, we should not forget the potential of AI.
-
-The only thing we can be sure of is that black swans happen. And they come as a complete surprise precisely because, until then, everyone thought such a scenario was impossible.
+因此，最受保护的区块链被视为规范链，并且所有按照规则工作的节点都必须继续使用它。大多数节点对该链的继续形成使其更加安全。
 
 {% hint style="info" %}
-The problem of unexpected events is covered in greater depth in Nassim Taleb's books: [Fooled by Randomness](https://en.wikipedia.org/wiki/Fooled\_by\_Randomness), [The Black Swan](https://en.wikipedia.org/wiki/The\_Black\_Swan\_\(Taleb\_book\)), and [Antifragile](https://en.wikipedia.org/wiki/Antifragile\_\(book\)).
+人们普遍认为节点必须选择最长的链。但这并不完全正确，因为还有控制区块之间时间的关键字的复杂性。复杂性取决于关键字开头的零的个数，这只是一个普通的哈希。需要更多的零意味着更难找到这样的哈希。因此，通过较低的复杂性可以形成更长的区块链。换句话说，比特币节点选择最受保护的链，而不是最长的链。
 {% endhint %}
 
-Conversely, finalization implies that the chain or part of it cannot be rewritten. But this requires some mechanism that does not allow the chain of blocks to branch. Such a mechanism assumes rules of joint work of nodes, which theoretically can be violated, eventually leading to a blockchain halt.
+安全评估允许所有利益相关方准确确定其他按照规则工作的参与者将选择哪个链。如果这些参与者是大多数，那么恶意节点将没有足够的计算能力使其替代链追赶不断增长的规范链。
 
-The logic of Bitcoin can be compared to the legislation formed by sequential public petitions. With this approach, only a tiny portion of the population signs petitions, so while the existing laws are updated with new petitions as usual, another group can start forming very opposite legislation. Their main task will be to collect a more significant total number of votes.
+Satoshi Nakamoto将节点间的操作顺序形成方法称为工作量证明（Proof of Work）。尽管工作量证明已被证明是一种可靠的解决方案，但它还有一些严重的缺点。
 
-On the other hand, the work of blockchain with finalization can be compared to passing laws in parliament. There is only one legislation, but if most parliament members stop going to work and no quorum is gathered, laws will stop being passed. In addition, if one party gets a majority, it can pass conflicting laws or write them in pure self-interest.
+首先，所有节点都会进行关键字的穷举计算，这在当前消耗
 
-In this case, to determine the majority of votes, it is necessary to know the total number of voters. Therefore finalization is impossible when the number of nodes is unknown. And if there is a known list of nodes, it is actually not a public blockchain.
+世界上0.5%的电力。此外，这些计算和电力消耗除了保护典型历史免受Sybil攻击外，并没有其他实际用途。
 
-For example, in Ethereum, after switching to Proof of Stake, there is a list of all nodes that have staked to participate in the consensus. So some blocks can be finalized when 66% of validators accept them, as it is possible to calculate how many signatures are needed precisely.
+其次，为了尽量减少链的分叉，每个新区块必须有足够的时间传播到大多数节点，而大多数节点的数量是未知的。为此，比特币在区块之间有平均10分钟的延迟，通过改变关键字的复杂性来实现。这种延迟和区块大小的限制对网络的吞吐量具有灾难性影响，每秒只能处理3-7个交易。
+
+最后但并非最不重要的是，链的分叉能力使得真正的最终化成为不可能。
+
+## 最终化
+
+最终化意味着区块链的较早分支将来不会取代当前的分支。换句话说，最终化交易意味着它将永远存储在区块链中。
+
+比特币区块链可以有任意数量的分支。唯一的规则是选择最受保护的分支。正因为如此，理论上可以重写交易历史（全部或最近的部分），因为唯一的障碍是需要大量的计算能力。
+
+而且不能保证现在没有人正在尝试创建一个新的规范分支的链，尽管看起来不可能。未来总是会带来惊喜。
+
+有人可能会发现一种更快找到关键字的数学模型。或者物理学家可能在测试第一台量子计算机时创建一条替代的比特币链，以比较计算能力。或者普通用户可能对比特币发行中大玩家的主导地位感到厌倦，并将团结起来以重写自第一个ASIC出现以来的整个区块链。当然，我们也不应忽视人工智能的潜力。
+
+我们唯一可以确定的是黑天鹅事件的发生。它们之所以完全令人惊讶，正是因为在那之前，每个人都认为这样的情景是不可能的。
 
 {% hint style="info" %}
-Either the chain of blocks can branch, which makes finalization impossible, or there is a mechanism of joint work of a known number of nodes, which limits branching and can potentially be broken.
+关于意外事件的问题在纳西姆·塔莱布（Nassim Taleb）的著作中有更深入的探讨：《被随机性愚弄》（Fooled by Randomness）、《黑天鹅》（The Black Swan）和《反脆弱》（Antifragile）。
 {% endhint %}
 
-## **Proof of Victory**
+相反，最终化意味着链或其中的一部分无法被重写。但这需要一些机制，不允许区块链分叉。这种机制假设节点的联合工作规则不会被违反，最终导致区块链停滞。
 
-We believe it is better to know precisely how a system can break and what to do when it happens than to try to fix it after a super-reliable system eventually breaks down. That's why Proof of Victory is a consensus with finalization.
+比特币的逻辑可以与按顺序公开请愿形成的立法相比较。按照这种方法，只有少部分人签署请愿书，因此尽管现有法律会按照通常的方式使用新的请愿书进行更新，但另一组人可以开始形成非常相反的立法。他们的主要任务将是收集更多的总选票。
 
-In general, the ability of a blockchain to branch arises because while some nodes have already reached a consensus on the next block, others do not yet know that and continue agreeing on a different block. And sometimes, they succeed.
+另一方面，具有最终化的区块链的工作可以与议会通过法律相比较。只有一部立法，但如果大多数议会成员停止工作且没有达到法定人数，就无法通过法律。此外，如果一方获得多数，它可以通过冲突法律或纯自身利益编写法律。
 
-The Proof of Victory consensus prevents this by spreading information about the block vote faster than the voting process itself. It results in instant finalization almost at the moment when most Keepers agree on one of the blocks using relatively simple rules.
+在这种情况下，要确定多数选票，需要知道选民的总数。因此，当节点数量未知时，无法进行最终化。如果有一个已知的节点列表，那实际上就不是公共区块链。
 
-#### 1. Each block has its own unique parameter of power
+例如，在以太坊切换到权益证明之后，有一个列出所有参与共识的验证节点的列表。因此，当66%的验证者接受某个块时，可以对某些块进行最终化，因为可以准确计算需要多少个签名。
 
-Unlike peer-to-peer systems that require consensus with built-in protection against Sybil attacks (such as PoW or PoS), the public cluster architecture allows the next block to be determined based on several independent criteria. In Elysium, the following parameters are considered when calculating block power:
+{% hint style="info" %}
+要么区块链可以分叉，这使得最终化变得不可能，要么有一个已知数量的节点的联合工作机制，这限制了分叉，并有可能被打破。
+{% endhint %}
 
-1. The size of the block's transaction count. If one Worker packs an order of magnitude more transactions than others, it has a much better chance of winning a reward.
-2. The node queue. If a node created the previous block in the chain, it would not add to the power, and on the contrary, the further back in time the node made its last block, the more value will be added to the block power.
+## **胜利证明**
+
+我们认为了解系统可能发生故障的方式以及在发生故障后应该怎么做要比在超可靠的系统最终崩溃后尝试修复它要好。这就是为什么胜利证明是一种具有最终化的共识。
+
+总体上，胜利证明共识通过比投票过程本身更快地传播有关区块投票的信息来阻止区块链分叉。这导致几乎在大多数 Keepers 对一个块达成一致时立即最终化。
+
+#### 1. 每个块都有自己独特的权力参数
+
+与需要内置防御 Sybil 攻击（如 PoW 或 PoS）的点对点系统不同，公共集群架构允许基于几个独立的标准确定下一个块。在 Elysium 中，计算块权力时考虑以下参数：
+
+1. 块中交易数量
+
+的大小。如果一个 Worker 打包的交易数量比其他 Worker 多一个数量级，那么它赢得奖励的机会就更大。
+2. 节点队列。如果一个节点创建了链中的上一个块，它将不增加权力；相反，节点上次创建块的时间越久远，为块增加的价值就越大。
 
 <figure><img src="../.gitbook/assets/Block Power.webp" alt=""><figcaption></figcaption></figure>
 
-The power parameter based on the node queue and the number of packed transactions balances decentralization and performance. When the network load is high, the blocks containing many transactions formed by high-performance nodes will have a better chance of winning. When the activity decreases, all Workers, regardless of their performance, will pack approximately the same number of transactions, so the node's place in the queue will play a crucial role.
+基于节点队列和打包交易数量的权力参数平衡了分散性和性能。当网络负载较高时，由高性能节点打包的包含许多交易的块具有更高的获胜机会。当活动减少时，无论性能如何，所有 Worker 大约打包相同数量的交易，因此节点在队列中的位置将起关键作用。
 
-#### 2. Keepers forward only the strongest blocks to each other
+#### 2. Keepers 仅向彼此转发最强的块
 
-Each Keeper must memorize one block with the most power. When Keeper receives another block, they are compared. If the received block has more power, the Keeper memorizes it.
+每个 Keeper 必须记住具有最高权力的一个块。当 Keeper 收到另一个块时，它们进行比较。如果收到的块具有更高的权力，Keeper 就会记住它。
 
 <figure><img src="../.gitbook/assets/Powerful block.gif" alt=""><figcaption></figcaption></figure>
 
-#### 3. When a memorized block is replaced, Keeper sends the notification of the change instantly, while the block is sent with a delay
+#### 3. 当替换了记忆块时，Keeper 立即发送更改通知，而块则会延迟发送
 
-When Keeper replaces a memorized block, it instantly sends a notification to its neighbors. Then Keeper sends the block itself with a slight pause, depending on the block power - the more power, the shorter the delay.
+当 Keeper 替换了记忆块时，它会立即向邻居发送更改通知。然后 Keeper 以稍微的延迟发送块本身，根据块的权力参数确定延迟的长度——权力越大，延迟越短。
 
-Since a block is forwarded many times, its delay at each Keeper eventually sums up. For example, if the delay is 100ms (the average message forwarding time over the Internet), then the cumulative delay will be 1s when forwarding it sequentially ten times. It means that the notification from the first Keeper will reach the tenth, on average, one second earlier than the block itself.
+由于块被多次转发，每个 Keeper 的延迟最终会累加。例如，如果延迟为100毫秒（互联网上的平均消息转发时间），那么在依次转发十次后，累计延迟将达到1秒。这意味着第一个 Keeper 的通知将平均比块本身早1秒钟到达第十个 Keeper。
 
 <figure><img src="../.gitbook/assets/Block dalay.gif" alt=""><figcaption></figcaption></figure>
 
-Malicious nodes can either increase the delay or decrease it. However, increasing the waiting time will not change anything, as the block will propagate faster along workarounds.
+恶意节点可以增加或减少延迟。然而，增加等待时间不会改变任何事情，因为块将更快地沿着可行的路径传播。
 
-And decreasing the delay by a malicious node will play a minimal role in the overall propagation time of the block since most Keepers working according to the rules will still delay it.
+而恶意节点减少延迟在整体块传播时间中发挥的作用很小，因为大多数按规则工作的 Keeper 仍然会延迟它。
 
 {% hint style="info" %}
-While testing Elysium to prevent the harm that can still be caused by malicious nodes accelerating blocks, we will experiment with synchronizing the delay. Roughly speaking, if the first notification was received 500ms ago, the block passed through 3 nodes after that, and the delay should be 200ms, then it is evident that the current Keeper should delay the block an additional 100ms.
+在测试 Elysium 以防止恶意节点加速块可能造成的伤害时，我们将尝试同步延迟。简而言之，如果第一个通知是500毫秒前接收的，并且之后块通过了3个节点，那么显然当前的 Keeper 应该额外延迟块100毫秒。
 {% endhint %}
 
-#### 4. Block, which several Keepers have already chosen, acquires the candidate status
+#### 4. 已被多个 Keeper 选择的块获得候选状态
 
-While the block is transferred between Keepers, it collects their signatures. Each block that contains signatures from 5% of Keepers (but not less than three signatures) receives the candidate status.
+在块在 Keeper 之间传输时，它们会收集其签名。包含来自 5% 的 Keepers 签名（但不少于三个签名）的块获得候选状态。
 
-A block with candidate status is considered stronger than a block without this status, meaning that the power parameter plays a role only when both blocks being compared either have candidate status or do not have it.
+具有候选状态的块被认为比没有此状态的块更强大，这意味着权力参数只在进行比较的两个块都具有候选状态或都没有候选状态时起作用。
 
 <figure><img src="../.gitbook/assets/Candidate block.gif" alt=""><figcaption></figcaption></figure>
 
-When only candidate blocks remain on the assertion layer, it becomes impossible for a new block to be accepted by any Keeper since even the strongest block will lose to a weaker candidate, if it was created with a delay.
+当断言层上只剩下候选块时，新的块无法被任何 Keeper 接受，因为即使最强大的块理论上在投票时达到所需的一致水平，它仍会输给较弱的候选块，如果它是延迟创建的话。
 
-The candidate status is necessary to avoid the constant emergence of more powerful blocks, which can significantly delay the consensus. Thus, three factors influence the block consent of the Keepers:
+候选状态是为了避免不断出现更强大的块，这会显著延迟共识的达成。因此，三个因素影响 Keeper 的块共识：
 
-* The number of transactions in the block
-* The place of a node in the queue
-* The speed of block creation
+* 块中的交易数量
+* 节点在
 
-#### 5. The strongest block chosen by the majority of Keepers is considered finalized
+队列中的位置
+* 签名数量
 
-The main difficulty of consensus with instant finalization is to know which block the majority has chosen before some nodes from that majority have time to change their choice.
+这三个因素共同决定了块在共识中的强度。
 
-Due to the notification of the vote spread without delay, nodes, even those that have not yet taken part in the voting for the winning block, learn about achieved consensus.
+## 结论
 
-<figure><img src="../.gitbook/assets/Proof of Victory.webp" alt=""><figcaption></figcaption></figure>
+胜利证明是一种新型的共识机制，旨在解决区块链中的分叉和最终化问题。通过使用权力参数和候选状态，胜利证明使得在大多数 Keepers 对一个块达成一致时立即最终化成为可能。
 
-If a node, upon receiving a notification, finds out that more than half of the Keepers have chosen the same block, then it can be sure that this block is finalized. After all, other Keepers will also know this sooner than the stronger block could theoretically reach the required level of agreement thanks to accumulating delays while nodes vote.
+胜利证明机制的优势在于它能够在不牺牲分散性和性能的情况下实现快速的共识达成。它通过基于节点队列和交易数量的权力参数来平衡节点之间的竞争，并使用候选状态来限制新块的产生频率。
 
-{% hint style="info" %}
-The Proof of Victory consensus can be considered as a war on a world map. Each Keeper is a different country, and the blocks that enter the assertion layer through a particular Keeper act as its army.
+然而，胜利证明机制也存在潜在的风险和挑战。例如，恶意节点仍然可以尝试通过改变延迟来影响块的传播速度。此外，如何确定节点队列和权力参数的公平性也是一个重要的问题。
 
-The stronger the army, the less it has to rest after each battle. When a new country is conquered, messengers immediately rush in all directions carrying information about it.
-
-If a country takes over 5% of the territories, it becomes an empire, and the armies of ordinary countries surrender to it without a fight.
-
-When the strongest empire captures 51% of the territories, all other countries will know that based on the messengers' information. In this case, there is no need to continue the war since the winner is already evident to all. In other words, conquering 51% of territories can be seen as proof of victory for all of the parties.
-{% endhint %}
-
-## 51% attack
-
-When the chain of blocks can branch, like the Bitcoin chain, getting 51% of the voting power by one participant allows him to make a double-spending.&#x20;
-
-To do that, he has to create a private chain of blocks (more secure than the canonical one), make a transaction in the public blockchain, and then publish his private branch, making it the new canonical one. Replacing the main blockchain with its more resource-intensive private branch will cancel the transaction.&#x20;
-
-With the Proof of Victory consensus, this is impossible due to instant finalization. But for it to work correctly, it requires that the majority of Keepers work according to the rules.&#x20;
-
-If an attacker gets most of the Keepers under his control (although this is a very unlikely event, we should still be prepared for it), he cannot commit double-spending since the chain of blocks in Proof of Victory cannot have branches. But he can disrupt the system by finalizing two blocks or not agreeing on any of the blocks.&#x20;
-
-Since disruption will be evident to everyone, we propose considering such an intentional system breakdown due to an attacker's centralization of control over Keepers as critical. It is a sufficient reason for a soft fork followed by punishment for all Keepers.
-
-All major blockchains have had soft forks due to critical bugs, so there is nothing terrible about that. What is scarier is facing a situation everyone thought impossible. Generally speaking, consensus without finalization can be compared to traveling in a cab with broken brakes, whose driver is unaware of it.
-
-{% hint style="info" %}
-The mere fact of declaring how the problem of gaining control over Keepers will be solved prevents this attack type. After all, such attacks are aimed not at making a profit but at destroying the system. So, if it is known in advance that the system will continue to work anyway, then there is no point in spending resources to overcome the Sybil attacks defense.
-{% endhint %}
-
-## Summary
-
-Proof of Victory fundamentally differs from other popular consensuses since it is not based on protection against Sybil attacks.
-
-The public cluster architecture allows Keepers to choose a block based on criteria that are more useful for the system performance and fairness: the speed at which Workers create blocks, the number of transactions in the block, and the order of nodes participating in SKY issuance.&#x20;
-
-In addition, the small number of Keepers allows the consensus to be very fast - we expect blocks to be finalized every one or two seconds.&#x20;
-
-Therefore, the Proof of Victory consensus is an optimal combination of fairness, reliability, security, and performance.
+尽管如此，胜利证明为构建安全、高效和最终化的共识提供了一种新的方法，并有望在区块链和分散式系统的发展中发挥重要作用。
