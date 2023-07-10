@@ -1,107 +1,61 @@
 ---
-description: The chronicle of the Elysium journey
+我们对项目的展望
 ---
 
-# 📍 Roadmap
+# 📍 路线图
 
-<details>
+#### 2022 10月
 
-<summary>Work in progress</summary>
+* [x] [Elysium Discord 社群](https://discord.gg/elysiumchain) 诞生
+* [x] 完成[Elysium 网站](https://elysium-chain.com/)
 
-* [ ] Writing the article: Crypto Cash and Offers
-* [ ] Writing the article: How to achieve high throughput
-* [ ] Coding the minting of Access Key NFTs
-* [ ] Remastering Pioneers Program
+#### 2022 11月
 
-</details>
+* [x] 详细阐述了经济模型
+* [x] 共识设计细化
+* [x] 开发了[经济模型模拟器](https://tokenomics.elysium-chain.com)
 
-<details>
+#### 2022 12月
 
-<summary>Milestones</summary>
+* [x] 发布了我们文档的[引言](broken-reference)部分
+* [x] 细化了信息传递的设计细节
+* [x] 先驱者计划机制的细化
+* [x] 发布了文档 [先驱者计划](broken-reference)
 
-### Prelaunch (work in progress)
+#### 2023 1月
 
-* [ ] Development of the Pioneers Program: smart contracts, portal, mini-game
-* [ ] Designing the system and publishing the final documentation
-* [ ] Distribution of 9000 Access Key NFTs
+* [ ] 推出先锋计划推广网站
+* [ ] 选择先锋计划的开发区块链
+* [ ] 开发NFT智能合约
 
-### Pioneers Program launch (Q3-Q4 2023)
+#### 2023 Q1-Q2
 
-* [ ] Distribution of the Access Key NFTs left after prelaunch
-* [ ] Development of the Elysium core
+* [ ] 开发先锋计划: 智能合约, 网站, mini小游戏
+* [ ] 发布区块链的详细文档:\
+  \- 经济模型\
+  \- 信息传递\
+  \- 可拓展性\
+  \- 共识协议\
+  \- 智能合约\
+  \- 钱包
+* [ ] 开始分发9000个NFT\
+  \- 7500公开销售\
+  \- 1500作为团队对用户的奖励
 
-### Elysium launch for pioneers (Q3 2024)
+#### 2023 Q3-Q4
 
-* [ ] Pioneers launch their Workers, Routers and Keepers
-* [ ] Pioneers test the blockchain core while earning real SKY
-* [ ] Development of the bridge for entering Elysium from other chains
-* [ ] Development of DEX for swaping tokens
+* [ ] 继续分发9000个NFT
+* [ ] 先锋计划启动
+* [ ] 开发Elysium区块链
 
-### Opening Elysium for everyone (Q2 2025)
+#### 2024 Q2-Q3
 
-* [ ] Development and testing of crypto cash and offers mechanincs
+* [ ] 继续分发9000个NFT
+* [ ] 继续开发Elysium区块链
+* [ ] 推出测试网
 
-### Launch of crypto cash and offers (Q2 2026)
+#### 2024 Q4
 
-</details>
-
-<details>
-
-<summary>History</summary>
-
-#### October 2022
-
-* [x] Birth of the [Elysium Discord Community](https://discord.gg/elysiumchain)
-* [x] Launch of the [Elysium website](https://elysium-chain.com/)
-
-#### November 2022
-
-* [x] Elaboration of the Tokenomics design details
-* [x] Elaboration of the Consensus design details
-* [x] Development of the [Tokenomics simulation](https://tokenomics.elysium-chain.com)
-
-#### December 2022
-
-* [x] Publication of the [Introduction ](broken-reference/)section of the documentation
-* [x] Elaboration of the Message Routing design details
-* [x] Elaboration of the Pioneers Program mechanics
-* [x] Publication of the [Pioneers Program](broken-reference/) section of the documentation
-
-#### January 2023
-
-* [x] Publication of the [Tokenomics](broken-reference)[ ](broken-reference/)section of the documentation
-* [x] Blockchain selection for the Pioneers Program (Polygon)
-* [x] Detailing of the Elysium blockchain architecture
-* [x] Development of the Pioneers Portal architecture
-* [x] Development of the Discord <-> Polygon interactions
-
-#### February 2023
-
-* [x] Launch of the Pioneers Program promo website
-* [x] Development of the Pioneers Portal interface
-* [x] Writing the article: Public Cluster&#x20;
-* [x] Designing the system
-
-#### March 2023
-
-* [x] Writing the article: Managed Hash Ring
-* [x] Designing the system
-
-#### April 2023
-
-* [x] Writing the article: Proof of Victory
-* [x] Designing the system
-
-#### May 2023
-
-* [x] Writing the article: Statechain
-* [x] Designing the system
-
-#### June 2023
-
-* [x] Published the documentation section: [Public Cluster](../elysium/public-cluster.md)
-* [x] Publishing the documentation section: [Hash Ring](../elysium/hash-ring.md)
-* [x] Publishing the documentation section: [Proof of Victory](../elysium/proof-of-victory.md)
-* [x] Publishing the documentation section: [Statechain](../elysium/statechain.md)
-
-</details>
+* [ ] 9000个NFT分发结束
+* [ ] 主网启动
+* [ ] 先锋计划结束
