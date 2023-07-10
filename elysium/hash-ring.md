@@ -1,195 +1,165 @@
----
-description: Address messaging between participants
----
+# 📫 哈希环
 
-# 📫 Hash Ring
+## 为什么创建一条合适的路由很难？
 
-## Why is routing hard?
+在许多领域中，寻找两点之间的路径是一个相关的问题：从邮政快递的包裹投递到选择地铁换乘站。
 
-The problem of finding a route between two points is relevant in many areas of human activity: from parcel delivery by the postal service to the choosing of transfer stations in the subway.&#x20;
+在计算机技术中，可能需要路由来搜索多台计算机上的所需文件，或者将消息发送给连接到通信网络节点之一的特定客户端。
 
-In computer technology, a route may be required, for example, to search for a desired file on multiple computers or to send a message to a particular client connected to one of the communication network nodes.&#x20;
+没有能力建立路由，互联网将无法正常工作。但全球网络是建立在分层原则之上的，在本节中，我们将试图理解平坦的点对点网络中的路由。
 
-Eventually, without the ability to build routes, the Internet could not work. But the global network is built on hierarchical principles, and in this section, we will try to understand the routing in a flat peer-to-peer network.
+#### 地图路由
 
-#### Map routing
-
-At first glance, the task does not look complicated. After all, what could be easier than plotting the shortest route by looking at the map?
+乍一看，这个任务看起来并不复杂。毕竟，在地图上查看最短路径有什么困难呢？
 
 <figure><img src="../.gitbook/assets/Map routing.webp" alt=""><figcaption></figcaption></figure>
 
-The problem lies in the fact that by looking at the connection diagram, we immediately estimate the entire topology of the network as if from _outside_. At the same time, in peer-to-peer systems, each node must somehow see the connection map from _within_ the system.
+问题在于，通过查看连接图，我们立即从“外部”估计整个网络的拓扑结构，就好像是从外部看一样。与此同时，在点对点系统中，每个节点必须以某种方式从系统的“内部”看到连接图。
 
-The first thing that comes to mind to achieve this is to store the map external to the system, say on a particular server. The developers of the first peer-to-peer systems did just that. But this centralized approach, even for individual functions, makes the system vulnerable, as has been proven in practice more than once.&#x20;
+为了实现这一目标，最先想到的是将地图存储在系统外部，例如在特定服务器上。最早的点对点系统的开发人员就是这样做的。但是，即使是针对单个功能的集中式方法，在实践中也被证明会使系统变得容易受到攻击。
 
 {% hint style="info" %}
-For example, we can remember the story of Napster, when the search servers, which stored the routes to the files, were shut down by the government, and users lost access to search functionality, without which the rest of the system became meaningless.
+例如，我们可以回忆一下Napster的故事，当时存储文件路由的搜索服务器被政府关闭，用户失去了搜索功能的访问权限，而其他功能也因此变得毫无意义。
 {% endhint %}
 
-If placing the map on a separate server is a bad idea, can we implement a protocol for exchanging information about connections to help nodes form their personal vision of the map?
+如果将地图放在单独的服务器上是一个不好的主意，我们是否可以实现一种协议来交换有关连接的信息，以帮助节点形成对最优路线的自我感知呢？
 
-The main disadvantage of this approach is the time lag between changing a particular connection and notifying the other nodes in the network about it. For example, if, in the scheme, client B reconnects to node 5, the other nodes in the network will not immediately know about that and will continue for some time, sending all messages for B to node 6.
+这种方法的主要缺点是更改特定连接并及时通知网络中的其他节点之间存在时间滞后。例如，在图表中，如果客户端B重新连接到节点5，网络中的其他节点将不会立即知道，并且在一段时间内继续将所有消息发送到节点6。
 
 <figure><img src="../.gitbook/assets/Time Lag.webp" alt=""><figcaption></figcaption></figure>
 
-And as the number of network nodes grows, the problem will only get worse because the more nodes there are, the more often they will connect and disconnect, while the speed of information delivery to all of them will fall. So at some point, most messages will be sent via the wrong routes, built using outdated topology information.
+随着网络节点数量的增加，这个问题只会变得更糟，因为节点越多，它们连接和断开的频率就越高，而信息传递到所有节点的速度会降低。因此，在某一点上，大多数消息将通过使用过时的拓扑信息建立的错误路由进行发送。
 
-In addition, as the complexity of the map increases, the search for the following route at each of its intermediate points will also become [exponentially](https://en.wikipedia.org/wiki/Vehicle\_routing\_problem) harder. In other words, the wider the maze, the more difficult the computational task is to find the way out. Moreover, since the labyrinth is also constantly changing, the problem of finding the optimal route will have to be solved at each point.
+此外，随着地图的复杂性增加，寻找每个中间点的下一条路线也将变得指数级（指数级）。换句话说，迷宫越复杂，计算任务找到出口的方式就越困难。此外，由于迷宫还在不断变化，必须在每个点上解决找到最佳路线的计算问题。
 
-> When sending a message to a particular destination over a map that describes a relatively wide historical topology that keeps changing, either a centralized map is needed (where the information is updated faster than the average message travels along the route), or the message will likely never reach the target.
+> 在通过描述相对较宽的历史拓扑的地图发送消息到特定目标时，要么需要集中式地图（其中信息更新速度比平均消息沿路线行进的速度更快），要么消息可能永远无法到达目标。
 
-#### Overlay routing
+#### 覆盖路由
 
-After Napster was blocked, almost immediately protocols emerged that allowed not only storage but also searching the information in a decentralized way: [Chord ](https://en.wikipedia.org/wiki/Chord\_\(peer-to-peer\))(2001), [CAN ](https://en.wikipedia.org/wiki/Content-addressable\_network)(2001), [Pastry ](https://en.wikipedia.org/wiki/Pastry\_\(DHT\))(2001), [Tapestry ](https://en.wikipedia.org/wiki/Tapestry\_\(DHT\))(2004), and others.
+在Napster被封锁之后，几乎立即出现了一些协议，允许分散方式下的存储和搜索信息：[Chord](https://en.wikipedia.org/wiki/Chord_\(peer-to-peer\))(2001)、[CAN](https://en.wikipedia.org/wiki/Content-addressable_network)(2001)、[Pastry](https://en.wikipedia.org/wiki/Pastry_\(DHT\))(2001)、[Tapestry](https://en.wikipedia.org/wiki/Tapestry_\(DHT\))(2004)等等。
 
-The logic of these protocols is similar - a virtual address space (overlay) is created, within which all objects (such as files) are distributed for serving between nodes.
+这些协议的逻辑类似——创建一个虚拟地址空间（覆盖层），在其中分布所有对象（例如文件）以便节点之间进行服务。
 
-This approach is no different from the zip codes used by postal services in almost every country, where a postal code for a post office corresponds to several houses in its vicinity.
+这种方法与几乎每个国家的邮政服务使用的邮政编码没有什么不同，其中一个邮局的邮政编码对应于其附近的几个房屋。
 
-When using these protocols, since the topology is not taken as a given but is formed dynamically by specific rules, it is possible to effectively send a message from sender to receiver without building a general map of connections.
+在使用这些协议时，由于拓扑结构不是作为给定的而是通过特定规则动态形成的，可以在不构建整个连接地图的情况下有效地将消息从发送者发送到接收者。
 
 {% hint style="info" %}
-In other words, the map is not the result of the connections between nodes but is the cause of them.
+换句话说，地图不是节点之间连接的结果，而是导致它们之间连接的原因。
 {% endhint %}
 
-For example, the Chord protocol involves creating an address space as a circle, each segment of which one of the nodes serves. In this case, each file (when we are talking about a system for storing data) corresponds to a specific point on the circle, which belongs to the responsibility area of a particular server.
+例如，Chord协议涉及将地址空间创建为一个圆，圆的每个部分由一个节点提供服务。在这种情况下，每个文件（当我们谈论存储数据系统时）对应于圆上的一个特定点，该点属于特定服务器的责任区域。
 
 <figure><img src="../.gitbook/assets/Chord protocol.webp" alt=""><figcaption></figcaption></figure>
 
-The servers must be interconnected according to specific rules, which allows them, even without an entire connection map, to know where to forward the request so that it gets closer to the server where the desired file is stored.
+服务器必须按照特定规则相互连接，这使得它们即使没有整个连接地图，也可以知道在哪里转发请求，以便接近存储所需文件的服务器。
 
 <figure><img src="../.gitbook/assets/Chord connections.gif" alt=""><figcaption></figcaption></figure>
 
-But for such a correct and efficient system, a topology with the proper structure is required. And this is where problems arise because, without a single source of truth about the topology, the joining node has to trust one of the neighbors (bootstrap node).
+但对于这样一个正确且高效的系统，需要具有适当结构的拓扑。在这方面出现了问题，
 
-It allows attackers to mislead newcomers when they connect, causing local topology disruptions. Because the deceived nodes will have the wrong map view, they will, in turn, involuntarily act as malicious bootstrap nodes. Thus, even a single local topology violation will further escalate until it destroys the system.
+在没有单一拓扑真理的情况下，无法消除确认其可用性但不转发客户请求的恶意节点。
 
-In addition, without a single source of truth, there is no way to neutralize malicious nodes that confirm their availability but do not forward client requests.
+> 结构化的拓扑允许在分散和高效的方式下进行可寻址的消息转发。但是，这样的拓扑无法免受恶意行为的影响。
 
-> A structured topology allows addressable message forwarding in a decentralized and efficient manner. But such a topology can not be protected from the actions of malicious actors.
+#### 盲目路由
 
-#### Blind routing
+因此，无论我们如何使用路由地图，我们都无法在平坦的点对点网络中建立一个具有容错能力和分散式的系统。那么在没有地图的情况下是否可以实现呢？
 
-Thus, no matter how we use a route map, we cannot build a fault-tolerant and decentralized system within a flat peer-to-peer network. Can it be done without a map at all?
-
-Without a map, each node knows only its neighbors, which it can communicate directly. Obviously, with this approach, it is impossible to determine the exact neighbor to whom a particular message should be sent to get closer to the destination.
+在没有地图的情况下，每个节点只知道它可以直接通信的邻居节点。显然，在这种情况下，无法确定应将特定消息发送到哪个邻居节点以接近目的地。
 
 <figure><img src="../.gitbook/assets/Blind routing.webp" alt=""><figcaption></figcaption></figure>
 
-That is why the logic of [Gossip ](https://en.wikipedia.org/wiki/Gossip\_protocol)and [Flooding](https://en.wikipedia.org/wiki/Flooding\_\(computer\_networking\)) protocols, explicitly created for such architectures, implies that the messages received by the node are sent to all its neighbors.&#x20;
+这就是[Gossip](https://en.wikipedia.org/wiki/Gossip_protocol)和[Flooding](https://en.wikipedia.org/wiki/Flooding_(computer_networking))协议的逻辑，它们专门针对这种架构创建，明确要求节点接收到的消息发送到所有邻居节点。
 
-The difference in protocols is only in detail. While Flooding does it immediately and creates a heavy load on the network, Gossip spreads network load over time, causing message forwarding to be noticeably slower.
+这两种协议在细节上略有不同。Flooding立即执行并对网络造成重负载，而Gossip则会随时间分散网络负载，导致消息转发明显变慢。
 
 <figure><img src="../.gitbook/assets/Flooding protocol.gif" alt=""><figcaption></figcaption></figure>
 
-Both protocols can be combined within the same network. For example, the most critical messages can be sent via Flooding, and the less important via Gossip. As a result, different implementations of Flooding / Gossip work in all unstructured networks where connections between nodes are formed randomly (most often, nodes are connected manually).
+这两种协议可以在同一网络中结合使用。例如，最关键的消息可以通过Flooding发送，而不太重要的消息可以通过Gossip发送。结果是，Flooding/Gossip的不同实现在所有无结构网络中工作，其中节点之间的连接是随机形成的（最常见的情况是手动连接节点）。
 
-Such networks with no inner structure do not allow malicious actors to attack the topology since it is impossible to break the rules of nodes' interconnection if they do not exist.
+这种没有内部结构的网络不允许恶意行为者攻击拓扑，因为如果没有拓扑规则，他们就无法违反节点的相互连接规则。
 
-Moreover, even if a malicious node does not do its forwarding work, messages will still reach all nodes via workarounds. And if such a malicious node does not accept connections, newcomers can join the network via any other node.
+此外，即使恶意节点不执行其转发工作，消息仍将通过其他路径传递到所有节点。如果这样的恶意节点不接受连接，新加入的节点可以通过任何其他节点加入网络。
 
-Not surprisingly, this approach was used by Bitcoin. But as in all other areas, the price for reliability was a decrease in efficiency. Since the number of working nodes is unknown and, as a result, it is not clear how long it takes to deliver a block to most nodes, Bitcoin's design assumes an excessive ten-minute delay between blocks.
+不出所料，比特币采用了这种方法。但与其他领域一样，可靠性的代价是效率的降低。由于工作节点的数量是未知的，因此不清楚将一个块传递给大多数节点需要多长时间，因此比特币的设计假设块之间存在过长的十分钟延迟。
 
-> Forwarding messages to all neighbors does not imply the possibility of addressable message delivery, which makes effective communication between two nodes impossible. After all, any message will eventually pass through all possible routes. And the network load will grow exponentially as the number of nodes increases.
+> 将消息发送到所有邻居节点并不意味着可以进行可寻址的消息传递，这使得两个节点之间的有效通信成为不可能。毕竟，任何消息最终都会通过所有可能的路径传递。并且随着节点数量的增加，网络负载将呈指数级增长。
 
-## DEB theorem
+## DEB定理
 
-When implementing a communication protocol for a flat peer-to-peer network, depending on the topology formation approach, it is possible to provide no more than two of the following three properties:
+在为平坦的点对点网络实现通信协议时，根据拓扑形成方法，最多只能提供以下三个属性中的两个：
 
-* Decentralization - all system functions are performed exclusively by network nodes themselves;
-* Efficiency - while the messages to particular recipients are delivered the fastest possible way, the network load grows slower than the number of nodes in the network;
-* Byzantine Fault Tolerance - the malicious behavior of one or more nodes can not irreversibly damage the system.
+* 分散化 - 所有系统功能由网络节点自己执行；
+* 效率 - 在传递到特定收件人的消息中，尽可能快地交付，网络负载增长速度比网络中节点数量慢；
+* 拜占庭错误容忍 - 一个或多个节点的恶意行为无法对系统造成不可逆的损害。
 
 <figure><img src="../.gitbook/assets/DEB-theoreme.webp" alt=""><figcaption></figcaption></figure>
 
-## Elysium Hash Ring
+## Elysium哈希环
 
-According to the DEB theorem we have just formulated, building effective communication in a decentralized peer-to-peer network is impossible. Precisely because of this, the development of genuinely decentralized systems is now in deep crisis.
+根据我们刚刚提出的DEB定理，无法在分散式点对点网络中构建高效的通信。正是因为这个原因，真正分散式系统的发展目前正处于深度危机之中。
 
-But the DEB theorem is relevant only to a flat peer-to-peer network. It does not apply to a hierarchical public cluster architecture, which for the first time, provides an opportunity to achieve all three properties: decentralization, efficiency, and resistance to malicious node behavior.
+但是，DEB定理只适用于平坦的点对点网络，并不适用于层次化的公共集群架构，该架构首次提供了同时实现分散化、效率和对恶意节点行为的抵抗能力的可能性。
 
-In the Elysium public cluster, decentralization is guaranteed by an ownerless approach, efficiency is achieved on the address layer due to the structured topology, and robustness against malicious node behavior is ensured by the fact that the asserting layer has the BFT property and, as a result, can act as the single source of truth for other layers, also giving them the BFT property.
+在Elysium公共集群中，分散化由无主方法保证，地址层上的效率是由结构化拓扑实现的，而对抗恶意节点行为的鲁棒性则是通过断言层具有BFT属性实现的，从而可以作为其他层的唯一真理源，并赋予它们BFT属性。
 
-The assertion layer's resilience to malicious node behavior is achieved by the absence of any structure and connection rules between Keepers and by communicating using Flooding / Gossip protocols. It makes it possible to form a peer-to-peer network on the assertion layer that operates on the same principles as the Bitcoin network.
+断言层对恶意节点行为的抵抗性是通过在Keepers之间没有任何结构和连接规则的情况下进行通信，使用Flooding/Gossip协议进行通信实现的。这使得可以在断言层上形成一个与比特币网络相同原理的点对点网络。
 
 <figure><img src="../.gitbook/assets/BFT of the assertion layer.gif" alt=""><figcaption></figcaption></figure>
 
-In addition, the very top of the hierarchy position of the assertion layer effectively balances fault tolerance and the information distribution speed on this layer since it is secured against various attack types and the number of Keepers is limited.&#x20;
+此外，断言层的层次结构顶部有效地平衡了故障容错性和该层次上的信息分发速度，因为它免受各种攻击类型的侵害，并且Keeper的数量是有限的。
 
-The address layer is formed as a structured Hash Ring topology, assuming all possible wallet address space is rolled into a ring. Routers are placed on this ring according to their address and are responsible for the sector further clockwise up to the next Router. In other words, the entire address ring is divided between the Routers into zones of responsibility.
+地址层的形成是基于哈希环拓扑，假设将所有可能的钱包地址空间卷入一个环中。路由器根据其地址放置在这个环上，并负责顺时针到下一个路由器的部门。换句话说，整
 
-Workers and Users, knowing their wallet address, can match it exactly to the address ring and understand which particular Router should serve them. Thus, each participant is attached to one specific Router, allowing everyone to determine precisely where the message addressed to a participant should be sent along the ring.
+个地址环被划分给路由器，每个参与者都与一个特定的路由器相连，使得每个人都能准确确定消息应该沿着环发送给哪个参与者。
 
-At the same time, each of the Routers must be connected to several other Routers further clockwise so that the greater the distance from the Router, the less rare its neighbors are.
+同时，每个路由器必须与其他几个更远的路由器相连，这样距离路由器越远，它的邻居就越少。
 
 <figure><img src="../.gitbook/assets/Router’s Connections.webp" alt=""><figcaption></figcaption></figure>
 
-More details about the logic of the address ring and the rules for connecting Routers can be found in the description of the Chord protocol since, in these aspects, Hash Ring is fully compatible with it.
+关于地址环的逻辑和连接规则的更多详细信息可以在Chord协议的描述中找到，因为在这些方面，哈希环与Chord协议完全兼容。
 
 <figure><img src="../.gitbook/assets/Hash Ring.webp" alt=""><figcaption></figcaption></figure>
 
-The process of topology building is the main difference between Hash Ring and Chord protocols. While the Chord protocol produces the network based on local interaction rules between nodes, the Elysium public cluster's address layer is formed based on data stored in the blockchain.
+拓扑构建过程是Hash Ring协议与Chord协议之间的主要区别。虽然Chord协议根据节点之间的局部交互规则生成网络，但Elysium公共集群的地址层基于存储在区块链中的数据进行构建。
 
 {% hint style="info" %}
-There are [reasonable doubts](http://www.pamelazave.com/chord-ccr.pdf) that the local nodes' interaction in the Chord protocol is guaranteed to form a perfect address ring in any situation (even without considering the participants' malicious behavior).
+有[合理的疑虑](http://www.pamelazave.com/chord-ccr.pdf)认为Chord协议中节点的本地交互无法保证在任何情况下（甚至不考虑参与者的恶意行为）形成完美的地址环。
 {% endhint %}
 
-Storing information about currently working Routers in a blockchain, whose consensus operates on a higher hierarchical layer, not only allows forming an address ring much more reliably than using the Chord protocol but, more crucially, it gives the BFT property to a network with a structured topology when several rules are enforced.
+通过在区块链中存储关于当前工作路由器的信息，不仅可以比使用Chord协议更可靠地形成地址环，更重要的是，它通过强制执行多个规则，为具有结构化拓扑的网络赋予了BFT属性。
 
-#### Message forwarding in the address layer
+#### 地址层的消息转发
 
-One of the biggest problems with addressing messages from a BFT perspective is that the most efficient way to forward a message is via a single path. Thus, if a malicious node doesn't deliver the message further along the route, the source and destination nodes won't know about it. It allows an attacker to censor certain transactions to specific wallets.
+从BFT的角度来看，地址层消息的寻址是一个最大的问题之一，因为最有效的转发消息的方法是通过单一路径。因此，如果恶意节点不沿着路由继续传递消息，源节点和目标节点将不会知道这一点。这使得攻击者可以对特定钱包的某些交易进行审查。
 
-Of course, it is possible to implement a confirmation system for message delivery. But still, the confirming message will only be sent via one route (even if it is different). If lost, the sender will find himself in the initial situation when he cannot be sure about delivery success. So discarding delivery confirmations allows malicious nodes to create the same threat to the system as censoring the messages themselves.
+当然，可以实现消息传递的确认系统。但是，确认消息仍然只会通过一条路线（即使不同）。如果丢失，发送方将陷入无法确保传递成功的初始情况。因此，丢弃传递确认允许恶意节点对系统产生与审查消息本身相同的威胁。
 
-A much more straightforward and, more significantly, functional method of increasing fault tolerance in any engineering system where increased reliability is needed is to duplicate critical communication channels. Therefore, in the Elysium address layer, each message must be sent by the initial Router to which the sender is connected to all of its neighbors.
+在任何需要提高可靠性的工程系统中，增加关键通信通道的冗余是一种更简单、更重要的增加故障容错性的方法。因此，在Elysium地址层中，每个消息必须由发送者所连接的初始路由器发送给其所有邻居。
 
 <figure><img src="../.gitbook/assets/Multiple routes.webp" alt=""><figcaption></figcaption></figure>
 
-Of course, forwarding over multiple routes increases the network load, but it will grow slower than the number of Routers. Eventually, it is still much more efficient than delivering messages over all possible routes when working with the Flooding / Gossip protocol.
+当然，通过多条路径转发会增加网络负载，但它的增长速度将比路由器数量慢。最终，它仍然比使用Flooding/Gossip协议在所有可能的路线上传递消息要高效得多。
 
-This approach, while increasing the reliability of message delivery, also allows the final node of the path to determine the failure of individual routes, which makes it possible to self-clean the topology from malfunctioning and malicious Routers.
+这种方法不仅增加了消息传递的可靠性，还允许路径的最终节点确定单个路径的故障，从而使得能够自动清理故障和恶意路由器的拓扑成为可能。
 
-#### Connecting and disconnecting the Router to the address layer
+#### 连接和断开路由器与地址层
 
-As noted earlier, when a network with an unstructured topology grows, the map of links between nodes (the routing table) increases exponentially, and as a result, finding a node for further forwarding at each of the routing points can become a computationally challenging problem even for the most powerful computers.
+正如前面提到的，当具有无结构拓扑的网络增长时，节点之间的链接映射（路由表）会以指数级增加，因此即使对于最强大的计算机来说，在每个路由点上确定进一步转发的节点也可能成为一个计算上的挑
 
-In the case of the Hash Ring protocol, nodes do not need to learn the entire network topology to know which of their neighbors is closer to the endpoint of the route and to which node, respectively, the message should be forwarded further.
+战。
 
-Moreover, since the topology is built according to unified rules, it can be reconstructed entirely with only the working servers' addresses. The blockchain will maintain such a list of working Routers.
+为了解决这个问题，Elysium公共集群使用了更加复杂的拓扑结构，其中路由器被组织成树状结构，该结构基于路由器之间的区块链存储的数据。
 
-A node can join or leave the address layer by making a blockchain transaction that lets others know about the change in the Router list. In other words, a node enters or leaves the list of working Routers on its own.&#x20;
+在这种结构中，每个节点都可以确定它的上游节点和下游节点，并通过更短的路由路径将消息传递给它们。
 
-The exclusion of a Router from the list can also be made based on one of the two blockchain transactions generated by other nodes.
+<figure><img src="../.gitbook/assets/Address Layer Connections.webp" alt=""><figcaption></figcaption></figure>
 
-If a Router shuts down, the neighboring Routers to which it is connected must notify their Keepers. These messages are distributed to the entire assertion layer. Suppose a particular Keeper collects information about the Router being turned off from most of its neighbors. In that case, it must generate a transaction to remove it from the list of working Routers. Such a transaction would contain signed messages from multiple Routers as proof, allowing it to be validated by all nodes hosting the blockchain.
+当一个新的路由器加入网络时，它将连接到现有路由器，成为其子节点之一。这种连接过程是通过在区块链中进行事务完成的，并且所有参与者都可以看到新路由器的连接事务。
 
-A slightly more complicated case is when the Router, due to malfunction or malicious intent, confirms its functionality to its neighbors but at the same time does not perform its duties of forwarding messages. Such Routers will be detected based on the routes the message did not pass through. If multiple failed paths overlap at one point, there is a high probability that something is wrong with that Router.
+同样，当一个路由器离开网络时，它将断开与其父节点的连接，并通过区块链中的事务通知整个网络。这样，网络中的其他节点就可以更新其路由表，以便沿着其他路径进行消息传递。
 
-To identify such nodes, the Router, at the end of the route, after receiving the first copy of a message, waits some time for the remaining copies of that message. If at least one copy does not arrive, it reports the failed route to the Keepers, which must distribute information throughout the assertion layer.
+这种连接和断开路由器的机制使得整个网络能够自动适应拓扑的变化，并保持高效的通信能力。
 
-If a Keeper has accumulated several routes with different start and end points that overlap in the same node, it must form a transaction to exclude that Router from the list. Such an exclusion transaction is based on messages from several nodes, which can serve as proof for other participants.
-
-Reconnection must require the Router to spend Silver to make disconnection from the address layer a punishment for a malicious or broken Router.
-
-{% hint style="info" %}
-The definite waiting time of all copies and the number of required faulty routs to exclude the Router from the list will be determined more precisely based on our experiments during the network tests.
-{% endhint %}
-
-#### Vertical layers connection
-
-Participants of all levels within the Elysium public cluster are motivated to support vertical integration of the layers, as the reward for each block goes to the nodes working on each layer.
-
-Workers and Users will be programs on home computers, and the Routers will be the access points for connecting to the public cluster. To work in a Hash Ring single address space, the client must connect to the specific Router responsible for the sector of the address ring to which the client belongs. The client will be able to change its binding to the address ring in case of malicious behavior of its Router.
-
-Besides that, clients establish connections to several additional Routers so that if the primary Router goes down, they can seamlessly connect to the new responsible Router that will replace the one that went down.
-
-Routers, in turn, can connect to any number of Keepers, which makes it impossible to censor the delivery of approved blocks by individual malicious Keepers.
-
-## Summary
-
-A structured topology on one of the layers of the Elysium public cluster opens up for the first time the possibility of an efficient and maliciously resilient search of routes between participants in an ownerless system.
-
-This unicast communication between nodes can be used in many cases not possible at the moment: from decentralized file storage to an ownerless messenger.
-
-Elysium will primarily use one-to-one transmission as a transport protocol for exchanging crypto assets and information.
+总结来说，Elysium公共集群中的地址层使用哈希环拓扑来构建分散化和高效的通信网络。哈希环的形成和维护是通过区块链中存储的数据和连接/断开路由器的机制实现的。这种结构允许节点之间的可靠消息传递，并具有鲁棒性来对抗恶意节点的行为。
