@@ -1,100 +1,134 @@
 ---
-先锋计划是一个不对外公开的活动，需要燃烧你的NFT才可以进入
+先锋计划不是一个公开的活动，你需要燃烧你的NFT才可以进入
 ---
 
 # 🔑 准入资格
 
 ## NFTs的规格
 
-| **介绍**      | <p>为未来Elysium赢取验证者席位的太空竞赛获得一艘飞船。飞船可以进行升级。</p>                        |
-|-------------|----------------------------------------------------------------------|
-| **总量**      | 4种规格的NFT总计9000个: A (600), B (1200), C (2400), D (4800)。              |
-| **Minting** | 和WL一起，直到第一个用户完成比赛截止。                                                 |
-| **购买**      | 在二级市场上购买来自那些已经成为WL并mint的人。                                           |
-| **售卖**      | 随时在二级市场上销售。                                                          |
-| **燃烧**      | <p>当需要获得或升级你的飞船时需要进行燃烧。<br>或者通过团队回购和销毁计划。</p>                        |
+| **介绍**         | <p>为未来Elysium赢取验证者席位的太空竞赛计划获得一艘飞船。飞船可以进行升级。</p>   |
+|----------------|---------------------------------------------------|
+| **总量**         | 4种规格的NFT总计9000个: A (600), B (1200), C (2400), D (4800)。 |
+| **Mint持续时间**  | 直到第一个用户完成比赛截止。                                    |
+| **购买**         | 在二级市场上购买来自那些已经成为WL并mint的人。                        |
+| **售卖**         | 随时在二级市场上销售。                                       |
+| **燃烧**         | <p>当需要获得或升级你的飞船时需要进行燃烧。<br>或者通过团队回购和销毁计划。</p>     |
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th>Parameters</th><th>Distribution</th><th>Private sale</th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Access Key Type A</strong> <br><strong></strong>only <strong>600</strong> pcs</td><td>Engine Efficiency: <strong>27</strong><br><strong></strong>Inertia Retention: <strong>0</strong></td><td>500 keys will be minted via private sale<br>100 keys the Team will keep for marketing</td><td>~<strong>$400</strong> with <strong>WL Type A</strong></td><td><a href="../.gitbook/assets/Access Key NFT Type A.webp">Access Key NFT Type A.webp</a></td></tr><tr><td><strong>Access Key Type B</strong><br><strong></strong>only <strong>1200</strong> pcs</td><td>Engine Efficiency: <strong>9</strong><br><strong></strong>Inertia Retention: <strong>0</strong></td><td>1000 keys will be minted via private sale<br>200 keys the Team will keep for marketing</td><td>~<strong>$200</strong> with <strong>WL Type B</strong></td><td><a href="../.gitbook/assets/Access Key NFT Type B.webp">Access Key NFT Type B.webp</a></td></tr><tr><td><strong>Access Key Type C</strong><br><strong></strong>only <strong>2400</strong> pcs</td><td>Engine Efficiency: <strong>3</strong><br><strong></strong>Inertia Retention: <strong>0</strong></td><td>2000 keys will be minted via private sale<br>400 keys the Team will keep for marketing</td><td>~<strong>$100</strong> with <strong>WL Type C</strong></td><td><a href="../.gitbook/assets/Access Key NFT Type C.webp">Access Key NFT Type C.webp</a></td></tr><tr><td><strong>Access Key Type D</strong><br><strong></strong>only <strong>4800</strong> pcs</td><td>Engine Efficiency: <strong>1</strong><br><strong></strong>Inertia Retention: <strong>0</strong></td><td>4000 keys will be minted via private sale<br>800 keys the Team will keep for marketing</td><td>~<strong>$50</strong> with <strong>WL Type D</strong></td><td><a href="../.gitbook/assets/Access Key NFT Type D.webp">Access Key NFT Type D.webp</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards">
+<thead><tr><th></th>
+<th>参数</th>
+<th>分布</th>
+<th>私募</th>
+<th data-hidden data-card-cover data-type="files"></th></tr></thead>
+<tbody>
+<tr>
+<td><strong>A等级准入密钥 (WL A)</strong><br><strong></strong>
+<strong>600</strong>个</td><td>引擎等级: <strong>27</strong>
+<br><strong></strong>惯性等级： <strong>0</strong></td>
+<td>其中的500个将通过WL持有者付费Mint<br>剩余的100个用于市场营销</td><td><strong>WL A </strong>Mint价格<strong>~$400</strong></td><td><a href="../.gitbook/assets/Access Key NFT Type A.webp">Access Key NFT Type A.webp</a></td>
+</tr>
+<tr>
+<td><strong>B等级准入密钥 (WL B)</strong><br><strong></strong><strong>1200</strong>个</td>
+<td>引擎等级: <strong>9</strong><br><strong></strong>惯性等级： <strong>0</strong></td>
+<td>其中的1000个将通过WL持有者付费Mint<br>剩余的200个用于市场营销</td>
+<td><strong>WL B </strong>Mint价格<strong>~$200</strong></td>
+<td><a href="../.gitbook/assets/Access Key NFT Type B.webp">Access Key NFT Type B.webp</a></td></tr>
+<tr>
+<td><strong>C等级准入密钥 (WL C)</strong><br><strong></strong><strong>2400</strong>个</td>
+<td>引擎等级: <strong>3</strong><br><strong></strong>惯性等级： <strong>0</strong></td>
+<td>其中的2000个将通过WL持有者付费Mint<br>剩余的400个用于市场营销</td>
+<td><strong>WL C </strong>Mint价格<strong>~$100</strong></td>
+<td><a href="../.gitbook/assets/Access Key NFT Type C.webp">Access Key NFT Type C.webp</a></td>
+</tr>
+<tr>
+<td><strong>D等级准入密钥 (WL D)</strong><br><strong></strong><strong>4800</strong>个</td>
+<td>引擎等级: <strong>1</strong><br><strong></strong>惯性等级： <strong>0</strong></td>
+<td>其中的4000个将通过WL持有者付费Mint<br>剩余的800个用于市场营销</td>
+<td><strong>WL D </strong>Mint价格<strong>~$50</strong></td>
+<td><a href="../.gitbook/assets/Access Key NFT Type D.webp">Access Key NFT Type D.webp</a></td>
+</tr>
+</tbody>
+</table>
 
-## Extended Private Sale
+## 扩展的私人销售
 
-The extended private sale allows those who have WL of a particular type to mint an Access Key of the same type at a fixed price. The WL-based minting will continue till the first pioneer finishes the race (just before the launch of the Elysium MainNet).&#x20;
+扩展的私人销售允许拥有特定类型WL的人以固定价格铸造相同类型的NFT。WL的铸造将持续到第一个用户完成比赛(在Elysium主网启动之前)为止。
 
-Participants must reach a certain level in Crew3 by completing quests to obtain a WL and to be able to mint the keys.&#x20;
+参与者需要在Crew3任务中达到一定的级别，通过完成任务获得WL，才能够铸造钥匙。
 
-Required levels in Crew3 for different WL types (level requirements may change over time):
+不同WL类型的Crew3所需等级(等级要求可能会随时间变化):
 
-WL Type D - level 10 (11 700 XP)\
-WL Type C - level 12 (17 600 XP)\
-WL Type B - level 14 (24 700 XP)\
-WL Type A - level 16 (33 000 XP)
+WL Type D - 等级 10 (11 700 XP)\
+WL Type C - 等级 12 (17 600 XP)\
+WL Type B - 等级 14 (24 700 XP)\
+WL Type A - 等级 16 (33 000 XP)
 
-Thus, advancing in levels, users can mint a D key first, then a C key, and so on.&#x20;
+因此，在升级过程中，用户可以先造一个D等级NFT，然后是C等级NFT，依此类推。
 
 {% hint style="warning" %}
-Every user can mint only **one key of each type** during the extended private sale, which is 4 keys in total: Access Key **D +**  Access Key **C  +** Access Key **B +** Access Key **A**.
+在销售期间，每个用户只能铸造**一个**同类型的密钥**，共记4个密钥:准入密钥 **D ** 准入密钥 **C ** 准入密钥 **B ** 准入密钥 **A**。
 {% endhint %}
 
-## Access Key Parameters
+## 准入密钥参数
 
-When a key is burned to obtain or upgrade a spaceship, its parameters are transferred to the spaceship.&#x20;
+当一个密钥被烧毁以获得或升级飞船时，它的参数被转移到飞船上。
 
-The _**Engine Efficiency**_ parameter of the Access Key cannot be changed - it is a built-in property of the key.&#x20;
+访问密钥的 _**引擎等级**_ 参数是不可更改的——他是NFT的内置属性;
 
-The _**Inertia Retention**_ parameter can be improved through key staking. Every 30 days of staking the "Inertia Retention" raise its value by 1.
+**惯性等级**参数可以通过质押你的NFT来提高。每质押30天，惯性等级提高1。
 
-For more details on how these parameters affect the ship flight please refer to the [Spaceship ](spaceship.md)page.
+有关这些参数如何影响飞船飞行的详细信息，请参阅[太空船](太空船.md)页面。
 
-## Buyback and Burn
+## 回购和销毁
 
-The Team will buy those offers from the secondary market that are below the private sale prices. Then we will burn those bought-back keys. This will keep the price floor at a level higher than the private sale prices and also will shorten the supply.
+团队将从二级市场购买那些低于私人销售价格的报价。我们会销毁这些NFT。这将使最低价格保持在高于私人销售价格的水平，同时也将缩短供应。
 
 |   |
 | - |
 
 ## FAQ
 
-### **What is the point of the extended private sale?**
+### **为什么要进行拓展的私人销售?**
 
-The whole idea of the extended private sale is not to let the price of NFTs drop.&#x20;
+扩展私人销售的整个想法是不让nft的价格下降。
 
-It allows us to indirectly control the size of the supply on the market. When the secondary market prices for Access Keys start to decline, we will make it harder to get WL for the minting. It will lead to a decrease in the total supply on the secondary market and an increase in the NFT price.
+它使我们能够间接地控制市场上的供应规模。当二级市场的NFT价格开始下降时，我们将更难获得铸造的WL。这将导致二级市场的总供应量减少，NFT价格上涨。
 
-Also, it allows the Team to keep the price above the private sale prices by buying back NFTs below the floor and burning them.
+此外，它还允许团队通过回购销售价格以下的nft并烧毁它们来保持价格高于私人销售价格。
 
-### What about the public sale?
+### 那么还会有公募阶段吗？
 
-We will not hold a public sale.&#x20;
+我们将不会举行公募&#x20;
 
-The concept of the short-time public sales when NFTs are sold out in minutes is the concept of the bull run. On the weak bear market, we do not want to compete with those who have bought NFTs on private sale and are willing to earn some money by reselling them on the secondary market.
+短时间内进行公开销售的概念，即nft在几分钟内售罄，通常存在于牛市中。在弱熊市中，我们不想与那些私下购买nft，并在二级市场上转售它们来赚钱的这部分人竞争
 
-All the keys that would not be minted just will stay unissued.
+所有未被铸造的密钥都将保持未发行状态。
 
-### Are NFT keys a good investment?
+### NFT KEYs会是一项好的投资吗?
 
-Our keys are not just pictures - they are actual certificates granting access to a unique event. They are limited in number and will be burned all the time.&#x20;
+我们的钥匙不单是一张图片--他们实际上是一个准入证书，准许进入一个独特的事件。它们的数量有限，并将一直被烧毁。
 
-The more Elysium gets real - the more people will be eager to become validators. And anyone who joins the Pioneer Program after the start of the space race will have to catch up with the others. To do that, they will need improved ships, which can only be obtained by burning a few keys.&#x20;
+Elysium越是被人熟知--就会有越多的人渴望成为验证者。而任何在太空竞赛开始后加入先锋计划的人，都必须赶上其他人。要做到这一点，他们将需要改进的飞船，这只能通过从市场上购买并燃烧一些钥匙来获得。
 
-Thus, the number of keys will only decrease over time, and the demand for them will increase.
+因此，随着时间的推移，钥匙的总量只会减少，而对钥匙的需求会增加。
 
-Moreover, the Team will buy back those NFTs that are sold on the secondary market below the private sale price and burn them.
+此外，我们将回购那些在二级市场上以低于私人销售价格出售的NFT，并将其燃烧。
 
-### Why are there 9000 access keys? Is not that too much? <a href="#2768" id="2768"></a>
+### 为什么有9000个NFT KEYs？这会不会太多了？ <a href="#2768" id="2768"></a>
 
-Some of the keys will be lost or forgotten. Some will burn to improve spaceships. Some holders will use their keys to get access to the race but will never participate. Some will participate only at the start. Some keys will never be minted. Some will be bought back by the Team and burned.
+有些KEYs会丢失或被遗忘；有些将被烧毁以升级飞船；也一些持有者将使用他们的钥匙来获得比赛的机会，但永远不会参加；有些人将只在开始时参加；有些钥匙将永远不会被铸造出来；有些将被团队买回并烧毁。
 
-Thus, we expect only a minority of initial key owners to be persistent enough to finish the space race before the Elysium launch.
+因此，我们预计只有少数的KEY拥有者能坚持到在极乐世界主网启动前完成太空竞赛。
 
-### When will the keys have value?
+### NFT KEYs将在什么时候有价值?
 
-Keys will have utility until the first pioneer finishes the race. After this point, the minting and staking will be closed and the Team will stop keeping the price floor.&#x20;
+钥匙将具有使用价值，直到第一个先驱者完成比赛。在这之后，Mint将被关闭，团队将停止从市场回收KEYs。
 
-This will happen not long before the launch of Elysium's MainNet, which is estimated to be in Q4 2024 - see [Roadmap ](../introduction/roadmap.md)for more details.&#x20;
+这些将发生在Elysium的主网启动前不久的时候，预计在2024年第四季度--更多细节见[Roadmap ](../introduction/roadmap.md)for more details.&#x20;
 
-### Why does the Team need so many keys?
+### 为什么团队能拥有这么多KEYs?
 
-In addition to supply, the market price is also affected by demand. We keep 16.6% of keys as a reward for marketing events aimed to attract new users. We will distribute them carefully to avoid a sharp increase in supply on the secondary market. It is in our best interests since we will need to buy back these keys if their price falls below the floor.
+除了供应之外，市场价格也受到需求的影响。我们保留16.6%的钥匙作为吸引新用户的营销活动的奖励。我们将谨慎地分配这些钥匙，以避免二级市场上的供应急剧增加。这符合我们的最佳利益，因为如果这些钥匙的价格低于底线，我们将需要从市场回购。
 
-According to our estimation, we will not use all our marketing keys - those that will leave undistributed when the first pioneer finishes the race will be burned by the Team.
+根据我们的估计，我们不会用完所有的营销KEYs--当第一个先锋完成比赛时，那些未分配的钥匙将被团队烧毁。
 
