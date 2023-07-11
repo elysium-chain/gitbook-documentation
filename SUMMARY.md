@@ -1,28 +1,36 @@
 # Table of contents
 
-* [歡迎加入Elysium](README.md)
+* [💜 Welcome](README.md)
 
-## 介紹
+## Introduction
 
-* [📌 我們的定位](introduction/positioning.md)
-* [🌟 特色](introduction/features.md)
-* [💸 資金](introduction/funding.md)
-* [⚡ 團隊](introduction/team.md)
-* [📍 路線圖](introduction/roadmap.md)
+* [📌 Positioning](introduction/positioning.md)
+* [🌟 Features](introduction/features.md)
+* [💸 Funding](introduction/funding.md)
+* [⚡ Team](introduction/team.md)
+* [📍 Roadmap](introduction/roadmap.md)
 
-## 加入方法
+## Elysium
 
-* [🏁 深空計劃](join/pioneers-program.md)
-* [🔑 金鑰](join/access-keys.md)
-* [🚀 太空船](join/spaceship.md)
+* [🪙 Duonomics](elysium/duonomics.md)
+* [💠 Public Cluster](elysium/public-cluster.md)
+* [📫 Hash Ring](elysium/hash-ring.md)
+* [⚔ Proof of Victory](elysium/proof-of-victory.md)
+* [⛓ Statechain](elysium/statechain.md)
 
-## 官方連結
+## Join
 
-* [🔗 官网](https://elysium-chain.com/)
+* [🏁 Pioneer Program](join/pioneer-program.md)
+* [🔑 Access Keys](join/access-keys.md)
+* [🚀 Spaceship](join/spaceship.md)
+
+## Links
+
+* [🔗 Website](https://elysium-chain.com/)
 * [🔗 Discord](https://discord.gg/elysiumchain)
 * [🔗 Twitter](https://twitter.com/Elysium\_Chain)
-* [🔗 Crew3](https://elysium.crew3.xyz/)
+* [🔗 Zealy](https://zealy.io/c/elysium/questboard)
 
 ***
 
-* [⏳ 更新紀錄 (03 Jan 2023)](changelog.md)
+* [⏳ Changelog (03 Jul 2023)](changelog.md)
