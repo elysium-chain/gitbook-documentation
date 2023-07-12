@@ -1,19 +1,20 @@
 ---
-description: We are glad that you are here!
+介绍: 感谢你的慧眼识珠！
 ---
 
-# 💜 Welcome
+# 💜 欢迎
 
 
 
 <figure><img src=".gitbook/assets/Elysium Cover.webp" alt=""><figcaption></figcaption></figure>
 
-Elysium is an L1 blockchain designed from the ground up to solve the current problems faced by existing blockchains. We have reimagined every aspect of the technology, from tokenomics to consensus, to create a fundamentally new distributed system.
 
-This documentation is the only reliable source of the Elysium architecture. We are still polishing the system's nuances, so the documentation is constantly updated and supplemented.
+Elysium是一个从头开始设计的L1区块链，旨在解决现有区块链面临的问题。我们重新构想了技术的各个方面，从通证经济学到共识机制，创建了一个根本上全新的分布式系统。
 
-In addition to the documentation, you can get more information about the project on the official [website](https://elysium-chain.com/) and [Twitter](https://twitter.com/elysium\_chain).
+本文档是Elysium架构的唯一可靠来源。我们仍在完善系统的细节，因此文档会不断更新和补充。
 
-Ask questions and get the latest news you can in our [Discord community](https://discord.gg/elysiumchain).
+除了文档，您还可以在官方[网站](https://elysium-chain.com/)和[Twitter](https://twitter.com/elysium_chain)上获取有关项目的更多信息。
 
-We also have many challenging quests in the [Crew3 community](https://elysium.crew3.xyz/questboard).
+在我们的[Discord社区](https://discord.gg/elysiumchain)中，您可以提问并获取最新的新闻。
+
+我们还在[Crew3社区](https://elysium.crew3.xyz/questboard)中提供许多富有挑战性的任务。
