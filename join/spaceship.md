@@ -1,100 +1,101 @@
----
-description: A vehicle needed to participate in the race
----
+# 🚀 太空飞船
 
-# 🚀 Spaceship
+## NFT规格
 
-<figure><img src="../.gitbook/assets/Spaceship NFT.webp" alt=""><figcaption></figcaption></figure>
+- 实用性：参与Elysium中的竞赛，成为首批验证人之一。
+- 供应量：不超过9000枚。
+- 铸造：在竞赛开始后，可以使用任何访问密钥NFT免费铸造。
+- 购买：只能在竞赛开始后的二级市场购买。
+- 出售：在竞赛开始后的二级市场随时出售（但会失去已取得的竞赛成绩）。
+- 销毁：在达到Elysium后。
 
-## NFTs Specification
+## 飞行物理
 
-<table data-header-hidden><thead><tr><th width="110"></th><th></th></tr></thead><tbody><tr><td><strong>Utility</strong></td><td>Participating in the race to become one of the first validators in the Elysium.</td></tr><tr><td><strong>Supply</strong></td><td>Not greater than 9000</td></tr><tr><td><strong>Minting</strong></td><td>Free mint with any Access Key NFT after the start of the race.</td></tr><tr><td><strong>Buying</strong></td><td>On the secondary market only, after the start of the race.</td></tr><tr><td><strong>Selling</strong></td><td>At any time after the start of the race on the secondary market (with the loss of the achieved race result).</td></tr><tr><td><strong>Burning</strong></td><td>When finishing at Elysium.</td></tr></tbody></table>
+我们的造船厂生产的每艘太空飞船都配备了一个在给定方向上创建人工惯性的引擎。能源单位称为Energons将持续消耗以维持人工惯性。没有Energons，人工惯性会逐渐减弱，直至飞船完全失去它。飞船的速度越快，每单位时间消耗的Energons就越多。
 
-## Flight Physics
+飞行员的主要任务是确定每小时消耗的Energons。您可以随时手动更改此参数。设置新的Energons消耗率后，飞船会改变速度。如果新值较高，飞船会线性加速，并在一小时内达到新速度。如果新值较低，飞船将停止引擎，并继续通过惯性移动（失去速度），直到速度达到指定的消耗水平所需的值。
 
-Each spaceship produced in our shipyard is equipped with an engine that creates artificial inertia in a given direction. Units of energy called Energons are constantly spent to keep it. Without it, the artificial inertia will decrease until the ship loses it entirely. The greater the speed of the spaceship, the more Energons will be spent per unit of time to keep it.
+如果未更改消耗率，飞船将保持其速度，直到完全耗尽Energons。
 
-The main task of the pilot is to determine the hourly consumption of Energons. You can manually change this parameter at any time. When a new Energon consumption rate is set, the spaceship changes its speed. If the new value is higher, the ship linearly accelerates and achieves a new speed in one hour. If the new value is lower, the vessel stops the engine and continues moving by inertia (losing it) until the speed reaches the value required for the specified consumption level.
+#### 引擎效率
 
-If the consumption rate is not changed, the spaceship will maintain its speed until it entirely runs out of Energons.
-
-#### Engine Efficiency
-
-The Engine Efficiency parameter determines how productively the Energons are used. The higher the parameter, the fewer Energons are needed to maintain the same speed, or the faster the ship can fly with the same consumption of Energons.&#x20;
+引擎效率参数确定Energons的有效使用程度。参数越高，维持相同速度所需的Energons就越少，或者在相同Energons消耗下飞船的速度越快。
 
 {% tabs %}
-{% tab title="Chart" %}
+{% tab title="图表" %}
 <figure><img src="../.gitbook/assets/Energon Consumption.webp" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Details" %}
-The hourly consumption of Energons depends on the speed and the _**Engine Efficiency**_ (EE) parameter, and is calculated by the formula:
+{% tab title="详情" %}
+每小时Energons消耗取决于速度和引擎效率（EE）参数，按以下公式计算：
 
 $$
 Energons=\frac{Speed^{4}}{EE\cdot10^{17}}
 $$
 
-You can play with it here: [interactive chart](https://www.desmos.com/calculator/20n0oayk1s?lang=en)
+您可以在此处进行交互式尝试：[交互式图表](https://www.desmos.com/calculator/20n0oayk1s?lang=en)
 {% endtab %}
 {% endtabs %}
 
-The Engine Efficiency depends on the key type and can be improved temporarily with the in-game boosters or permanently with additional keys burning.
+引擎效率取决于密钥类型，并且可以通过游戏内的增益道具进行临时改善，或通过烧毁额外的密钥进行永久改善。
 
-#### Inertia Retention
+#### 惯性保持
 
-The Inertia Retention parameter affects how fast your spaceship will lose its artificial inertia. Though all the ships will lose it in 25 hours, the speed of losing it differs depending on the Inertia Retention value. The higher the parameter is, the slower your ship will drop its speed.&#x20;
+惯性保持参数影响飞船失去人工惯性的速度。尽管所有飞船都会在25小时内失去人工惯性，但失去速度的速度取决于惯性保持值。参数越高，飞船失去速度的速度越慢。
 
 {% tabs %}
-{% tab title="Chart" %}
+{% tab title="图表" %}
 <figure><img src="../.gitbook/assets/Inertia Leakage.webp" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Details" %}
-The spaceship will lose all artificial inertia if there are no Energons left in 25 hours no matter what. The _**Inertia Retention**_ (IR) parameter affects the speed of the leakage. The percent of the speed remaining is calculated by the formula:
+{% tab title="详情" %}
+飞船将在25小时内失去所有人工惯性，无论如何。惯性保持（IR）参数影响泄漏速度。剩余速度的百分比按以下公式计算：
 
 $$
 Speed=\frac{100+\left(IR+1\right)}{1+\frac{0.16*hour^{2}}{IR+1}}-\left(IR+1\right)
 $$
 
-You can play with it here: [interactive chart](https://www.desmos.com/calculator/0mvkcqrmjx?lang=en)
+您可以在此处进行交互式尝试：[交互式图表](https://www.desmos.com/calculator/0mvkcqrmjx?lang=en)
 {% endtab %}
 {% endtabs %}
 
-The Inertia Retention points can be obtained temporarily via the in-game boosters and permanently by burning additional keys (that were staked before) or acquiring a ship before a race starts.
+可以通过游戏内的增益道具临时获得惯性保持点，并通过烧毁额外的密钥（之前质押的密钥）或在比赛开始之前获取飞船来永久获得。
 
 {% hint style="info" %}
-During the prelaunch phase, the Inertia Retention parameter of the ship will grow faster compared to the key staking. And the more keys are burned for the spaceship - the more the difference is. Each burned key reduces the period of getting a new Inertia Retention point by 15% relative to the staking.
+在预发行阶段，飞船的惯性保持参数将以比质押的密钥更快的速度增长。烧毁更多的密钥（不论类型）将会增加这种差异。每个烧毁的密钥都会相对于质押减少15%的时间，以获得新的惯性保持点。
 
 {% tabs %}
-{% tab title="Chart" %}
+{% tab title="图表" %}
 <figure><img src="../.gitbook/assets/Inertia Rewards.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Details" %}
-The number of days that should pass to obtain a new Inertia Retention point for the ship during the prelaunch phase depends on the number of keys burned for the ship, and is calculated by the formula:
+{% tab title="详情" %}
+在预发行阶段，为了获得飞船的新惯性保持点，需要经过的天数取决于烧毁的密钥数量，按以下公式计算：
 
 $$
-DAYs=\frac{30}{KEYs}\cdot0.85^{KEYs}
+DAYS=\frac{30}{KEYs}\cdot0.85^{KEYs}
 $$
 
-<table><thead><tr><th width="305.5">Keys burned</th><th>Days till the new IR point</th></tr></thead><tbody><tr><td>1 (applied for every spaceship)</td><td>25.5</td></tr><tr><td>2</td><td>10.838</td></tr><tr><td>3</td><td>6.141</td></tr><tr><td>4</td><td>3.915</td></tr></tbody></table>
+<table><thead><tr><th width="305.5">烧毁的密钥数</th><th>获得新IR点的天数</th></tr></thead><tbody><tr><td>1（适用于每艘飞船）</td><td>25.5</td></tr><tr><td>2</td><td>10.838</td></tr><tr><td>3</td><td>6.141</td></tr><tr><td>4</td><td>3.915</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 {% endhint %}
 
-#### Spaceship Launch
+#### 太空飞船发射
 
-Every ship is launched by the electromagnetic catapult obtaining the base speed, or in other words real inertia. The spaceship cannot lose this real, not artificial, inertia. So the ship does not fully stop when it loses its artificial inertia but continues to move with speed acquired by the primary acceleration. That means that even if you run out of Energons during the race, you will still continue to move towards the finish, though at a relatively low speed.
+每艘飞船都是
 
-After each launch, the electromagnetic catapult loses its power, and each subsequent launch will accelerate the ships less. So it gives an advantage to those who will be the first.&#x20;
+通过电磁弹射器发射的，获得基础速度，或者换句话说是真实的惯性。飞船失去人工惯性时不会完全停止，而是继续以主要加速度获得的速度移动。这意味着即使在比赛过程中耗尽Energons，您仍然会以相对较低的速度继续向终点前进。
+
+每次发射后，电磁弹射器都会失去能量，每次发射都会使飞船的加速度减小。因此，首先发射的人将占据优势。
 
 {% tabs %}
-{% tab title="Chart" %}
+{% tab title="图表" %}
 <figure><img src="../.gitbook/assets/Catapult Power.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Details" %}
-The first launch will give the spaceship a speed of 15 000 km/hour. Every next launch will be less effective. The catapult power for a particular launch can be calculated by the formula:
+{% tab title="详情" %}
+第一次发射将使飞船的速度达到每小时15,000公里。每次后续发射效果都会减弱。特定发射的弹射器能量可以通过以下公式计算：
 
 $$
 Speed=\frac{1500000}{N+100}
@@ -103,45 +104,45 @@ $$
 {% endtabs %}
 
 {% hint style="info" %}
-During the prelaunch phase, already joined pioneers will be waiting for the official race to start. Since they will launch at once, there will be a queue for the catapult. Every pioneer will have a particular score during prelaunch that will determine the place in the catapult queue. There are three ways to raise the score.
+在预发行阶段，已加入的先驱者将等待正式比赛开始。由于他们将同时发射，所以会有一个弹射器队列。每个先驱者在预发行期间都将有一个特定的分数，确定了他们在弹射器队列中的位置。有三种方式可以提高分数。
 
-1. Burn better keys:\
-   &#x20;\- key D gives +10 points\
-   &#x20;\- key C gives +30 points \
-   &#x20;\- key B gives +90 points \
-   &#x20;\- key A gives +270 points
-2. Burn keys as soon as possible. Those who burn keys (independent of the type) during the first day after opening the minting will receive +90 points. The next day key burn will give +89 points. Every day this reward will be reduced by one point.
-3. &#x20;Elysium Team will use points as rewards for different community events.
+1. 烧毁更好的密钥：\
+   &#x20;\- 密钥D得到+10分\
+   &#x20;\- 密钥C得到+30分\
+   &#x20;\- 密钥B得到+90分\
+   &#x20;\- 密钥A得到+270分
+2. 尽早烧毁密钥。在开放铸造后的第一天烧毁的密钥（不论类型）将获得+90分。第二天的密钥烧毁将获得+89分。每天这个奖励将减少一分。
+3. Elysium团队将使用积分作为不同社区活动的奖励。
 {% endhint %}
 
-## Spaceship Upgrade
+## 太空飞船升级
 
-By burning additional keys, you can improve the ship's parameters at any moment - during the prelaunch stage and after the race has already started. The parameters of the keys are added to the ship's parameters.
+通过烧毁额外的密钥，您可以在预发行阶段和比赛开始后的任何时刻改善飞船的参数。密钥的参数将添加到飞船的参数中。
 
 <figure><img src="../.gitbook/assets/Spaceship Upgrade.png" alt=""><figcaption></figcaption></figure>
 
-There is a special bonus for burning 4 different types of keys (A, B, C, D) to improve one ship. When a spaceship is upgraded with all four types of keys, 20 points will be added to both parameters.
+烧毁四种不同类型的密钥（A、B、C、D）来改善一艘飞船将获得特殊奖励。当一艘飞船使用了这四种密钥进行升级时，将为两个参数添加20分。
 
 {% hint style="info" %}
-Full Set Bonus can be applied for the ship only once.
+完整套装奖励只能应用于一艘飞船。
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Prelaunch Special Offer.png" alt=""><figcaption></figcaption></figure>
 
-## Flight Economics
+## 飞行经济
 
-In the Pioneer Program, we decided to recreate the Elysium tokenomics without simplifications to test it in real-life conditions before launching the blockchain. The only things we changed for the space race were to reduce the number of tokens to 100 000 and slightly accelerate the timing of the issuance.
+在先驱者计划中，我们决定在真实环境中重新创建Elysium的通证经济模型，以测试其在实际条件下的可行性，然后再启动区块链。在太空竞赛中，我们仅仅将代币数量减少到100,000，并略微加快发行时间。
 
-Therefore, the relationship of Astonite -> Cosmogrinder -> Energon fully corresponds to the SKY -> Grinder -> RAY in Elysium tokenomics.
+因此，Astonite -> Cosmogrinder -> Energon之间的关系与Elysium的通证经济模型中的SKY -> Grinder -> RAY完全对应。
 
-#### Astonite Mining
+#### Astonite挖掘
 
-A unique mineral called Astonite is needed to obtain Energons. You can receive it during daily minigame tournaments. Unfortunately, the amount of Astonite is not only limited in the Universe but also constantly decreasing.
+获得Energons所需的独特矿物质称为Astonite。您可以在每日矿游戏锦标赛中获得它。不幸的是，Astonite的数量不仅在宇宙中有限，而且不断减少。
 
-Astonite can be obtained in daily tournaments on the game "Astonite Mining." The event is held simultaneously for all participants. Astonite is distributed according to the tournament score. The tournament launch time will be shifted each day by one hour so that all pioneers will be in identical conditions.
+可以在名为“Astonite Mining”的每日锦标赛中获得Astonite。该活动同时面向所有参与者进行。Astonite根据锦标赛得分进行分发。每天，锦标赛启动时间将推迟一小时，以确保所有先驱者处于相同的条件下。
 
-These tournaments are the crucial mechanism to protect against multi-accounts. Since the competition will not last long (about 5-10 minutes) and will require all the player's attention, there will be no practical possibility of playing simultaneously from multiple accounts. And, of course, we will make it impossible to create a bot that can play instead of a human.
+这些锦标赛是防止多账户的关键机制。由于比赛时间不长（约5-10分钟），并且需要玩家的全部注意力，因此几乎没有可能同时从多个账户进行游戏。当然，我们将确保无法创建可以替代人类进行游戏的机器人。
 
-#### Obtaining Energons
+#### 获得Energons
 
-Energons are obtained by recycling Astonite in a unique device called a "cosmogrinder." The higher the conversion rate - the harder it is for the cosmogrinder to proceed. That is why cosmogrinder will work faster if you offer less Energon for one Astonite.
+通过在名为“cosmogrinder”的独特设备中回收Astonite来获得Energons。转换率越高，cosmogrinder的处理越困难。因此，如果每单位Astonite提供的Energon较少，则cosmogrinder的工作速度会更快。
