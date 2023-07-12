@@ -13,10 +13,10 @@
 ## Elysium
 
 * [🪙 双币模型](elysium/duonomics.md)
-* [💠 Public Cluster](elysium/public-cluster.md)
-* [📫 Hash Ring](elysium/hash-ring.md)
-* [⚔ Proof of Victory](elysium/proof-of-victory.md)
-* [⛓ Statechain](elysium/statechain.md)
+* [💠 公共集群](elysium/public-cluster.md)
+* [📫 哈希环](elysium/hash-ring.md)
+* [⚔ POV共识](elysium/proof-of-victory.md)
+* [⛓ 状态机](elysium/statechain.md)
 
 ## Join
 
