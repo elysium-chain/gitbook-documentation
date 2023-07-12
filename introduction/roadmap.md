@@ -1,61 +1,103 @@
----
-我们对项目的展望
----
-
 # 📍 路线图
 
-#### 2022 10月
+<details>
 
-* [x] [Elysium Discord 社群](https://discord.gg/elysiumchain) 诞生
-* [x] 完成[Elysium 网站](https://elysium-chain.com/)
+<summary>进行中</summary>
 
-#### 2022 11月
+- [ ] 编写文章：Crypto Cash and Offers
+- [ ] 编写文章：如何实现高吞吐量
+- [ ] 实现 Access Key NFT 的铸造
+- [ ] 重制 Pioneers Program
 
-* [x] 详细阐述了经济模型
-* [x] 共识设计细化
-* [x] 开发了[经济模型模拟器](https://tokenomics.elysium-chain.com)
+</details>
 
-#### 2022 12月
+<details>
 
-* [x] 发布了我们文档的[引言](broken-reference)部分
-* [x] 细化了信息传递的设计细节
-* [x] 先驱者计划机制的细化
-* [x] 发布了文档 [先驱者计划](broken-reference)
+<summary>里程碑</summary>
 
-#### 2023 1月
+### 预发行（进行中）
 
-* [ ] 推出先锋计划推广网站
-* [ ] 选择先锋计划的开发区块链
-* [ ] 开发NFT智能合约
+- [ ] Pioneers Program 的开发：智能合约、门户、迷你游戏
+- [ ] 系统设计和最终文档的发布
+- [ ] 分发 9000 个 Access Key NFT
 
-#### 2023 Q1-Q2
+### Pioneers Program 发布（2023年第三季度至第四季度）
 
-* [ ] 开发先锋计划: 智能合约, 网站, mini小游戏
-* [ ] 发布区块链的详细文档:\
-  \- 经济模型\
-  \- 信息传递\
-  \- 可拓展性\
-  \- 共识协议\
-  \- 智能合约\
-  \- 钱包
-* [ ] 开始分发9000个NFT\
-  \- 7500公开销售\
-  \- 1500作为团队对用户的奖励
+- [ ] 在预发行后分发剩余的 Access Key NFT
+- [ ] Elysium 核心的开发
 
-#### 2023 Q3-Q4
+### Pioneers 启动 Elysium（2024年第三季度）
 
-* [ ] 继续分发9000个NFT
-* [ ] 先锋计划启动
-* [ ] 开发Elysium区块链
+- [ ] Pioneers 启动他们的 Workers、Routers 和 Keepers
+- [ ] Pioneers 在测试区块链核心的同时获得真实的 SKY
+- [ ] 开发从其他链进入 Elysium 的桥接器
+- [ ] 开发用于交换代币的 DEX
 
-#### 2024 Q2-Q3
+### 对所有人开放 Elysium（2025年第二季度）
 
-* [ ] 继续分发9000个NFT
-* [ ] 继续开发Elysium区块链
-* [ ] 推出测试网
+- [ ] 加密现金和优惠机制的开发和测试
 
-#### 2024 Q4
+### 加密现金等（2026年第二季度）
 
-* [ ] 9000个NFT分发结束
-* [ ] 主网启动
-* [ ] 先锋计划结束
+</details>
+
+<details>
+
+<summary>历史</summary>
+
+#### 2022年10月
+
+- [x] [Elysium Discord Community](https://discord.gg/elysiumchain) 的诞生
+- [x] [Elysium 网站](https://elysium-chain.com/) 的发布
+
+#### 2022年11月
+
+- [x] 完善 Tokenomics 设计细节
+- [x] 完善共识设计细节
+- [x] 开发 [Tokenomics 模拟器](https://tokenomics.elysium-chain.com)
+
+#### 2022年12月
+
+- [x] 发布文档中的[简介](broken-reference/)部分
+- [x] 完善消息路由设计细节
+- [x] 完善 Pioneers Program 机制
+- [x] 发布文档中的[Pioneers Program](broken-reference/)部分
+
+#### 2023年1月
+
+- [x] 发布文档中的[Tokenomics](broken-reference/)部分
+- [x] 为 Pioneers Program 选择区块链（Polygon）
+- [x] 详细说明 Elysium 区块链架构
+- [x] 开发 Pioneers 门户的架构
+- [x] 开发 Discord <-> Polygon 交互
+
+#### 2023年2月
+
+- [x] 发布 Pioneers Program 推广网站
+- [x] 开发 Pioneers 门户界面
+- [x] 编写文章：Public Cluster
+- [x] 系统设计
+
+#### 2023年3月
+
+- [x] 编写文章：Managed Hash Ring
+- [x] 系统设计
+
+#### 2023年4月
+
+- [x] 编写文章：Proof of Victory
+- [x] 系统设计
+
+#### 2023年5月
+
+- [x] 编写文章：Statechain
+- [x] 系统设计
+
+#### 2023年6月
+
+- [x] 发布文档中的[Public Cluster](../elysium/public-cluster.md)部分
+- [x] 发布文档中的[Hash Ring](../elysium/hash-ring.md)部分
+- [x] 发布文档中的[Proof of Victory](../elysium/proof-of-victory.md)部分
+- [x] 发布文档中的[Statechain](../elysium/statechain.md)部分
+
+</details>

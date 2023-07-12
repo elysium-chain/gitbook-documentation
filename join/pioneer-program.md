@@ -1,131 +1,133 @@
 ---
-description: Elysium protection against multi-accounts
+Elysium应对多账户的方法
 ---
 
-# 🏁 Pioneers Program
+# 🏁 先锋计划
 
-What could be more pleasant and profitable than the price growth of the owned tokens? There can be only one answer - getting even more of those tokens for free! When the Bitcoin network first launched, this was the case. Back then, there was not much competition because most people did not know about cryptocurrencies, and those who were aware did not think Bitcoin would be so successful.
+还有什么其他的事情比你持有的代币价格上涨更加快乐的呢？答案只有一个--免费获得更多的这些代币! 当比特币网络刚推出时，情况就是这样。那时，没有什么竞争，因为大多数人不知道加密货币，而那些知道的人也不认为比特币会如此成功。
 
-However, now it is impossible to earn a lot on Bitcoin mining without significant investments in computational power. Too many people want to repeat the success of the first miners. As mining becomes more profitable, more people start doing it, which, in turn, reduces its profitability.
+然而现在，如果不大量投资挖矿设备，就不可能通过比特币挖矿赚到很多钱。太多的人想重复第一批矿工的成功。随着挖矿变得更加有利可图，又更多的人开始挖矿，这反过来又降低了其盈利能力。
 
-Thus, for mining to remain profitable, it is necessary to limit the possibility to join for new participants. But who exactly can participate in the issuance, and who cannot? That is the goal of the Pioneers Program - to allocate a pool of future validators who can peacefully mine in the Elysium network for at least a year. This approach is not dictated by marketing or funding goals but by the technical architecture of Elysium itself.
+因此，为了使挖矿保持盈利，有必要限制新参与者加入的可能性。但究竟谁能参与，谁不能？这就是先锋计划的目标--分配一批未来的验证者，他们可以在Elysium网络中和平地挖矿至少一年。这种方法不是由营销或资金目标决定的，而是由Elysium本身的技术架构决定的。
 
-### Initial Validators
+### 初始验证人
 
-In Elysium, the issuance is more like PoW - you do not need anything besides a network node to earn. But there is a restriction on who is eligible. We call this barrier for new Elysium validators "Sybil wall."
+在Elysium，发行量更像PoW--除了网络节点，你不需要任何东西就能赚到钱。但这将会有资格限制。我们把这种对Elysium中新验证者的障碍称为 "Sybil墙"。
 
-This wall is not built directly into the consensus - it bases upon data stored inside the blockchain, but it is not the number of staked tokens as in PoS. It is not about tokens at all, so we cannot just send that data into our wallet as PoS blockchain developers do.
+这个限制并没有直接建立在共识中--它基于存储在区块链内部储存的数据，但它并不是像PoS中那样的抵押代币的数量。它本身不是关于代币的，所以我们不能像PoS区块链开发者那样，直接将数据发送到我们的钱包。
 
-There is a problem with the chicken and the egg because of the wall and consensus separation. The architecture assumes the working wall, which needs validators to function. However, for validators to exist, there must be an active wall and a mechanism to infiltrate through it.
+由于墙和共识的分离，存在着一个鸡和蛋的问题。网络需要通过墙连接验证者才能发挥作用。然而，为了验证者的存在，必须有一个有效的墙和一个克服它的机制。
 
-The only way to solve this contradiction is to make sure that at the moment of the network launch, there are already validators inside the wall. That means it is necessary to specify the initial list of validators before the genesis block is produced.
+解决这个矛盾的唯一方法是确保在网络启动的时候，墙内已经有了验证者。这意味着有必要在创世块产生之前指定验证者的初始列表。
 
-### Pioneers Program
+### 先锋计划
 
-The Pioneers Program is the original Sibyl wall replacement. Its concept is to create a single queue through which participants can progress with limited resources. This approach creates economic motivation to concentrate resources on advancing a single account to the top of the leaderboard rather than dividing resources among multiple accounts, which would end up at the bottom of the list.
+先锋计划是最初的Sibyl墙的替代品。它的概念是创建一个单一的队列，参与者可以用有限的资源取得进展。这种方法创造了经济动力，集中资源将一个账户推进到排行榜的顶端，而不是将资源分给多个账户，因为后者最无法进入榜单。
 
-The output of the Program will be a single queue of initial Elysium validators. They will join the network gradually, one by one. Since the primary store of value - the SKY token - has a decreasing issue over time, the place in the Pioneer Program will significantly affect how many SKY tokens a participant can mine. The higher the position in the Pioneer Program - the earlier you become a validator - the more tokens you will obtain.
+先锋计划的输出将是一个初始Elysium验证器的队列。他们将逐渐加入网络，一个接一个。由于主要的价值储存--SKY代币--随着时间的推移，其发行量不断减少，在先锋计划中的位置将大大影响参与者可以开采多少SKY代币。在先锋计划中的位置越高--越早成为验证者--获得的代币就越多。
 
-At Elysium, at least 10% of all SKY tokens will be distributed among the initial validators during the first year alone. In other words, you can get a noticeable share of the unique blockchain's capitalization. It is worth noting that passing the wall in an already-running Elysium blockchain will be more complicated than becoming an initial validator with the Pioneer Program.
+在Elysium中，仅在第一年，SKY代币总量的至少10%将在初始验证者中分配。换句话说，你可以在这个区块链的资本化过程中获得明显的份额。值得注意的是，在已经运行的Elysium区块链中拿到运行节点的权限，将比通过先锋计划成为初始验证者更复杂.&#x20。
 
-Bring tangible value to the project and pass the entire Program absolutely free!
+
+|   |
+| - |
 
 ## FAQ
 
-### What exactly is the Pioneer Program?
+### 先锋计划究竟是什么？
 
-The Pioneer Program is made as a space race game. Participants can increase the speed of their spaceship by:
+先锋计划是作为一个太空竞赛游戏制作的。参与者可以通过以下方式提高他们的宇宙飞船的速度从而更快的达到成为初始验证者规定的等级。
 
-* choosing the right engine mode;
-* obtaining resources in daily game events;
-* receiving rewards from the team for helping with the project;
-* improving the ship by additional access key burning;
-* purchasing temporary in-game boosts.
+* 选择合适的发动机模式;
+* 在日常游戏的活动中获得资源;
+* 帮助项目获得团队的奖励;
+* 通过燃烧更多的钥匙来改进飞船;
+* 购买游戏中的临时提升。&#x20;
 
-The time of joining the race is also a crucial factor. Those who start the race earlier will have a significant advantage over those who join later, as it will be more challenging for the latter to catch up.
+加入比赛的时间也是一个关键因素。那些较早开始比赛的人将比那些较晚加入的人有明显的优势，因为后者追赶起来将更具挑战性。
 
-We decided to implement the Program playfully for two reasons. First, it will promote the constant involvement of the pioneers, and second, it will make it impossible for one person to take several high places in the Pioneers Program leaderboard.
+我们决定以游戏的方式实施该计划，有两个原因。首先，这将促进先锋们的不断参与，其次，这将使一个人不可能在先锋计划排行榜上占据多个高位。
 
-In other words, this approach is much better at preventing Sybil attacks than KYC.
+换句话说，这种方法在防止Sybil攻击方面比KYC好得多。
 
-### What blockchain will the Pioneer Program run on?
+### 先锋计划将在什么区块链上运行？
 
-Since Elysium is still under construction, we will have to use a different blockchain for the race. Most likely, it will be Polygon.
+由于Elysium仍在建设中，我们将不得不为比赛使用其他的区块链。最有可能的是，它将是Polygon。
 
-### What do I need to enter the race?
+### 我需要什么来参加比赛?
 
-You will need one of the 9,000 [Access Key NFTs](access-keys.md) to participate. Each key can be exchanged for a spaceship that automatically enrolls you in the race.
+你将需要9,000把Access KEYs中的一把来参与。每把KEY都可以换取一艘宇宙飞船来为你报名参加比赛。
 
-Each ship has two characteristics that are important for the flight. The access keys also have these characteristics and transfer them to the spaceship. You can burn additional keys to enhance the ship's parameters at any time.
+每艘飞船都有两个参数，这对飞行很重要。Access Keys也有这些特性，你可以在任何时候燃烧Keys来提升飞船的参数。
 
-### When will the race start?
+### 比赛什么时候开始?
 
-We plan to start the space competition in Q3-Q4 2023 - read more in our [Roadmap ](../introduction/roadmap.md)and stay tuned for announcements.
+我们计划在2023年第三季度至第四季度开始太空竞赛--在我们的[路线图](.../introduction/roadmap.md)中阅读更多内容，并持续关注公告。
 
-Until the race starts, there are many things you can do to improve your future spaceship. Read more about ship enhancement in the [Spaceship](spaceship.md) section.
+在比赛开始之前，你可以做很多事情来提升你未来的飞船。在[飞船](spaceship.md)部分阅读更多关于飞船改进的信息。
 
-### How many participants will take part in the race?
+### 将有多少人参加比赛？
 
-We do not know exactly. There will be 9000 access keys, each allowing participation in the race. But because anyone can burn additional keys to improve the spaceship, there will be considerably fewer than 9000 pioneers to actually take part in the race.
+我们也不知道具体会有多少人参加。将有9000个准入钥匙，每个都允许参加比赛。但是，由于任何人都可以燃烧额外的钥匙来改进飞船，所以实际参加比赛的先驱者将大大少于9000人。
 
-### Will all Pioneer Program participants become validators?
+### 所有先锋计划参与者都会成为验证者吗？?
 
-No. The main goal of the Pioneer Program is to fight multi-accounts, so to become a validator, you must get to the finish line.
+不，先锋计划的主要目标是打击多账户，所以要成为验证者，你必须到达排行榜上的最低等级要求。
 
-After the first pioneer finishes, a certain amount of time will be given to finish the race. Exactly how much time that will be is unknown at the moment - it could be a week or a couple of months.
+第一批先锋完成后，将保留一定的时间来完成比赛。确切的时间是多少，目前还尚未确定--可能是一个星期或几个月。
 
-So you should better not fall too far behind!
+所以你最好不要落后太多。
 
-### What mechanics will interfere with multi-accounts?
+### 会有哪些机制来对抗多账户攻击?
 
-The crucial part of the Pioneers Program will be daily tournaments (lasting for approximately 5 minutes) on the "Astonite Mining" minigame, which pioneers will be playing simultaneously.
+先锋计划的关键部分将是每天在 "Astonite Mining "迷你游戏上进行比赛（持续约5分钟），先锋们将同时进行这些比赛。
 
-Astonite needed to get the fuel for Spaceships will be distributed through these tournaments.
+获得飞船燃料所需的Astonite将通过比赛进行分配。
 
-The tournament's start time will be shifted by one hour each day to keep everyone equal.
+比赛的开始时间将每天转移一个小时，以保持大家的平等。
 
-### Is it possible to finish the race and become a validator for free?
+### 有可能完成比赛并免费成为验证人吗？&#x20;
 
-Yes. To do this, you need to start participating in the life of the project as early as possible. You can get everything you need from the Elysium Team to successfully complete the race for free if you constantly and actively help with the project.
+是的。要做到这一点，你需要尽早开始参与项目的生活。如果你不断地积极帮助该项目，你可以从Elysium团队免费获得成功完成比赛所需的一切。
 
-We could use help in many areas to speed things up: writing texts, 3D modeling, creating videos, programming, and advertising. If you have experience in these areas and are willing to help us - feel free to contact any member of the Elysium Team in Discord.
+我们接受很多方面的帮助，以加快事情的进展：编写文本、3D建模、创建视频、编程和广告。如果你有这些方面的经验并愿意帮助我们--请随时在Discord中联系Elysium团队的任何成员。
 
-### Why will it be harder to become a validator at Elysium?
+### 为什么在极乐世界成为验证者会更难？
 
-It is all about competition. Currently, not many people know about the project, and Elysium has not yet been launched.
+这都是为了竞争。目前，知道这个项目的人不多，Elysium还没有启动。
 
-However, as the blockchain becomes operational and the initial validators demonstrate success, more people will be interested in becoming validators.
+然而，随着区块链的运行和最初验证者的成功，更多的人将会有兴趣成为验证者。
 
-While we cannot yet disclose the details of how to infiltrate the original barrier in Elysium and become a validator, it is worth noting that monetary investments, unlike the Pioneer Program, will not help it much.
+虽然我们目前还不能透露如何突破验证者人数的限制并成为验证者的细节，但值得注意的是，与先锋计划不同，货币投资对它没有什么帮助。
 
-### If I do not want to be a validator, can I earn with the Pioneer Program?
+### 如果我不想成为验证人，我可以通过先锋计划赚钱吗？
 
-Yes. We are developing the profitability mechanics also with short planning participants in mind.
+是的。我们在开发盈利机制时也考虑到了参与者的短期规划。
 
-During the prelaunch phase, you can do quests in Crew3 and reach certain levels to buy 4 different keys at a private sale. And then sell them to future participants - the Elysium Team will not hold a public sale. This means one can buy an access key without hassle only on the secondary market.
+在预售阶段，你可以在Crew3中做任务并达到一定的级别，在私人销售中购买4个不同的钥匙。然后把它们卖给未来的参与者--Elysium团队不会举行公开销售。这意味着人们只能在二级市场上无忧无虑地购买准入钥匙。
 
-After the race begins, the primary asset that can be profitably resold will be Astonite (ERC-20 token). Therefore, obtaining Astonite and selling it to those who want to catch up with other participants or reach the top of the race leaderboard can be a lucrative strategy.
+比赛开始后，可以转售获利的主要资产将是Astonite（ERC-20代币）。因此，获得Astonite并将其出售给那些想要追赶其他参赛者或达到比赛排行榜前列的人，可以是一个有利可图的策略。
 
-### Will I become rich if I make it to Elysium?
+### 我会因为参与Elysium而变得富有吗？
 
-There is only one way things can go according to plan. And there is an infinite number of ways to mess things up.
+事情只有一种方式可以按计划进行。而把事情搞糟的方法则有无数种。
 
-As with any innovation at the stage of its creation, there are a lot of risks. But we have a good plan and a cohesive community to help us overcome difficulties. But more important is that we have no backup plan - Elysium is the project of our lives for the next several years, and we will do everything for its success.
+与任何处于创建阶段的创新一样，我们也存在着很多风险。但我们有一个好的计划和一个有凝聚力的社区来帮助我们克服困难。但更重要的是，我们没有后备计划--未来几年，Elysium是我们生命中的项目，我们将为它的成功竭尽全力。
 
-If development goes according to plan, the capitalization of Elysium can reach 40b in a few years. That was the capitalization of the second-echelon networks at the peak of the previous bull run. If it is the case, then 10% of this capitalization, distributed among the initial validators, will be 4b.
+如果发展按计划进行，几年后Elysium的资本化可以达到400亿美元。这是第二梯队网络在上一轮牛市的高峰期的资本化。如果是这样，那么这个资本化的10%，在最初的验证者中分配，将是40亿美元。
 
-### What type of computer do I need to be a validator?
+### 我需要什么类型的电脑来做验证人?
 
-We will find it during the Testnet phase. But our PoV consensus is light and does not require heavy calculations. Also, it will use only a CPU, so at rough estimation, an ordinary workstation will do.
+我们将在Testnet阶段公布它。我们的PoV共识很轻，不需要繁重的计算。而且它将只使用单个CPU，所以粗略估计，一个普通的工作站就可以了。
 
-### Do I need to run my computer 24 hours a day?
+### 我需要24小时运行我的电脑吗？
 
-It is on you. But while your node is offline, it will not be mining SKY.
+这取决你你自己。但当你的节点处于离线状态时，它将不会产生收益。
 
-### Can I run the node program on the server?
+### 我可以在服务器上运行节点程序吗？
 
-Yes. We will make a special server edition of the validator node that could be installed on a common Linux VPS.
+当然可以。我们将制作一个特殊的服务器版本的验证器节点，使得可以安装在一个普通的Linux VPS上。
 
-### Do I need to invest something as an initial validator?
+### 我是否需要投资一些东西作为初始验证者？
 
-No. The only cost for you to be a validator could be renting a Linux VPS (\~$10 per month) if you do not want to use your home desktop computer. When you become a validator - it is time to gain capital, not invest.
+如果你不想使用家里的台式电脑，那么你成为验证者的唯一成本可能是租用一个Linux VPS（每月10美元）。当你成为一个验证者时 - 这将是获得资本的时候，而不是投资。
