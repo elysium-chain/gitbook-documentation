@@ -27,7 +27,7 @@
 ## Links
 
 * [🔗 Website](https://elysium-chain.com/)
-* [🔗 Discord](https://discord.gg/elysiumchain)
+* [🔗 Discord](https://discord.gg/elysiumblockchain)
 * [🔗 Twitter](https://twitter.com/Elysium\_Chain)
 * [🔗 Zealy](https://zealy.io/c/elysium/questboard)
 
